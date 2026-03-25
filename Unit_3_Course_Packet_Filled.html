@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E343 Unit 3 — Course Packet (Filled-In Guided Notes)</title>
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
+    startup: { pageReady: () => MathJax.startup.defaultPageReady() }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+<style>
+  :root {
+    --blue: #4472C4;
+    --dark: #1a1a2e;
+    --bg: #fafafa;
+    --card-bg: #fff;
+    --border: #ddd;
+    --muted: #666;
+    --heading-font: 'Georgia', 'Times New Roman', serif;
+    --body-font: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--dark);
+    background: var(--bg);
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+
+  h1 {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+    color: var(--dark);
+  }
+
+  h2 {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    color: var(--dark);
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 0.3rem;
+    margin: 2.5rem 0 1rem;
+  }
+
+  h3 {
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    color: var(--dark);
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 0.3rem;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--muted);
+    margin-bottom: 2rem;
+  }
+
+  p { margin: 0.5rem 0; }
+
+  .instructor-note {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .note-box {
+    background: #f0f4fa;
+    border-left: 4px solid var(--blue);
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .note-box p, .note-box li {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .standards-box {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin: 0.8rem 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  .standards-box .grade-label {
+    font-weight: bold;
+    color: var(--dark);
+    margin-bottom: 0.3rem;
+  }
+
+  .standards-box .filled {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: #f0f4fa;
+    font-weight: bold;
+    color: var(--dark);
+  }
+
+  td .instructor-note {
+    display: block;
+    margin-top: 0.3rem;
+  }
+
+  .algorithm-block {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    display: inline-block;
+    min-width: 180px;
+  }
+
+  .algorithm-block .row {
+    text-align: right;
+    white-space: pre;
+    letter-spacing: 0.15em;
+  }
+
+  .algorithm-block .row.underline {
+    border-bottom: 2px solid var(--dark);
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+  }
+
+  .algorithm-block .row.double-underline {
+    border-bottom: 3px double var(--dark);
+    padding-bottom: 2px;
+  }
+
+  .algorithm-block .carry {
+    font-size: 0.7em;
+    vertical-align: super;
+    color: #999;
+  }
+
+  .image-container {
+    text-align: center;
+    margin: 1.2rem 0;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+
+  .image-caption {
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.3rem;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .prompt-box {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 0;
+    min-height: 4rem;
+  }
+
+  .prompt-box .prompt {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .week-header {
+    background: var(--blue);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    margin: 3rem 0 1.5rem;
+    font-family: var(--heading-font);
+    font-size: 1.3rem;
+  }
+
+  .day-header {
+    font-family: var(--heading-font);
+    font-size: 1.15rem;
+    color: var(--blue);
+    font-weight: bold;
+    margin: 2rem 0 0.8rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid var(--blue);
+  }
+
+  .discussion-label {
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .strategy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .strategy-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+  }
+
+  .strategy-card h4 {
+    margin-top: 0;
+    color: var(--dark);
+  }
+
+  hr.section-break {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+  }
+
+  .page-break { page-break-before: always; }
+
+  @media print {
+    body { max-width: 100%; padding: 0.5in; font-size: 11pt; }
+    .week-header { break-before: page; }
+    .note-box { break-inside: avoid; }
+    .standards-box { break-inside: avoid; }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; font-size: 15px; }
+    .two-col, .strategy-grid { grid-template-columns: 1fr; }
+    h1 { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<h1>E343 Unit 3 — Course Packet</h1>
+<p class="subtitle">Filled-In Guided Notes &middot; Spring 2026</p>
+
+<!-- ============================================================ -->
+<!-- WEEK 9 -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 9 — Addition &amp; Subtraction Operation Sense</div>
+
+<div class="day-header">Day 1</div>
+<p class="discussion-label">Class Discussion &rarr; Indiana Academic Standards for Addition &amp; Subtraction</p>
+
+<h3>Vertical Articulation: K&ndash;3 Standards</h3>
+
+<p>For each grade band, identify what students are expected to know and do regarding addition and subtraction. Record the relevant standards and note how expectations change across grades.</p>
+
+<div class="standards-box">
+  <div class="grade-label">Kindergarten — Number Sense</div>
+  <p class="filled">K.NS.11: Show different ways to represent addition/subtraction with objects, fingers, mental images, drawings, sounds, acting out, verbal explanation, expressions, equations.</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">Kindergarten — Computation &amp; Algebraic Thinking</div>
+  <p class="filled">K.CA.1&ndash;5: Fluent addition and subtraction within 5. Solve word problems within 10 using objects or drawings. Decompose numbers to 10 into pairs. Find number that makes 10 from a given number (1&ndash;9). Fluently add/subtract within 5.</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">1st Grade — Number Sense</div>
+  <p class="filled">1.NS.1&ndash;6: Count to 120 from any number. Read/write numerals to represent objects. Understand 10&ndash;19 as ten and ones. Count by 1s, 2s, 5s, 10s to 120. Use place value (tens/ones) within two-digit numbers. Identify penny, nickel, dime, quarter by value.</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">1st Grade — Computation &amp; Algebraic Thinking</div>
+  <p class="filled">1.CA.1&ndash;7: Solve real-world problems within 20. Solve word problems that call for addition of three whole numbers whose sum is within 20. Apply commutative and associative properties. Understand subtraction as unknown-addend problem. Relate counting to addition/subtraction. Add/subtract within 20 using strategies (counting on, making ten, decomposing). Understand the meaning of the equal sign.</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">2nd Grade — Number Sense</div>
+  <p class="filled">2.NS.1&ndash;9: Count by 1s, 2s, 5s, 10s, 25s, 100s to 1000. Read/write up to 1000. Place value through hundreds. Compare two three-digit numbers. Determine whether a group up to 20 objects has odd or even number of members. Show that even numbers can be expressed as two equal addends.</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">2nd Grade — Computation &amp; Algebraic Thinking</div>
+  <p class="filled">2.CA.1&ndash;7: Fluent addition/subtraction within 20. Solve one- and two-step word problems within 100 involving addition and subtraction. Determine unknown whole number in add/subtract equation. Use estimation to decide whether answers are reasonable. Understand repeated addition as a precursor to multiplication. Show that the order in which two numbers are added does not change the sum (commutative property). Create, extend, and give an appropriate rule for patterns.</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">3rd Grade — Computation &amp; Algebraic Thinking (Multiplication Focus)</div>
+  <p class="filled">3.CA introduces multiplication through equal groups, arrays, and area. Two-step word problems appear. Properties of operations (commutative, associative, distributive) become explicit.</p>
+</div>
+
+<div class="standards-box">
+  <div class="prompt">What standards did we not fully understand the meaning of?</div>
+  <p class="filled">Discuss in class. 3.AT.2 (solve two-step word problems) is commonly underestimated&mdash;students need experience with all four operations, not just addition. 3.AT.5 (determine unknown whole number in multiplication/division equation) connects to algebraic thinking, not just fact recall.</p>
+</div>
+
+<div class="standards-box">
+  <div class="prompt">What is gone from 2nd and 3rd grade that was there in a previous grade (assumed to be learned)?</div>
+  <p class="filled">Single-digit addition/subtraction as a primary instructional focus. Counting-based strategies (counting on, counting back) are replaced by reasoning strategies. One-step problems are assumed; two-step problems become the new focus.</p>
+</div>
+
+<div class="standards-box">
+  <div class="prompt">What is new in 2nd and 3rd grade that was not there in the previous grade?</div>
+  <p class="filled">2nd grade: Fluent addition/subtraction within 20, two-step addition/subtraction word problems, even/odd numbers, repeated addition as precursor to multiplication. 3rd grade: Multiplication and division within 100, properties of operations, area as multiplication, representing problems with equations using a letter for the unknown.</p>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- WEEK 10 -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 10 — Multiplication &amp; Division Operation Sense</div>
+
+<div class="day-header">Day 1</div>
+<p class="discussion-label">Class Discussion &rarr; Addition Number Talk Video &amp; Multiplication Vertical Articulation</p>
+
+<h3>Video: Addition Number Talk ($8 + 6$)</h3>
+
+<p>Watch the <a href="https://iu.mediaspace.kaltura.com/media/t/1_we5lzr9q">video</a> and record student strategies.</p>
+
+<div class="standards-box">
+  <div class="prompt">Record student strategies for $8 + 6$</div>
+  <div class="filled">
+    <p><strong>Lorena:</strong> Doubles &mdash; $7 + 7 = 14$, so $8 + 6 = 14$ (one more/one less).</p>
+    <p><strong>Kim:</strong> Decompose &mdash; $8 + 2 = 10$, then $10 + 4 = 14$.</p>
+    <p><strong>Lane:</strong> Make-ten &mdash; take 2 from the 6 to make 10, then $10 + 4$.</p>
+    <p><strong>Patrick/Selena:</strong> Use prior problem &mdash; $8 + 5 = 13$, so $8 + 6 = 14$.</p>
+    <p><strong>Greta:</strong> Make-doubles &mdash; $6 + 6 = 12$, plus 2 more = 14.</p>
+  </div>
+</div>
+
+<div class="standards-box">
+  <div class="prompt">Teacher moves</div>
+  <div class="filled">
+    <p><strong>Wait time:</strong> "Take your time, there's no rush" &mdash; normalizes thinking.</p>
+    <p><strong>Revoicing:</strong> "So you said you took the eight and broke it into..." &mdash; presses for clarity without evaluating.</p>
+    <p><strong>Connecting:</strong> "Is there anyone who used a similar strategy?" &mdash; builds on student reasoning.</p>
+  </div>
+</div>
+
+<h3>Vertical Articulation: Multiplication Standards (K&ndash;3)</h3>
+
+<div class="standards-box">
+  <div class="grade-label">Kindergarten</div>
+  <p class="filled">No explicit multiplication. Foundation laid through counting and grouping.</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">1st Grade</div>
+  <p class="filled">1.CA.6: Demonstrate fluency with addition/subtraction within 20. No multiplication, but equal groups appear informally in "how many altogether" problems.</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">2nd Grade</div>
+  <p class="filled">2.CA.5: Understand repeated addition as a precursor to multiplication. Solve problems involving equal groups using repeated addition (e.g., 3 + 3 + 3 + 3 = 12).</p>
+</div>
+
+<div class="standards-box">
+  <div class="grade-label">3rd Grade</div>
+  <p class="filled">3.CA.1&ndash;5: Fluent multiplication/division within 100. Represent problems with equal groups, arrays, area. Apply commutative, associative, and distributive properties. Solve two-step word problems using all four operations.</p>
+</div>
+
+<div class="standards-box">
+  <div class="prompt">What standards did we not fully understand?</div>
+  <p class="filled">Discuss in class. 2.CA.5 (repeated addition as precursor) is often taught only as skip counting, but it should ground the equal-groups meaning of multiplication. 3.CA.3 (use properties) requires more than memorizing names&mdash;students need to use properties to derive unknown facts.</p>
+</div>
+
+<div class="standards-box">
+  <div class="prompt">What is gone from 2nd/3rd grade that was in a previous grade?</div>
+  <p class="filled">Addition/subtraction fact development as primary focus. By 3rd grade, add/subtract fluency is assumed. Counting-based strategies for basic facts give way to reasoning and derived-fact strategies for multiplication.</p>
+</div>
+
+<div class="standards-box">
+  <div class="prompt">What is new in 2nd/3rd grade?</div>
+  <p class="filled">2nd grade: Repeated addition, equal-group reasoning. 3rd grade: Formal multiplication and division, properties of operations, area model, two-step problems with all four operations, unknown-number equations ($\_ \times 6 = 42$).</p>
+</div>
+
+<!-- Week 10 Day 2 -->
+
+<div class="day-header">Day 2</div>
+<p class="discussion-label">Class Discussion &rarr; Multiplication and Division Operation Sense</p>
+
+<h3>Part A: Problem Types</h3>
+
+<p>Van de Walle identifies five multiplicative problem structures (Ch. 9, Fig. 9.9). The colored boxes at the top of the printed packet show the five types. Match each contextualized problem below to its type.</p>
+
+<div class="image-container">
+  <img src="media/image3.png" alt="Five multiplication/division problem types: Equal Groups, Comparison, Array/Row-Column, Area/Product of Measures, Combination/Cartesian Product">
+  <p class="image-caption">Van de Walle&rsquo;s five multiplicative problem structures</p>
+</div>
+
+<h3>Part B: Unknown Parts and Equations</h3>
+
+<p>For each task, classify the problem by type, identify what is known/unknown, and write an equation. Distinguish multiplication, sharing (partition) division, and measurement (quotative) division (VdW pp. 172&ndash;173).</p>
+
+<p><strong>Convention:</strong> Van de Walle writes $\text{(number of groups)} \times \text{(size of group)} = \text{product}$. The unknown appears in the position that matches what the problem asks for.</p>
+
+<table>
+<thead>
+  <tr><th style="width:50%">Task</th><th style="width:50%">Problem Type, Unknown, Equation</th></tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      <strong>1.</strong> Holly has 30 marbles. She placed 5 marbles in a row. How many rows could she make?<br><br>
+      <strong>2.</strong> Holly has 42 marbles. She puts them into 6 rows. How many marbles are in each row?
+    </td>
+    <td>
+      <span class="instructor-note"><strong>1.</strong> Array, measurement division. Total (30) and group size (5) known; number of groups unknown.<br>
+      $\_ \times 5 = 30$</span><br><br>
+      <span class="instructor-note"><strong>2.</strong> Array, sharing division. Total (42) and number of groups (6) known; group size unknown.<br>
+      $6 \times \_ = 42$</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>3.</strong> John has 28 cookies total. He has 4 packages. How many cookies are in each package?<br><br>
+      <strong>4.</strong> Nancy had 48 books from the library. She returned 6 books each day until all her books were returned. How many days did it take?
+    </td>
+    <td>
+      <span class="instructor-note"><strong>3.</strong> Equal groups, sharing division. Total (28) and number of groups (4) known; group size unknown.<br>
+      $4 \times \_ = 28$</span><br><br>
+      <span class="instructor-note"><strong>4.</strong> Equal groups, measurement division. Total (48) and group size (6) known; number of groups unknown.<br>
+      $\_ \times 6 = 48$</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>5.</strong> John earns 3 times as much money as Jack in a week. John earns 12 dollars a week. How much money does Jack earn in a week?<br><br>
+      <strong>6.</strong> John earns 36 dollars in a week. Jack earns 12 dollars in a week. In a week, how many times the amount of money does John earn than Jack?
+    </td>
+    <td>
+      <span class="instructor-note"><strong>5.</strong> Comparison, sharing division. Product (12) and multiplier (3) known; reference set unknown.<br>
+      $3 \times \_ = 12$</span><br><br>
+      <span class="instructor-note"><strong>6.</strong> Comparison, measurement division. Product (36) and reference set (12) known; multiplier unknown.<br>
+      $\_ \times 12 = 36$</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>7.</strong> My rectangular garden is 20 square feet. One of its sides is 4 feet long. How long is the other side?
+    </td>
+    <td>
+      <span class="instructor-note">Area/product of measures. Total area (20) and one dimension (4) known; other dimension unknown.<br>
+      $\_ \times 4 = 20$ (or $4 \times \_ = 20$; area problems have symmetry between the two dimensions)</span>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<h3>Part C: Modeling Problems</h3>
+
+<p>Put yourself in the role of a teacher. For four of the problems above, choose a model (VdW pp. 173, 174, 177, 179) that makes sense for the problem structure. Write a multiplication or division statement following Van de Walle&rsquo;s symbolism convention (p. 175: &ldquo;The U.S. convention is that $4 \times 8$ means four groups of eight&rdquo;).</p>
+
+<div class="strategy-grid">
+  <div class="prompt-box"><div class="prompt">Problem 1</div></div>
+  <div class="prompt-box"><div class="prompt">Problem 2</div></div>
+  <div class="prompt-box"><div class="prompt">Problem 3</div></div>
+  <div class="prompt-box"><div class="prompt">Problem 4</div></div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- WEEK 11 -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 11 — Multiplication Fact Strategies &amp; the Standard Algorithm</div>
+
+<div class="day-header">Day 1</div>
+<p class="discussion-label">Class Discussion &rarr; Multiplication Fact Teaching</p>
+
+<h3>Observe, Reflect, Advise</h3>
+
+<p><a href="https://iu.mediaspace.kaltura.com/media/t/1_84eifhh3">Video</a> &mdash; watch together. Answer the first question <em>while</em> watching.</p>
+
+<div class="standards-box">
+  <div class="prompt">Record the order the teacher presented the problems in.</div>
+  <p class="filled">Problems in order: $2 \times 7$, $4 \times 7$, $3 \times 7$, $7 \times 7$. The teacher started with $2 \times 7 = 14$ as a known fact, then presented $4 \times 7$ so students could double the $2 \times 7$. Then $3 \times 7$ so they could use $2 \times 7 + 7$. Finally $7 \times 7$ requires combining $4 \times 7 + 3 \times 7$ ($28 + 21 = 49$). Each problem builds on previous ones&mdash;the sequencing supports derived fact strategies.</p>
+</div>
+
+<div class="standards-box">
+  <div class="prompt">What representations did the teacher use? Are all equally useful?</div>
+  <p class="filled">Circles with dots (equal groups model). Teacher erased after each problem.</p>
+  <div class="prompt" style="margin-top:0.5rem">The teacher erased student thinking after each problem. This was intentional. What reasons do you think she had? What are your thoughts?</div>
+  <p class="filled">Reasons for erasing: (1) forces students to hold derived facts in memory rather than looking back, (2) keeps focus on current problem, (3) each new problem should be solved using recalled results, not re-reading them. Trade-off: loses ability to compare/contrast strategies visually. Advice: consider keeping at least the equations visible so students can reference the number relationships even if pictures are erased.</p>
+</div>
+
+<h3>Create an Instructional Plan for Learning Basic Multiplication Facts</h3>
+
+<h4>1. Big Picture Planning</h4>
+<div class="prompt-box">
+  <div class="prompt">Give a &ldquo;big picture&rdquo; view of the order in which you would have students work on their multiplication facts. Use Van de Walle et al. to state why certain numbers would precede others (pp. 204&ndash;207).</div>
+</div>
+
+<h4>2. Consistency</h4>
+<p>State how you will interpret $4 \times 8$: is it 4 groups of 8 OR 8 groups of 4? Be <strong>consistent</strong> across all.</p>
+
+<table>
+<thead><tr><th>Expression</th><th>Your Interpretation</th></tr></thead>
+<tbody>
+  <tr><td>$4 \times 8$</td><td></td></tr>
+  <tr><td>$8 \times 4$</td><td></td></tr>
+  <tr><td>$9 \times 6$</td><td></td></tr>
+  <tr><td>$5 \times 7$</td><td></td></tr>
+</tbody>
+</table>
+
+<h4>3. Anticipating Student Reasoning: Addition or Multiplication?</h4>
+<p>Students sometimes add instead of multiply on &ldquo;naked number&rdquo; problems like $8 \times 7$. Provide two specific examples or activities to help a student understand the difference.</p>
+
+<div class="two-col">
+  <div class="prompt-box"><div class="prompt">Example 1</div></div>
+  <div class="prompt-box"><div class="prompt">Example 2</div></div>
+</div>
+
+<h4>4. Specific Strategy Support</h4>
+<p>Suppose you are working with students on &ldquo;6 facts.&rdquo; You want to support strategy usage (VdW pp. 208&ndash;209).</p>
+
+<table>
+<thead><tr><th>6 Facts in Order of Presentation</th><th>Strategy/Strategies Students Might Use</th></tr></thead>
+<tbody>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+</tbody>
+</table>
+
+<h4>5. Assessment Plan</h4>
+<p>Van de Walle et al. recommend that students monitor their own progress. State how you will keep track of progress in a way that involves students monitoring <em>their own</em> progress.</p>
+<div class="prompt-box"></div>
+
+<h4>6. Enjoyment</h4>
+<table>
+<tbody>
+  <tr><td><strong>Describe, in detail, one game from the chapter.</strong></td></tr>
+  <tr><td><strong>Would you want the game to be competitive or collaborative? Why?</strong></td></tr>
+  <tr><td><strong>How would you differentiate for different students in the context of the game?</strong></td></tr>
+</tbody>
+</table>
+
+
+<!-- Week 11 Day 2 -->
+
+<div class="day-header">Day 2</div>
+<p class="discussion-label">Class Discussion &rarr; Multiplication Strategies and Standard Algorithm</p>
+
+<h3>Mental Computation Strategies</h3>
+
+<div class="strategy-grid">
+  <div class="strategy-card">
+    <h4>Complete Number Strategy: $7 \times 53$</h4>
+    <p class="instructor-note">$7 \times 53$: Think $7 \times 50 = 350$, then $7 \times 3 = 21$. $350 + 21 = 371$. (Keep one factor whole, decompose the other.)</p>
+  </div>
+  <div class="strategy-card">
+    <h4>Partitioning Strategy: $6 \times 28$</h4>
+    <p class="instructor-note">$6 \times 28$: Partition 28 into $20 + 8$. $6 \times 20 = 120$, $6 \times 8 = 48$. $120 + 48 = 168$. (Distributive property: split one factor by place value.)</p>
+  </div>
+  <div class="strategy-card">
+    <h4>Compensation Strategy: $7 \times 37$</h4>
+    <p class="instructor-note">$7 \times 37$: Round 37 up to 40. $7 \times 40 = 280$. Compensate: $7 \times 3 = 21$. $280 - 21 = 259$. (Adjust to a friendly number, then correct.)</p>
+  </div>
+  <div class="strategy-card">
+    <h4>Cluster Problems: $32 \times 29$</h4>
+    <p class="instructor-note">Cluster: $30 \times 30 = 900$; $30 \times 29 = 870$; $2 \times 29 = 58$. Answer: $870 + 58 = 928$. (Build from known facts toward the target product.)</p>
+  </div>
+</div>
+
+<h3>Instructor Led: The Multiplication Algorithm</h3>
+
+<p>The multiplication algorithm is based on the distributive property. Students usually first apply it for two-digit times one-digit numbers. The goal is to keep emphasizing place value and meaning.</p>
+
+<h4>Example: $13 \times 7$</h4>
+
+<p>We can use <strong>base ten blocks</strong> arranged as <strong>arrays</strong> to model multiplication.</p>
+
+<div class="image-container">
+  <img src="media/image4.png" alt="Base ten blocks array showing 13 × 7" style="max-width:350px;">
+  <p class="image-caption">Array model: 13 &times; 7 with base ten blocks</p>
+</div>
+
+<p><strong>Over time</strong>, we compress notation&mdash;start with less compressed, then progress.</p>
+
+<div class="two-col">
+  <div>
+    <h4>Step 1: Place value explicit</h4>
+    <div class="algorithm-block">
+      <div class="row">(10 + 3)</div>
+      <div class="row underline">&times;&ensp;&ensp;&ensp;&ensp;7</div>
+      <div class="row">&ensp;&ensp;&ensp;21</div>
+      <div class="row underline">+ 70</div>
+      <div class="row">&ensp;&ensp;91</div>
+    </div>
+    <p style="font-size:0.9rem; margin-top:0.5rem;">In algebra: $7 \times (10 + 3) = 70 + 21 = 91$</p>
+  </div>
+  <div>
+    <h4>Step 2: Partial products</h4>
+    <div class="algorithm-block">
+      <div class="row">1 3</div>
+      <div class="row underline">&times; 7</div>
+      <div class="row">2 1</div>
+      <div class="row underline">+ 7 0</div>
+      <div class="row">9 1</div>
+    </div>
+  </div>
+</div>
+
+<div class="note-box">
+  <p><strong>Notation I do NOT recommend:</strong> Fully compressed notation (with the little carried digit) is unhelpful because students focus on digits rather than place value, it has no connection to future mathematics, and students do not usually understand the size of the product.</p>
+  <div class="algorithm-block" style="margin-top:0.5rem;">
+    <div class="row"><span class="carry">2</span>1 3</div>
+    <div class="row underline">&times;&ensp;7</div>
+    <div class="row">&ensp;9 1</div>
+  </div>
+</div>
+
+<h4>Partner Work: $14 \times 8$</h4>
+<div class="prompt-box">
+  <div class="prompt">Use base ten blocks to make an array. Then draw a picture of your base ten blocks below.</div>
+</div>
+
+<p><strong>Write</strong> notation for $14 \times 8$ in Step 1 and Step 2:</p>
+<div class="two-col">
+  <div class="prompt-box"><div class="prompt">Step 1</div></div>
+  <div class="prompt-box"><div class="prompt">Step 2</div></div>
+</div>
+
+<h3>Two-Digit &times; Two-Digit: $47 \times 36$</h3>
+
+<p>The standard algorithm for a two-digit &times; two-digit number involves taking four partial products.</p>
+
+<div class="image-container">
+  <img src="media/image5.png" alt="Base ten blocks array showing 47 × 36 with four partial products" style="max-width:550px;">
+  <p class="image-caption">Array model: 47 &times; 36 showing four partial products with base ten blocks</p>
+</div>
+
+<p><a href="https://iu.mediaspace.kaltura.com/media/t/1_w4f7teg1">Watch the video</a> and record the four partial products that Nikolas takes and the strategy he uses for each.</p>
+
+<table>
+<thead>
+  <tr><th style="width:60%">Partial Product</th><th style="width:40%">Strategy</th></tr>
+</thead>
+<tbody>
+  <tr>
+    <td><span class="instructor-note"><strong>Product 1:</strong> $6 \times 7 = 42$<br>Known fact (ones &times; ones).</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><span class="instructor-note"><strong>Product 2:</strong> $6 \times 40 = 240$<br>Counted by 40s three times to 120, then doubled to 240 (halving/doubling).</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><span class="instructor-note"><strong>Product 3:</strong> $30 \times 7 = 210$<br>Counted by 30s&mdash;$30 \times 3 = 90$, doubled to 180, plus 30 more = 210.</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><span class="instructor-note"><strong>Product 4:</strong> $30 \times 40 = 1200$<br>Broke into $10 \times 10 = 100$, then $\times 4 = 400$, then $\times 3 = 1200$.</span></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+<div class="two-col" style="margin-top:1.5rem;">
+  <div>
+    <h4>Step 1: Place value explicit</h4>
+    <div class="algorithm-block">
+      <div class="row">(40 + 7)</div>
+      <div class="row underline">&times; (30 + 6)</div>
+      <div class="row">&ensp;&ensp;&ensp;&ensp;42</div>
+      <div class="row">&ensp;&ensp;240</div>
+      <div class="row">&ensp;&ensp;210</div>
+      <div class="row underline">+1200</div>
+      <div class="row">1692</div>
+    </div>
+    <p style="font-size:0.9rem; margin-top:0.5rem;">$(40 + 7)(30 + 6) = 1200 + 240 + 210 + 42 = 1692$</p>
+  </div>
+  <div>
+    <h4>Step 2: All partial products</h4>
+    <div class="algorithm-block">
+      <div class="row">&ensp;&ensp;4 7</div>
+      <div class="row underline">&times; 3 6</div>
+      <div class="row">&ensp;&ensp;4 2</div>
+      <div class="row">2 4 0</div>
+      <div class="row">2 1 0</div>
+      <div class="row underline">+ 1 2 0 0</div>
+      <div class="row">1 6 9 2</div>
+    </div>
+  </div>
+</div>
+
+<h4>Partner Work: $24 \times 23$</h4>
+
+<div class="prompt-box">
+  <div class="prompt">Draw an array using base ten blocks below. Make sure to label your array.</div>
+</div>
+
+<p><strong>Write</strong> notation for $24 \times 23$ in Step 1 and Step 2:</p>
+<div class="two-col">
+  <div class="prompt-box"><div class="prompt">Step 1</div></div>
+  <div class="prompt-box"><div class="prompt">Step 2</div></div>
+</div>
+
+<p><strong>Write</strong> down what you would say as a teacher as you write the Step 1 notation. Share with your partner.</p>
+<div class="prompt-box"></div>
+
+
+<!-- ============================================================ -->
+<!-- WEEK 12 -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 12 — Teaching Division: Two Ways to Record</div>
+
+<div class="day-header">Days 1 &amp; 2</div>
+<p class="discussion-label">Class Discussion &rarr; Sharing (Partition) vs. Measurement Division</p>
+
+<p><strong>Teaching structure:</strong> A common structure is to have students model problems first with manipulatives, <em>then</em> create a written record. We compare sharing (partition) division and measurement division across grade levels. Both are explicitly referenced in standards; the recording and reasoning differ.</p>
+
+<h3>4th Grade: Sharing &amp; Measurement Division</h3>
+
+<table>
+<thead><tr><th>Sharing</th><th>Measurement</th></tr></thead>
+<tbody>
+  <tr>
+    <td>Use the base ten blocks to show sharing 684 among 6 people.</td>
+    <td>A school buys 384 pencils. They plan to give 6 pencils to each student. How many students are there?</td>
+  </tr>
+</tbody>
+</table>
+
+<table style="margin-top:1rem;">
+<thead><tr><th>Sharing</th><th>Measurement</th></tr></thead>
+<tbody>
+  <tr>
+    <td>A fabric company orders 359 yards of fabric. The owner distributes the fabric among 7 stores. How many yards of fabric does each store get?</td>
+    <td>A baker baked 889 cookies for the holidays. She puts them into bags of 7 cookies each. How many bags can she make?</td>
+  </tr>
+</tbody>
+</table>
+
+<div class="prompt-box" style="margin-top:1rem;">
+  <div class="prompt">Compare how measurement and sharing division are different:</div>
+</div>
+
+<h3>5th Grade: Sharing &amp; Measurement Division</h3>
+
+<table>
+<thead><tr><th>Sharing</th><th>Measurement</th></tr></thead>
+<tbody>
+  <tr>
+    <td>A bank has $\$1456$ to give evenly to 13 people. How much money does each person get?</td>
+    <td>To park for the football game each car has to pay $\$13$. A parking attendant collects a total of $\$1586$. How many cars parked in the lot?</td>
+  </tr>
+</tbody>
+</table>
+
+<h3>6th Grade: Modeling the Division Algorithm</h3>
+
+<table>
+<thead><tr><th>Sharing</th><th>Measurement</th></tr></thead>
+<tbody>
+  <tr>
+    <td>A bank has $\$1456$ to give evenly to 13 people. How much money does each person get?</td>
+    <td>To park for the football game each car has to pay $\$13$. A parking attendant collects a total of $\$1586$. How many cars parked in the lot?</td>
+  </tr>
+</tbody>
+</table>
+
+<h3>6th Grade: Record using the method shown on the previous page</h3>
+
+<table>
+<thead><tr><th>Sharing</th><th>Measurement</th></tr></thead>
+<tbody>
+  <tr>
+    <td>
+      <p><em>Try Problem 1 if less confident, Problem 2 if somewhat confident, Problem 3 if very confident. If you finish, complete the others and compare.</em></p>
+      <p><strong>Problem 1:</strong> 6 students are doing a science experiment. They need to share 876 milliliters of water. How many milliliters does each student get?</p>
+      <p><strong>Problem 2:</strong> 1452 M&amp;Ms are distributed to 11 bags (same number in each). How many M&amp;Ms are in each bag?</p>
+      <p><strong>Problem 3:</strong> 2655 M&amp;Ms are distributed to 27 bags (same number in each). How many M&amp;Ms are in each bag?</p>
+    </td>
+    <td>
+      <p><em>Try Problem 1 if less confident, Problem 2 if somewhat confident, Problem 3 if very confident. If you finish, complete the others and compare.</em></p>
+      <p><strong>Problem 1:</strong> 276 students attend Summit elementary. The school is making teams of 6 students for a school-wide event. How many teams will they have?</p>
+      <p><strong>Problem 2:</strong> A bakery bakes 657 cookies. A baker packs them into packages of 9 cookies. How many packages can they make?</p>
+      <p><strong>Problem 3:</strong> A farmer collects 1584 chicken eggs in a week. She packs the eggs into packages of 12. How many packages does she make?</p>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+</body>
+</html>
