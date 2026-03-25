@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E343 Unit 4 — Course Packet (Filled-In Guided Notes)</title>
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
+    startup: { pageReady: () => MathJax.startup.defaultPageReady() }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+<style>
+  :root {
+    --blue: #4472C4;
+    --dark: #1a1a2e;
+    --bg: #fafafa;
+    --card-bg: #fff;
+    --border: #ddd;
+    --muted: #666;
+    --heading-font: 'Georgia', 'Times New Roman', serif;
+    --body-font: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--dark);
+    background: var(--bg);
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+
+  h1 {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+    color: var(--dark);
+  }
+
+  h2 {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    color: var(--dark);
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 0.3rem;
+    margin: 2.5rem 0 1rem;
+  }
+
+  h3 {
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    color: var(--dark);
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 0.3rem;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--muted);
+    margin-bottom: 2rem;
+  }
+
+  p { margin: 0.5rem 0; }
+
+  .instructor-note {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .note-box {
+    background: #f0f4fa;
+    border-left: 4px solid var(--blue);
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .note-box p, .note-box li {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .standards-box {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin: 0.8rem 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  .standards-box .grade-label {
+    font-weight: bold;
+    color: var(--dark);
+    margin-bottom: 0.3rem;
+  }
+
+  .standards-box .filled {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: #f0f4fa;
+    font-weight: bold;
+    color: var(--dark);
+  }
+
+  td .instructor-note {
+    display: block;
+    margin-top: 0.3rem;
+  }
+
+  .algorithm-block {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    display: inline-block;
+    min-width: 180px;
+  }
+
+  .algorithm-block .row {
+    text-align: right;
+    white-space: pre;
+    letter-spacing: 0.15em;
+  }
+
+  .algorithm-block .row.underline {
+    border-bottom: 2px solid var(--dark);
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+  }
+
+  .algorithm-block .row.double-underline {
+    border-bottom: 3px double var(--dark);
+    padding-bottom: 2px;
+  }
+
+  .algorithm-block .carry {
+    font-size: 0.7em;
+    vertical-align: super;
+    color: #999;
+  }
+
+  .image-container {
+    text-align: center;
+    margin: 1.2rem 0;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+
+  .image-caption {
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.3rem;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .prompt-box {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 0;
+    min-height: 4rem;
+  }
+
+  .prompt-box .prompt {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .week-header {
+    background: var(--blue);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    margin: 3rem 0 1.5rem;
+    font-family: var(--heading-font);
+    font-size: 1.3rem;
+  }
+
+  .day-header {
+    font-family: var(--heading-font);
+    font-size: 1.15rem;
+    color: var(--blue);
+    font-weight: bold;
+    margin: 2rem 0 0.8rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid var(--blue);
+  }
+
+  .discussion-label {
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .strategy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .strategy-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+  }
+
+  .strategy-card h4 {
+    margin-top: 0;
+    color: var(--dark);
+  }
+
+  hr.section-break {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+  }
+
+  .page-break { page-break-before: always; }
+
+  @media print {
+    body { max-width: 100%; padding: 0.5in; font-size: 11pt; }
+    .week-header { break-before: page; }
+    .note-box { break-inside: avoid; }
+    .standards-box { break-inside: avoid; }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; font-size: 15px; }
+    .two-col, .strategy-grid { grid-template-columns: 1fr; }
+    h1 { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<h1>E343 Unit 4 — Course Packet</h1>
+<p class="subtitle">Filled-In Guided Notes &middot; Spring 2026</p>
+
+<p><strong>Unit Focus:</strong> Developing Fractions (Weeks 13&ndash;15)</p>
+<p><strong>Key References:</strong> Van de Walle et al., Ch. 14&ndash;15</p>
+
+<!-- ============================================================ -->
+<!-- WEEK 13 DAY 1 -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 13 — Beginning Work on Fractions</div>
+
+<div class="day-header">Day 1 — Area and Length Models</div>
+<p class="discussion-label">Class Discussion &rarr; BEGINNING WORK ON FRACTIONS</p>
+
+<h3>Problems 1 &amp; 2: Area Model (Rectangle and Circle)</h3>
+
+<p><strong>Problem 1:</strong> Rectangle representing a sub sandwich shared among 5 people. Show how much 2 people get by shading.</p>
+
+<p><strong>Problem 2:</strong> Circle representing a pie shared among 5 people. Show how much 2 people get by shading.</p>
+
+<div class="note-box">
+<p><strong>Instructor Notes:</strong> Students shade 2/5 of the rectangle and 2/5 of the circle. The key difference emerges in partitioning: rectangles can be easily divided into 5 equal parts using parallel horizontal or vertical cuts, while circles are much harder to partition accurately without curved cuts.</p>
+</div>
+
+<h3>Reflection Questions on Problems 1 &amp; 2</h3>
+
+<div class="standards-box">
+<div class="prompt">1. Which shape did you find easier to divide into five equal parts? Why?</div>
+<p class="filled">The rectangle is easier. Students can use parallel lines to create equal parts; the circle requires dividing into pie-shaped wedges, which is harder to do visually and without tools.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">2. Can you think of a number of parts that would be easier to make the rectangle and circle into? A number of parts that would be harder? Why?</div>
+<p class="filled">Powers of 2 (halves, fourths, eighths) are easier for both shapes because they involve repeated folding. Numbers like 5 or 7 are harder because they don&rsquo;t use simple binary subdivision. Odd denominators generally require more careful spatial reasoning.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">3. Which model (area, length, or set) from your textbook does each problem use? Why?</div>
+<p class="filled"><strong>Area model.</strong> The rectangle and circle represent the whole as a 2D region, and the fraction is shown by shading a portion of that region. This is the most natural representation for area-based wholes.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">4. Which &ldquo;fraction construct&rdquo; (measure, division, part-whole, operator, or ratio) from your textbook do these two problems involve? Why?</div>
+<p class="filled"><strong>Part-whole construct.</strong> We are identifying what fraction of the whole (the entire sandwich or pie) the shaded region represents. We are partitioning the whole and identifying the relationship between the part (2 people&rsquo;s share) and the whole (5 people total).</p>
+</div>
+
+<h3>Problems 3 &amp; 4: Length Model (Licorice Rope)</h3>
+
+<p><strong>Problem 3:</strong> Licorice rope shared among 4 people. Mark where one person&rsquo;s share ends. Test without marking the rest.</p>
+
+<p><strong>Problem 4:</strong> New licorice rope shared among 5 people. Mark one person&rsquo;s share, then redraw and repeat three times to show 3/5.</p>
+
+<div class="note-box">
+<p><strong>Instructor Notes:</strong> Problem 3 introduces measuring the unit fraction (1/4). Testing can be done by folding or iterating. Problem 4 explicitly has students iterate the unit fraction 1/5 three times, showing the crucial difference from problems 1&ndash;2: iteration is necessary here.</p>
+</div>
+
+<h3>Reflection Questions on Problems 3 &amp; 4</h3>
+
+<div class="standards-box">
+<div class="prompt">1. Which model (area, length, or set) from your textbook does each problem use? Why?</div>
+<p class="filled"><strong>Length model.</strong> The licorice rope is one-dimensional and is partitioned by marking points. The fraction is shown as a portion of the total length.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">2. Which &ldquo;fraction construct&rdquo; (measure, division, part-whole, operator, or ratio) from your textbook do these two problems involve? Why?</div>
+<p class="filled"><strong>Measurement construct.</strong> The licorice rope is partitioned into equal units (the unit fraction). We then iterate (repeat) that unit the required number of times to build fractions like 1/4, 3/5. This is a measurement approach: how many unit-fractions fit into the whole?</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">3. Compare problem 1 &amp; 2 to problem 3 &amp; 4. What more in terms of &ldquo;reasoning&rdquo; do problems 3 &amp; 4 involve?</div>
+<p class="filled">Problems 3 &amp; 4 require <strong>iteration</strong> (repeating the unit fraction). In problems 1 &amp; 2, students could simply shade 2/5 directly without explicitly building the fraction from unit fractions. In problems 3 &amp; 4, students must mark the unit fraction (1/4 or 1/5) and then repeat it, showing that fractions are built by iterating a unit fraction. This is a more sophisticated understanding of fractions as multiples of unit fractions.</p>
+</div>
+
+<h3>Problems 5 &amp; 6: Set Model (Rock Collection and Money)</h3>
+
+<p><strong>Problem 5:</strong> John&rsquo;s rock collection; he brings 1/5 to school. Show the amount and justify.</p>
+
+<p><strong>Problem 6:</strong> Tammy has $24; Charice has 3/4 of that. Show how much money Charice has and justify.</p>
+
+<div class="note-box">
+<p><strong>Instructor Notes:</strong> These problems use the set (or discrete) model. The &ldquo;whole&rdquo; is no longer a continuous region or length, but a group/collection. In problem 5, the whole is the entire collection; in problem 6, the whole is the entire $24. Students find 1/5 of the collection or 3/4 of the set of 24 dollars.</p>
+</div>
+
+<h3>Reflection Questions on Problems 5 &amp; 6</h3>
+
+<div class="standards-box">
+<div class="prompt">1. Which model (area, length, or set) from your textbook does each problem use? Why? What is the whole for this kind of problem?</div>
+<p class="filled"><strong>Set model.</strong> We are working with a discrete collection (rocks, dollars). The whole is the entire set. A fraction names a portion of that set.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">2. Which &ldquo;fraction construct&rdquo; (measurement, division, part-whole, operator, or ratio) from your textbook do these two problems involve? Why?</div>
+<p class="filled">Problem 5 uses a <strong>part-whole construct</strong> (1/5 of the collection). Problem 6 uses an <strong>operator construct</strong> (3/4 of 24 means multiply the set by 3/4), which connects fractions as multipliers.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">3. What are some common errors for this kind of problem?</div>
+<p class="filled">Students may count only the shaded/selected items without identifying what the whole is. For problem 5, they might say &ldquo;he brought 3 rocks&rdquo; without connecting it to the whole collection. For problem 6, they might multiply 24 by 3 and divide by 4 correctly but not interpret why. Confusion about what the &ldquo;whole&rdquo; is (the entire set vs. a part) is very common.</p>
+</div>
+
+<h3>Problems 7, 8, 9: The Whole Matters!</h3>
+
+<p><strong>Problem 7:</strong> Two water bottles of different sizes. Each backpacker drinks 1/3. Do they drink the same amount? (Answer: No—the whole matters.)</p>
+
+<p><strong>Problem 8:</strong> Jeff and Maria run different-length events. Compare 1/4 of Jeff&rsquo;s event to 1/2 of Maria&rsquo;s. Who runs farther?</p>
+
+<p><strong>Problem 9:</strong> Mark shares one sub with 7 people; John shares one sub with 8 people. The subs are the same size. Who gets more sub? (Answer: Mark&rsquo;s guests; 1/7 &gt; 1/8.)</p>
+
+<div class="standards-box">
+<div class="prompt">What is essential for making a fraction comparison?</div>
+<p class="filled">The <strong>whole must be the same.</strong> 1/3 of a large water bottle is not equal to 1/3 of a small bottle. When comparing fractions, both must be expressed relative to the same whole. This is a critical foundational understanding that underlies all fraction comparison and operations.</p>
+</div>
+
+<!-- ============================================================ -->
+<!-- WEEK 13 DAY 2 -->
+<!-- ============================================================ -->
+
+<div class="day-header">Day 2 — Sharing Task and Division Construct</div>
+<p class="discussion-label">Class Discussion &rarr; SHARING TASK FOR FRACTIONS</p>
+
+<h3>Sharing Task: 3 Loaves Among 5 People</h3>
+
+<p><strong>Setup:</strong> 3 equally sized loaves of bread shared equally among 5 people.</p>
+
+<div class="standards-box">
+<div class="prompt">1. Show how you would share the bread equally among 5 family members.</div>
+<p class="filled">Each loaf is divided into 5 equal pieces. Each person receives 3 pieces (one from each loaf), giving them 3/5 of a loaf total.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">2. Make a picture of how much each person gets that is separate from the original loaves.</div>
+<p class="filled">Draw a small rectangle or bar labeled as 3/5 of a loaf, showing the 3 pieces collected together.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">3. Compare the total amount one person gets to one loaf. What fraction are all pieces compared to a single loaf?</div>
+<p class="filled">Each person gets <strong>3/5</strong> of a single loaf.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">4. Compare the total to all three loaves. What fraction of three loaves does one person get?</div>
+<p class="filled">Each person gets <strong>3/15</strong> or <strong>1/5</strong> of the total (three loaves). Note: 3/5 + 3/5 + 3/5 = 9/5 for all three people... actually, reconsider: if 3 loaves are shared among 5 people, one person gets 3/5 of a loaf, and 3/5 of the three-loaf whole is the same as saying 3/5 of 3 = 9/5 for one person? No—one person gets 3/15 = 1/5 of the entire amount of bread (three loaves = the unit). So one person gets 1/5 of all three loaves combined.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">5. Can you write a division problem for this situation?</div>
+<p class="filled"><strong>3 ÷ 5 = 3/5.</strong> The division construct interprets 3/5 as the quotient when 3 loaves are divided among 5 people. This is a core understanding: fractions emerge naturally from fair-sharing (division) problems.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">6. Compare how you made 3/5 in this problem to how you made 3/5 on Monday (problem 4). Which is more complicated for students? Why?</div>
+<p class="filled"><strong>Monday (Length Model):</strong> Measure a unit fraction (1/5) and iterate it three times. <strong>Today (Sharing Task):</strong> Divide 3 wholes among 5 people. <strong>More complicated:</strong> The sharing task is often harder because students must think about: (1) partitioning each loaf, (2) distributing pieces to multiple people, and (3) collecting a person&rsquo;s pieces into a single amount. The length model is more concrete once the unit fraction is marked.</p>
+</div>
+
+<h3>The Brownie Problem: 7 Brownies, 4 Friends</h3>
+
+<p><strong>Problem Statement:</strong> &ldquo;There are 7 brownies. Four friends are sharing the brownies so that everyone gets exactly the same amount. How much brownie will each friend get? What do you call that amount?&rdquo;</p>
+
+<div class="standards-box">
+<div class="prompt">According to your textbook, what fraction construct does this problem represent?</div>
+<p class="filled"><strong>Division construct.</strong> This is a fair-sharing or quotient problem. 7 ÷ 4 = 7/4 = 1 3/4. The answer names each person&rsquo;s share.</p>
+</div>
+
+<h3>Student Work Analysis</h3>
+
+<div class="standards-box">
+<div class="prompt">Compare and contrast student work. State what you think each student did to solve the problem and prominent features of each.</div>
+<div class="filled">
+<table>
+<tr>
+<th>Karina</th>
+<th>Morgan</th>
+</tr>
+<tr>
+<td><strong>Approach:</strong> Likely partitioned brownies into fourths and counted each person&rsquo;s share. <strong>Features:</strong> Area model (rectangles or circles), systematic partitioning, counts pieces or shades regions to show 7/4.</td>
+<td><strong>Approach:</strong> May have distributed whole brownies first (each person gets 1, with 3 left) then divided the remaining 3 into fourths. <strong>Features:</strong> Mixed number thinking, showing 1 3/4 by showing 1 whole + 3/4.</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<th>Robert</th>
+<th>DeShawn</th>
+</tr>
+<tr>
+<td><strong>Approach:</strong> Possible use of set model (discrete items) or symbolic reasoning. <strong>Features:</strong> May list 7/4 without a visual model, or use a table/organized list to distribute.</td>
+<td><strong>Approach:</strong> Possible incorrect partitioning (e.g., not dividing fairly) or thinking about remainders only. <strong>Features:</strong> May show that each person gets 1 brownie with 3 remaining but not convert the 3 into fourths.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<h3>Selecting and Sequencing Student Work</h3>
+
+<div class="standards-box">
+<div class="prompt">Select three student solutions and sequence them. Give rationale for selection and sequencing.</div>
+<div class="filled">
+<p><strong>Student 1 (Starting Point):</strong> A student who shows the whole brownies distributed first (1 per person) and then partitions the remaining 3. This anchors the solution in fair-sharing intuition before naming the fraction. Rationale: Accessible entry point; shows division as &ldquo;give everyone a piece first.&rdquo;</p>
+
+<p><strong>Student 2 (Bridge):</strong> A student who uses an area model to partition all 7 brownies into fourths and counts each person&rsquo;s share (7 fourths). Rationale: Connects to visual models; shows why 7/4 works without needing to think about mixed numbers first.</p>
+
+<p><strong>Student 3 (Consolidation):</strong> A student who labels the answer as 1 3/4 and explains why. Rationale: Builds on the earlier models to show that 7/4 and 1 3/4 are equivalent; connects improper and mixed number notation.</p>
+
+<p><strong>Sequencing Rationale:</strong> Start concrete (distributing physically), move to visual partitioning (area model), then connect to symbolic naming (mixed numbers). This progression supports students in building conceptual understanding before emphasizing notation.</p>
+</div>
+</div>
+
+<!-- ============================================================ -->
+<!-- WEEK 14 DAY 1 -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 14 — Partitioning, Iterating, and Fraction Sequences</div>
+
+<div class="day-header">Day 1 — Using Partitioning and Iterating</div>
+<p class="discussion-label">Class Discussion &rarr; USING PARTITIONING AND ITERATING TO CREATE FRACTIONS AS NUMBERS</p>
+
+<h3>Key Concepts: Partitioning and Iterating</h3>
+
+<p><strong>Partitioning:</strong> Dividing a whole into a specific number of equal pieces.</p>
+<p><strong>Iterating:</strong> Repeating (counting) the unit fraction to build fractions.</p>
+
+<div class="note-box">
+<p><strong>Key Insight:</strong> The <strong>denominator</strong> tells you how many equal pieces to partition the whole into. The <strong>numerator</strong> tells you how many times to iterate the unit fraction. For example, in $\frac{2}{3}$: the denominator 3 says &ldquo;partition into thirds,&rdquo; and the numerator 2 says &ldquo;take two of those thirds.&rdquo;</p>
+</div>
+
+<h3>Fraction Sequences Using Fraction Bars</h3>
+
+<div class="standards-box">
+<div class="prompt">Groups will create sequences of fractions by partitioning and iterating.</div>
+<div class="filled">
+<p><strong>Group 1 (Halves):</strong> Create the sequence $\frac{1}{2}, \frac{2}{2}, \frac{3}{2}, \frac{4}{2}, \frac{5}{2}, \ldots, \frac{10}{2}$ using fraction bars. Fold bars in half; cut and repeat the unit fraction (1/2) for each fraction in the sequence.</p>
+
+<p><strong>Group 2 (Thirds):</strong> Create the sequence $\frac{1}{3}, \frac{2}{3}, \frac{3}{3}, \frac{4}{3}, \frac{5}{3}, \ldots, \frac{10}{3}$ using fraction bars. Partition into thirds; iterate the unit fraction.</p>
+
+<p><strong>Group 3 (Fourths):</strong> Create the sequence $\frac{1}{4}, \frac{2}{4}, \frac{3}{4}, \frac{4}{4}, \frac{5}{4}, \ldots, \frac{10}{4}$ using fraction bars. This shows relationships between halves and fourths.</p>
+
+<p><strong>Group 4 (Sixths):</strong> Create the sequence $\frac{1}{6}, \frac{2}{6}, \frac{3}{6}, \frac{4}{6}, \frac{5}{6}, \ldots, \frac{10}{6}$ using fraction bars. This shows relationships between thirds and sixths.</p>
+
+<p><strong>Group 5 (Eighths):</strong> Create the sequence $\frac{1}{8}, \frac{2}{8}, \frac{3}{8}, \frac{4}{8}, \frac{5}{8}, \ldots, \frac{10}{8}$ using fraction bars. This shows relationships between halves, fourths, and eighths.</p>
+</div>
+</div>
+
+<h3>Reflection: Relationships Among Sequences</h3>
+
+<div class="standards-box">
+<div class="prompt">What relationships do you notice between the sequence of halves, fourths, and eighths? Between thirds and sixths?</div>
+<p class="filled"><strong>Halves, Fourths, Eighths:</strong> These are related by doubling the denominator. $\frac{2}{2} = \frac{4}{4} = \frac{8}{8}$ = 1 whole. $\frac{1}{2} = \frac{2}{4} = \frac{4}{8}$. When you double the denominator, you also double the numerator to keep the same value. <strong>Thirds and Sixths:</strong> Sixths are created by partitioning thirds in half. $\frac{1}{3} = \frac{2}{6}$, $\frac{2}{3} = \frac{4}{6}$, $\frac{3}{3} = \frac{6}{6}$. These relationships are why the standards emphasize denominators 2, 3, 4, 6, 8 in 3rd grade—they are part of natural multiplicative families.</p>
+</div>
+
+<h3>Denominator and Numerator Tasks</h3>
+
+<div class="standards-box">
+<div class="prompt">For each fraction, identify the denominator and state how many equal pieces to partition a whole into.</div>
+<div class="filled">
+<table>
+<tr>
+<th>Fraction</th>
+<th>Denominator &amp; How many equal pieces?</th>
+</tr>
+<tr>
+<td>$\frac{3}{4}$</td>
+<td class="instructor-note">Denominator = 4. Partition the whole into 4 equal pieces.</td>
+</tr>
+<tr>
+<td>$\frac{2}{3}$</td>
+<td class="instructor-note">Denominator = 3. Partition the whole into 3 equal pieces.</td>
+</tr>
+<tr>
+<td>$\frac{5}{6}$</td>
+<td class="instructor-note">Denominator = 6. Partition the whole into 6 equal pieces.</td>
+</tr>
+<tr>
+<td>$\frac{5}{8}$</td>
+<td class="instructor-note">Denominator = 8. Partition the whole into 8 equal pieces.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="standards-box">
+<div class="prompt">For each fraction, identify the numerator and state how many times to repeat the unit fraction.</div>
+<div class="filled">
+<table>
+<tr>
+<th>Fraction</th>
+<th>Numerator &amp; How many times repeat?</th>
+</tr>
+<tr>
+<td>$\frac{3}{4}$</td>
+<td class="instructor-note">Numerator = 3. Repeat the unit fraction $\frac{1}{4}$ three times.</td>
+</tr>
+<tr>
+<td>$\frac{2}{3}$</td>
+<td class="instructor-note">Numerator = 2. Repeat the unit fraction $\frac{1}{3}$ two times.</td>
+</tr>
+<tr>
+<td>$\frac{5}{6}$</td>
+<td class="instructor-note">Numerator = 5. Repeat the unit fraction $\frac{1}{6}$ five times.</td>
+</tr>
+<tr>
+<td>$\frac{5}{8}$</td>
+<td class="instructor-note">Numerator = 5. Repeat the unit fraction $\frac{1}{8}$ five times.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<h3>Fractions and Decimals: Tenths and Hundredths</h3>
+
+<p><strong>Standards Context:</strong> 3rd grade focuses on denominators 2, 3, 4, 6, 8. In 4th grade, denominators 10 and 100 are added because they connect directly to decimals.</p>
+
+<div class="standards-box">
+<div class="prompt">Create a sequence of tenths using base ten blocks. Fill in the table with fraction and decimal notation.</div>
+<div class="filled">
+<table>
+<tr>
+<th colspan="10">Tenths Sequence</th>
+</tr>
+<tr>
+<td colspan="10"><strong>Fraction:</strong> $\frac{1}{10}, \frac{2}{10}, \frac{3}{10}, \frac{4}{10}, \frac{5}{10}, \frac{6}{10}, \frac{7}{10}, \frac{8}{10}, \frac{9}{10}, \frac{10}{10}$</td>
+</tr>
+<tr>
+<td colspan="10"><strong>Decimal:</strong> 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="standards-box">
+<div class="prompt">Create a sequence of hundredths. Fill in the table with fraction and decimal notation.</div>
+<div class="filled">
+<table>
+<tr>
+<th colspan="10">Hundredths Sequence (First 10)</th>
+</tr>
+<tr>
+<td colspan="10"><strong>Fraction:</strong> $\frac{1}{100}, \frac{2}{100}, \frac{3}{100}, \frac{4}{100}, \frac{5}{100}, \frac{6}{100}, \frac{7}{100}, \frac{8}{100}, \frac{9}{100}, \frac{10}{100}$</td>
+</tr>
+<tr>
+<td colspan="10"><strong>Decimal:</strong> 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10</td>
+</tr>
+</table>
+</div>
+</div>
+
+<h3>Language for Decimals</h3>
+
+<div class="standards-box">
+<div class="prompt">Recognize that $\frac{2}{100} = 0.02$. How should we say 0.02 vs. 0.20?</div>
+<p class="filled"><strong>0.02:</strong> &ldquo;Two hundredths&rdquo; (or &ldquo;two one-hundredths&rdquo;). <strong>0.20 (or 0.2):</strong> &ldquo;Twenty hundredths&rdquo; (or &ldquo;two tenths&rdquo;). These are <em>not</em> the same, even though in everyday speech people might say &ldquo;point zero two.&rdquo; Using fraction language helps students understand that decimals are fractions with denominators that are powers of ten. 0.5 is &ldquo;five tenths,&rdquo; and 0.50 is &ldquo;fifty hundredths&rdquo; (which equal five tenths, but the language shows the denominator).</p>
+</div>
+</div>
+
+<!-- ============================================================ -->
+<!-- WEEK 14 DAY 2 -->
+<!-- ============================================================ -->
+
+<div class="day-header">Day 2 — Equivalent Fractions</div>
+<p class="discussion-label">Class Discussion &rarr; Equivalent Fractions and Fraction Comparisons</p>
+
+<h3>The Lasagna Problem</h3>
+
+<p><strong>Scenario:</strong> Two equal-sized pans of lasagna at a picnic. Parents cut each into equal pieces. Tanesha eats 2 portions from one pan; David eats 4 portions from another. They both get the same amount.</p>
+
+<div class="standards-box">
+<div class="prompt">1. Show how the lasagna was divided so Tanesha&rsquo;s 2 portions equal David&rsquo;s 4 portions. Shade each child&rsquo;s portion.</div>
+<p class="filled">Tanesha&rsquo;s pan is cut into 4 equal pieces; she eats 2. David&rsquo;s pan is cut into 8 equal pieces; he eats 4. So $\frac{2}{4} = \frac{4}{8}$. Other valid answers: Tanesha eats $\frac{2}{6}$ (pan cut into 6) and David eats $\frac{4}{12}$ (pan cut into 12); or any pair where doubling both numerator and denominator.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">2. Write fractions describing each portion.</div>
+<p class="filled">Tanesha: $\frac{2}{4}$; David: $\frac{4}{8}$ (or other equivalent pairs). These fractions name the same amount even though the denominators differ.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">3. Explain how you know they got the same amount.</div>
+<p class="filled">Visual comparison of shaded regions. Both children&rsquo;s shaded portions take up exactly half of their pan. Or: $\frac{2}{4} = \frac{1}{2}$ and $\frac{4}{8} = \frac{1}{2}$, so they&rsquo;re equal.</p>
+</div>
+
+<h3>Reflection on Multiple Answers</h3>
+
+<div class="standards-box">
+<div class="prompt">Why does this problem have multiple possible answers? How are all answers connected to equivalent fractions?</div>
+<p class="filled">The problem has infinite correct answers because infinitely many equivalent fractions exist. $\frac{2}{4} = \frac{4}{8} = \frac{6}{12} = \frac{10}{20}$, etc. All of these answer the question. <strong>Key idea:</strong> Equivalent fractions represent the same amount by <strong>partitioning existing pieces into smaller pieces</strong> (or combining smaller pieces into larger ones). When David&rsquo;s pan is cut into 8 pieces instead of 4, each original piece is split in half. So 4 pieces of size 1/8 equal 2 pieces of size 1/4.</p>
+</div>
+
+<h3>Ms. Statsny&rsquo;s Anticipated Solutions</h3>
+
+<div class="standards-box">
+<div class="prompt">Compare your anticipated solutions to Ms. Statsny&rsquo;s from the textbook.</div>
+<p class="filled"><strong>Key Observation:</strong> Ms. Statsny likely anticipated correct partitioning strategies (cutting each pan into equal pieces and identifying equivalent fractions). She may not have anticipated every creative approach or incorrect solution that appeared. <strong>Value of Anticipation:</strong> Her correct anticipations helped her guide the classroom discussion by sequencing solutions and asking probing questions. When unexpected solutions appeared, her anticipations gave her a framework for evaluating them.</p>
+</div>
+</div>
+
+<div class="standards-box">
+<div class="prompt">Did Ms. Statsny anticipate solutions you did not? Did you anticipate solutions she missed?</div>
+<p class="filled">Student responses will vary. The key is recognizing that anticipation informs—but doesn&rsquo;t limit—instruction. Unexpected student solutions can become teaching moments if the teacher can evaluate them in the moment. This is where deep content knowledge and anticipation intersect.</p>
+</div>
+</div>
+
+<!-- ============================================================ -->
+<!-- WEEK 15 DAY 1 -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 15 — Equivalent Fractions, Comparisons, and Operations</div>
+
+<div class="day-header">Day 1 — Equivalent Fractions and Comparison Strategies</div>
+<p class="discussion-label">Class Discussion &rarr; Equivalent Fractions, Fraction Comparisons, and Operations</p>
+
+<h3>Making Equivalent Fractions with Fraction Bars</h3>
+
+<div class="standards-box">
+<div class="prompt">Make the fractions below using a length model (Fraction Bars). Then find equivalent fractions by partitioning or joining pieces.</div>
+<div class="filled">
+<p><strong>$\frac{3}{4}$:</strong> Make 3/4. To create equivalent fractions: partition the fourths into eighths (get 6/8), or into twelfths (get 9/12). You can also join: if fourths were part of a larger unit, 3/4 might equal other fractions. Second equivalent: $\frac{6}{8}$ or $\frac{9}{12}$.</p>
+
+<p><strong>$\frac{2}{4}$:</strong> Make 2/4. This equals 1/2. Partitioning into eighths gives $\frac{4}{8}$. Joining pieces gives $\frac{1}{2}$. Second equivalent: $\frac{1}{2}$ or $\frac{4}{8}$.</p>
+
+<p><strong>$\frac{2}{3}$:</strong> Make 2/3. Partition into sixths gives $\frac{4}{6}$. Partitioning further into ninths gives $\frac{6}{9}$. Second equivalent: $\frac{4}{6}$ or $\frac{6}{9}$.</p>
+
+<p><strong>$\frac{2}{6}$:</strong> Make 2/6 (which equals 1/3). Partitioning into twelfths gives $\frac{4}{12}$. This also equals $\frac{1}{3}$. Second equivalent: $\frac{4}{12}$ or $\frac{1}{3}$.</p>
+</div>
+</div>
+
+<h3>Finding Common Denominators with Fraction Bars</h3>
+
+<div class="standards-box">
+<div class="prompt">Make a whole bar. Pull out both halves and thirds. What fraction family must you use to represent both?</div>
+<p class="filled">To pull halves and thirds from the same whole, you must use <strong>sixths</strong> (the least common multiple of 2 and 3). $\frac{1}{2} = \frac{3}{6}$ and $\frac{1}{3} = \frac{2}{6}$. Now both fit into the same denominator.</p>
+</div>
+
+<div class="standards-box">
+<div class="prompt">Make a whole bar. Pull out both thirds and fourths. What fraction family must you use?</div>
+<p class="filled">To pull thirds and fourths from the same whole, you must use <strong>twelfths</strong> (LCM of 3 and 4). $\frac{1}{3} = \frac{4}{12}$ and $\frac{1}{4} = \frac{3}{12}$.</p>
+</div>
+
+<h3>Four Strategies for Fraction Comparison</h3>
+
+<p><strong>Strategy 1: Same Denominator.</strong> If two fractions have the same denominator, the one with the larger numerator is larger. Example: $\frac{4}{7} > \frac{5}{7}$? No. $\frac{5}{7} > \frac{4}{7}$.</p>
+
+<p><strong>Strategy 2: Same Numerator.</strong> If two fractions have the same numerator, the one with the smaller denominator is larger (the pieces are bigger). Example: $\frac{3}{5}$ vs. $\frac{3}{8}$. Since fifths are bigger than eighths, $\frac{3}{5} > \frac{3}{8}$.</p>
+
+<p><strong>Strategy 3: More/Less Than a Benchmark (1/2 or 1).</strong> Compare both fractions to a benchmark. Example: $\frac{3}{4}$ vs. $\frac{5}{9}$. Both are more than 1/2. $\frac{3}{4}$ is 1/4 away from 1; $\frac{5}{9}$ is 4/9 away from 1. So $\frac{3}{4} > \frac{5}{9}$.</p>
+
+<p><strong>Strategy 4: Closeness to a Benchmark.</strong> Which fraction is closer to 1/2 or to 1? Example: $\frac{4}{9}$ is just less than 1/2; $\frac{3}{8}$ is also just less than 1/2. Check distance: $\frac{4}{9}$ is 1/18 away from 1/2; $\frac{3}{8}$ is 1/8 away from 1/2. So $\frac{4}{9}$ is closer.</p>
+
+<div class="standards-box">
+<div class="prompt">Use one of these four strategies to compare each pair (E&ndash;L). Use a number line and write how you reasoned.</div>
+<div class="filled">
+<p><strong>E. $\frac{3}{4}$ vs. $\frac{9}{10}$:</strong> Benchmark 1. Both are more than 1/2. $\frac{3}{4} = 0.75$; $\frac{9}{10} = 0.90$. So $\frac{9}{10} > \frac{3}{4}$. (Closeness to 1: $\frac{3}{4}$ is 0.25 away; $\frac{9}{10}$ is 0.1 away. $\frac{9}{10}$ is closer.)</p>
+
+<p><strong>F. $\frac{3}{8}$ vs. $\frac{4}{7}$:</strong> Benchmark 1/2. $\frac{3}{8} = 0.375$ (less than 1/2); $\frac{4}{7} \approx 0.571$ (more than 1/2). So $\frac{4}{7} > \frac{3}{8}$.</p>
+
+<p><strong>G. $\frac{7}{12}$ vs. $\frac{5}{12}$:</strong> Same Denominator. Since $7 > 5$, we have $\frac{7}{12} > \frac{5}{12}$.</p>
+
+<p><strong>H. $\frac{3}{5}$ vs. $\frac{3}{7}$:</strong> Same Numerator. Fifths are larger pieces than sevenths, so $\frac{3}{5} > \frac{3}{7}$.</p>
+
+<p><strong>I. $\frac{5}{8}$ vs. $\frac{7}{10}$:</strong> Benchmark 1/2. Both are more than 1/2. $\frac{5}{8} = 0.625$; $\frac{7}{10} = 0.70$. So $\frac{7}{10} > \frac{5}{8}$.</p>
+
+<p><strong>J. $\frac{9}{8}$ vs. $\frac{4}{3}$:</strong> Benchmark 1. Both are greater than 1 (improper fractions). $\frac{9}{8} = 1 \frac{1}{8} = 1.125$; $\frac{4}{3} = 1 \frac{1}{3} \approx 1.333$. So $\frac{4}{3} > \frac{9}{8}$.</p>
+
+<p><strong>K. $\frac{4}{6}$ vs. $\frac{7}{12}$:</strong> Convert to common denominator or benchmark. $\frac{4}{6} = \frac{8}{12}$. So $\frac{8}{12} > \frac{7}{12}$.</p>
+
+<p><strong>L. $\frac{8}{9}$ vs. $\frac{7}{8}$:</strong> Closeness to 1. $\frac{8}{9}$ is 1/9 from 1; $\frac{7}{8}$ is 1/8 from 1. Since $\frac{1}{9} < \frac{1}{8}$, we have $\frac{8}{9} > \frac{7}{8}$.</p>
+</div>
+</div>
+
+<h3>Fraction Multiplication Context</h3>
+
+<div class="standards-box">
+<div class="prompt">John travels 2½ miles to work each day. He has traveled ¼ of the way. How far has he traveled?</div>
+<p class="filled"><strong>Setup:</strong> This is a fraction multiplication problem: $\frac{1}{4}$ of $2\frac{1}{2}$ miles. The answer is $\frac{5}{8}$ miles (since $\frac{1}{4} \times \frac{5}{2} = \frac{5}{8}$). Different solution strategies: (1) Use a number line or bar model to show 2½ miles, mark 1/4 of that. (2) Use an area model showing 1/4 of a 2½-unit length. (3) Use a tape diagram showing the journey divided into 4 equal parts.</p>
+</div>
+</div>
+
+<div class="standards-box">
+<div class="prompt">Record a different classmate&rsquo;s solution strategy.</div>
+<p class="filled">Accept any correct visual representation (area model, number line, tape diagram) that shows 1/4 of 2½ miles. Strategies should be substantially different in their reasoning approach, not just the representation style.</p>
+</div>
+</div>
+
+<div class="standards-box">
+<div class="prompt">A student says, &ldquo;I thought about this as 2½ groups of ¼ rather than taking ¼ of 2½.&rdquo; Make a representation for this thinking. Compare: does it match the context? How would you respond?</div>
+<p class="filled"><strong>This Student&rsquo;s Interpretation:</strong> $2\frac{1}{2} \times \frac{1}{4}$ (multiply 2½ by 1/4, thinking of it as 2½ groups of 1/4). This is technically the same answer due to commutativity of multiplication: $\frac{1}{4} \times 2\frac{1}{2} = 2\frac{1}{2} \times \frac{1}{4}$. <strong>Context Match:</strong> Not as natural. The problem says John traveled &ldquo;1/4 of the way,&rdquo; which means we find 1/4 OF 2½, not 2½ OF 1/4. <strong>Teacher Response:</strong> Affirm the mathematical correctness while clarifying the language: &ldquo;You&rsquo;re right that multiplication is commutative, so you get the same answer. But in this problem, we&rsquo;re finding 1/4 OF the 2½ miles, which is slightly different language. Both work mathematically, but your way of thinking is 2½ groups of 1/4 mile each, which is a different real-world picture.&rdquo;</p>
+</div>
+</div>
+
+<!-- ============================================================ -->
+<!-- WEEK 15 DAY 2 -->
+<!-- ============================================================ -->
+
+<div class="day-header">Day 2 — Fraction Addition and Subtraction</div>
+<p class="discussion-label">Class Discussion &rarr; Fraction Addition &amp; Subtraction</p>
+
+<h3>Pattern Blocks and Unit Fractions</h3>
+
+<p><strong>Setup:</strong> Use pattern blocks with the hexagon as the whole.</p>
+
+<div class="standards-box">
+<div class="prompt">Determine what fraction each shape is of the hexagon. Use outlines to show.</div>
+<div class="filled">
+<p><strong>Hexagon:</strong> 1 (the whole)</p>
+<p><strong>Trapezoid:</strong> 1/2 (two trapezoids make a hexagon)</p>
+<p><strong>Rhombus (or Diamond):</strong> 1/3 (three rhombi make a hexagon)</p>
+<p><strong>Triangle:</strong> 1/6 (six triangles make a hexagon)</p>
+</div>
+</div>
+
+<h3>Fraction Addition with Pattern Blocks</h3>
+
+<p><strong>Key Idea:</strong> Use pattern blocks to model addition. Draw the blocks and write equivalent fractions to show common denominators when needed.</p>
+
+<div class="standards-box">
+<table>
+<tr>
+<th>Problem</th>
+<th>Drawing</th>
+<th>Notation</th>
+</tr>
+<tr>
+<td>$\frac{1}{3} + \frac{1}{2}$ =</td>
+<td class="instructor-note">Draw 1 rhombus (1/3) and 1 trapezoid (1/2). Both fit in the hexagon. Together they cover: 1 rhombus + 1 trapezoid = 2 small triangles + 3 small triangles = 5 triangles = 5/6 of the hexagon.</td>
+<td class="instructor-note">$\frac{1}{3} + \frac{1}{2} = \frac{2}{6} + \frac{3}{6} = \frac{5}{6}$</td>
+</tr>
+<tr>
+<td>$\frac{1}{6} + \frac{2}{3}$ =</td>
+<td class="instructor-note">Draw 1 triangle (1/6) and 2 rhombi (2/3). 1 triangle + 2 rhombi = 1 triangle + 4 triangles = 5 triangles = 5/6.</td>
+<td class="instructor-note">$\frac{1}{6} + \frac{2}{3} = \frac{1}{6} + \frac{4}{6} = \frac{5}{6}$</td>
+</tr>
+<tr>
+<td>$\frac{3}{5} + \frac{2}{3}$ =</td>
+<td class="instructor-note">No pattern blocks fit fifths perfectly. Use a length model (number line or bar). 3/5 + 2/3: common denominator is 15. $\frac{3}{5} = \frac{9}{15}$; $\frac{2}{3} = \frac{10}{15}$. Total = 19/15 = 1 4/15.</td>
+<td class="instructor-note">$\frac{3}{5} + \frac{2}{3} = \frac{9}{15} + \frac{10}{15} = \frac{19}{15} = 1\frac{4}{15}$</td>
+</tr>
+<tr>
+<td>$1\frac{1}{3} + \frac{5}{6}$ =</td>
+<td class="instructor-note">Draw 1 hexagon + 1 rhombus for the 1 1/3, then add 5 triangles (5/6). Or: 1 + 1/3 + 5/6 = 1 + 2/6 + 5/6 = 1 + 7/6 = 1 + 1 1/6 = 2 1/6.</td>
+<td class="instructor-note">$1\frac{1}{3} + \frac{5}{6} = 1 + \frac{1}{3} + \frac{5}{6} = 1 + \frac{2}{6} + \frac{5}{6} = 1\frac{7}{6} = 2\frac{1}{6}$</td>
+</tr>
+</table>
+</div>
+
+<h3>Fraction Subtraction with Pattern Blocks</h3>
+
+<p><strong>Key Idea:</strong> Remove pattern blocks or compare lengths. Use equivalent fractions to show common denominators.</p>
+
+<div class="standards-box">
+<table>
+<tr>
+<th>Problem</th>
+<th>Drawing</th>
+<th>Notation</th>
+</tr>
+<tr>
+<td>$1 - \frac{1}{6}$ =</td>
+<td class="instructor-note">Draw 1 hexagon. Remove 1 triangle (1/6). Remaining: 5 triangles = 5/6.</td>
+<td class="instructor-note">$1 - \frac{1}{6} = \frac{6}{6} - \frac{1}{6} = \frac{5}{6}$</td>
+</tr>
+<tr>
+<td>$\frac{5}{6} - \frac{1}{3}$ =</td>
+<td class="instructor-note">Draw 5 triangles (5/6). Remove 1 rhombus (which is 2 triangles or 1/3). Remaining: 5 triangles &minus; 2 triangles = 3 triangles = 3/6 = 1/2.</td>
+<td class="instructor-note">$\frac{5}{6} - \frac{1}{3} = \frac{5}{6} - \frac{2}{6} = \frac{3}{6} = \frac{1}{2}$</td>
+</tr>
+<tr>
+<td>$\frac{3}{2} - \frac{5}{6}$ =</td>
+<td class="instructor-note">Draw 1 hexagon + 1 trapezoid (3/2 = 1 1/2). Subtract 5 triangles (5/6). Convert: 3/2 = 9/6. Remove 5 triangles from 9 triangles = 4 triangles = 4/6 = 2/3.</td>
+<td class="instructor-note">$\frac{3}{2} - \frac{5}{6} = \frac{9}{6} - \frac{5}{6} = \frac{4}{6} = \frac{2}{3}$</td>
+</tr>
+<tr>
+<td>$\frac{5}{8} - \frac{1}{3}$ =</td>
+<td class="instructor-note">No pattern blocks for eighths. Use a length model (number line). Common denominator: 24. $\frac{5}{8} = \frac{15}{24}$; $\frac{1}{3} = \frac{8}{24}$. Difference = 7/24.</td>
+<td class="instructor-note">$\frac{5}{8} - \frac{1}{3} = \frac{15}{24} - \frac{8}{24} = \frac{7}{24}$</td>
+</tr>
+</table>
+</div>
+
+<hr class="section-break">
+
+<h2>Summary: Unit 4 Key Learning Goals</h2>
+
+<div class="note-box">
+<p><strong>Three Fraction Models:</strong> Area (rectangles, circles), Length (number lines, ropes), Set (collections, discrete objects). Each reveals different aspects of fractions.</p>
+
+<p><strong>Five Fraction Constructs:</strong> Part-whole, measurement, division, operator, ratio. Problems can be framed using one or more constructs.</p>
+
+<p><strong>Partitioning and Iterating:</strong> The denominator tells how many parts; the numerator tells how many times to iterate the unit fraction. This is foundational for fraction sense.</p>
+
+<p><strong>The Whole Matters:</strong> Without a clear, consistent whole, fractions are meaningless. 1/3 of a large pizza ≠ 1/3 of a small pizza.</p>
+
+<p><strong>Equivalent Fractions:</strong> Arise by partitioning pieces further or combining smaller pieces. Language: &ldquo;Two-fourths and four-eighths name the same amount.&rdquo;</p>
+
+<p><strong>Fraction Comparisons:</strong> Use benchmarks (1/2, 1) and reasoning strategies rather than always converting to a common denominator. This supports number sense.</p>
+
+<p><strong>Decimals as Fractions:</strong> Decimals are fractions with denominators of 10, 100, 1000, etc. Use language like &ldquo;five tenths&rdquo; and &ldquo;fifty hundredths&rdquo; to connect the two notations.</p>
+
+<p><strong>Visual Models are Essential:</strong> At all grade levels (3&ndash;6), support fraction understanding with length models, area models, and set models before expecting symbolic work.</p>
+</div>
+
+</body>
+</html>

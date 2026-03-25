@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E343 Unit 1 — Course Packet (Filled-In Guided Notes)</title>
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
+    startup: { pageReady: () => MathJax.startup.defaultPageReady() }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+<style>
+  :root {
+    --blue: #4472C4;
+    --dark: #1a1a2e;
+    --bg: #fafafa;
+    --card-bg: #fff;
+    --border: #ddd;
+    --muted: #666;
+    --heading-font: 'Georgia', 'Times New Roman', serif;
+    --body-font: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--dark);
+    background: var(--bg);
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+
+  h1 {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+    color: var(--dark);
+  }
+
+  h2 {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    color: var(--dark);
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 0.3rem;
+    margin: 2.5rem 0 1rem;
+  }
+
+  h3 {
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    color: var(--dark);
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 0.3rem;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--muted);
+    margin-bottom: 2rem;
+  }
+
+  p { margin: 0.5rem 0; }
+
+  ul, ol {
+    margin: 0.5rem 0 0.5rem 2rem;
+  }
+
+  li {
+    margin: 0.3rem 0;
+  }
+
+  .instructor-note {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .note-box {
+    background: #f0f4fa;
+    border-left: 4px solid var(--blue);
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .note-box p, .note-box li {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .standards-box {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin: 0.8rem 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  .standards-box .grade-label {
+    font-weight: bold;
+    color: var(--dark);
+    margin-bottom: 0.3rem;
+  }
+
+  .standards-box .filled {
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .standards-box .prompt {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: #f0f4fa;
+    font-weight: bold;
+    color: var(--dark);
+  }
+
+  .practice-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 0;
+  }
+
+  .practice-card h4 {
+    margin-top: 0;
+    color: var(--dark);
+  }
+
+  .practice-card .practice-name {
+    font-weight: bold;
+    color: var(--blue);
+    font-size: 1.05rem;
+  }
+
+  .week-header {
+    background: var(--blue);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    margin: 3rem 0 1.5rem;
+    font-family: var(--heading-font);
+    font-size: 1.3rem;
+  }
+
+  .day-header {
+    font-family: var(--heading-font);
+    font-size: 1.15rem;
+    color: var(--blue);
+    font-weight: bold;
+    margin: 2rem 0 0.8rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid var(--blue);
+  }
+
+  .discussion-label {
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  hr.section-break {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+  }
+
+  .page-break { page-break-before: always; }
+
+  @media print {
+    body { max-width: 100%; padding: 0.5in; font-size: 11pt; }
+    .week-header { break-before: page; }
+    .note-box { break-inside: avoid; }
+    .standards-box { break-inside: avoid; }
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 1rem; font-size: 15px; }
+    .two-col { grid-template-columns: 1fr; }
+    h1 { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<h1>E343 Unit 1 — Course Packet</h1>
+<p class="subtitle">Filled-In Guided Notes &middot; Spring 2026</p>
+
+<!-- ============================================================ -->
+<!-- WEEK 1: 5 PRACTICES & LESSON STRUCTURE -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 1 — 5 Practices Framework &amp; Lesson Structure</div>
+
+<div class="day-header">Day 1: Course Introduction &amp; 5 Practices Framework</div>
+
+<h3>What Is the 5 Practices Framework?</h3>
+
+<p>The 5 Practices is a model for responsive teaching developed by Smith &amp; Stein that helps teachers plan and execute high-quality mathematics instruction. The framework consists of five interconnected instructional practices:</p>
+
+<div class="practice-card">
+  <p class="practice-name">1. Anticipating</p>
+  <p>Before instruction, the teacher solves problems, identifies likely student strategies, representations, and possible misconceptions. This mental work prepares the teacher to recognize and respond to student thinking during the lesson.</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">2. Monitoring</p>
+  <p>During exploration/problem-solving, the teacher circulates, listens, questions, and observes student strategies. The goal is to understand what students are thinking, not to evaluate correctness.</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">3. Selecting</p>
+  <p>The teacher identifies which student strategies, representations, and explanations will be shared with the whole class during the summarize phase. Selection is purposeful and strategic, not random.</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">4. Sequencing</p>
+  <p>The teacher decides the order in which selected student strategies will be presented. Sequencing moves from concrete to abstract, simpler to more complex, or builds connections between different approaches.</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">5. Connecting</p>
+  <p>During whole-class discussion, the teacher facilitates connections between different student strategies and links them to mathematical concepts and procedures. Students see how different approaches relate to each other and to the learning goal.</p>
+</div>
+
+<div class="note-box">
+  <p class="instructor-note">Key point:</p> The 5 Practices are not separate steps. They are interconnected and iterative. Anticipating informs what you monitor. Monitoring informs what you select and sequence. All of this comes together in connecting.
+</div>
+
+<div class="day-header">Day 2: Launch-Explore-Summarize Lesson Structure</div>
+
+<h3>The Launch-Explore-Summarize (L-E-S) Lesson Structure</h3>
+
+<p>The Launch-Explore-Summarize model is a lesson structure that creates space for student thinking and teacher responsiveness.</p>
+
+<div class="practice-card">
+  <p class="practice-name">Launch</p>
+  <p>The teacher introduces the problem or activity to the whole class. The launch activates prior knowledge, clarifies the context, and ensures all students understand what they are being asked to do. The launch should NOT provide a solution method.</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">Explore</p>
+  <p>Students work on the problem individually, in pairs, or in small groups. The teacher circulates, asks questions to understand thinking, and gathers information about student strategies and misconceptions. This is not lecture time.</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">Summarize</p>
+  <p>The whole class comes together to discuss student strategies and solutions. The teacher uses the strategies identified during monitoring to build understanding of the mathematical concept. Students make connections between different approaches.</p>
+</div>
+
+<div class="note-box">
+  <p class="instructor-note">Why this structure?</p> L-E-S shifts control from the teacher to the student. Students generate ideas, test conjectures, and refine thinking. The teacher responds to student thinking rather than delivering a predetermined lesson. This creates genuine opportunities for students to construct mathematical understanding.
+</div>
+
+<h3>Illustrative Mathematics Lesson Structure</h3>
+
+<p>Illustrative Mathematics (IM) lessons follow a larger structure within which individual activities have their own L-E-S phases:</p>
+
+<ol>
+  <li><strong>Warm Up:</strong> A short activity (5–10 min) that activates prior knowledge or introduces a concept lightly. Does not always have L-E-S; can be more direct.</li>
+  <li><strong>Lesson Activities:</strong> The main work of the lesson. Each activity has Launch, Explore, Summarize phases. There are typically 2–3 activities per lesson.</li>
+  <li><strong>Lesson Synthesis:</strong> A brief whole-class discussion (5–10 min) that connects the activities to the learning goal. Different from activity summaries.</li>
+  <li><strong>Cool Down:</strong> A short independent task (3–5 min) that assesses whether students are meeting the lesson goal.</li>
+</ol>
+
+<div class="standards-box">
+  <p class="prompt">How do the 5 Practices map to the L-E-S structure?</p>
+  <div class="filled">
+    <ul>
+      <li><strong>Anticipating:</strong> Happens before all phases. The teacher does the problem, anticipates strategies, and plans the launch.</li>
+      <li><strong>Monitoring:</strong> Happens primarily during Explore. The teacher circulates and observes student work.</li>
+      <li><strong>Selecting &amp; Sequencing:</strong> Happens during Explore and in preparation for Summarize. The teacher identifies which strategies to highlight and in what order.</li>
+      <li><strong>Connecting:</strong> Happens during Summarize. The teacher facilitates discussion and builds connections between strategies.</li>
+    </ul>
+    <p><span class="instructor-note">Key insight:</span> The 5 Practices are not a separate curriculum. They are the thinking and actions that make L-E-S responsive to student thinking.</p>
+  </div>
+</div>
+
+<hr class="section-break">
+
+<!-- ============================================================ -->
+<!-- WEEK 2: LEARNING GOALS VS. PERFORMANCE GOALS -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 2 — Learning Goals &amp; Performance Goals</div>
+
+<div class="day-header">Day 1 &amp; 2: Understanding Learning &amp; Performance Goals</div>
+
+<h3>What Is the Difference?</h3>
+
+<div class="practice-card">
+  <p class="practice-name">Learning Goal</p>
+  <p><strong>What students should UNDERSTAND.</strong> Learning goals describe conceptual understanding, big ideas, and mathematical thinking. They answer: "What is the mathematical idea behind this?" Learning goals are often broad and less easily measured directly.</p>
+  <p><strong>Example:</strong> "Students understand that subtraction is the inverse of addition" or "Students understand that area is measured in square units."</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">Performance Goal</p>
+  <p><strong>What students should be able to DO.</strong> Performance goals describe observable, measurable behaviors. They answer: "What can students do to show they are learning?" Performance goals are specific and can be directly observed or tested.</p>
+  <p><strong>Example:</strong> "Students can solve one-step subtraction problems within 20" or "Students can measure area using grid paper and count square units."</p>
+</div>
+
+<h3>The Critical Distinction</h3>
+
+<div class="standards-box">
+  <p class="prompt">Can a student meet a performance goal without achieving the learning goal?</p>
+  <div class="filled">
+    <p><strong>Yes—and this is the key problem with performance goals alone.</strong></p>
+    <p><strong>Example 1 (Two-Digit Addition):</strong> A student can correctly solve $23 + 15 = 38$ using the standard algorithm (lining up digits, adding ones, adding tens, writing the answer). They met the performance goal: "Solve two-digit addition problems." But they may not understand what the digits represent or why the algorithm works. They may not understand the learning goal: "Addition combines quantities while preserving place value."</p>
+    <p><strong>Example 2 (Counting Squares):</strong> A student can correctly count and write "24 squares" when given a $4 \times 6$ grid. They met the performance goal: "Count unit squares in a rectangular array." But they may not understand the learning goal: "A rectangle with dimensions 4 and 6 has area $4 \times 6 = 24$ square units" (the idea that area is multiplication, not just counting).</p>
+  </div>
+</div>
+
+<div class="note-box">
+  <p class="instructor-note">Why this matters for teaching:</p> In traditional instruction, teachers often focus on performance goals and observable behaviors. But genuine mathematical learning requires the learning goal. When we make learning goals explicit, we shift student attention from "getting the right answer" to "understanding the idea."
+</div>
+
+<h3>Writing Both Kinds of Goals</h3>
+
+<div class="standards-box">
+  <p class="prompt">For a lesson on comparing two-digit numbers, write a learning goal and a performance goal.</p>
+  <div class="filled">
+    <p><strong>Learning Goal:</strong> Students understand that comparing two-digit numbers depends on comparing tens first, then ones if tens are equal (place value structure determines magnitude).</p>
+    <p><strong>Performance Goal:</strong> Students can compare two-digit numbers using the symbols $&lt;$, $&gt;$, and $=$ and can explain which number is larger and why.</p>
+  </div>
+</div>
+
+<div class="standards-box">
+  <p class="prompt">For a lesson on fact fluency with addition within 10, write both goals.</p>
+  <div class="filled">
+    <p><strong>Learning Goal:</strong> Students understand that addition is commutative (the order doesn't matter) and that some pairs of numbers are "friendly" (like 5 + 5) and help us find other facts quickly.</p>
+    <p><strong>Performance Goal:</strong> Students can recall basic addition facts within 10 with automaticity and can explain their strategy for finding facts they haven't memorized.</p>
+  </div>
+</div>
+
+<hr class="section-break">
+
+<!-- ============================================================ -->
+<!-- WEEK 3: ANTICIPATING STUDENT THINKING -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 3 — Anticipating Student Thinking</div>
+
+<div class="day-header">Day 1: The Three Phases of Anticipating</div>
+
+<h3>What Is Anticipating?</h3>
+
+<p>Anticipating is the first and foundational practice. Before teaching a lesson, the teacher solves all the problems students will solve and thinks deeply about how students might solve them. This mental work prepares the teacher to recognize and respond to student thinking during instruction.</p>
+
+<h3>Phase 1: Getting Inside the Problem</h3>
+
+<p><strong>Teacher action:</strong> Solve the problem(s) yourself. Don't just check that an answer is correct; understand the problem from multiple angles.</p>
+
+<ul>
+  <li>Solve the problem multiple ways.</li>
+  <li>Think about what prior knowledge students need.</li>
+  <li>Think about what misconceptions students might have.</li>
+  <li>Imagine how students might solve it (likely solution paths).</li>
+  <li>Imagine incorrect strategies or partial understanding students might demonstrate.</li>
+</ul>
+
+<div class="standards-box">
+  <p class="prompt">Example: Students are asked, "There are 8 birds on a branch. Some fly away. Now there are 5 birds. How many birds flew away?"</p>
+  <div class="filled">
+    <p><strong>Solve it yourself:</strong> $8 - 5 = 3$. There are 3 birds missing.</p>
+    <p><strong>Likely student strategies:</strong></p>
+    <ul>
+      <li>Count on from 5: 6, 7, 8. Count the fingers. Answer: 3.</li>
+      <li>Draw 8 birds, cross out to show 5 remaining, count what's crossed out.</li>
+      <li>Decompose: "I know $5 + 3 = 8$, so the answer is 3."</li>
+      <li>Memorized fact: "I know 8 minus 5 is 3."</li>
+    </ul>
+    <p><strong>Possible misconceptions:</strong></p>
+    <ul>
+      <li>Student adds: $8 + 5 = 13$ (misunderstands "fly away").</li>
+      <li>Student answers "5" (confuses the result with the unknown).</li>
+      <li>Student counts incorrect: starts at 1 instead of 6, gets 4.</li>
+    </ul>
+  </div>
+</div>
+
+<h3>Phase 2: Planning to Respond to Student Thinking</h3>
+
+<p><strong>Teacher action:</strong> Write down assessing and advancing questions. These are questions you will ask during monitoring to understand and push student thinking.</p>
+
+<ul>
+  <li><strong>Assessing questions</strong> help you understand what the student is thinking. They are open and don't judge. Examples: "Tell me how you solved this." "What does this picture show?" "Where did you start counting?"</li>
+  <li><strong>Advancing questions</strong> help move a student's thinking forward. They encourage reflection, connection, and deeper thinking. Examples: "Can you show me that a different way?" "What would happen if...?" "How is your strategy like...?"</li>
+</ul>
+
+<div class="standards-box">
+  <p class="prompt">For the birds problem, write 2 assessing questions and 2 advancing questions.</p>
+  <div class="filled">
+    <p><strong>Assessing Questions:</strong></p>
+    <ul>
+      <li>"Can you tell me what happened in this problem? What do we know?"</li>
+      <li>"Show me how you found your answer. Walk me through your thinking."</li>
+    </ul>
+    <p><strong>Advancing Questions:</strong></p>
+    <ul>
+      <li>"Can you show me your answer using a different strategy?" (invites seeing multiple approaches)</li>
+      <li>"If 3 birds flew away but there were still 5 left, how many birds started on the branch?" (extends thinking to the inverse)</li>
+    </ul>
+  </div>
+</div>
+
+<h3>Phase 3: Planning to Notice Student Thinking</h3>
+
+<p><strong>Teacher action:</strong> Create a monitoring chart. This is a place to record observations about which students used which strategies, who had misconceptions, and what needs attention during the summary.</p>
+
+<p>A simple monitoring chart has:</p>
+<ul>
+  <li>Student names or initials down the left.</li>
+  <li>The problem(s) across the top.</li>
+  <li>Space to note which strategy the student used, whether they got it right, and what misconceptions you noticed.</li>
+</ul>
+
+<div class="standards-box">
+  <p class="prompt">Create a monitoring chart for the birds problem with 5 students.</p>
+  <div class="filled">
+    <p>Here's a simple format:</p>
+    <table>
+      <tr>
+        <th>Student</th>
+        <th>Strategy Used</th>
+        <th>Correct?</th>
+        <th>Notes for Discussion</th>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <td>Counted on fingers from 5 to 8</td>
+        <td>Yes</td>
+        <td>Quick count-on strategy; share as efficient</td>
+      </tr>
+      <tr>
+        <td>Blake</td>
+        <td>Drew 8 circles, crossed out 5</td>
+        <td>Yes</td>
+        <td>Visual; connects to concrete; good to share</td>
+      </tr>
+      <tr>
+        <td>Casey</td>
+        <td>Added 8 + 5</td>
+        <td>No</td>
+        <td>Misunderstood "flew away"; probe during explore</td>
+      </tr>
+      <tr>
+        <td>Dana</td>
+        <td>Said "I know 5 + 3 = 8"</td>
+        <td>Yes</td>
+        <td>Inverse thinking; very sophisticated; discuss</td>
+      </tr>
+      <tr>
+        <td>Elliot</td>
+        <td>Wrote 8 - 5 = 3</td>
+        <td>Yes</td>
+        <td>Symbolic; can explain reasoning</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<h3>What Makes a Complete Anticipation?</h3>
+
+<p>A complete anticipation includes:</p>
+
+<ol>
+  <li><strong>Explanation:</strong> A clear description of the strategy or approach. How would you explain this method to someone else?</li>
+  <li><strong>Representation:</strong> A picture, diagram, or model showing the strategy. How would you draw or show this?</li>
+  <li><strong>Notation (if applicable):</strong> The symbolic or formal version of the strategy. How would this look in standard mathematical notation?</li>
+</ol>
+
+<div class="standards-box">
+  <p class="prompt">Create a complete anticipation for one student strategy on the birds problem.</p>
+  <div class="filled">
+    <p><strong>Strategy: Count On from 5</strong></p>
+    <p><strong>Explanation:</strong> The student starts at 5 (the remaining birds) and counts up to 8 (the starting number), using fingers or objects to keep track. They count: 6 (one finger), 7 (two fingers), 8 (three fingers). The number of fingers used is the answer.</p>
+    <p><strong>Representation:</strong> [Drawing would show: 5 on the left, then 3 fingers or objects next to it, arrows showing counting up] 5 → 6 → 7 → 8</p>
+    <p><strong>Notation:</strong> $5 + 3 = 8$, which can be rewritten as $8 - 5 = 3$.</p>
+  </div>
+</div>
+
+<div class="day-header">Day 2: Comparing Anticipations</div>
+
+<h3>The Mrs. Tyus Markers Task</h3>
+
+<p>In the 5 Practices book, Smith &amp; Stein present a task about markers. Mrs. Tyus asked students: "How can I arrange 12 markers into two equal groups?" Different students came up with different solutions. Let's examine how to anticipate and compare multiple student strategies.</p>
+
+<div class="standards-box">
+  <p class="prompt">When comparing multiple anticipations, look for:</p>
+  <div class="filled">
+    <ul>
+      <li><strong>Similarities in understanding:</strong> Do different strategies reveal the same underlying mathematical concept?</li>
+      <li><strong>Differences in representation:</strong> How do different visual models show the idea differently?</li>
+      <li><strong>Differences in notation:</strong> Does one student write it symbolically while another uses a picture?</li>
+      <li><strong>Progression from concrete to abstract:</strong> Which strategies are most concrete (objects or pictures)? Which are more abstract (numbers or symbols)?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="standards-box">
+  <p class="prompt">How would you arrange 12 markers into two equal groups? Provide an explanation, representation, and notation.</p>
+  <div class="filled">
+    <p><strong>Possible Anticipation 1: Sharing Strategy</strong></p>
+    <p><strong>Explanation:</strong> Deal out the markers one at a time to two piles, alternating. Keep going until all markers are distributed. Count each pile to verify they're equal.</p>
+    <p><strong>Representation:</strong> [Two columns of circles, with markers alternating into each column]</p>
+    <p><strong>Notation:</strong> $12 \div 2 = 6$ or $6 + 6 = 12$</p>
+
+    <p><strong>Possible Anticipation 2: Skip Counting Strategy</strong></p>
+    <p><strong>Explanation:</strong> Skip count by 2s: 2, 4, 6, 8, 10, 12. Since we skip count 6 times, we have 6 groups of 2 markers, which is the same as 2 groups of 6.</p>
+    <p><strong>Representation:</strong> [6 groups of 2 circles each, or 2 groups of 6 circles]</p>
+    <p><strong>Notation:</strong> $6 \times 2 = 12$ or $2 \times 6 = 12$</p>
+
+    <p><strong>Possible Anticipation 3: Area Model</strong></p>
+    <p><strong>Explanation:</strong> Draw a rectangle with one dimension 2 and count up the other dimension until you reach 12 units. The rectangle is $2 \times 6$, which means two groups of six.</p>
+    <p><strong>Representation:</strong> [A $2 \times 6$ grid of squares]</p>
+    <p><strong>Notation:</strong> $2 \times 6 = 12$</p>
+  </div>
+</div>
+
+<hr class="section-break">
+
+<!-- ============================================================ -->
+<!-- WEEK 4: PREPARING LESSONS & TAI ACTIVITIES -->
+<!-- ============================================================ -->
+
+<div class="week-header">Week 4 — Preparing Lessons &amp; Think Aloud Interviews</div>
+
+<div class="day-header">Day 1 &amp; 2: Guided Reading Notes &amp; TAI Preparation</div>
+
+<h3>Guided Reading Notes: Before, During, After Structure</h3>
+
+<p>One key tool in Unit 1 is the guided reading notes handout. This handout helps you extract the main ideas from a Van de Walle reading or curriculum document. It has three sections:</p>
+
+<div class="practice-card">
+  <p class="practice-name">Content That Occurs BEFORE Your Lesson</p>
+  <p>What foundation or prior concepts do students need to understand before they engage with your specific lesson? What does the reading say about prerequisite ideas? This helps you understand what learning goals students already need to have achieved.</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">Content ABOUT Your Lesson</p>
+  <p>What are the main ideas, strategies, and common misconceptions in your specific lesson topic? What does the reading say about how students think about this idea? What representations are important? This directly informs your learning goal and anticipations.</p>
+</div>
+
+<div class="practice-card">
+  <p class="practice-name">Content That Occurs AFTER Your Lesson</p>
+  <p>What extensions or more complex ideas come next? How does this lesson connect to future learning? This helps you understand the bigger mathematical picture and prepares you to make connections during the summary.</p>
+</div>
+
+<div class="note-box">
+  <p class="instructor-note">Why this structure?</p> In Unit 1, you may be teaching a single lesson from a larger unit. The reading gives you the context. By identifying content before/during/after, you understand where your lesson sits in the progression and what students need from you.
+</div>
+
+<h3>Think Aloud Interviews (TAI): Overview</h3>
+
+<p>A Think Aloud Interview is an assessment where a teacher works one-on-one with a student and asks them to solve a problem while verbalizing their thinking. It's different from instruction:</p>
+
+<ul>
+  <li>The teacher does NOT teach the student how to solve the problem.</li>
+  <li>The teacher does NOT correct the student's work.</li>
+  <li>The teacher asks questions to understand the student's thinking and strategy.</li>
+  <li>The interview reveals what the student understands, not what they can do after instruction.</li>
+</ul>
+
+<h3>Selecting and Preparing TAI Activities</h3>
+
+<p>For Unit 1, you will conduct TAI interviews using activities from Van de Walle or Illustrative Mathematics. The activity you choose should:</p>
+
+<ul>
+  <li>Connect to the content of your lesson or a related prior concept.</li>
+  <li>Be rich enough to reveal student thinking (not a single fact or procedure).</li>
+  <li>Be doable in 10–15 minutes.</li>
+  <li>Invite multiple strategies or approaches.</li>
+</ul>
+
+<div class="standards-box">
+  <p class="prompt">When selecting an activity from Van de Walle or IM for your TAI, consider:</p>
+  <div class="filled">
+    <ul>
+      <li><strong>Does it reveal understanding or just performance?</strong> An activity that asks "count the squares" is performance. An activity that asks "how many squares?" and lets you see if they counted incorrectly or understand the meaning reveals thinking.</li>
+      <li><strong>Is there room for different strategies?</strong> Activities that allow multiple solution paths are better because they reveal more about how the student thinks.</li>
+      <li><strong>Does it connect to your lesson?</strong> If you're teaching two-digit subtraction, choose an activity about combining quantities or understanding place value, not about a completely unrelated topic.</li>
+      <li><strong>Is the activity clear and doable?</strong> Read the activity carefully. Make sure you understand what the student is being asked to do and that it's developmentally appropriate.</li>
+    </ul>
+  </div>
+</div>
+
+<h3>Group Presentation Assignment</h3>
+
+<p>In Week 5–6, you will present your lesson to a group of peers in a "professional learning community" format. Think of this as preparing curriculum for other teachers. The presentation includes:</p>
+
+<ul>
+  <li>An overview of your lesson: the learning goal, what students will do, what the teacher will do.</li>
+  <li>Key anticipations: what strategies you expect to see and common misconceptions.</li>
+  <li>How you plan to monitor: what you'll look for during the explore phase.</li>
+  <li>How you plan to connect: which strategies you'll highlight and why, in what order.</li>
+</ul>
+
+<div class="note-box">
+  <p class="instructor-note">Professional learning community context:</p> In real schools, grade-level teams often work together to develop lessons and units. One person might take the lead on a particular topic, study the curriculum, anticipate student thinking, and then present to the team for feedback and refinement. This is the real-world context for your group presentation assignment.
+</div>
+
+<hr class="section-break">
+
+<h2>Summary: Key Takeaways from Unit 1</h2>
+
+<div class="standards-box">
+  <div class="filled">
+    <p><strong>The 5 Practices Framework</strong> helps you plan responsive mathematics instruction. The five practices—Anticipating, Monitoring, Selecting, Sequencing, and Connecting—work together to create lessons where student thinking drives the mathematics.</p>
+
+    <p><strong>Launch-Explore-Summarize</strong> is a lesson structure that creates space for student problem-solving and teacher responsiveness. It's embedded in curricula like Illustrative Mathematics.</p>
+
+    <p><strong>Learning Goals</strong> describe what students should understand (big ideas). <strong>Performance Goals</strong> describe what students should be able to do. Both are important; a student can meet a performance goal without achieving the learning goal.</p>
+
+    <p><strong>Anticipating</strong> happens in three phases: (1) Getting inside the problem by solving it multiple ways and imagining student strategies; (2) Planning to respond by writing assessing and advancing questions; (3) Planning to notice by creating a monitoring chart.</p>
+
+    <p><strong>A complete anticipation</strong> includes explanation, representation, and notation. It shows not just that a strategy works, but how and why.</p>
+
+    <p><strong>Guided reading notes</strong> help you extract main ideas from curriculum materials using a before/during/after structure to situate your lesson in the broader progression.</p>
+
+    <p><strong>Think Aloud Interviews</strong> are assessments where you work one-on-one with a student to understand their thinking without teaching them. TAI activities should be rich, admit multiple strategies, and connect to content.</p>
+  </div>
+</div>
+
+</body>
+</html>
