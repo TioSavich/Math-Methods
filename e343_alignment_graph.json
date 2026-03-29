@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "E343 Full Course Alignment Graph",
-    "description": "Maps Indiana Academic Standards, Van de Walle, Illustrative Mathematics, Five Practices, CDM Talk Moves, Canvas assignments, and E343 lesson plans into a queryable, Indiana-centric course graph.",
+    "description": "Indiana-centric course alignment graph mapping Indiana Academic Standards, Van de Walle, Illustrative Mathematics, Five Practices (Smith & Stein), CDM Talk Moves, Canvas assignments, and E343 lesson plans.",
     "created": "2026-03-27",
     "grade_band": "K-8",
     "scope": "Full course \u2014 Units 1-4 (Pedagogy Foundations, Discourse, Operations & Algebraic Thinking, Fractions)",
@@ -23,7 +23,6 @@
       "topic",
       "process_standard",
       "five_practice",
-      "fp_chapter",
       "cdm_chapter",
       "cdm_video",
       "cdm_lesson",
@@ -1949,17 +1948,81 @@
         ]
       },
       {
-        "id": "cdm_book",
-        "type": "fp_chapter",
-        "source": "Classroom Discussions in Mathematics (Chapin, O'Connor, Anderson)",
-        "chapter": null,
-        "title": "Classroom Discussions in Mathematics (CDM)",
-        "file": null,
-        "key_ideas": [
-          "Talk is critical: generates knowledge, gives access to others' thinking, develops vocabulary and reasoning",
-          "Four steps of talk moves: clarify/share \u2192 orient to others \u2192 deepen reasoning \u2192 engage",
-          "Specific moves: wait time, turn & talk, revoicing, say more, who can repeat, press for reasoning, agree/disagree, who can add on"
-        ]
+        "id": "fp_practice_0",
+        "type": "five_practice",
+        "label": "Setting Goals and Selecting Tasks",
+        "practice_number": 0,
+        "description": "Before instruction: establish clear, specific mathematical goals and select tasks whose cognitive demand matches those goals. Goals should specify what students will understand, not just what they will do. Task selection determines the ceiling of possible student thinking.",
+        "teacher_moves": [
+          "Identify learning goals tied to specific mathematical ideas",
+          "Select tasks with high cognitive demand",
+          "Anticipate how task features connect to goals"
+        ],
+        "chapter": "fp_ch2",
+        "subtype": "practice_description"
+      },
+      {
+        "id": "fp_practice_1",
+        "type": "five_practice",
+        "label": "Anticipating",
+        "practice_number": 1,
+        "description": "Before instruction: predict the range of strategies students might use, including correct approaches, partial understandings, and misconceptions. Anticipating prepares the teacher to recognize and respond to student thinking in real time rather than being surprised by it.",
+        "teacher_moves": [
+          "Solve the task multiple ways yourself",
+          "Predict likely student strategies and representations",
+          "Identify potential misconceptions and partial understandings",
+          "Prepare assessing and advancing questions for each anticipated strategy"
+        ],
+        "chapter": "fp_ch3",
+        "subtype": "practice_description"
+      },
+      {
+        "id": "fp_practice_2",
+        "type": "five_practice",
+        "label": "Monitoring",
+        "practice_number": 2,
+        "description": "During instruction: circulate while students work to observe and understand their mathematical thinking. Monitoring is not checking for right answers \u2014 it is building a real-time map of what strategies are present in the room and what mathematical ideas they surface.",
+        "teacher_moves": [
+          "Circulate to every group",
+          "Use assessing questions to surface student thinking",
+          "Use advancing questions to push students further",
+          "Track which strategies appear and who produced them",
+          "Note which anticipated strategies are absent"
+        ],
+        "chapter": "fp_ch4",
+        "subtype": "practice_description"
+      },
+      {
+        "id": "fp_practice_3",
+        "type": "five_practice",
+        "label": "Selecting and Sequencing",
+        "practice_number": 3,
+        "description": "During/after student work: choose which solutions to share in whole-class discussion and in what order. Selection determines what mathematical ideas the class has the opportunity to grapple with. Sequencing builds a coherent mathematical storyline \u2014 typically from concrete to abstract, from common to sophisticated, or from partial to complete.",
+        "teacher_moves": [
+          "Select solutions that advance the mathematical goal",
+          "Consider equity: who gets positioned as a mathematical thinker",
+          "Sequence from concrete to abstract",
+          "Decide where to place errors or partial solutions",
+          "Pre-notify selected students"
+        ],
+        "chapter": "fp_ch5",
+        "subtype": "practice_description"
+      },
+      {
+        "id": "fp_practice_4",
+        "type": "five_practice",
+        "label": "Connecting",
+        "practice_number": 4,
+        "description": "During whole-class discussion: help students see relationships between different solution strategies and connect those strategies to the mathematical goal. Connecting is where the mathematical learning happens \u2014 it is not enough to share strategies; the teacher must orchestrate explicit comparison, contrast, and generalization across solutions.",
+        "teacher_moves": [
+          "Ask students to compare strategies",
+          "Highlight mathematical relationships between solutions",
+          "Connect student work to the lesson's mathematical goal",
+          "Press for generalizations that go beyond specific numbers",
+          "Make explicit what might otherwise remain implicit"
+        ],
+        "chapter": "fp_ch6",
+        "subtype": "practice_description"
       }
     ],
     "process_standards": [
@@ -2034,80 +2097,6 @@
         "uuid": "f8e5c4bc-ef0c-4fad-9d59-96be5e856cbc",
         "jurisdiction": "Indiana",
         "ccss_equivalent": "MP.8"
-      }
-    ],
-    "five_practices_framework": [
-      {
-        "id": "fp_practice_0",
-        "type": "five_practice",
-        "label": "Setting Goals and Selecting Tasks",
-        "practice_number": 0,
-        "description": "Before instruction: establish clear, specific mathematical goals and select tasks whose cognitive demand matches those goals. Goals should specify what students will understand, not just what they will do. Task selection determines the ceiling of possible student thinking.",
-        "teacher_moves": [
-          "Identify learning goals tied to specific mathematical ideas",
-          "Select tasks with high cognitive demand",
-          "Anticipate how task features connect to goals"
-        ],
-        "chapter": "fp_ch2"
-      },
-      {
-        "id": "fp_practice_1",
-        "type": "five_practice",
-        "label": "Anticipating",
-        "practice_number": 1,
-        "description": "Before instruction: predict the range of strategies students might use, including correct approaches, partial understandings, and misconceptions. Anticipating prepares the teacher to recognize and respond to student thinking in real time rather than being surprised by it.",
-        "teacher_moves": [
-          "Solve the task multiple ways yourself",
-          "Predict likely student strategies and representations",
-          "Identify potential misconceptions and partial understandings",
-          "Prepare assessing and advancing questions for each anticipated strategy"
-        ],
-        "chapter": "fp_ch3"
-      },
-      {
-        "id": "fp_practice_2",
-        "type": "five_practice",
-        "label": "Monitoring",
-        "practice_number": 2,
-        "description": "During instruction: circulate while students work to observe and understand their mathematical thinking. Monitoring is not checking for right answers \u2014 it is building a real-time map of what strategies are present in the room and what mathematical ideas they surface.",
-        "teacher_moves": [
-          "Circulate to every group",
-          "Use assessing questions to surface student thinking",
-          "Use advancing questions to push students further",
-          "Track which strategies appear and who produced them",
-          "Note which anticipated strategies are absent"
-        ],
-        "chapter": "fp_ch4"
-      },
-      {
-        "id": "fp_practice_3",
-        "type": "five_practice",
-        "label": "Selecting and Sequencing",
-        "practice_number": 3,
-        "description": "During/after student work: choose which solutions to share in whole-class discussion and in what order. Selection determines what mathematical ideas the class has the opportunity to grapple with. Sequencing builds a coherent mathematical storyline \u2014 typically from concrete to abstract, from common to sophisticated, or from partial to complete.",
-        "teacher_moves": [
-          "Select solutions that advance the mathematical goal",
-          "Consider equity: who gets positioned as a mathematical thinker",
-          "Sequence from concrete to abstract",
-          "Decide where to place errors or partial solutions",
-          "Pre-notify selected students"
-        ],
-        "chapter": "fp_ch5"
-      },
-      {
-        "id": "fp_practice_4",
-        "type": "five_practice",
-        "label": "Connecting",
-        "practice_number": 4,
-        "description": "During whole-class discussion: help students see relationships between different solution strategies and connect those strategies to the mathematical goal. Connecting is where the mathematical learning happens \u2014 it is not enough to share strategies; the teacher must orchestrate explicit comparison, contrast, and generalization across solutions.",
-        "teacher_moves": [
-          "Ask students to compare strategies",
-          "Highlight mathematical relationships between solutions",
-          "Connect student work to the lesson's mathematical goal",
-          "Press for generalizations that go beyond specific numbers",
-          "Make explicit what might otherwise remain implicit"
-        ],
-        "chapter": "fp_ch6"
       }
     ],
     "cdm_chapters": [
@@ -2215,6 +2204,19 @@
         "key_topics": [
           "Common challenges in implementing talk",
           "Solutions and strategies"
+        ]
+      },
+      {
+        "id": "cdm_book",
+        "type": "fp_chapter",
+        "source": "Classroom Discussions in Mathematics (Chapin, O'Connor, Anderson)",
+        "chapter": null,
+        "title": "Classroom Discussions in Mathematics (CDM)",
+        "file": null,
+        "key_ideas": [
+          "Talk is critical: generates knowledge, gives access to others' thinking, develops vocabulary and reasoning",
+          "Four steps of talk moves: clarify/share \u2192 orient to others \u2192 deepen reasoning \u2192 engage",
+          "Specific moves: wait time, turn & talk, revoicing, say more, who can repeat, press for reasoning, agree/disagree, who can add on"
         ]
       }
     ],
@@ -5824,6 +5826,21 @@
       "from": "canvas_vid_3",
       "to": "topic_fraction_multiplication",
       "type": "provides_example"
+    },
+    {
+      "from": "lp_wk05",
+      "to": "vdw_pedagogy_discourse",
+      "type": "references"
+    },
+    {
+      "from": "lp_wk06d1",
+      "to": "vdw_pedagogy_discourse",
+      "type": "references"
+    },
+    {
+      "from": "lp_wk06d2",
+      "to": "vdw_pedagogy_discourse",
+      "type": "references"
     }
   ],
   "terminology_crosswalk": {
