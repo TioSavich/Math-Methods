@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "E343 Full Course Alignment Graph",
-    "description": "Maps Indiana Academic Standards, Van de Walle, Illustrative Mathematics, CCSS-M, Five Practices, CDM Talk Moves, Canvas assignments, and E343 lesson plans into a queryable course graph.",
+    "description": "Maps Indiana Academic Standards, Van de Walle, Illustrative Mathematics, Five Practices, CDM Talk Moves, Canvas assignments, and E343 lesson plans into a queryable, Indiana-centric course graph.",
     "created": "2026-03-27",
     "grade_band": "K-8",
     "scope": "Full course \u2014 Units 1-4 (Pedagogy Foundations, Discourse, Operations & Algebraic Thinking, Fractions)",
     "sources": {
-      "indiana_standards": "Indiana Academic Standards for Mathematics (via Learning Commons Connector / CASE Network)",
-      "ccss_m": "Common Core State Standards for Mathematics (Multi-State, via Learning Commons Connector)",
+      "indiana_standards": "Indiana Academic Standards for Mathematics (via Learning Commons Connector / CASE Network) \u2014 PRIMARY",
+      "ccss_m": "Common Core State Standards \u2014 folded as metadata into Indiana standards where equivalences exist",
       "van_de_walle": "Elementary and Middle School Mathematics: Teaching Developmentally (Van de Walle et al.)",
       "illustrative_math": "Illustrative Mathematics K-5 (https://accessim.org/k5?a=teacher&lang=en)",
       "five_practices": "Five Practices in Practice (Smith & Stein)",
@@ -16,7 +16,6 @@
     },
     "node_types": [
       "indiana_standard",
-      "ccss_standard",
       "learning_component",
       "vdw_section",
       "im_unit",
@@ -51,7 +50,7 @@
       "provides_example",
       "part_of"
     ],
-    "last_updated": "2026-03-27"
+    "last_updated": "2026-03-29"
   },
   "nodes": {
     "lesson_plans": [
@@ -914,7 +913,13 @@
         "grade": "1",
         "description": "Demonstrate fluency with addition facts and the corresponding subtraction facts within 20. Use strategies such as counting on, making ten, decomposing a number leading to a 10, using the relationship between addition and subtraction, and creating equivalent but easier or known sums.",
         "uuid": "84fe358f-9525-4655-8af3-6b7fcb822a4f",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "1.OA.C.6",
+            "description": "Add and subtract within 20, demonstrating fluency for addition and subtraction within 10. Use strategies such as counting on; making ten; decomposing a number leading to a ten; using the relationship between addition and subtraction; and creating equivalent but easier or known sums."
+          }
+        ]
       },
       {
         "id": "IN_1.CA.2",
@@ -923,7 +928,13 @@
         "grade": "1",
         "description": "Solve real-world problems involving addition and subtraction within 20 in situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all parts.",
         "uuid": "ebc275d9-c7f5-4792-8e9b-80ec4d61e4d9",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "2.OA.A.1",
+            "description": "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions."
+          }
+        ]
       },
       {
         "id": "IN_1.CA.3",
@@ -950,7 +961,17 @@
         "grade": "2",
         "description": "Solve real-world problems involving addition and subtraction within 100 in situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all parts. Use estimation to decide whether answers are reasonable.",
         "uuid": "449d97f7-73bc-4675-ace5-5634988bac8d",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "2.OA.A.1",
+            "description": "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions."
+          },
+          {
+            "code": "2.OA.C.4",
+            "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and up to 5 columns; write an equation to express the total as a sum of equal addends."
+          }
+        ]
       },
       {
         "id": "IN_2.CA.2",
@@ -1004,7 +1025,13 @@
         "grade": "3",
         "description": "Model the concept of multiplication of whole numbers using equal-sized groups, arrays, area models, and equal intervals on a number line. Model the properties of 0 and 1 in multiplication.",
         "uuid": "1d691633-1ac0-44f9-bd19-cb547e364692",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "3.OA.A.1",
+            "description": "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each."
+          }
+        ]
       },
       {
         "id": "IN_3.CA.4",
@@ -1013,7 +1040,13 @@
         "grade": "3",
         "description": "Model the concept of division of whole numbers with the following models: partitioning, sharing, and an inverse of multiplication. Model the properties of 0 and 1 in division.",
         "uuid": "cd9a5bff-51e9-4035-9d0f-7f64a7ec2102",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "3.OA.A.2",
+            "description": "Interpret whole-number quotients of whole numbers, e.g., interpret 56 \u00f7 8 as the number of objects in each share when 56 objects are partitioned equally into 8 shares."
+          }
+        ]
       },
       {
         "id": "IN_3.CA.5",
@@ -1022,7 +1055,13 @@
         "grade": "3",
         "description": "Multiply and divide within 100 using strategies such as the relationship between multiplication and division or properties of operations.",
         "uuid": "8167462e-529d-45c9-8109-cb0739b6f6d3",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "3.OA.C.7",
+            "description": "Fluently multiply and divide within 100. By the end of Grade 3, know from memory all products of two one-digit numbers."
+          }
+        ]
       },
       {
         "id": "IN_3.CA.6",
@@ -1031,7 +1070,13 @@
         "grade": "3",
         "description": "Demonstrate fluency with mastery of multiplication facts and corresponding division facts of 0 to 10.",
         "uuid": "2a70df05-87f1-4ed6-9592-dab8e834ae1a",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "3.OA.C.7",
+            "description": "Fluently multiply and divide within 100. By the end of Grade 3, know from memory all products of two one-digit numbers."
+          }
+        ]
       },
       {
         "id": "IN_3.CA.7",
@@ -1040,7 +1085,13 @@
         "grade": "3",
         "description": "Solve real-world problems involving whole number multiplication and division within 100 in situations involving equal groups, arrays, and measurement quantities.",
         "uuid": "4c75f663-ebd7-496f-9290-75659323b8c3",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "3.OA.A.3",
+            "description": "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities."
+          }
+        ]
       },
       {
         "id": "IN_4.CA.1",
@@ -1049,7 +1100,13 @@
         "grade": "4",
         "description": "Multiply a whole number of up to four digits by a one-digit whole number and multiply two two-digit numbers, using strategies based on place value and the properties of operations.",
         "uuid": "01949b4f-c205-41e7-ba71-42151deccbfd",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "4.NBT.B.5",
+            "description": "Multiply a whole number of up to four digits by a one-digit whole number, and multiply two two-digit numbers, using strategies based on place value and the properties of operations."
+          }
+        ]
       },
       {
         "id": "IN_4.CA.2",
@@ -1058,7 +1115,13 @@
         "grade": "4",
         "description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division.",
         "uuid": "4d88fc13-e8fc-4150-9971-1acfb9ec2fc2",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "4.NBT.B.6",
+            "description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division."
+          }
+        ]
       },
       {
         "id": "IN_4.CA.3",
@@ -1067,7 +1130,13 @@
         "grade": "4",
         "description": "Show how the order in which two numbers are multiplied (commutative property) and how numbers are grouped in multiplication (associative property) will not change the product. Investigate and apply the distributive property.",
         "uuid": "c01e170a-2f1e-4942-8f60-940ff7df60b6",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "3.OA.B.5",
+            "description": "Apply properties of operations as strategies to multiply and divide."
+          }
+        ]
       },
       {
         "id": "IN_4.CA.4",
@@ -1085,7 +1154,13 @@
         "grade": "5",
         "description": "Find whole-number quotients and remainders with up to four-digit dividends and two-digit divisors using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division.",
         "uuid": "aaff025b-d9c8-4c40-8ed1-cafc51250e14",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "ccss_equivalents": [
+          {
+            "code": "4.NBT.B.6",
+            "description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division."
+          }
+        ]
       },
       {
         "id": "IN_5.CA.2",
@@ -1103,7 +1178,13 @@
         "grade": "3",
         "description": "Model unit fractions as the quantity formed by 1 part when a whole is partitioned into equal parts; model non-unit fractions as the quantity formed by iterations of unit fractions. [Denominators: 2, 3, 4, 6, 8.]",
         "uuid": "df93ca5d-69d9-436a-9dd3-c6999a4252be",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "ccss_equivalents": [
+          {
+            "code": "3.NF.A.1",
+            "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b."
+          }
+        ]
       },
       {
         "id": "IN_3.NS.3",
@@ -1121,7 +1202,13 @@
         "grade": "3",
         "description": "Use fraction models to represent two simple equivalent fractions with attention to how the number and size of the parts differ even though the quantities are the same (e.g., 1/2 = 2/4, 4/6 = 2/3).",
         "uuid": "519bd4fa-ae10-483f-bc41-8a7b1d2e9a4a",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "ccss_equivalents": [
+          {
+            "code": "3.NF.A.3",
+            "description": "Explain equivalence of fractions in special cases, and compare fractions by reasoning about their size."
+          }
+        ]
       },
       {
         "id": "IN_3.NS.5",
@@ -1130,7 +1217,13 @@
         "grade": "3",
         "description": "Compare two fractions with the same numerator or the same denominator by reasoning about their size based on the same whole.",
         "uuid": "55a503bf-b117-45e5-905b-8bf2753b7aad",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "ccss_equivalents": [
+          {
+            "code": "3.NF.A.3",
+            "description": "Explain equivalence of fractions in special cases, and compare fractions by reasoning about their size."
+          }
+        ]
       },
       {
         "id": "IN_4.NS.2",
@@ -1148,7 +1241,17 @@
         "grade": "4",
         "description": "Use fraction models to represent two equivalent fractions with attention to how the number and size of the parts differ. Use this principle to generate equivalent fractions. [Denominators: 2, 3, 4, 5, 6, 8, 10, 25, 100.]",
         "uuid": "f214ef3b-91b3-48eb-9e69-ec1fe5e6b787",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "ccss_equivalents": [
+          {
+            "code": "4.NF.A.1",
+            "description": "Explain why a fraction a/b is equivalent to a fraction (n\u00d7a)/(n\u00d7b) by using visual fraction models."
+          },
+          {
+            "code": "4.NF.B.4.a",
+            "description": "Understand a fraction a/b as a multiple of 1/b."
+          }
+        ]
       },
       {
         "id": "IN_4.NS.4",
@@ -1157,7 +1260,13 @@
         "grade": "4",
         "description": "Compare two fractions with different numerators and different denominators (e.g., by creating common denominators or numerators, or by comparing to a benchmark such as 0, 1/2, and 1). Comparisons valid only when fractions refer to the same whole.",
         "uuid": "a054e739-eff6-4380-84e7-de1b802f775b",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "ccss_equivalents": [
+          {
+            "code": "4.NF.A.2",
+            "description": "Compare two fractions with different numerators and different denominators, e.g., by creating common denominators or numerators, or by comparing to a benchmark fraction such as 1/2."
+          }
+        ]
       },
       {
         "id": "IN_4.NS.5",
@@ -1166,7 +1275,13 @@
         "grade": "4",
         "description": "Write tenths and hundredths in decimal and fraction notations. Use words, models, standard form, and expanded form to represent decimal numbers to hundredths. Mentally calculate fraction and decimal equivalents for halves and fourths.",
         "uuid": "3dea2380-c553-4910-9178-37b83b62e5b6",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "ccss_equivalents": [
+          {
+            "code": "4.NF.C.5",
+            "description": "Express a fraction with denominator 10 as an equivalent fraction with denominator 100."
+          }
+        ]
       },
       {
         "id": "IN_4.NS.6",
@@ -1193,7 +1308,13 @@
         "grade": "5",
         "description": "Explain different interpretations of fractions, including as parts of a whole, parts of a set, and division of whole numbers by whole numbers.",
         "uuid": "cd20cd77-09a5-47f5-87cf-7b461b26fabd",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "ccss_equivalents": [
+          {
+            "code": "5.NF.B.3",
+            "description": "Interpret a fraction as division of the numerator by the denominator (a/b = a \u00f7 b)."
+          }
+        ]
       },
       {
         "id": "IN_5.CA.3",
@@ -1212,192 +1333,76 @@
         "description": "Solve real-world problems involving addition and subtraction of fractions referring to the same whole, including cases of unlike denominators. Use benchmark fractions and number sense to estimate and assess reasonableness.",
         "uuid": "b2eeb61a-10df-44ff-9aec-42c8a15b68e6",
         "domain": "Computation & Algebraic Thinking"
-      }
-    ],
-    "ccss_standards": [
-      {
-        "id": "CCSS_1.OA.C.6",
-        "type": "ccss_standard",
-        "code": "1.OA.C.6",
-        "grade": "1",
-        "description": "Add and subtract within 20, demonstrating fluency for addition and subtraction within 10. Use strategies such as counting on; making ten; decomposing a number leading to a ten; using the relationship between addition and subtraction; and creating equivalent but easier or known sums.",
-        "uuid": "6b9fd4e5-d7cc-11e8-824f-0242ac160002"
       },
       {
-        "id": "CCSS_2.OA.A.1",
-        "type": "ccss_standard",
-        "code": "2.OA.A.1",
+        "id": "IN_2.NS.2",
+        "type": "indiana_standard",
+        "code": "2.NS.2",
         "grade": "2",
-        "description": "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions.",
-        "uuid": "6b9beba4-d7cc-11e8-824f-0242ac160002"
+        "description": "Determine whether a group of up to 20 objects has an odd or even number of members.",
+        "domain": "Number Sense",
+        "mapped_from_ccss": "CCSS_2.OA.C.3",
+        "ccss_equivalents": [
+          {
+            "code": "2.OA.C.3",
+            "description": "Determine whether a group of objects (up to 20) has an odd or even number of members."
+          }
+        ]
       },
       {
-        "id": "CCSS_2.OA.C.3",
-        "type": "ccss_standard",
-        "code": "2.OA.C.3",
-        "grade": "2",
-        "description": "Determine whether a group of objects (up to 20) has an odd or even number of members.",
-        "uuid": "6b9e188a-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_2.OA.C.4",
-        "type": "ccss_standard",
-        "code": "2.OA.C.4",
-        "grade": "2",
-        "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and up to 5 columns; write an equation to express the total as a sum of equal addends.",
-        "uuid": "6b9ec21d-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_3.OA.A.1",
-        "type": "ccss_standard",
-        "code": "3.OA.A.1",
-        "grade": "3",
-        "description": "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each.",
-        "uuid": "6b9bfb73-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_3.OA.A.2",
-        "type": "ccss_standard",
-        "code": "3.OA.A.2",
-        "grade": "3",
-        "description": "Interpret whole-number quotients of whole numbers, e.g., interpret 56 \u00f7 8 as the number of objects in each share when 56 objects are partitioned equally into 8 shares.",
-        "uuid": "6b9d430d-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_3.OA.A.3",
-        "type": "ccss_standard",
-        "code": "3.OA.A.3",
-        "grade": "3",
-        "description": "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities.",
-        "uuid": "6b9e233f-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_3.OA.B.5",
-        "type": "ccss_standard",
-        "code": "3.OA.B.5",
-        "grade": "3",
-        "description": "Apply properties of operations as strategies to multiply and divide.",
-        "uuid": "6b9f5d5a-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_3.OA.C.7",
-        "type": "ccss_standard",
-        "code": "3.OA.C.7",
-        "grade": "3",
-        "description": "Fluently multiply and divide within 100. By the end of Grade 3, know from memory all products of two one-digit numbers.",
-        "uuid": "6ba0471b-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_4.OA.A.1",
-        "type": "ccss_standard",
-        "code": "4.OA.A.1",
+        "id": "IN_4.CA.5",
+        "type": "indiana_standard",
+        "code": "4.CA.5",
         "grade": "4",
-        "description": "Interpret a multiplication equation as a comparison, e.g., interpret 35 = 5 \u00d7 7 as a statement that 35 is 5 times as many as 7.",
-        "uuid": "6b9c0d77-d7cc-11e8-824f-0242ac160002"
+        "description": "Solve real-world problems involving multiplication of whole numbers, including multiplicative comparison (e.g., by using drawings and equations with a variable for the unknown number to represent the problem).",
+        "domain": "Computation and Algebraic Thinking",
+        "mapped_from_ccss": "CCSS_4.OA.A.1",
+        "ccss_equivalents": [
+          {
+            "code": "4.OA.A.1",
+            "description": "Interpret a multiplication equation as a comparison, e.g., interpret 35 = 5 \u00d7 7 as a statement that 35 is 5 times as many as 7."
+          }
+        ]
       },
       {
-        "id": "CCSS_4.NBT.B.5",
-        "type": "ccss_standard",
-        "code": "4.NBT.B.5",
-        "grade": "4",
-        "description": "Multiply a whole number of up to four digits by a one-digit whole number, and multiply two two-digit numbers, using strategies based on place value and the properties of operations.",
-        "uuid": "6b9f62c1-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_4.NBT.B.6",
-        "type": "ccss_standard",
-        "code": "4.NBT.B.6",
-        "grade": "4",
-        "description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division.",
-        "uuid": "6b9fe69c-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_4.NF.B.4a",
-        "type": "ccss_standard",
-        "code": "4.NF.B.4.a",
-        "grade": "4",
-        "description": "Understand a fraction a/b as a multiple of 1/b.",
-        "uuid": "6ba115f2-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_5.NF.B.3",
-        "type": "ccss_standard",
-        "code": "5.NF.B.3",
+        "id": "IN_5.CA.5",
+        "type": "indiana_standard",
+        "code": "5.CA.5",
         "grade": "5",
-        "description": "Interpret a fraction as division of the numerator by the denominator (a/b = a \u00f7 b).",
-        "uuid": "6b9e3712-d7cc-11e8-824f-0242ac160002"
+        "description": "Use visual fraction models to multiply a fraction by a fraction or a whole number.",
+        "domain": "Computation and Algebraic Thinking",
+        "mapped_from_ccss": "CCSS_5.NF.B.4",
+        "uuid": "8dd47169-9a11-4b4a-82b7-07e201b1b229",
+        "ccss_equivalents": [
+          {
+            "code": "5.NF.B.4",
+            "description": "Apply and extend previous understandings of multiplication to multiply a fraction or whole number by a fraction."
+          },
+          {
+            "code": "5.NF.B.5",
+            "description": "Interpret multiplication as scaling (resizing)."
+          },
+          {
+            "code": "5.NF.B.6",
+            "description": "Solve real world problems involving multiplication of fractions and mixed numbers."
+          }
+        ]
       },
       {
-        "id": "CCSS_5.NF.B.5",
-        "type": "ccss_standard",
-        "code": "5.NF.B.5",
+        "id": "IN_5.CA.6",
+        "type": "indiana_standard",
+        "code": "5.CA.6",
         "grade": "5",
-        "description": "Interpret multiplication as scaling (resizing).",
-        "uuid": "6b9f70d0-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_5.NF.B.6",
-        "type": "ccss_standard",
-        "code": "5.NF.B.6",
-        "grade": "5",
-        "description": "Solve real world problems involving multiplication of fractions and mixed numbers.",
-        "uuid": "6b9ff014-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_3.NF.A.1",
-        "type": "ccss_standard",
-        "code": "3.NF.A.1",
-        "grade": "3",
-        "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b.",
-        "uuid": "6b9bf846-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_3.NF.A.3",
-        "type": "ccss_standard",
-        "code": "3.NF.A.3",
-        "grade": "3",
-        "description": "Explain equivalence of fractions in special cases, and compare fractions by reasoning about their size.",
-        "uuid": "6b9e210d-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_4.NF.A.1",
-        "type": "ccss_standard",
-        "code": "4.NF.A.1",
-        "grade": "4",
-        "description": "Explain why a fraction a/b is equivalent to a fraction (n\u00d7a)/(n\u00d7b) by using visual fraction models.",
-        "uuid": "6b9c09e2-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_4.NF.A.2",
-        "type": "ccss_standard",
-        "code": "4.NF.A.2",
-        "grade": "4",
-        "description": "Compare two fractions with different numerators and different denominators, e.g., by creating common denominators or numerators, or by comparing to a benchmark fraction such as 1/2.",
-        "uuid": "6b9d4e66-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_4.NF.C.5",
-        "type": "ccss_standard",
-        "code": "4.NF.C.5",
-        "grade": "4",
-        "description": "Express a fraction with denominator 10 as an equivalent fraction with denominator 100.",
-        "uuid": "6b9f6583-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_5.NF.B.4",
-        "type": "ccss_standard",
-        "code": "5.NF.B.4",
-        "grade": "5",
-        "description": "Apply and extend previous understandings of multiplication to multiply a fraction or whole number by a fraction.",
-        "uuid": "6b9edad5-d7cc-11e8-824f-0242ac160002"
-      },
-      {
-        "id": "CCSS_5.NF.B.7",
-        "type": "ccss_standard",
-        "code": "5.NF.B.7",
-        "grade": "5",
-        "description": "Apply and extend previous understandings of division to divide unit fractions by whole numbers and whole numbers by unit fractions.",
-        "uuid": "6ba053e8-d7cc-11e8-824f-0242ac160002"
+        "description": "Use visual fraction models and numbers to divide a fraction by a fraction or a whole number.",
+        "domain": "Computation and Algebraic Thinking",
+        "mapped_from_ccss": "CCSS_5.NF.B.7",
+        "uuid": "17981955-5ef2-4c42-b21c-326e84aa306e",
+        "ccss_equivalents": [
+          {
+            "code": "5.NF.B.7",
+            "description": "Apply and extend previous understandings of division to divide unit fractions by whole numbers and whole numbers by unit fractions."
+          }
+        ]
       }
     ],
     "learning_components": [
@@ -3807,11 +3812,6 @@
     },
     {
       "from": "lp_wk09d2",
-      "to": "CCSS_2.OA.A.1",
-      "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk09d2",
       "to": "vdw_ch9_addition_structures",
       "type": "references"
     },
@@ -3857,11 +3857,6 @@
     },
     {
       "from": "lp_wk10d1",
-      "to": "CCSS_1.OA.C.6",
-      "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk10d1",
       "to": "vdw_ch10_add_strategies",
       "type": "references"
     },
@@ -3902,16 +3897,6 @@
     },
     {
       "from": "lp_wk10d2",
-      "to": "CCSS_3.OA.A.1",
-      "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk10d2",
-      "to": "CCSS_3.OA.A.2",
-      "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk10d2",
       "to": "vdw_ch9_mult_structures",
       "type": "references"
     },
@@ -3942,12 +3927,7 @@
     },
     {
       "from": "lp_wk11d1",
-      "to": "CCSS_3.OA.C.7",
-      "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk11d1",
-      "to": "CCSS_3.OA.B.5",
+      "to": "IN_4.CA.3",
       "type": "teaches_toward"
     },
     {
@@ -3977,12 +3957,7 @@
     },
     {
       "from": "lp_wk11d2",
-      "to": "CCSS_4.NBT.B.5",
-      "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk11d2",
-      "to": "CCSS_4.OA.A.1",
+      "to": "IN_4.CA.5",
       "type": "teaches_toward"
     },
     {
@@ -4032,11 +4007,6 @@
     },
     {
       "from": "lp_wk12",
-      "to": "CCSS_4.NBT.B.6",
-      "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk12",
       "to": "vdw_ch13_mult_div_computation",
       "type": "references"
     },
@@ -4051,187 +4021,118 @@
       "type": "aligns_to"
     },
     {
-      "from": "IN_1.CA.1",
-      "to": "CCSS_1.OA.C.6",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_1.CA.2",
-      "to": "CCSS_2.OA.A.1",
-      "type": "equivalent_to",
-      "note": "Indiana 1.CA.2 is within 20; CCSS 2.OA.A.1 is within 100. Approximate alignment."
-    },
-    {
-      "from": "IN_2.CA.1",
-      "to": "CCSS_2.OA.A.1",
-      "type": "equivalent_to"
-    },
-    {
       "from": "IN_3.CA.3",
-      "to": "CCSS_3.OA.A.1",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_3.CA.4",
-      "to": "CCSS_3.OA.A.2",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_3.CA.5",
-      "to": "CCSS_3.OA.C.7",
-      "type": "equivalent_to",
-      "note": "Indiana splits fluency (3.CA.5) from mastery (3.CA.6); CCSS combines in 3.OA.C.7"
-    },
-    {
-      "from": "IN_3.CA.6",
-      "to": "CCSS_3.OA.C.7",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_3.CA.7",
-      "to": "CCSS_3.OA.A.3",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_4.CA.1",
-      "to": "CCSS_4.NBT.B.5",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_4.CA.2",
-      "to": "CCSS_4.NBT.B.6",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_4.CA.3",
-      "to": "CCSS_3.OA.B.5",
-      "type": "equivalent_to",
-      "note": "Indiana places properties at grade 4; CCSS introduces at grade 3"
-    },
-    {
-      "from": "IN_5.CA.1",
-      "to": "CCSS_4.NBT.B.6",
-      "type": "equivalent_to",
-      "note": "Indiana extends to two-digit divisors at grade 5"
-    },
-    {
-      "from": "CCSS_3.OA.A.1",
       "to": "lc_interpret_product",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_3.OA.A.1",
+      "from": "IN_3.CA.3",
       "to": "lc_identify_mult_situation",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_3.OA.A.1",
+      "from": "IN_3.CA.3",
       "to": "lc_model_mult_situation",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_3.OA.C.7",
+      "from": "IN_3.CA.6",
       "to": "lc_fluently_multiply_100",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_3.OA.C.7",
+      "from": "IN_3.CA.6",
       "to": "lc_fluently_divide_100",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_3.OA.C.7",
+      "from": "IN_3.CA.6",
       "to": "lc_memory_products",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_4.NBT.B.5",
+      "from": "IN_4.CA.1",
       "to": "lc_mult_4digit_by_1digit",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_4.NBT.B.5",
+      "from": "IN_4.CA.1",
       "to": "lc_mult_3digit_by_1digit",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_4.NBT.B.5",
+      "from": "IN_4.CA.1",
       "to": "lc_mult_2digit_by_2digit",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_4.NBT.B.5",
+      "from": "IN_4.CA.1",
       "to": "lc_model_mult_2x2",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_4.NBT.B.6",
+      "from": "IN_5.CA.1",
       "to": "lc_div_2digit_no_remainder",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_4.NBT.B.6",
+      "from": "IN_5.CA.1",
       "to": "lc_div_2digit_remainder",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_4.NBT.B.6",
+      "from": "IN_5.CA.1",
       "to": "lc_div_3digit_no_remainder",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_4.NBT.B.6",
+      "from": "IN_5.CA.1",
       "to": "lc_div_model_2digit",
       "type": "decomposes_into"
     },
     {
-      "from": "CCSS_2.OA.C.3",
-      "to": "CCSS_3.OA.A.1",
+      "from": "IN_2.NS.2",
+      "to": "IN_3.CA.3",
       "type": "prerequisite_for"
     },
     {
-      "from": "CCSS_2.OA.C.4",
-      "to": "CCSS_3.OA.A.1",
+      "from": "IN_2.CA.1",
+      "to": "IN_3.CA.3",
       "type": "prerequisite_for"
     },
     {
-      "from": "CCSS_3.OA.A.1",
-      "to": "CCSS_3.OA.A.2",
+      "from": "IN_3.CA.3",
+      "to": "IN_3.CA.4",
       "type": "progression_forward"
     },
     {
-      "from": "CCSS_3.OA.A.1",
-      "to": "CCSS_3.OA.A.3",
+      "from": "IN_3.CA.3",
+      "to": "IN_3.CA.7",
       "type": "progression_forward"
     },
     {
-      "from": "CCSS_3.OA.A.1",
-      "to": "CCSS_3.OA.B.5",
+      "from": "IN_3.CA.3",
+      "to": "IN_4.CA.3",
       "type": "progression_forward"
     },
     {
-      "from": "CCSS_3.OA.A.1",
-      "to": "CCSS_4.OA.A.1",
+      "from": "IN_3.CA.3",
+      "to": "IN_4.CA.5",
       "type": "progression_forward"
     },
     {
-      "from": "CCSS_3.OA.A.1",
-      "to": "CCSS_4.NF.B.4a",
+      "from": "IN_3.CA.3",
+      "to": "IN_4.NS.3",
       "type": "progression_forward"
     },
     {
-      "from": "CCSS_3.OA.A.1",
-      "to": "CCSS_5.NF.B.3",
+      "from": "IN_3.CA.3",
+      "to": "IN_5.NS.2",
       "type": "progression_forward"
     },
     {
-      "from": "CCSS_3.OA.A.1",
-      "to": "CCSS_5.NF.B.5",
-      "type": "progression_forward"
-    },
-    {
-      "from": "CCSS_3.OA.A.1",
-      "to": "CCSS_5.NF.B.6",
+      "from": "IN_3.CA.3",
+      "to": "IN_5.CA.5",
       "type": "progression_forward"
     },
     {
@@ -4407,110 +4308,92 @@
     {
       "from": "topic_addition_problem_types",
       "to": "topic_fact_fluency",
-      "type": "prerequisite_for",
-      "note": "Understanding problem structures supports strategic fact work"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_fact_fluency",
       "to": "topic_multiplication_facts",
-      "type": "prerequisite_for",
-      "note": "Addition fact strategies (doubling, skip counting) transfer to multiplication"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_multiplicative_structures",
       "to": "topic_multiplication_facts",
-      "type": "prerequisite_for",
-      "note": "Conceptual understanding before procedural fluency"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_multiplication_facts",
       "to": "topic_multidigit_multiplication",
-      "type": "prerequisite_for",
-      "note": "Single-digit fluency required for multi-digit work"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_division_meanings",
       "to": "topic_division_algorithm",
-      "type": "prerequisite_for",
-      "note": "Conceptual models for division precede algorithmic notation"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_multidigit_multiplication",
       "to": "topic_division_algorithm",
-      "type": "prerequisite_for",
-      "note": "Multiplication fluency supports estimation in division algorithm"
+      "type": "prerequisite_for"
     },
     {
       "from": "fp_practice_1",
       "to": "IN_PS.1",
-      "type": "operationalizes",
-      "note": "Anticipating requires the teacher to make sense of the task from multiple student perspectives"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_2",
       "to": "IN_PS.3",
-      "type": "operationalizes",
-      "note": "Monitoring surfaces the mathematical arguments students construct, making them available for critique"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_2",
       "to": "IN_PS.6",
-      "type": "operationalizes",
-      "note": "Assessing questions during monitoring press students to attend to precision in their explanations"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_3",
       "to": "IN_PS.7",
-      "type": "operationalizes",
-      "note": "Sequencing from concrete to abstract makes mathematical structure visible across representations"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_3",
       "to": "IN_PS.3",
-      "type": "operationalizes",
-      "note": "Selecting diverse solutions sets up opportunities for students to critique and compare reasoning"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_4",
       "to": "IN_PS.2",
-      "type": "operationalizes",
-      "note": "Connecting pushes students from concrete strategies toward abstract generalizations"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_4",
       "to": "IN_PS.3",
-      "type": "operationalizes",
-      "note": "Connecting orchestrates explicit comparison and critique across student solutions"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_4",
       "to": "IN_PS.7",
-      "type": "operationalizes",
-      "note": "Connecting makes structural relationships between strategies explicit"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_4",
       "to": "IN_PS.8",
-      "type": "operationalizes",
-      "note": "Connecting surfaces repeated reasoning patterns that generalize across problems"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_0",
       "to": "IN_PS.4",
-      "type": "operationalizes",
-      "note": "Task selection determines whether students have opportunity to model with mathematics"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_0",
       "to": "IN_PS.1",
-      "type": "operationalizes",
-      "note": "High-demand tasks require students to make sense of problems and persevere"
+      "type": "operationalizes"
     },
     {
       "from": "fp_practice_0",
       "to": "lp_wk09d1",
-      "type": "structures",
-      "note": "Wk09D1 establishes the Five Practices as the lesson design framework for the course"
+      "type": "structures"
     },
     {
       "from": "fp_ch1",
@@ -4520,128 +4403,107 @@
     {
       "from": "fp_practice_0",
       "to": "lp_wk09d2",
-      "type": "structures",
-      "note": "Problem sort task selected for high cognitive demand (classifying problem structures)"
+      "type": "structures"
     },
     {
       "from": "fp_practice_2",
       "to": "lp_wk09d2",
-      "type": "structures",
-      "note": "Station rotation requires monitoring student sorts to surface misconceptions about problem types"
+      "type": "structures"
     },
     {
       "from": "fp_practice_4",
       "to": "lp_wk09d2",
-      "type": "structures",
-      "note": "Debrief connects student sorts to the formal classification of problem structures"
+      "type": "structures"
     },
     {
       "from": "fp_practice_1",
       "to": "lp_wk10d1",
-      "type": "structures",
-      "note": "Number talks require anticipating multiple mental strategies (e.g., make-ten, doubles, decompose)"
+      "type": "structures"
     },
     {
       "from": "fp_practice_2",
       "to": "lp_wk10d1",
-      "type": "structures",
-      "note": "During dot card reveals, teacher monitors which strategies students use (subitizing, counting, grouping)"
+      "type": "structures"
     },
     {
       "from": "fp_practice_3",
       "to": "lp_wk10d1",
-      "type": "structures",
-      "note": "Teacher selects and sequences student strategies from concrete (counting) to abstract (derived facts)"
+      "type": "structures"
     },
     {
       "from": "fp_practice_4",
       "to": "lp_wk10d1",
-      "type": "structures",
-      "note": "Teacher connects student strategies to show how decomposition supports fluency"
+      "type": "structures"
     },
     {
       "from": "fp_practice_0",
       "to": "lp_wk10d2",
-      "type": "structures",
-      "note": "Task selection: problems chosen to surface all five multiplicative structures and both division meanings"
+      "type": "structures"
     },
     {
       "from": "fp_practice_1",
       "to": "lp_wk10d2",
-      "type": "structures",
-      "note": "Anticipating: students may confuse equal groups with additive thinking; arrays may be read row-first or column-first"
+      "type": "structures"
     },
     {
       "from": "fp_practice_4",
       "to": "lp_wk10d2",
-      "type": "structures",
-      "note": "Connecting: explicit comparison of sharing vs. measurement division using the same numbers"
+      "type": "structures"
     },
     {
       "from": "fp_practice_1",
       "to": "lp_wk11d1",
-      "type": "structures",
-      "note": "Anticipating: students may use skip counting, repeated addition, or doubling for multiplication facts"
+      "type": "structures"
     },
     {
       "from": "fp_practice_2",
       "to": "lp_wk11d1",
-      "type": "structures",
-      "note": "Monitoring: track which fact strategies students invent vs. which need teacher introduction"
+      "type": "structures"
     },
     {
       "from": "fp_practice_3",
       "to": "lp_wk11d1",
-      "type": "structures",
-      "note": "Sequencing: order student strategies from skip counting \u2192 doubling \u2192 derived facts to build toward efficiency"
+      "type": "structures"
     },
     {
       "from": "fp_practice_0",
       "to": "lp_wk11d2",
-      "type": "structures",
-      "note": "Goal: understand why the standard algorithm works, not just how. Task selected to surface partial products."
+      "type": "structures"
     },
     {
       "from": "fp_practice_1",
       "to": "lp_wk11d2",
-      "type": "structures",
-      "note": "Anticipating: complete number strategy, partitioning, compensation, area model \u2014 each highlights different aspects of place value"
+      "type": "structures"
     },
     {
       "from": "fp_practice_3",
       "to": "lp_wk11d2",
-      "type": "structures",
-      "note": "Sequencing: base-ten blocks \u2192 area model \u2192 partial products \u2192 compressed algorithm"
+      "type": "structures"
     },
     {
       "from": "fp_practice_4",
       "to": "lp_wk11d2",
-      "type": "structures",
-      "note": "Connecting: explicit comparison shows each strategy computes the same partial products, just organized differently"
+      "type": "structures"
     },
     {
       "from": "fp_practice_0",
       "to": "lp_wk12",
-      "type": "structures",
-      "note": "Goal: algorithm as notation for thinking, not magic. Tasks use sharing and measurement contexts."
+      "type": "structures"
     },
     {
       "from": "fp_practice_1",
       "to": "lp_wk12",
-      "type": "structures",
-      "note": "Anticipating: students may distribute ones before tens, or confuse sharing and measurement contexts"
+      "type": "structures"
     },
     {
       "from": "fp_practice_2",
       "to": "lp_wk12",
-      "type": "structures",
-      "note": "Monitoring: listen for place-value language during base-ten block work; note who uses concrete vs. notation"
+      "type": "structures"
     },
     {
       "from": "fp_practice_4",
       "to": "lp_wk12",
-      "type": "structures",
-      "note": "Connecting: narrate how each step of the algorithm corresponds to a physical action with blocks"
+      "type": "structures"
     },
     {
       "from": "fp_ch2",
@@ -4671,20 +4533,17 @@
     {
       "from": "fp_practice_0",
       "to": "vdw_pedagogy_discourse",
-      "type": "aligns_to",
-      "note": "VdW 'before' phase parallels setting goals and selecting tasks"
+      "type": "aligns_to"
     },
     {
       "from": "fp_practice_2",
       "to": "vdw_pedagogy_discourse",
-      "type": "aligns_to",
-      "note": "VdW 'during' phase parallels monitoring student work"
+      "type": "aligns_to"
     },
     {
       "from": "fp_practice_4",
       "to": "vdw_pedagogy_discourse",
-      "type": "aligns_to",
-      "note": "VdW 'after' phase parallels connecting student ideas"
+      "type": "aligns_to"
     },
     {
       "from": "lp_wk09d1",
@@ -4729,98 +4588,82 @@
     {
       "from": "lp_wk09d2",
       "to": "IN_PS.4",
-      "type": "teaches_toward",
-      "note": "Students model addition/subtraction problem types with drawings and equations"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk10d1",
       "to": "IN_PS.2",
-      "type": "teaches_toward",
-      "note": "Number talks require reasoning abstractly about number relationships"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk10d1",
       "to": "IN_PS.3",
-      "type": "teaches_toward",
-      "note": "Sharing mental strategies and critiquing others' approaches"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk10d2",
       "to": "IN_PS.4",
-      "type": "teaches_toward",
-      "note": "Modeling multiplication with arrays, groups, and area"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk10d2",
       "to": "IN_PS.7",
-      "type": "teaches_toward",
-      "note": "Looking for structure in how multiplication and division relate"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk11d1",
       "to": "IN_PS.8",
-      "type": "teaches_toward",
-      "note": "Looking for regularity in multiplication fact patterns (doubling, skip counting)"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk11d1",
       "to": "IN_PS.7",
-      "type": "teaches_toward",
-      "note": "Making use of structure in fact families to derive unknown facts"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk11d2",
       "to": "IN_PS.7",
-      "type": "teaches_toward",
-      "note": "Place value structure underlies all four multiplication strategies"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk11d2",
       "to": "IN_PS.5",
-      "type": "teaches_toward",
-      "note": "Strategic use of base-ten blocks, area models, and notation"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk12",
       "to": "IN_PS.5",
-      "type": "teaches_toward",
-      "note": "Base-ten blocks as strategic tool for making sense of the division algorithm"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk12",
       "to": "IN_PS.7",
-      "type": "teaches_toward",
-      "note": "Place value structure governs each step of the division algorithm"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk12",
       "to": "IN_PS.6",
-      "type": "teaches_toward",
-      "note": "Precise language about what is being distributed and why during division"
+      "type": "teaches_toward"
     },
     {
       "from": "vdw_pedagogy_discourse",
       "to": "IN_PS.3",
-      "type": "supports",
-      "note": "VdW's classroom discourse framework supports students constructing and critiquing arguments"
+      "type": "supports"
     },
     {
       "from": "vdw_pedagogy_discourse",
       "to": "IN_PS.1",
-      "type": "supports",
-      "note": "Teaching through problem solving requires students to make sense of problems and persevere"
+      "type": "supports"
     },
     {
       "from": "topic_number_talks",
       "to": "IN_PS.3",
-      "type": "supports",
-      "note": "Number talks are a primary vehicle for constructing viable arguments and critiquing reasoning"
+      "type": "supports"
     },
     {
       "from": "topic_number_talks",
       "to": "IN_PS.2",
-      "type": "supports",
-      "note": "Mental math in number talks requires reasoning abstractly about number relationships"
+      "type": "supports"
     },
     {
       "from": "lp_wk01d1",
@@ -4850,20 +4693,17 @@
     {
       "from": "fp_ch1",
       "to": "lp_wk01d1",
-      "type": "references",
-      "note": "Unit 1 introduces the Five Practices framework from Ch. 1"
+      "type": "references"
     },
     {
       "from": "fp_practice_0",
       "to": "lp_wk02",
-      "type": "structures",
-      "note": "Week 2 focuses on goal-setting, the foundational practice"
+      "type": "structures"
     },
     {
       "from": "fp_practice_1",
       "to": "lp_wk03",
-      "type": "structures",
-      "note": "Week 3 teaches anticipating student thinking in detail: three phases of anticipation"
+      "type": "structures"
     },
     {
       "from": "fp_ch2",
@@ -4878,38 +4718,32 @@
     {
       "from": "lp_wk04",
       "to": "vdw_pedagogy_goals_tasks",
-      "type": "references",
-      "note": "Guided reading notes use VdW's before/about/after content structure"
+      "type": "references"
     },
     {
       "from": "lp_wk02",
       "to": "vdw_pedagogy_goals_tasks",
-      "type": "references",
-      "note": "Learning vs. performance goals framework applies to all VdW content"
+      "type": "references"
     },
     {
       "from": "topic_five_practices_intro",
       "to": "IN_PS.3",
-      "type": "supports",
-      "note": "The Five Practices framework is designed to support students constructing and critiquing arguments"
+      "type": "supports"
     },
     {
       "from": "topic_launch_explore_summarize",
       "to": "IN_PS.1",
-      "type": "supports",
-      "note": "L-E-S structure gives students space to make sense of problems and persevere"
+      "type": "supports"
     },
     {
       "from": "topic_learning_vs_performance_goals",
       "to": "IN_PS.2",
-      "type": "supports",
-      "note": "Distinguishing understanding from doing requires reasoning abstractly about mathematical ideas"
+      "type": "supports"
     },
     {
       "from": "topic_think_aloud_interviews",
       "to": "IN_PS.3",
-      "type": "supports",
-      "note": "TAIs require students to construct and articulate mathematical arguments"
+      "type": "supports"
     },
     {
       "from": "lp_wk05",
@@ -4944,20 +4778,17 @@
     {
       "from": "fp_practice_2",
       "to": "lp_wk06d2",
-      "type": "structures",
-      "note": "Week 6 Day 2 teaches monitoring in depth: tracking, assessing, advancing"
+      "type": "structures"
     },
     {
       "from": "fp_practice_3",
       "to": "lp_wk07d1",
-      "type": "structures",
-      "note": "Week 7 Day 1 teaches selecting and sequencing with equity considerations"
+      "type": "structures"
     },
     {
       "from": "fp_practice_4",
       "to": "lp_wk07d2",
-      "type": "structures",
-      "note": "Week 7 Day 2 teaches connecting: linking student work to goals and to each other"
+      "type": "structures"
     },
     {
       "from": "fp_ch4",
@@ -4977,80 +4808,67 @@
     {
       "from": "cdm_book",
       "to": "lp_wk05",
-      "type": "references",
-      "note": "CDM pp. xv-xviii, 1-21, 49-57 for Week 5 Day 1"
+      "type": "references"
     },
     {
       "from": "cdm_book",
       "to": "lp_wk06d1",
-      "type": "references",
-      "note": "CDM pp. 21-24, 58-63 for deepening reasoning talk moves"
+      "type": "references"
     },
     {
       "from": "cdm_book",
       "to": "lp_wk06d2",
-      "type": "references",
-      "note": "CDM Chapter 4, pp. 69-84 for monitoring"
+      "type": "references"
     },
     {
       "from": "cdm_book",
       "to": "lp_wk07d1",
-      "type": "references",
-      "note": "CDM Chapter 5, pp. 103-115 for selecting and sequencing"
+      "type": "references"
     },
     {
       "from": "cdm_book",
       "to": "lp_wk07d2",
-      "type": "references",
-      "note": "CDM Chapter 6, pp. 141-152 for connecting"
+      "type": "references"
     },
     {
       "from": "lp_wk05",
       "to": "IN_PS.3",
-      "type": "teaches_toward",
-      "note": "Talk moves directly teach how to construct and critique mathematical arguments"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk05",
       "to": "IN_PS.6",
-      "type": "teaches_toward",
-      "note": "Revoicing and restating require attending to precision in mathematical language"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk06d1",
       "to": "IN_PS.3",
-      "type": "teaches_toward",
-      "note": "Press for reasoning and agree/disagree directly enact PS.3"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk06d2",
       "to": "IN_PS.1",
-      "type": "teaches_toward",
-      "note": "Monitoring helps teachers support students in making sense of problems"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk07d1",
       "to": "IN_PS.7",
-      "type": "teaches_toward",
-      "note": "Sequencing from concrete to abstract makes mathematical structure visible"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk07d2",
       "to": "IN_PS.7",
-      "type": "teaches_toward",
-      "note": "Connecting strategies reveals shared mathematical structure"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk07d2",
       "to": "IN_PS.8",
-      "type": "teaches_toward",
-      "note": "Connecting across solutions surfaces regularity in repeated reasoning"
+      "type": "teaches_toward"
     },
     {
       "from": "topic_talk_moves",
       "to": "vdw_pedagogy_discourse",
-      "type": "aligns_to",
-      "note": "Talk moves operationalize VdW's classroom discourse recommendations"
+      "type": "aligns_to"
     },
     {
       "from": "topic_classroom_discourse",
@@ -5125,26 +4943,22 @@
     {
       "from": "lp_wk13d1",
       "to": "IN_5.NS.2",
-      "type": "teaches_toward",
-      "note": "Division remainders connect to fraction interpretations"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk13d2",
       "to": "IN_5.NS.2",
-      "type": "teaches_toward",
-      "note": "Division as the source of fractions (a \u00f7 b = a/b)"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk13d2",
       "to": "IN_4.NS.2",
-      "type": "teaches_toward",
-      "note": "Mixed numbers and improper fractions via fair-share cutting"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk13d2",
       "to": "IN_3.NS.2",
-      "type": "teaches_toward",
-      "note": "Unit fractions through partitioning and iteration"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk14d1",
@@ -5169,8 +4983,7 @@
     {
       "from": "lp_wk14d1",
       "to": "IN_4.NS.5",
-      "type": "teaches_toward",
-      "note": "Fractions to decimals: tenths and hundredths"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk14d2",
@@ -5195,29 +5008,12 @@
     {
       "from": "lp_wk15d1",
       "to": "IN_5.NS.2",
-      "type": "teaches_toward",
-      "note": "Division-as-fractions revisited with sequencing emphasis"
-    },
-    {
-      "from": "lp_wk14d1",
-      "to": "CCSS_3.NF.A.1",
-      "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk14d2",
-      "to": "CCSS_4.NF.A.1",
       "type": "teaches_toward"
     },
     {
       "from": "lp_wk15d1",
-      "to": "CCSS_4.NF.A.2",
+      "to": "IN_5.CA.5",
       "type": "teaches_toward"
-    },
-    {
-      "from": "lp_wk15d1",
-      "to": "CCSS_5.NF.B.4",
-      "type": "teaches_toward",
-      "note": "Introduction to fraction multiplication context (1/2 of 3/4)"
     },
     {
       "from": "lp_wk13d1",
@@ -5262,8 +5058,7 @@
     {
       "from": "lp_wk14d1",
       "to": "im_g4_u7",
-      "type": "aligns_to",
-      "note": "Fractions to decimals connection"
+      "type": "aligns_to"
     },
     {
       "from": "lp_wk14d2",
@@ -5288,107 +5083,57 @@
     {
       "from": "fp_practice_1",
       "to": "lp_wk14d2",
-      "type": "structures",
-      "note": "Wk14D2 explicitly teaches anticipating multiple strategies for equivalent fraction problems (Lasagna Problem)"
+      "type": "structures"
     },
     {
       "from": "fp_practice_3",
       "to": "lp_wk13d2",
-      "type": "structures",
-      "note": "Student work analysis of 7 bars \u00f7 4 people involves selecting and sequencing 7 different strategies"
+      "type": "structures"
     },
     {
       "from": "fp_practice_3",
       "to": "lp_wk15d1",
-      "type": "structures",
-      "note": "Sequencing division-as-fractions strategies from fair-share cutting \u2192 strategic distribution \u2192 iteration"
+      "type": "structures"
     },
     {
       "from": "fp_practice_4",
       "to": "lp_wk14d1",
-      "type": "structures",
-      "note": "Connecting partitioning and iterating as complementary ways to build fractions"
+      "type": "structures"
     },
     {
       "from": "fp_practice_4",
       "to": "lp_wk15d2",
-      "type": "structures",
-      "note": "Course wrap-up: connecting area, length, and set models to unified fraction understanding"
+      "type": "structures"
     },
     {
       "from": "fp_practice_2",
       "to": "lp_wk14d2",
-      "type": "structures",
-      "note": "Video analysis of Ms. Statsny's fraction lesson focuses on monitoring moves"
+      "type": "structures"
     },
     {
       "from": "lp_wk13d2",
       "to": "IN_PS.4",
-      "type": "teaches_toward",
-      "note": "Fair-share cutting and area models are mathematical modeling of division-as-fractions"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk14d1",
       "to": "IN_PS.5",
-      "type": "teaches_toward",
-      "note": "Strategic use of paper strips, number lines, and base-ten blocks for fraction construction"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk14d1",
       "to": "IN_PS.7",
-      "type": "teaches_toward",
-      "note": "Partitioning and iterating reveal the structure of the number system extended to fractions"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk14d2",
       "to": "IN_PS.6",
-      "type": "teaches_toward",
-      "note": "Precision in fraction language: 'equivalent to,' 'the same amount,' 'partitioned differently'"
+      "type": "teaches_toward"
     },
     {
       "from": "lp_wk15d1",
       "to": "IN_PS.2",
-      "type": "teaches_toward",
-      "note": "Benchmark comparison requires reasoning abstractly about fraction size"
-    },
-    {
-      "from": "IN_3.NS.2",
-      "to": "CCSS_3.NF.A.1",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_3.NS.4",
-      "to": "CCSS_3.NF.A.3",
-      "type": "equivalent_to",
-      "note": "Indiana 3.NS.4 covers equivalence; CCSS 3.NF.A.3 covers equivalence + comparison"
-    },
-    {
-      "from": "IN_3.NS.5",
-      "to": "CCSS_3.NF.A.3",
-      "type": "equivalent_to",
-      "note": "Indiana splits comparison (3.NS.5) from equivalence (3.NS.4)"
-    },
-    {
-      "from": "IN_4.NS.3",
-      "to": "CCSS_4.NF.A.1",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_4.NS.4",
-      "to": "CCSS_4.NF.A.2",
-      "type": "equivalent_to"
-    },
-    {
-      "from": "IN_4.NS.5",
-      "to": "CCSS_4.NF.C.5",
-      "type": "equivalent_to",
-      "note": "Indiana 4.NS.5 broader (includes mental equivalents for halves/fourths)"
-    },
-    {
-      "from": "IN_5.NS.2",
-      "to": "CCSS_5.NF.B.3",
-      "type": "equivalent_to",
-      "note": "Both: fractions as division of whole numbers"
+      "type": "teaches_toward"
     },
     {
       "from": "vdw_ch15_fraction_concepts",
@@ -5483,722 +5228,602 @@
     {
       "from": "topic_division_meanings",
       "to": "topic_division_as_fractions",
-      "type": "prerequisite_for",
-      "note": "Understanding sharing/measurement division is necessary before seeing division as a source of fractions"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_unit_fractions",
       "to": "topic_equivalent_fractions",
-      "type": "prerequisite_for",
-      "note": "Unit fractions and iteration are needed before equivalence makes sense"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_equivalent_fractions",
       "to": "topic_fraction_comparison",
-      "type": "prerequisite_for",
-      "note": "Equivalence understanding supports comparison strategies (common denominators)"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_unit_fractions",
       "to": "topic_fraction_multiplication",
-      "type": "prerequisite_for",
-      "note": "Understanding a/b as a \u00d7 (1/b) is foundational to fraction multiplication"
+      "type": "prerequisite_for"
     },
     {
       "from": "topic_equivalent_fractions",
       "to": "topic_fractions_decimals",
-      "type": "prerequisite_for",
-      "note": "Decimal notation extends equivalence to powers of 10"
+      "type": "prerequisite_for"
     },
     {
       "from": "cdm_clip_1A",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1B",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1C",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1D",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1E",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1F",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1G",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1H",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1I",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1J",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1K",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1L",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1M",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1N",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1O",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1P",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1Q",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1R",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1S",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1T",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1U",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_1V",
       "to": "cdm_ch1",
-      "type": "part_of",
-      "note": "Video clip from Chapter 1"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_2A",
       "to": "cdm_ch2",
-      "type": "part_of",
-      "note": "Video clip from Chapter 2"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_2B",
       "to": "cdm_ch2",
-      "type": "part_of",
-      "note": "Video clip from Chapter 2"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_3A",
       "to": "cdm_ch3",
-      "type": "part_of",
-      "note": "Video clip from Chapter 3"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_3B",
       "to": "cdm_ch3",
-      "type": "part_of",
-      "note": "Video clip from Chapter 3"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_4A",
       "to": "cdm_ch4",
-      "type": "part_of",
-      "note": "Video clip from Chapter 4"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_4B",
       "to": "cdm_ch4",
-      "type": "part_of",
-      "note": "Video clip from Chapter 4"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_4C",
       "to": "cdm_ch4",
-      "type": "part_of",
-      "note": "Video clip from Chapter 4"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_4D",
       "to": "cdm_ch4",
-      "type": "part_of",
-      "note": "Video clip from Chapter 4"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_5A",
       "to": "cdm_ch5",
-      "type": "part_of",
-      "note": "Video clip from Chapter 5"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_5B",
       "to": "cdm_ch5",
-      "type": "part_of",
-      "note": "Video clip from Chapter 5"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_5C",
       "to": "cdm_ch5",
-      "type": "part_of",
-      "note": "Video clip from Chapter 5"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_6A",
       "to": "cdm_ch6",
-      "type": "part_of",
-      "note": "Video clip from Chapter 6"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_6B",
       "to": "cdm_ch6",
-      "type": "part_of",
-      "note": "Video clip from Chapter 6"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_7A",
       "to": "cdm_ch7",
-      "type": "part_of",
-      "note": "Video clip from Chapter 7"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_7B",
       "to": "cdm_ch7",
-      "type": "part_of",
-      "note": "Video clip from Chapter 7"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_7C",
       "to": "cdm_ch7",
-      "type": "part_of",
-      "note": "Video clip from Chapter 7"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_7D",
       "to": "cdm_ch7",
-      "type": "part_of",
-      "note": "Video clip from Chapter 7"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_7E",
       "to": "cdm_ch7",
-      "type": "part_of",
-      "note": "Video clip from Chapter 7"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_7F",
       "to": "cdm_ch7",
-      "type": "part_of",
-      "note": "Video clip from Chapter 7"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_8A",
       "to": "cdm_ch8",
-      "type": "part_of",
-      "note": "Video clip from Chapter 8"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_8B",
       "to": "cdm_ch8",
-      "type": "part_of",
-      "note": "Video clip from Chapter 8"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_8C",
       "to": "cdm_ch8",
-      "type": "part_of",
-      "note": "Video clip from Chapter 8"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_8D",
       "to": "cdm_ch8",
-      "type": "part_of",
-      "note": "Video clip from Chapter 8"
+      "type": "part_of"
     },
     {
       "from": "cdm_clip_8E",
       "to": "cdm_ch8",
-      "type": "part_of",
-      "note": "Video clip from Chapter 8"
+      "type": "part_of"
     },
     {
       "from": "lp_wk06d1",
       "to": "cdm_ch1",
-      "type": "references",
-      "note": "Lesson references CDM Chapter 1"
+      "type": "references"
     },
     {
       "from": "lp_wk06d2",
       "to": "cdm_ch4",
-      "type": "references",
-      "note": "Lesson references CDM Chapter 4"
+      "type": "references"
     },
     {
       "from": "lp_wk07d1",
       "to": "cdm_ch5",
-      "type": "references",
-      "note": "Lesson references CDM Chapter 5"
+      "type": "references"
     },
     {
       "from": "lp_wk07d2",
       "to": "cdm_ch6",
-      "type": "references",
-      "note": "Lesson references CDM Chapter 6"
+      "type": "references"
     },
     {
       "from": "cdm_clip_1C",
       "to": "topic_fractions",
-      "type": "provides_example",
-      "note": "Video demonstrates Fractions on a number line"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_1E",
       "to": "topic_mult_operation_sense",
-      "type": "provides_example",
-      "note": "Video demonstrates Multiplication with context"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_1F",
       "to": "topic_volume",
-      "type": "provides_example",
-      "note": "Video demonstrates Volume of rectangular prisms"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_1I",
       "to": "topic_number_decomp",
-      "type": "provides_example",
-      "note": "Video demonstrates Number decomposition"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_1K",
       "to": "topic_volume",
-      "type": "provides_example",
-      "note": "Video demonstrates Volume"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_1L",
       "to": "topic_fractions",
-      "type": "provides_example",
-      "note": "Video demonstrates Fraction comparison"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_1N",
       "to": "topic_subtraction",
-      "type": "provides_example",
-      "note": "Video demonstrates Subtraction strategies"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_1P",
       "to": "topic_volume",
-      "type": "provides_example",
-      "note": "Video demonstrates Volume of rectangular prisms"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_1R",
       "to": "topic_data_analysis",
-      "type": "provides_example",
-      "note": "Video demonstrates Data analysis"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_3A",
       "to": "topic_number_patterns",
-      "type": "provides_example",
-      "note": "Video demonstrates Number patterns"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_3B",
       "to": "topic_area_perimeter",
-      "type": "provides_example",
-      "note": "Video demonstrates Area and perimeter"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_4B",
       "to": "topic_subtraction",
-      "type": "provides_example",
-      "note": "Video demonstrates Subtraction strategies"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_4C",
       "to": "topic_subtraction",
-      "type": "provides_example",
-      "note": "Video demonstrates Subtraction"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_4D",
       "to": "topic_fractions",
-      "type": "provides_example",
-      "note": "Video demonstrates Fractions on a number line"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_5A",
       "to": "topic_word_problems",
-      "type": "provides_example",
-      "note": "Video demonstrates Multistep word problem-solving"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_5B",
       "to": "topic_word_problems",
-      "type": "provides_example",
-      "note": "Video demonstrates Multistep word problem-solving"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_6B",
       "to": "topic_volume",
-      "type": "provides_example",
-      "note": "Video demonstrates Volume"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_7A",
       "to": "topic_fractions_intro",
-      "type": "provides_example",
-      "note": "Video demonstrates Fraction terminology"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_7C",
       "to": "topic_factors_multiples",
-      "type": "provides_example",
-      "note": "Video demonstrates Factors and multiples"
+      "type": "provides_example"
     },
     {
       "from": "cdm_clip_8C",
       "to": "topic_data_analysis",
-      "type": "provides_example",
-      "note": "Video demonstrates Data analysis"
+      "type": "provides_example"
     },
     {
       "from": "cdm_lesson_1",
       "to": "topic_data_analysis",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_2",
       "to": "topic_number_decomp",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_3",
       "to": "topic_number_patterns",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_4",
       "to": "topic_addition",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_5",
       "to": "topic_subtraction",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_6",
       "to": "topic_fractions_intro",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_7",
       "to": "topic_word_problems",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_8",
       "to": "topic_logical_reasoning",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_9",
       "to": "topic_area_perimeter",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_10",
       "to": "topic_factors_multiples",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_11",
       "to": "topic_division",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "cdm_lesson_12",
       "to": "topic_volume",
-      "type": "covers_topic",
-      "note": "CDM lesson plan on this topic"
+      "type": "covers_topic"
     },
     {
       "from": "asgn_g4cd9b478b8b",
       "to": "lp_wk12",
-      "type": "assigned_in",
-      "note": "Assignment 'Lesson Plan REVISED VERSION' is connected to this lesson"
+      "type": "assigned_in"
     },
     {
       "from": "asgn_g372487bff59",
       "to": "lp_wk10d1",
-      "type": "assigned_in",
-      "note": "Assignment 'Lesson Plan Draft' is connected to this lesson"
+      "type": "assigned_in"
     },
     {
       "from": "asgn_g372487bff59",
       "to": "lp_wk11d1",
-      "type": "assigned_in",
-      "note": "Assignment 'Lesson Plan Draft' is connected to this lesson"
+      "type": "assigned_in"
     },
     {
       "from": "asgn_g265addff136",
       "to": "lp_wk14d1",
-      "type": "assigned_in",
-      "note": "Assignment 'Lesson Analysis' is connected to this lesson"
+      "type": "assigned_in"
     },
     {
       "from": "asgn_g265addff136",
       "to": "lp_wk15d1",
-      "type": "assigned_in",
-      "note": "Assignment 'Lesson Analysis' is connected to this lesson"
+      "type": "assigned_in"
     },
     {
       "from": "asgn_ge220ae17668",
       "to": "lp_wk09d1",
-      "type": "assigned_in",
-      "note": "Assignment 'Standards Lesson Goals and Anticipations' is connected to this lesson"
+      "type": "assigned_in"
     },
     {
       "from": "asgn_ge220ae17668",
       "to": "lp_wk09d2",
-      "type": "assigned_in",
-      "note": "Assignment 'Standards Lesson Goals and Anticipations' is connected to this lesson"
+      "type": "assigned_in"
     },
     {
       "from": "asgn_gf681c539261",
       "to": "lp_wk14d2",
-      "type": "assigned_in",
-      "note": "Assignment 'Lesson Transcripts' is connected to this lesson"
+      "type": "assigned_in"
     },
     {
       "from": "quiz_g2255d581baa",
       "to": "lp_wk01d1",
-      "type": "assesses",
-      "note": "Week 1 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g2255d581baa",
       "to": "lp_wk01d2",
-      "type": "assesses",
-      "note": "Week 1 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_gbafa7656de5",
       "to": "lp_wk06d1",
-      "type": "assesses",
-      "note": "Week 6 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_gbafa7656de5",
       "to": "lp_wk06d2",
-      "type": "assesses",
-      "note": "Week 6 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g1127a2b2cf2",
       "to": "lp_wk07d1",
-      "type": "assesses",
-      "note": "Week 7 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g1127a2b2cf2",
       "to": "lp_wk07d2",
-      "type": "assesses",
-      "note": "Week 7 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g0a4635a5b1e",
       "to": "lp_wk09d1",
-      "type": "assesses",
-      "note": "Week 9 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g0a4635a5b1e",
       "to": "lp_wk09d2",
-      "type": "assesses",
-      "note": "Week 9 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g21eb42acb25",
       "to": "lp_wk10d1",
-      "type": "assesses",
-      "note": "Week 10 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g21eb42acb25",
       "to": "lp_wk10d2",
-      "type": "assesses",
-      "note": "Week 10 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_gabb0c0f2925",
       "to": "lp_wk11d1",
-      "type": "assesses",
-      "note": "Week 11 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_gabb0c0f2925",
       "to": "lp_wk11d2",
-      "type": "assesses",
-      "note": "Week 11 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g8ecaa15f8d2",
       "to": "lp_wk13d1",
-      "type": "assesses",
-      "note": "Week 13 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g8ecaa15f8d2",
       "to": "lp_wk13d2",
-      "type": "assesses",
-      "note": "Week 13 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g2b47f2e7b0a",
       "to": "lp_wk14d1",
-      "type": "assesses",
-      "note": "Week 14 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g2b47f2e7b0a",
       "to": "lp_wk14d2",
-      "type": "assesses",
-      "note": "Week 14 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g20ec138c9cf",
       "to": "lp_wk15d1",
-      "type": "assesses",
-      "note": "Week 15 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "quiz_g20ec138c9cf",
       "to": "lp_wk15d2",
-      "type": "assesses",
-      "note": "Week 15 check-in covers this lesson"
+      "type": "assesses"
     },
     {
       "from": "folder_in_class_wk01",
       "to": "lp_wk01d1",
-      "type": "supports",
-      "note": "Canvas folder provides materials for this lesson"
+      "type": "supports"
     },
     {
       "from": "folder_in_class_wk01",
       "to": "lp_wk01d2",
-      "type": "supports",
-      "note": "Canvas folder provides materials for this lesson"
+      "type": "supports"
     },
     {
       "from": "folder_in_class_wk06",
       "to": "lp_wk06d1",
-      "type": "supports",
-      "note": "Canvas folder provides materials for this lesson"
+      "type": "supports"
     },
     {
       "from": "folder_in_class_wk06",
       "to": "lp_wk06d2",
-      "type": "supports",
-      "note": "Canvas folder provides materials for this lesson"
+      "type": "supports"
     },
     {
       "from": "folder_in_class_wk07",
       "to": "lp_wk07d1",
-      "type": "supports",
-      "note": "Canvas folder provides materials for this lesson"
+      "type": "supports"
     },
     {
       "from": "folder_in_class_wk07",
       "to": "lp_wk07d2",
-      "type": "supports",
-      "note": "Canvas folder provides materials for this lesson"
+      "type": "supports"
     },
     {
       "from": "canvas_vid_3",
       "to": "topic_fraction_multiplication",
-      "type": "provides_example",
-      "note": "YouTube video demonstrating fraction multiplication lesson"
+      "type": "provides_example"
     }
   ],
   "terminology_crosswalk": {
