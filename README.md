@@ -1,22 +1,22 @@
-# E343 — Math Education Methods
+# E343 Course Alignment Project
 
-Course materials for E343 at Indiana University School of Education.
+Interactive visualization and documentation for the E343 Mathematics Methods course alignment across Indiana Academic Standards, Van de Walle, Illustrative Mathematics, Five Practices, and CDM.
 
-**Live site:** [https://tiosavich.github.io/Math-Methods/](https://tiosavich.github.io/Math-Methods/)
+**Live site:** https://tiosavich.github.io/Math-Methods/
 
-## Structure
+## Resources
 
-Each unit folder contains filled guided notes (HTML with MathJax, Word, Markdown), blank versions for students, and lesson plans.
+- [Alignment Network Visualization](https://tiosavich.github.io/Math-Methods/visualization.html) — 328 nodes, 452 edges
+- [Progress Report](https://tiosavich.github.io/Math-Methods/progress-report.html) — Current status and roadmap
+- [Alignment Data](https://tiosavich.github.io/Math-Methods/e343_alignment_graph.json) — JSON network graph for analysis
 
-| Unit | Weeks | Topic |
-|------|-------|-------|
-| 1 | 1–4 | Lesson planning, 5 Practices framework, anticipating student thinking |
-| 2 | 5–8 | Talk moves, monitoring, selecting & sequencing, connecting |
-| 3 | 9–12 | Addition/subtraction/multiplication/division operation sense, fact fluency, algorithms |
-| 4 | 13–15 | Fraction models, constructs, equivalence, comparison, operations |
+## About
 
-## For other instructors
+This project documents the comprehensive alignment work connecting multiple foundational frameworks in mathematics education. By systematically mapping relationships between curriculum standards, research literature, instructional practices, and course materials, we create a transparent view of how theory informs practice in the E343 Mathematics Methods course at Indiana University.
 
-The filled HTML notes are the most polished versions — they use MathJax for proper math typesetting and render well in any browser. Link directly to the GitHub Pages URL to share with students (Canvas strips out MathJax/CSS from uploaded HTML).
+## Project Statistics
 
-The Word (.docx) versions are available for instructors who prefer to edit in Word. Markdown versions work well for version control and quick reference.
+- 328 network nodes
+- 452 edges mapping relationships
+- 7 frameworks aligned
+- 4 course units mapped

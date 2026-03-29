@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E343 Course Alignment & Cleanup: Progress Report</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #1a202c;
+            background-color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        /* Header with gradient */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        /* Main container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Section styling */
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid #667eea;
+            display: inline-block;
+        }
+
+        /* Stats grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.95rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        /* Content sections */
+        .content-block {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        .content-block h3 {
+            font-size: 1.3rem;
+            color: #1a202c;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .content-block ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .content-block li {
+            padding: 0.75rem 0 0.75rem 1.5rem;
+            position: relative;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        .content-block li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: 700;
+        }
+
+        .content-block strong {
+            color: #1a202c;
+            font-weight: 600;
+        }
+
+        /* Accomplishments checkmarks */
+        .accomplished {
+            background: linear-gradient(to right, rgba(102, 126, 234, 0.05), transparent);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .accomplished:before {
+            content: "✓";
+            display: inline-block;
+            color: #667eea;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-right: 0.75rem;
+        }
+
+        /* Phase timeline */
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .timeline-marker {
+            width: 40px;
+            height: 40px;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+            margin-right: 1.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .timeline-item:not(:last-child) .timeline-marker:after {
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 3.5rem;
+            background: #e2e8f0;
+            left: 20px;
+            top: 40px;
+        }
+
+        .timeline-content {
+            flex: 1;
+            padding: 1rem;
+            background: #f8fafc;
+            border-radius: 8px;
+            border-left: 2px solid #e2e8f0;
+            padding-left: 1.5rem;
+        }
+
+        .timeline-content h4 {
+            font-size: 1.1rem;
+            color: #1a202c;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .timeline-content p {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-content ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 0.5rem;
+        }
+
+        .timeline-content li {
+            padding: 0.4rem 0 0.4rem 1.2rem;
+            position: relative;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .timeline-content li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #94a3b8;
+        }
+
+        /* Call to action button */
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            gap: 0.75rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .cta-button:active {
+            transform: translateY(0);
+        }
+
+        /* Graph section */
+        .graph-section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            margin-bottom: 2rem;
+        }
+
+        .graph-section h3 {
+            font-size: 1.3rem;
+            color: #1a202c;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .graph-description {
+            color: #475569;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .graph-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .graph-stat {
+            background: linear-gradient(135deg, #667eea10, #764ba210);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .graph-stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 0.25rem;
+        }
+
+        .graph-stat-label {
+            font-size: 0.85rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        .cta-container {
+            text-align: center;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #94a3b8;
+            font-size: 0.9rem;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 3rem;
+        }
+
+        /* Print styles */
+        @media print {
+            .header {
+                page-break-after: avoid;
+            }
+
+            .stat-card, .content-block, .graph-section {
+                page-break-inside: avoid;
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            }
+
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.75rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .timeline-item {
+                margin-bottom: 1.5rem;
+            }
+
+            .cta-button {
+                width: 100%;
+            }
+        }
+
+        /* Code/technical styling */
+        code {
+            background: #f1f5f9;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9em;
+            color: #e11d48;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>E343 Course Alignment & Cleanup</h1>
+        <p>Progress Report — March 2026</p>
+    </div>
+
+    <div class="container">
+        <!-- Section 1: What We Inherited -->
+        <div class="section">
+            <h2 class="section-title">What We Inherited</h2>
+
+            <div class="content-block">
+                <h3>The Starting Landscape</h3>
+                <p>When this cleanup project began, the E343 course materials existed as a complex, distributed collection of resources spanning multiple semesters and storage systems. The core challenges were:</p>
+                <ul>
+                    <li><strong>Canvas imscc Export (2.2GB):</strong> Contains duplicate content, broken internal links, and inconsistent folder organization across multiple migration cycles</li>
+                    <li><strong>Three Overlapping Textbooks:</strong> Van de Walle, Five Practices, and Classroom Discourse Moves each organize content differently with overlapping but distinctly-named pedagogical concepts</li>
+                    <li><strong>Multi-Semester Coverage:</strong> Materials from FA22, FA24, SP24, SP25, and SP26 with no clear designation of the "current" or "canonical" version</li>
+                    <li><strong>100+ Illustrative Mathematics PDFs:</strong> Rich problem sets and lesson guides with inconsistent naming conventions and no clear mapping to course units</li>
+                    <li><strong>26 Generic Quizzes & 13 Incomplete Assignments:</strong> Quiz titles like "Quiz 1" or "Module 2 Assessment" lack descriptive metadata; assignment rubrics and learning objectives are inconsistently documented</li>
+                    <li><strong>Format Fragmentation:</strong> Course materials exist in HTML, DOCX, MD, PDF, and PPTX with no unified naming or version control conventions</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 2: What's Been Accomplished -->
+        <div class="section">
+            <h2 class="section-title">What's Been Accomplished</h2>
+
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">328</div>
+                    <div class="stat-label">Nodes Mapped</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">452</div>
+                    <div class="stat-label">Relationships</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">18</div>
+                    <div class="stat-label">Node Types</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">15</div>
+                    <div class="stat-label">Edge Types</div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h3>Complete Course Alignment Graph</h3>
+                <div class="accomplished">
+                    A comprehensive semantic graph mapping all theoretical frameworks and course components. Indiana Standards connect to CCSS, which align with Van de Walle chapter concepts, which reference specific Five Practices, which connect to Classroom Discourse Moves, all linked to Canvas assignments and lesson plans.
+                </div>
+                <ul>
+                    <li><strong>18 Node Types:</strong> Indiana Standards, CCSS, Van de Walle chapters/sections, Five Practices frameworks, CDM talk moves, Canvas quiz items, assignment names, learning outcomes, lesson plans, and more</li>
+                    <li><strong>15 Edge Types:</strong> aligns_to, equivalent_to, references, teaches_toward, assesses, exemplifies, related_to, and deeper relationship types capturing pedagogical intent</li>
+                    <li><strong>Full Units 1–4 Coverage:</strong> Complete mapping of Weeks 1–15 with all units connected through the alignment graph</li>
+                    <li><strong>Graph Metrics:</strong> 328 total nodes, 452 directed relationships, average connectivity of 2.75 connections per node</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>Interactive Network Visualization</h3>
+                <div class="accomplished">
+                    D3.js force-directed graph enabling exploration and discovery. Colleagues can click any concept to see its connections, filter by framework or unit, and search across the entire alignment structure.
+                </div>
+                <ul>
+                    <li>Node filtering by type (Standards, Practices, Assignments, etc.)</li>
+                    <li>Full-text search across all mapped concepts and identifiers</li>
+                    <li>Click-to-explore: selecting any node highlights connected concepts</li>
+                    <li>Color-coded by framework for immediate visual context</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>CDM Complete Ebook (Digitized)</h3>
+                <div class="accomplished">
+                    The entire Classroom Discourse Moves textbook converted from scattered PDFs into a navigable, searchable HTML document with full table of contents, chapter structure, and internal links.
+                </div>
+                <ul>
+                    <li>Fully formatted with MathJax support for mathematical notation</li>
+                    <li>Navigable chapter-by-chapter structure</li>
+                    <li>Currently being prepared for clean DOCX export to Canvas</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>Unit 3 Deep Work (Complete)</h3>
+                <div class="accomplished">
+                    All lesson plans formalized with structured learning objectives, assessment strategies, and speaker notes integrated into presentations. Course packet created in HTML, DOCX, and MD formats for multi-context delivery.
+                </div>
+                <ul>
+                    <li>4 presentations with full speaker notes and pedagogical guidance</li>
+                    <li>All lesson plans aligned to Indiana Standards and Van de Walle frameworks</li>
+                    <li>Course packet compiled from lesson notes, readings, and problem sets</li>
+                    <li>One presentation (Wk11D2, 538MB) exceeds GitHub's 100MB limit but has locally-stored speaker notes</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>Full imscc Inventory & Analysis</h3>
+                <div class="accomplished">
+                    Complete catalog and metadata extraction of all 2.2GB Canvas content. Every assignment, quiz, video link, folder, and resource now has documented relationships and current status.
+                </div>
+                <ul>
+                    <li>26 quizzes cataloged with original Canvas metadata and intended learning outcomes</li>
+                    <li>13 assignments mapped with rubric structure, point values, and submission types</li>
+                    <li>100+ Illustrative Mathematics PDFs cross-referenced to course units</li>
+                    <li>All video resources checked and linked for current availability</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>Vocabulary Alignment Prompt</h3>
+                <div class="accomplished">
+                    NotebookLM-ready prompt structure for coordinating terminology across all four theoretical frameworks (Van de Walle, CDM, Five Practices, Indiana Standards).
+                </div>
+                <ul>
+                    <li>Enables AI-assisted vocabulary concordance generation</li>
+                    <li>Helps identify when frameworks use different terms for similar concepts</li>
+                    <li>Supports student-facing glossaries and concept cards</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 3: What's Next -->
+        <div class="section">
+            <h2 class="section-title">What's Next: Phased Plan</h2>
+
+            <div class="content-block">
+                <h3>Implementation Roadmap</h3>
+                <p>The path forward is organized into four distinct phases, each with clear deliverables and dependencies. This sequencing ensures foundation work precedes Canvas integration, which precedes content rationalization and enhancement.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h4>Phase 1: Foundation (Immediate)</h4>
+                        <p><strong>Goal:</strong> Clean up core technical debt and establish organizational standards</p>
+                        <ul>
+                            <li>Fix CDM Complete Ebook duplicate identifiers and produce clean DOCX version for Canvas import</li>
+                            <li>Archive all Math-Methods GitHub resources, then remove from public repository</li>
+                            <li>Establish and document consistent file naming convention for all future units</li>
+                            <li>Create unit template structure (lesson plans, presentations, quizzes, assignments)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h4>Phase 2: Canvas Readiness</h4>
+                        <p><strong>Goal:</strong> Prepare all content for reliable Canvas integration</p>
+                        <ul>
+                            <li>Determine Canvas math rendering support (likely KaTeX or Canvas equation editor)</li>
+                            <li>Build dual CSS/JS: simplified baseline for Canvas, full design for standalone hosting</li>
+                            <li>Audit and fix all broken internal links in imscc content before re-import</li>
+                            <li>Repackage cleaned imscc for fresh Canvas upload with corrected folder structure</li>
+                            <li>Validate all file encoding and Canvas compatibility</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h4>Phase 3: Content Rationalization</h4>
+                        <p><strong>Goal:</strong> Eliminate redundancy and standardize metadata</p>
+                        <ul>
+                            <li>Use alignment graph to identify redundant content, unused resources, and orphaned materials</li>
+                            <li>Replace page-number references with descriptive section references (e.g., "VdW Chapter 10, Division with Remainders")</li>
+                            <li>Link Indiana Standards to live URLs rather than locally-stored PDFs</li>
+                            <li>Standardize rubric formatting across all assignments and quizzes</li>
+                            <li>Create unified metadata schema for all course materials</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h4>Phase 4: AI Enhancement & Integration</h4>
+                        <p><strong>Goal:</strong> Leverage AI and external resources for deeper learning</p>
+                        <ul>
+                            <li>Prepare comprehensive NotebookLM resource bundle (syllabus, rubrics, assignments, full schedule)</li>
+                            <li>Implement Canvas date variables where supported for dynamic syllabus updates</li>
+                            <li>Build integration plan for Illustrative Mathematics (pending Indiana state adoption)</li>
+                            <li>Create student-facing vocabulary concordance across all frameworks</li>
+                            <li>Design AI-ready assessment items for Canvas quiz engine</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: The Alignment Graph -->
+        <div class="section">
+            <div class="graph-section">
+                <h3>The Alignment Graph: A Living Map of Course Architecture</h3>
+
+                <p class="graph-description">
+                    The alignment graph is the central artifact of this cleanup effort. It represents a semantic network connecting every theoretical framework, assignment, lesson plan, and learning outcome in the course. This graph serves three critical functions:
+                </p>
+
+                <div style="margin-bottom: 1.5rem; color: #475569; line-height: 1.8;">
+                    <p style="margin-bottom: 1rem;"><strong>1. Discovery & Navigation:</strong> Colleagues can explore how concepts flow from Indiana Standards through Van de Walle's pedagogical frameworks, connect to Classroom Discourse Moves, and manifest in specific Canvas assignments and lesson activities.</p>
+
+                    <p style="margin-bottom: 1rem;"><strong>2. Quality Assurance:</strong> The graph immediately reveals gaps (learning objectives with no assigned assessment) and redundancies (duplicate content across units or semesters).</p>
+
+                    <p><strong>3. Iterative Improvement:</strong> As the course evolves, the graph can be updated to reflect new materials, revised standards, or adjusted learning outcomes. It becomes a living document of pedagogical intent.</p>
+                </div>
+
+                <h4 style="font-size: 1.1rem; color: #1a202c; font-weight: 600; margin-bottom: 1rem;">Graph Architecture Summary</h4>
+
+                <div class="graph-stats">
+                    <div class="graph-stat">
+                        <div class="graph-stat-value">328</div>
+                        <div class="graph-stat-label">Total Nodes</div>
+                    </div>
+                    <div class="graph-stat">
+                        <div class="graph-stat-value">452</div>
+                        <div class="graph-stat-label">Relationships</div>
+                    </div>
+                    <div class="graph-stat">
+                        <div class="graph-stat-value">4</div>
+                        <div class="graph-stat-label">Units (Weeks 1–15)</div>
+                    </div>
+                    <div class="graph-stat">
+                        <div class="graph-stat-value">7</div>
+                        <div class="graph-stat-label">Frameworks Aligned</div>
+                    </div>
+                    <div class="graph-stat">
+                        <div class="graph-stat-value">18</div>
+                        <div class="graph-stat-label">Node Types</div>
+                    </div>
+                    <div class="graph-stat">
+                        <div class="graph-stat-value">15</div>
+                        <div class="graph-stat-label">Edge Types</div>
+                    </div>
+                </div>
+
+                <div class="cta-container">
+                    <a href="e343_alignment_visualization.html" class="cta-button">
+                        Open Interactive Visualization →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Closing -->
+        <div class="section">
+            <div class="content-block">
+                <h3>Next Steps & Engagement</h3>
+                <p style="margin-bottom: 1rem;">
+                    This cleanup project transforms scattered course materials into a coherent, discoverable knowledge system. The alignment graph enables pedagogical transparency: colleagues, students, and AI systems can all understand how course components connect to learning objectives.
+                </p>
+                <p style="margin-bottom: 1rem;">
+                    Phase 1 work (foundation & standards) will be complete by early April, unblocking Phase 2 Canvas integration work. Colleagues interested in contributing content alignments, reviewing lesson plans, or providing feedback on the graph structure are encouraged to reach out.
+                </p>
+                <p>
+                    The visualization is live and explorable now. Start with any Indiana Standard or learning concept and follow the connections through frameworks, textbooks, assignments, and lesson activities.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>E343 Mathematics Education Methods Course | Alignment & Cleanup Project | March 2026</p>
+        <p>For questions or collaboration opportunities, contact the course development team.</p>
+    </div>
+</body>
+</html>

@@ -1,166 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>E343 — Math Education Methods</title>
-<style>
-  :root {
-    --blue: #4472C4;
-    --dark: #1a1a2e;
-    --bg: #fafafa;
-    --card-bg: #fff;
-    --border: #ddd;
-    --muted: #666;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: var(--dark);
-    background: var(--bg);
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem 1.5rem;
-  }
-  h1 {
-    font-family: Georgia, serif;
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 0.3rem;
-  }
-  .subtitle {
-    text-align: center;
-    color: var(--muted);
-    margin-bottom: 2.5rem;
-  }
-  .unit-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 1.2rem 1.5rem;
-    margin: 1.2rem 0;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-  }
-  .unit-card h2 {
-    font-family: Georgia, serif;
-    font-size: 1.3rem;
-    color: var(--blue);
-    margin-bottom: 0.5rem;
-    border-bottom: 2px solid var(--blue);
-    padding-bottom: 0.3rem;
-  }
-  .unit-card p {
-    color: var(--muted);
-    font-size: 0.95rem;
-    margin-bottom: 0.8rem;
-  }
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  .links a {
-    display: inline-block;
-    padding: 0.35rem 0.8rem;
-    background: #f0f4fa;
-    color: var(--blue);
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: background 0.15s;
-  }
-  .links a:hover { background: #d8e4f5; }
-  .section-label {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--muted);
-    margin-top: 0.6rem;
-    margin-bottom: 0.3rem;
-    font-weight: 600;
-  }
-  footer {
-    text-align: center;
-    margin-top: 3rem;
-    color: var(--muted);
-    font-size: 0.85rem;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E343 Course Alignment Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #1a202c;
+            background-color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        /* Header with gradient */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+        }
+
+        .header h1 {
+            font-size: 2.75rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.5px;
+            line-height: 1.2;
+        }
+
+        .header p {
+            font-size: 1.15rem;
+            opacity: 0.95;
+            font-weight: 300;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        /* Main container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Description section */
+        .description {
+            background: white;
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            line-height: 1.8;
+        }
+
+        .description h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+
+        .description p {
+            color: #475569;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+        }
+
+        /* Stats grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.75rem 1.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid #667eea;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .stat-value {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        /* Resources section */
+        .resources {
+            margin-bottom: 3rem;
+        }
+
+        .resources h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #1a202c;
+            padding-bottom: 0.75rem;
+            border-bottom: 3px solid #667eea;
+            display: inline-block;
+        }
+
+        .resource-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .resource-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .resource-card:hover {
+            box-shadow: 0 8px 16px rgba(102, 126, 234, 0.12);
+            transform: translateY(-4px);
+        }
+
+        .resource-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 0.75rem;
+        }
+
+        .resource-description {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .resource-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            align-self: flex-start;
+        }
+
+        .resource-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a202c;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        .footer p {
+            opacity: 0.85;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header p {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+
+            .description {
+                padding: 1.5rem;
+            }
+
+            .resource-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="header">
+        <h1>E343: Mathematics Methods Course Alignment Project</h1>
+        <p>Mapping the alignment between Indiana Academic Standards, Van de Walle, Illustrative Mathematics, Five Practices, and E343 course materials into a unified, explorable network</p>
+    </div>
 
-<h1>E343 — Math Education Methods</h1>
-<p class="subtitle">Indiana University &middot; Course Materials</p>
+    <div class="container">
+        <div class="description">
+            <h2>About This Project</h2>
+            <p>This project documents the comprehensive alignment work connecting multiple foundational frameworks in mathematics education. By systematically mapping relationships between curriculum standards, research literature, instructional practices, and course materials, we create a transparent view of how theory informs practice in the E343 Mathematics Methods course at Indiana University.</p>
+        </div>
 
-<div class="unit-card">
-  <h2>Unit 1 — Lesson Planning &amp; the 5 Practices</h2>
-  <p>Weeks 1&ndash;4: Launch-Explore-Summarize, learning goals, anticipating student thinking</p>
-  <div class="section-label">Guided Notes</div>
-  <div class="links">
-    <a href="unit1/Unit_1_Course_Packet_Filled.html">Filled (HTML)</a>
-    <a href="unit1/Unit_1_Course_Packet_Filled.docx">Filled (Word)</a>
-    <a href="unit1/Unit_1_Course_Packet_Blank.md">Blank (Markdown)</a>
-  </div>
-</div>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">328</div>
+                <div class="stat-label">Nodes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">452</div>
+                <div class="stat-label">Edges</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">7</div>
+                <div class="stat-label">Frameworks</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">4</div>
+                <div class="stat-label">Units</div>
+            </div>
+        </div>
 
-<div class="unit-card">
-  <h2>Unit 2 — Talk Moves &amp; Orchestrating Discussion</h2>
-  <p>Weeks 5&ndash;8: Talk moves (Steps 1&ndash;4), monitoring, selecting &amp; sequencing, connecting</p>
-  <div class="section-label">Guided Notes</div>
-  <div class="links">
-    <a href="unit2/Unit_2_Course_Packet_Filled.html">Filled (HTML)</a>
-    <a href="unit2/Unit_2_Course_Packet_Filled.docx">Filled (Word)</a>
-    <a href="unit2/Unit_2_Course_Packet_Blank.md">Blank (Markdown)</a>
-  </div>
-</div>
+        <div class="resources">
+            <h2>Resources</h2>
+            <div class="resource-links">
+                <div class="resource-card">
+                    <div>
+                        <div class="resource-title">Alignment Network Visualization</div>
+                        <div class="resource-description">Explore the interconnected relationships between frameworks through an interactive network visualization. Discover connections, zoom into specific domains, and trace how concepts flow across standards and practices.</div>
+                    </div>
+                    <a href="visualization.html" class="resource-link">Explore the Network</a>
+                </div>
 
-<div class="unit-card">
-  <h2>Unit 3 — Operations: Addition through Division</h2>
-  <p>Weeks 9&ndash;12: Problem structures, fact fluency, number talks, standard algorithms</p>
-  <div class="section-label">Guided Notes</div>
-  <div class="links">
-    <a href="unit3/Unit_3_Course_Packet_Filled.html">Filled (HTML)</a>
-    <a href="unit3/Unit_3_Course_Packet_Filled.docx">Filled (Word)</a>
-    <a href="unit3/Unit_3_Course_Packet_Blank.md">Blank (Markdown)</a>
-  </div>
-  <div class="section-label">Lesson Plans</div>
-  <div class="links">
-    <a href="unit3/lesson-plans/Wk09D1_Lesson_Plan.md">Wk9 D1</a>
-    <a href="unit3/lesson-plans/Wk09D2_Lesson_Plan.md">Wk9 D2</a>
-    <a href="unit3/lesson-plans/Wk10D1_Lesson_Plan.md">Wk10 D1</a>
-    <a href="unit3/lesson-plans/Wk10D2_Lesson_Plan.md">Wk10 D2</a>
-    <a href="unit3/lesson-plans/Wk11D1_Lesson_Plan.md">Wk11 D1</a>
-    <a href="unit3/lesson-plans/Wk11D2_Lesson_Plan.md">Wk11 D2</a>
-    <a href="unit3/lesson-plans/Wk12_Lesson_Plan.md">Wk12</a>
-  </div>
-</div>
+                <div class="resource-card">
+                    <div>
+                        <div class="resource-title">Progress Report</div>
+                        <div class="resource-description">Review the current status and roadmap for the course alignment project. Learn about completed phases, ongoing work, and future directions for this research initiative.</div>
+                    </div>
+                    <a href="progress-report.html" class="resource-link">View Progress Report</a>
+                </div>
 
-<div class="unit-card">
-  <h2>Unit 4 — Developing Fractions</h2>
-  <p>Weeks 13&ndash;15: Fraction models, constructs, equivalence, operations, decimals</p>
-  <div class="section-label">Guided Notes</div>
-  <div class="links">
-    <a href="unit4/Unit_4_Course_Packet_Filled.html">Filled (HTML)</a>
-    <a href="unit4/Unit_4_Course_Packet_Filled.docx">Filled (Word)</a>
-    <a href="unit4/Unit_4_Course_Packet_Blank.md">Blank (Markdown)</a>
-  </div>
-  <div class="section-label">Lesson Plans</div>
-  <div class="links">
-    <a href="unit4/lesson-plans/Wk13D1_Lesson_Plan.md">Wk13 D1</a>
-    <a href="unit4/lesson-plans/Wk13D2_Lesson_Plan.md">Wk13 D2</a>
-    <a href="unit4/lesson-plans/Wk14D1_Lesson_Plan.md">Wk14 D1</a>
-    <a href="unit4/lesson-plans/Wk14D2_Lesson_Plan.md">Wk14 D2</a>
-    <a href="unit4/lesson-plans/Wk15D1_Lesson_Plan.md">Wk15 D1</a>
-    <a href="unit4/lesson-plans/Wk15D2_Lesson_Plan.md">Wk15 D2</a>
-  </div>
-</div>
+                <div class="resource-card">
+                    <div>
+                        <div class="resource-title">Alignment Data</div>
+                        <div class="resource-description">Access the underlying network data in JSON format. Suitable for analysis, visualization tools, or further computational work on the alignment mapping.</div>
+                    </div>
+                    <a href="e343_alignment_graph.json" class="resource-link">Download Data</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<footer>
-  <p>E343 &middot; Indiana University School of Education</p>
-</footer>
-
+    <div class="footer">
+        <p>E343 Mathematics Methods | Indiana University | School of Education</p>
+    </div>
 </body>
 </html>
