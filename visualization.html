@@ -1040,79 +1040,90 @@ function copyConnections(nodeId) {
 }
 
 // ============================================================================
-// GRAPH VIEW (lightweight — D3-free for file:// compatibility)
+// GRAPH VIEW (canvas-based force layout)
 // ============================================================================
 let graphInitialized = false;
+let graphNodes = [];
+let graphEdges = [];
+let graphTransform = { x: 0, y: 0, scale: 1 };
+let graphHover = null;
+let graphFilter = new Set();
+let graphDrawFn = null;
+let graphRunning = false;
 
 function initGraph() {
     if (graphInitialized) return;
     graphInitialized = true;
 
+    // Populate filter set from all types actually present
+    const presentTypes = new Set(ALL_NODES.map(n => n.type));
+    graphFilter = new Set(presentTypes);
+
     const container = document.getElementById('graph-container');
     container.innerHTML = `
         <div style="display:flex;flex-direction:column;height:100%;">
-            <div style="padding:0.75rem 1rem;background:var(--card);border-bottom:1px solid var(--border);display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
-                <span style="font-size:0.82rem;color:var(--text-secondary);">Filter:</span>
-                ${Object.entries(TYPE_LABELS).map(([type, label]) => {
+            <div style="padding:0.6rem 1rem;background:var(--card);border-bottom:1px solid var(--border);display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
+                <span style="font-size:0.82rem;color:var(--text-secondary);font-weight:600;">Filter:</span>
+                ${[...presentTypes].sort().map(type => {
+                    const label = TYPE_LABELS[type] || humanizeId(type);
                     const count = ALL_NODES.filter(n => n.type === type).length;
-                    if (count === 0) return '';
-                    return `<label style="font-size:0.78rem;display:flex;align-items:center;gap:3px;cursor:pointer;">
+                    return `<label style="font-size:0.75rem;display:flex;align-items:center;gap:3px;cursor:pointer;padding:2px 4px;border-radius:3px;" onmouseenter="this.style.background='#f0f1f5'" onmouseleave="this.style.background='transparent'">
                         <input type="checkbox" checked data-graph-type="${type}" onchange="updateGraphFilter()">
-                        <span style="width:8px;height:8px;border-radius:50%;background:${getTypeColor(type)};display:inline-block;"></span>
-                        ${label} (${count})
+                        <span style="width:8px;height:8px;border-radius:50%;background:${getTypeColor(type)};display:inline-block;flex-shrink:0;"></span>
+                        ${label}&nbsp;(${count})
                     </label>`;
                 }).join('')}
+                <button onclick="zoomToFit()" style="margin-left:auto;padding:4px 10px;border:1px solid var(--border);border-radius:4px;background:var(--card);font-size:0.75rem;cursor:pointer;">Fit all</button>
             </div>
-            <canvas id="graph-canvas" style="flex:1;cursor:grab;"></canvas>
+            <canvas id="graph-canvas" style="flex:1;cursor:grab;background:#fafbfd;"></canvas>
         </div>
     `;
 
     setupCanvasGraph();
 }
 
-let graphNodes = [];
-let graphEdges = [];
-let graphTransform = { x: 0, y: 0, scale: 1 };
-let graphDrag = null;
-let graphHover = null;
-let graphFilter = new Set(Object.keys(TYPE_LABELS));
-
 function setupCanvasGraph() {
     const canvas = document.getElementById('graph-canvas');
     const ctx = canvas.getContext('2d');
+    let W, H;
 
     function resize() {
-        canvas.width = canvas.clientWidth * devicePixelRatio;
-        canvas.height = canvas.clientHeight * devicePixelRatio;
-        ctx.scale(devicePixelRatio, devicePixelRatio);
+        W = canvas.clientWidth;
+        H = canvas.clientHeight;
+        canvas.width = W * devicePixelRatio;
+        canvas.height = H * devicePixelRatio;
     }
     resize();
-    window.addEventListener('resize', resize);
+    window.addEventListener('resize', () => { resize(); draw(); });
 
-    // Simple force layout — position nodes in a grid-like layout by type
-    const typeGroups = new Map();
-    ALL_NODES.forEach((n, i) => {
-        if (!typeGroups.has(n.type)) typeGroups.set(n.type, []);
-        typeGroups.get(n.type).push(i);
-    });
+    // --- Build graph data ---
+    const typeList = [...new Set(ALL_NODES.map(n => n.type))];
+    const typeCount = typeList.length;
 
-    const cx = canvas.clientWidth / 2;
-    const cy = canvas.clientHeight / 2;
-
+    // Initial positions: arrange type clusters in a circle, nodes within each cluster in a smaller circle
     graphNodes = ALL_NODES.map((n, i) => {
-        // Spread by type in a ring, with jitter
-        const types = [...typeGroups.keys()];
-        const typeIdx = types.indexOf(n.type);
-        const withinGroup = typeGroups.get(n.type).indexOf(i);
-        const groupSize = typeGroups.get(n.type).length;
-        const angle = (typeIdx / types.length) * Math.PI * 2;
-        const radius = 200 + withinGroup * 12;
-        const jitter = (Math.random() - 0.5) * 60;
+        const typeIdx = typeList.indexOf(n.type);
+        const group = ALL_NODES.filter(nd => nd.type === n.type);
+        const withinIdx = group.indexOf(n);
+        const groupSize = group.length;
+
+        // Cluster center on a big circle
+        const clusterAngle = (typeIdx / typeCount) * Math.PI * 2 - Math.PI / 2;
+        const clusterRadius = Math.min(W, H) * 0.3;
+        const clusterCx = W / 2 + Math.cos(clusterAngle) * clusterRadius;
+        const clusterCy = H / 2 + Math.sin(clusterAngle) * clusterRadius;
+
+        // Node position within cluster — small circle
+        const innerAngle = (withinIdx / groupSize) * Math.PI * 2;
+        const innerRadius = Math.min(30 + groupSize * 2, 120);
+        const jx = (Math.random() - 0.5) * 20;
+        const jy = (Math.random() - 0.5) * 20;
 
         return {
             id: n.id,
-            x: cx + Math.cos(angle) * radius + jitter,
-            y: cy + Math.sin(angle) * radius + jitter,
+            x: clusterCx + Math.cos(innerAngle) * innerRadius + jx,
+            y: clusterCy + Math.sin(innerAngle) * innerRadius + jy,
+            vx: 0, vy: 0,
             type: n.type,
             title: n.title,
             connections: (ADJ.get(n.id) || []).length
@@ -1128,120 +1139,212 @@ function setupCanvasGraph() {
         type: e.type
     })).filter(e => e.from !== undefined && e.to !== undefined);
 
-    // Simple force simulation
-    let running = true;
-    const iterations = 150;
+    // --- Force simulation with velocity (Verlet-ish) ---
+    const TOTAL_ITERS = 300;
     let iter = 0;
+    graphRunning = true;
 
+    // Use Barnes-Hut-lite: grid-based repulsion for performance
     function simulate() {
-        if (iter >= iterations) { running = false; draw(); return; }
+        if (iter >= TOTAL_ITERS) {
+            graphRunning = false;
+            zoomToFit();
+            draw();
+            return;
+        }
         iter++;
+        const cooling = 1 - iter / TOTAL_ITERS; // 1 → 0
+        const dt = 0.8 * cooling + 0.1;
 
-        // Repulsion
-        for (let i = 0; i < graphNodes.length; i++) {
-            for (let j = i + 1; j < graphNodes.length; j++) {
-                let dx = graphNodes[j].x - graphNodes[i].x;
-                let dy = graphNodes[j].y - graphNodes[i].y;
-                let dist = Math.sqrt(dx * dx + dy * dy) || 1;
-                if (dist > 300) continue;
-                const force = 500 / (dist * dist);
-                dx *= force; dy *= force;
-                graphNodes[i].x -= dx * 0.5;
-                graphNodes[i].y -= dy * 0.5;
-                graphNodes[j].x += dx * 0.5;
-                graphNodes[j].y += dy * 0.5;
+        // Reset velocities
+        for (const n of graphNodes) { n.vx = 0; n.vy = 0; }
+
+        // Repulsion (sampling for performance with 369 nodes)
+        const N = graphNodes.length;
+        const repStr = 2000;
+        const maxDist = 400;
+        // Full O(n²) is ~68K pairs at 369 nodes — fast enough for canvas
+        for (let i = 0; i < N; i++) {
+            const a = graphNodes[i];
+            for (let j = i + 1; j < N; j++) {
+                const b = graphNodes[j];
+                let dx = b.x - a.x;
+                let dy = b.y - a.y;
+                let d2 = dx * dx + dy * dy;
+                if (d2 > maxDist * maxDist) continue;
+                let dist = Math.sqrt(d2) || 0.1;
+                let f = repStr / (dist * dist);
+                let fx = (dx / dist) * f;
+                let fy = (dy / dist) * f;
+                a.vx -= fx; a.vy -= fy;
+                b.vx += fx; b.vy += fy;
             }
         }
 
-        // Attraction along edges
+        // Edge attraction (spring)
+        const springLen = 60;
+        const springK = 0.06;
         for (const e of graphEdges) {
             const a = graphNodes[e.from], b = graphNodes[e.to];
             let dx = b.x - a.x, dy = b.y - a.y;
-            let dist = Math.sqrt(dx * dx + dy * dy) || 1;
-            const force = (dist - 80) * 0.005;
-            dx = (dx / dist) * force;
-            dy = (dy / dist) * force;
-            a.x += dx; a.y += dy;
-            b.x -= dx; b.y -= dy;
+            let dist = Math.sqrt(dx * dx + dy * dy) || 0.1;
+            let f = (dist - springLen) * springK;
+            let fx = (dx / dist) * f;
+            let fy = (dy / dist) * f;
+            a.vx += fx; a.vy += fy;
+            b.vx -= fx; b.vy -= fy;
         }
 
         // Center gravity
+        const grav = 0.3;
+        const centX = W / 2, centY = H / 2;
         for (const n of graphNodes) {
-            n.x += (cx - n.x) * 0.002;
-            n.y += (cy - n.y) * 0.002;
+            n.vx += (centX - n.x) * grav * 0.01;
+            n.vy += (centY - n.y) * grav * 0.01;
+        }
+
+        // Apply velocities with damping
+        const maxV = 15;
+        for (const n of graphNodes) {
+            n.vx = Math.max(-maxV, Math.min(maxV, n.vx * dt));
+            n.vy = Math.max(-maxV, Math.min(maxV, n.vy * dt));
+            n.x += n.vx;
+            n.y += n.vy;
         }
 
         draw();
         requestAnimationFrame(simulate);
     }
 
+    // --- Rendering ---
     function draw() {
-        ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
-        ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+        const dpr = devicePixelRatio;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, W, H);
+
+        // Subtle background grid
         ctx.save();
         ctx.translate(graphTransform.x, graphTransform.y);
         ctx.scale(graphTransform.scale, graphTransform.scale);
 
-        // Draw edges
-        ctx.globalAlpha = 0.15;
-        ctx.strokeStyle = '#888';
-        ctx.lineWidth = 0.5;
+        // Edges
+        ctx.lineWidth = 0.5 / graphTransform.scale;
         for (const e of graphEdges) {
             const a = graphNodes[e.from], b = graphNodes[e.to];
             if (!graphFilter.has(a.type) || !graphFilter.has(b.type)) continue;
+            ctx.strokeStyle = 'rgba(120,130,150,0.12)';
             ctx.beginPath();
             ctx.moveTo(a.x, a.y);
             ctx.lineTo(b.x, b.y);
             ctx.stroke();
         }
 
-        // Draw nodes
-        ctx.globalAlpha = 1;
+        // Nodes
+        const baseR = 3.5;
         for (const n of graphNodes) {
             if (!graphFilter.has(n.type)) continue;
-            const r = 3 + Math.min(n.connections, 15) * 0.8;
+            const r = baseR + Math.min(n.connections, 20) * 0.6;
             ctx.beginPath();
             ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
             ctx.fillStyle = getTypeColor(n.type);
+            ctx.globalAlpha = 0.85;
             ctx.fill();
+            ctx.globalAlpha = 1;
+        }
 
-            if (n === graphHover) {
-                ctx.strokeStyle = '#333';
-                ctx.lineWidth = 2;
-                ctx.stroke();
+        // Hover highlight
+        if (graphHover && graphFilter.has(graphHover.type)) {
+            const h = graphHover;
+            const r = baseR + Math.min(h.connections, 20) * 0.6;
 
-                // Label
-                ctx.fillStyle = '#333';
-                ctx.font = '11px -apple-system, sans-serif';
-                ctx.fillText(n.title, n.x + r + 4, n.y + 4);
+            // Highlight connected edges
+            ctx.lineWidth = 1.5 / graphTransform.scale;
+            ctx.strokeStyle = 'rgba(91,106,191,0.5)';
+            for (const e of graphEdges) {
+                if (e.from === nodeIdx.get(h.id) || e.to === nodeIdx.get(h.id)) {
+                    const a = graphNodes[e.from], b = graphNodes[e.to];
+                    if (!graphFilter.has(a.type) || !graphFilter.has(b.type)) continue;
+                    ctx.beginPath();
+                    ctx.moveTo(a.x, a.y);
+                    ctx.lineTo(b.x, b.y);
+                    ctx.stroke();
+                }
             }
+
+            // Highlight ring
+            ctx.beginPath();
+            ctx.arc(h.x, h.y, r + 3, 0, Math.PI * 2);
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 2 / graphTransform.scale;
+            ctx.stroke();
+
+            // Label with background
+            const fontSize = Math.max(10, 12 / graphTransform.scale);
+            ctx.font = `600 ${fontSize}px -apple-system, sans-serif`;
+            const textW = ctx.measureText(h.title).width;
+            const pad = 4 / graphTransform.scale;
+            const tx = h.x + r + 6;
+            const ty = h.y;
+            ctx.fillStyle = 'rgba(255,255,255,0.92)';
+            ctx.fillRect(tx - pad, ty - fontSize / 2 - pad, textW + pad * 2, fontSize + pad * 2);
+            ctx.fillStyle = '#2d3142';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(h.title, tx, ty);
         }
 
         ctx.restore();
     }
 
-    // Interaction
+    graphDrawFn = draw;
+
+    // --- Zoom to fit ---
+    window.zoomToFit = function() {
+        const visible = graphNodes.filter(n => graphFilter.has(n.type));
+        if (visible.length === 0) return;
+        let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+        for (const n of visible) {
+            minX = Math.min(minX, n.x); maxX = Math.max(maxX, n.x);
+            minY = Math.min(minY, n.y); maxY = Math.max(maxY, n.y);
+        }
+        const pad = 60;
+        const graphW = (maxX - minX) || 1;
+        const graphH = (maxY - minY) || 1;
+        const scale = Math.min((W - pad * 2) / graphW, (H - pad * 2) / graphH, 2);
+        const cx = (minX + maxX) / 2;
+        const cy = (minY + maxY) / 2;
+        graphTransform.scale = scale;
+        graphTransform.x = W / 2 - cx * scale;
+        graphTransform.y = H / 2 - cy * scale;
+        draw();
+    };
+
+    // --- Interaction ---
     let isDragging = false;
+    let dragMoved = false;
     let lastMouse = { x: 0, y: 0 };
 
     canvas.addEventListener('mousedown', e => {
         isDragging = true;
+        dragMoved = false;
         lastMouse = { x: e.offsetX, y: e.offsetY };
         canvas.style.cursor = 'grabbing';
     });
 
     canvas.addEventListener('mousemove', e => {
         if (isDragging) {
-            graphTransform.x += e.offsetX - lastMouse.x;
-            graphTransform.y += e.offsetY - lastMouse.y;
+            const dx = e.offsetX - lastMouse.x;
+            const dy = e.offsetY - lastMouse.y;
+            if (Math.abs(dx) + Math.abs(dy) > 2) dragMoved = true;
+            graphTransform.x += dx;
+            graphTransform.y += dy;
             lastMouse = { x: e.offsetX, y: e.offsetY };
-            if (!running) draw();
+            if (!graphRunning) draw();
         } else {
-            // Hover detection
+            // Hover
             const mx = (e.offsetX - graphTransform.x) / graphTransform.scale;
             const my = (e.offsetY - graphTransform.y) / graphTransform.scale;
             let closest = null;
-            let closestDist = 20;
+            let closestDist = 15 / graphTransform.scale;
             for (const n of graphNodes) {
                 if (!graphFilter.has(n.type)) continue;
                 const d = Math.sqrt((n.x - mx) ** 2 + (n.y - my) ** 2);
@@ -1250,7 +1353,7 @@ function setupCanvasGraph() {
             if (closest !== graphHover) {
                 graphHover = closest;
                 canvas.style.cursor = closest ? 'pointer' : 'grab';
-                if (!running) draw();
+                if (!graphRunning) draw();
             }
         }
     });
@@ -1261,7 +1364,7 @@ function setupCanvasGraph() {
     });
 
     canvas.addEventListener('click', e => {
-        if (graphHover) {
+        if (graphHover && !dragMoved) {
             showView('browse');
             selectNode(graphHover.id);
         }
@@ -1269,9 +1372,15 @@ function setupCanvasGraph() {
 
     canvas.addEventListener('wheel', e => {
         e.preventDefault();
-        const scale = graphTransform.scale * (e.deltaY > 0 ? 0.9 : 1.1);
-        graphTransform.scale = Math.max(0.1, Math.min(5, scale));
-        if (!running) draw();
+        const oldScale = graphTransform.scale;
+        const factor = e.deltaY > 0 ? 0.88 : 1.12;
+        const newScale = Math.max(0.05, Math.min(8, oldScale * factor));
+        // Zoom toward mouse position
+        const mx = e.offsetX, my = e.offsetY;
+        graphTransform.x = mx - (mx - graphTransform.x) * (newScale / oldScale);
+        graphTransform.y = my - (my - graphTransform.y) * (newScale / oldScale);
+        graphTransform.scale = newScale;
+        if (!graphRunning) draw();
     }, { passive: false });
 
     simulate();
@@ -1282,21 +1391,10 @@ function updateGraphFilter() {
     document.querySelectorAll('[data-graph-type]').forEach(cb => {
         if (cb.checked) graphFilter.add(cb.dataset.graphType);
     });
-    const canvas = document.getElementById('graph-canvas');
-    if (canvas) {
-        const ctx = canvas.getContext('2d');
-        // Redraw
-        setupCanvasGraph.draw && setupCanvasGraph.draw();
-        // Simpler: just re-init
-    }
-    // Trigger redraw by re-calling draw
-    if (!graphInitialized) return;
-    graphInitialized = false;
-    initGraph();
+    if (graphDrawFn) graphDrawFn();
 }
 
 function highlightGraphNode(nodeId) {
-    // Switch to browse view to show detail
     showView('browse');
     selectNode(nodeId);
 }
