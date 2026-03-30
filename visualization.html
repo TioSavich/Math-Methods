@@ -324,6 +324,7 @@ const TYPE_COLORS = {
     topic: '#6b46c1',
     vdw_section: '#2563eb',
     im_unit: '#d63384',
+    im_lesson: '#e8457a',
     five_practice: '#059669',
     fp_chapter: '#059669',
     cdm_chapter: '#0891b2',
@@ -334,6 +335,9 @@ const TYPE_COLORS = {
     process_standard: '#475569',
     learning_component: '#e11d48',
     canvas_resource: '#64748b',
+    canvas_folder: '#78909c',
+    canvas_video: '#546e7a',
+    im_field_placement: '#f472b6',
     default: '#94a3b8'
 };
 
@@ -342,7 +346,8 @@ const TYPE_LABELS = {
     indiana_standard: 'Indiana Standard',
     topic: 'Topic',
     vdw_section: 'Van de Walle',
-    im_unit: 'Illustrative Math',
+    im_unit: 'IM Unit',
+    im_lesson: 'IM Lesson',
     five_practice: 'Five Practice',
     fp_chapter: 'Five Practices Chapter',
     cdm_chapter: 'CDM Chapter',
@@ -352,7 +357,10 @@ const TYPE_LABELS = {
     quiz: 'Quiz',
     process_standard: 'Process Standard',
     learning_component: 'Learning Component',
-    canvas_resource: 'Canvas Resource'
+    canvas_resource: 'Canvas Resource',
+    canvas_folder: 'Canvas Folder',
+    canvas_video: 'Canvas Video',
+    im_field_placement: 'Field Placement'
 };
 
 const EDGE_LABELS = {
@@ -398,9 +406,9 @@ function processData() {
     ALL_NODES = [];
     for (const [cat, nodeList] of Object.entries(GRAPH_DATA.nodes)) {
         for (const n of nodeList) {
-            // Ensure title
+            // Ensure title from whatever field is available
             if (!n.title) {
-                n.title = n.name || n.label || humanizeId(n.id);
+                n.title = n.name || n.label || n.code || (n.description ? n.description.slice(0, 70) + '...' : null) || humanizeId(n.id);
             }
             ALL_NODES.push(n);
             NODE_MAP.set(n.id, n);
@@ -498,7 +506,8 @@ function buildSidebar() {
     const frameworks = [
         { label: 'Indiana Standards', types: ['indiana_standard', 'process_standard'] },
         { label: 'Van de Walle', types: ['vdw_section'] },
-        { label: 'Illustrative Math', types: ['im_unit'] },
+        { label: 'Illustrative Math Units', types: ['im_unit'] },
+        { label: 'Illustrative Math Lessons', types: ['im_lesson'] },
         { label: 'Five Practices', types: ['fp_chapter', 'five_practice'] },
         { label: 'CDM / Talk Moves', types: ['cdm_chapter', 'cdm_video', 'cdm_lesson'] },
     ];
@@ -636,14 +645,22 @@ function performSearch(q) {
         const desc = (n.description || '').toLowerCase();
         const topics = (n.topics || []).join(' ').toLowerCase();
         const code = (n.code || '').toLowerCase();
+        const files = (n.sample_files || []).join(' ').toLowerCase();
+        const schools = (n.schools || []).join(' ').toLowerCase();
+        const semesters = (n.semesters || []).join(' ').toLowerCase();
+        const name = (n.name || '').toLowerCase();
 
         if (title === q) score = 100;
         else if (title.startsWith(q)) score = 80;
         else if (title.includes(q)) score = 60;
-        else if (id.includes(q)) score = 40;
+        else if (name.includes(q)) score = 55;
         else if (code.includes(q)) score = 50;
-        else if (desc.includes(q)) score = 30;
+        else if (id.includes(q)) score = 40;
+        else if (files.includes(q)) score = 45;
         else if (topics.includes(q)) score = 35;
+        else if (desc.includes(q)) score = 30;
+        else if (schools.includes(q)) score = 25;
+        else if (semesters.includes(q)) score = 20;
         else continue;
 
         scored.push({ ...n, _score: score });
@@ -729,12 +746,14 @@ function showWelcome() {
     const center = document.getElementById('center');
 
     const exampleSearches = [
-        'addition', 'fractions', 'division', 'multiplication',
+        'quadrilaterals', 'area and perimeter', 'fractions', 'volume',
+        'addition', 'division', 'multiplication', 'decimal',
         'talk moves', 'five practices', 'number talks', 'fact fluency',
         'area model', 'Week 10', 'revoicing', 'Equal Groups',
-        'IN_3.C.1', 'think aloud', 'lesson plan', 'Van de Walle',
-        'Introducing Multiplication', 'Adding within 100',
-        'anticipating', 'standard algorithm'
+        'IN_3.C.1', 'think aloud', 'Van de Walle', 'equivalent fractions',
+        'Introducing Multiplication', 'bar graphs', 'ratios',
+        'anticipating', 'standard algorithm', 'story problems',
+        '3rd Grade', '4th Grade', 'measurement'
     ];
 
     const weekCards = [
@@ -876,6 +895,10 @@ function selectNode(nodeId) {
     if (node.chapter) metaHtml += `<span><strong>Chapter:</strong> ${node.chapter}</span>`;
     if (node.points_possible) metaHtml += `<span><strong>Points:</strong> ${node.points_possible}</span>`;
     if (node.url) metaHtml += `<span><strong>Link:</strong> <a href="${node.url}" target="_blank" style="color:var(--accent);">Open →</a></span>`;
+    if (node.schools && node.schools.length) metaHtml += `<span><strong>Schools:</strong> ${node.schools.join(', ')}</span>`;
+    if (node.semesters && node.semesters.length) metaHtml += `<span><strong>Semesters:</strong> ${node.semesters.join(', ')}</span>`;
+    if (node.file_count) metaHtml += `<span><strong>Files:</strong> ${node.file_count} PDFs</span>`;
+    if (node.sample_files && node.sample_files.length) metaHtml += `<span><strong>Example files:</strong> ${node.sample_files.join(', ')}</span>`;
 
     // CCSS equivalents
     let ccssHtml = '';

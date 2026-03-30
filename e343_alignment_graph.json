@@ -4,10 +4,10 @@
     "description": "Indiana-centric course alignment graph mapping Indiana Academic Standards, Van de Walle, Illustrative Mathematics, Five Practices (Smith & Stein), CDM Talk Moves, Canvas assignments, and E343 lesson plans.",
     "created": "2026-03-27",
     "grade_band": "K-8",
-    "scope": "Full course \u2014 Units 1-4 (Pedagogy Foundations, Discourse, Operations & Algebraic Thinking, Fractions)",
+    "scope": "Full course — Units 1-4 (Pedagogy Foundations, Discourse, Operations & Algebraic Thinking, Fractions)",
     "sources": {
-      "indiana_standards": "Indiana Academic Standards for Mathematics (via Learning Commons Connector / CASE Network) \u2014 PRIMARY",
-      "ccss_m": "Common Core State Standards \u2014 folded as metadata into Indiana standards where equivalences exist",
+      "indiana_standards": "Indiana Academic Standards for Mathematics (via Learning Commons Connector / CASE Network) — PRIMARY",
+      "ccss_m": "Common Core State Standards — folded as metadata into Indiana standards where equivalences exist",
       "van_de_walle": "Elementary and Middle School Mathematics: Teaching Developmentally (Van de Walle et al.)",
       "illustrative_math": "Illustrative Mathematics K-5 (https://accessim.org/k5?a=teacher&lang=en)",
       "five_practices": "Five Practices in Practice (Smith & Stein)",
@@ -28,7 +28,8 @@
       "cdm_lesson",
       "assignment",
       "quiz",
-      "canvas_resource"
+      "canvas_resource",
+      "im_lesson"
     ],
     "edge_types": [
       "aligns_to",
@@ -56,7 +57,7 @@
       {
         "id": "lp_wk09d1",
         "type": "lesson_plan",
-        "title": "Week 9, Day 1 \u2014 Indiana Standards and Math Process Standards",
+        "title": "Week 9, Day 1 — Indiana Standards and Math Process Standards",
         "file": "Wk09D1_Lesson_Plan.md",
         "course_packet_pages": "1-14",
         "duration_minutes": 75,
@@ -75,7 +76,7 @@
       {
         "id": "lp_wk09d2",
         "type": "lesson_plan",
-        "title": "Week 9, Day 2 \u2014 Addition Problem Structures",
+        "title": "Week 9, Day 2 — Addition Problem Structures",
         "file": "Wk09D2_Lesson_Plan.md",
         "course_packet_pages": "3-7",
         "duration_minutes": 75,
@@ -94,7 +95,7 @@
       {
         "id": "lp_wk10d1",
         "type": "lesson_plan",
-        "title": "Week 10, Day 1 \u2014 Fact Fluency and Number Talks",
+        "title": "Week 10, Day 1 — Fact Fluency and Number Talks",
         "file": "Wk10D1_Lesson_Plan.md",
         "course_packet_pages": "8-14",
         "duration_minutes": 75,
@@ -113,7 +114,7 @@
       {
         "id": "lp_wk10d2",
         "type": "lesson_plan",
-        "title": "Week 10, Day 2 \u2014 Multiplication and Division Operation Sense",
+        "title": "Week 10, Day 2 — Multiplication and Division Operation Sense",
         "file": "Wk10D2_Lesson_Plan.md",
         "course_packet_pages": "15-20",
         "duration_minutes": 75,
@@ -131,7 +132,7 @@
       {
         "id": "lp_wk11d1",
         "type": "lesson_plan",
-        "title": "Week 11, Day 1 \u2014 Multiplication Facts: Number Selection and Instructional Planning",
+        "title": "Week 11, Day 1 — Multiplication Facts: Number Selection and Instructional Planning",
         "file": "Wk11D1_Lesson_Plan.md",
         "course_packet_pages": "20-22",
         "duration_minutes": 75,
@@ -151,7 +152,7 @@
       {
         "id": "lp_wk11d2",
         "type": "lesson_plan",
-        "title": "Week 11, Day 2 \u2014 Multiplication Strategies and Standard Algorithm",
+        "title": "Week 11, Day 2 — Multiplication Strategies and Standard Algorithm",
         "file": "Wk11D2_Lesson_Plan.md",
         "course_packet_pages": "22-25",
         "duration_minutes": 75,
@@ -171,7 +172,7 @@
       {
         "id": "lp_wk12",
         "type": "lesson_plan",
-        "title": "Week 12, Days 1-2 \u2014 Division Strategies and Division Algorithm",
+        "title": "Week 12, Days 1-2 — Division Strategies and Division Algorithm",
         "file": "Wk12_Lesson_Plan.md",
         "course_packet_pages": "25-30",
         "duration_minutes": 150,
@@ -191,7 +192,7 @@
       {
         "id": "lp_wk01d1",
         "type": "lesson_plan",
-        "title": "Week 1, Day 1 \u2014 Course Introduction & Five Practices Framework",
+        "title": "Week 1, Day 1 — Course Introduction & Five Practices Framework",
         "file": "Unit_1_Course_Packet_Filled.md",
         "course_packet_pages": "1-4",
         "duration_minutes": 75,
@@ -212,7 +213,7 @@
       {
         "id": "lp_wk01d2",
         "type": "lesson_plan",
-        "title": "Week 1, Day 2 \u2014 Launch-Explore-Summarize & IM Lesson Structure",
+        "title": "Week 1, Day 2 — Launch-Explore-Summarize & IM Lesson Structure",
         "file": "Unit_1_Course_Packet_Filled.md",
         "course_packet_pages": "4-8",
         "duration_minutes": 75,
@@ -233,7 +234,7 @@
       {
         "id": "lp_wk02",
         "type": "lesson_plan",
-        "title": "Week 2 \u2014 Learning Goals vs. Performance Goals",
+        "title": "Week 2 — Learning Goals vs. Performance Goals",
         "file": "Unit_1_Course_Packet_Filled.md",
         "course_packet_pages": "8-12",
         "duration_minutes": 150,
@@ -255,7 +256,7 @@
       {
         "id": "lp_wk03",
         "type": "lesson_plan",
-        "title": "Week 3 \u2014 Anticipating Student Thinking",
+        "title": "Week 3 — Anticipating Student Thinking",
         "file": "Unit_1_Course_Packet_Filled.md",
         "course_packet_pages": "12-18",
         "duration_minutes": 150,
@@ -277,7 +278,7 @@
       {
         "id": "lp_wk04",
         "type": "lesson_plan",
-        "title": "Week 4 \u2014 Guided Reading Notes & Think Aloud Interviews",
+        "title": "Week 4 — Guided Reading Notes & Think Aloud Interviews",
         "file": "Unit_1_Course_Packet_Filled.md",
         "course_packet_pages": "18-22",
         "duration_minutes": 150,
@@ -299,7 +300,7 @@
       {
         "id": "lp_wk05",
         "type": "lesson_plan",
-        "title": "Week 5 \u2014 Talk Moves: Steps 1 & 2",
+        "title": "Week 5 — Talk Moves: Steps 1 & 2",
         "file": "Unit_2_Course_Packet_Filled.md",
         "course_packet_pages": "1-8",
         "duration_minutes": 150,
@@ -325,7 +326,7 @@
       {
         "id": "lp_wk06d1",
         "type": "lesson_plan",
-        "title": "Week 6, Day 1 \u2014 Talk Moves: Steps 3 & 4 (Deepening Reasoning)",
+        "title": "Week 6, Day 1 — Talk Moves: Steps 3 & 4 (Deepening Reasoning)",
         "file": "Unit_2_Course_Packet_Filled.md",
         "course_packet_pages": "8-14",
         "duration_minutes": 75,
@@ -350,7 +351,7 @@
       {
         "id": "lp_wk06d2",
         "type": "lesson_plan",
-        "title": "Week 6, Day 2 \u2014 Monitoring (Practice 3)",
+        "title": "Week 6, Day 2 — Monitoring (Practice 3)",
         "file": "Unit_2_Course_Packet_Filled.md",
         "course_packet_pages": "14-20",
         "duration_minutes": 75,
@@ -375,7 +376,7 @@
       {
         "id": "lp_wk07d1",
         "type": "lesson_plan",
-        "title": "Week 7, Day 1 \u2014 Selecting & Sequencing (Practices 4 & 5)",
+        "title": "Week 7, Day 1 — Selecting & Sequencing (Practices 4 & 5)",
         "file": "Unit_2_Course_Packet_Filled.md",
         "course_packet_pages": "20-26",
         "duration_minutes": 75,
@@ -400,7 +401,7 @@
       {
         "id": "lp_wk07d2",
         "type": "lesson_plan",
-        "title": "Week 7, Day 2 \u2014 Connecting Student Solutions",
+        "title": "Week 7, Day 2 — Connecting Student Solutions",
         "file": "Unit_2_Course_Packet_Filled.md",
         "course_packet_pages": "26-30",
         "duration_minutes": 75,
@@ -424,7 +425,7 @@
       {
         "id": "lp_wk08",
         "type": "lesson_plan",
-        "title": "Week 8 \u2014 Demonstration Lesson & Synthesis",
+        "title": "Week 8 — Demonstration Lesson & Synthesis",
         "file": "Unit_2_Course_Packet_Filled.md",
         "course_packet_pages": "30-34",
         "duration_minutes": 150,
@@ -448,7 +449,7 @@
       {
         "id": "lp_wk13d1",
         "type": "lesson_plan",
-        "title": "Week 13, Day 1 \u2014 Finishing Division & Beginning Fractions",
+        "title": "Week 13, Day 1 — Finishing Division & Beginning Fractions",
         "file": "Wk13D1_Lesson_Plan.md",
         "course_packet_pages": "1-4",
         "duration_minutes": 75,
@@ -467,7 +468,7 @@
       {
         "id": "lp_wk13d2",
         "type": "lesson_plan",
-        "title": "Week 13, Day 2 \u2014 The Whole in Fractions & Division as Fractions",
+        "title": "Week 13, Day 2 — The Whole in Fractions & Division as Fractions",
         "file": "Wk13D2_Lesson_Plan.md",
         "course_packet_pages": "4-8",
         "duration_minutes": 75,
@@ -489,7 +490,7 @@
       {
         "id": "lp_wk14d1",
         "type": "lesson_plan",
-        "title": "Week 14, Day 1 \u2014 Unit Fractions, Partitioning & Iterating, Fractions to Decimals",
+        "title": "Week 14, Day 1 — Unit Fractions, Partitioning & Iterating, Fractions to Decimals",
         "file": "Wk14D1_Lesson_Plan.md",
         "course_packet_pages": "8-14",
         "duration_minutes": 75,
@@ -512,7 +513,7 @@
       {
         "id": "lp_wk14d2",
         "type": "lesson_plan",
-        "title": "Week 14, Day 2 \u2014 Equivalent Fractions, Anticipating Solutions, & Fraction Language",
+        "title": "Week 14, Day 2 — Equivalent Fractions, Anticipating Solutions, & Fraction Language",
         "file": "Wk14D2_Lesson_Plan.md",
         "course_packet_pages": "14-20",
         "duration_minutes": 75,
@@ -532,7 +533,7 @@
       {
         "id": "lp_wk15d1",
         "type": "lesson_plan",
-        "title": "Week 15, Day 1 \u2014 Fraction Bars, Comparison Strategies & Fraction Multiplication Context",
+        "title": "Week 15, Day 1 — Fraction Bars, Comparison Strategies & Fraction Multiplication Context",
         "file": "Wk15D1_Lesson_Plan.md",
         "course_packet_pages": "20-26",
         "duration_minutes": 75,
@@ -553,7 +554,7 @@
       {
         "id": "lp_wk15d2",
         "type": "lesson_plan",
-        "title": "Week 15, Day 2 \u2014 Course Wrap-Up & Real-World Connections",
+        "title": "Week 15, Day 2 — Course Wrap-Up & Real-World Connections",
         "file": "Wk15D2_Lesson_Plan.md",
         "course_packet_pages": "26-30",
         "duration_minutes": 75,
@@ -580,238 +581,296 @@
         "type": "topic",
         "label": "Addition/Subtraction Problem Structures",
         "description": "Four problem types: join (add to), separate (take from), part-part-whole (put together/take apart), compare. Varying the unknown position changes the operation needed.",
-        "terminology_note": "Van de Walle uses 'join/separate/part-part-whole/compare'; CCSS uses 'add to/take from/put together-take apart/compare'; Indiana mirrors CCSS language."
+        "terminology_note": "Van de Walle uses 'join/separate/part-part-whole/compare'; CCSS uses 'add to/take from/put together-take apart/compare'; Indiana mirrors CCSS language.",
+        "title": "Addition/Subtraction Problem Structures"
       },
       {
         "id": "topic_fact_fluency",
         "type": "topic",
         "label": "Basic Fact Fluency",
         "description": "Developing accuracy, automaticity, and flexibility with single-digit addition/subtraction facts. Strategies include counting on, making ten, decomposing, using doubles, and related facts.",
-        "terminology_note": "Van de Walle distinguishes three phases: counting strategies \u2192 reasoning strategies \u2192 mastery. Indiana uses 'demonstrate fluency.' CCSS says 'fluently add and subtract.'"
+        "terminology_note": "Van de Walle distinguishes three phases: counting strategies → reasoning strategies → mastery. Indiana uses 'demonstrate fluency.' CCSS says 'fluently add and subtract.'",
+        "title": "Basic Fact Fluency"
       },
       {
         "id": "topic_number_talks",
         "type": "topic",
         "label": "Number Talks",
         "description": "Structured classroom routine where students mentally solve problems and share strategies. Develops number sense and computational fluency through discourse.",
-        "terminology_note": "Not a standards term. Comes from Parrish (2010). Van de Walle discusses similar ideas under 'classroom discourse.' Five Practices framework structures the teacher moves within number talks."
+        "terminology_note": "Not a standards term. Comes from Parrish (2010). Van de Walle discusses similar ideas under 'classroom discourse.' Five Practices framework structures the teacher moves within number talks.",
+        "title": "Number Talks"
       },
       {
         "id": "topic_multiplicative_structures",
         "type": "topic",
         "label": "Multiplicative Problem Structures",
         "description": "Five types: equal groups, multiplicative comparison, array/area, combination/Cartesian product. Each yields different meanings for multiplication.",
-        "terminology_note": "Van de Walle Ch. 9 names all five. Indiana 3.CA.3 lists 'equal-sized groups, arrays, area models, equal intervals on a number line.' CCSS 3.OA.A.1 focuses on 'groups of objects.'"
+        "terminology_note": "Van de Walle Ch. 9 names all five. Indiana 3.CA.3 lists 'equal-sized groups, arrays, area models, equal intervals on a number line.' CCSS 3.OA.A.1 focuses on 'groups of objects.'",
+        "title": "Multiplicative Problem Structures"
       },
       {
         "id": "topic_division_meanings",
         "type": "topic",
         "label": "Two Meanings of Division",
         "description": "Sharing (partition): know number of groups, find group size. Measurement (quotative): know group size, find number of groups. Same notation, different conceptual structure.",
-        "terminology_note": "Van de Walle Ch. 9 uses 'partition/measurement.' Indiana 3.CA.4 uses 'partitioning, sharing, and inverse of multiplication.' CCSS 3.OA.A.2 describes both without naming them."
+        "terminology_note": "Van de Walle Ch. 9 uses 'partition/measurement.' Indiana 3.CA.4 uses 'partitioning, sharing, and inverse of multiplication.' CCSS 3.OA.A.2 describes both without naming them.",
+        "title": "Two Meanings of Division"
       },
       {
         "id": "topic_multiplication_facts",
         "type": "topic",
         "label": "Multiplication Fact Strategies",
-        "description": "Strategic sequence for learning multiplication facts: start with 2s, 5s, 10s (skip counting foundation), then use doubling, near-squares, and derived fact strategies for harder facts like 6\u00d77, 7\u00d78, 8\u00d79.",
-        "terminology_note": "Van de Walle Ch. 10 organizes by strategy families. Indiana 3.CA.6 says 'demonstrate fluency with mastery.' CCSS 3.OA.C.7 says 'know from memory all products of two one-digit numbers.'"
+        "description": "Strategic sequence for learning multiplication facts: start with 2s, 5s, 10s (skip counting foundation), then use doubling, near-squares, and derived fact strategies for harder facts like 6×7, 7×8, 8×9.",
+        "terminology_note": "Van de Walle Ch. 10 organizes by strategy families. Indiana 3.CA.6 says 'demonstrate fluency with mastery.' CCSS 3.OA.C.7 says 'know from memory all products of two one-digit numbers.'",
+        "title": "Multiplication Fact Strategies"
       },
       {
         "id": "topic_multidigit_multiplication",
         "type": "topic",
         "label": "Multi-Digit Multiplication Strategies",
         "description": "Four strategies: complete number, partitioning (partial products), compensation, and clustering. Area model and base-ten block representations connect place value to the standard algorithm.",
-        "terminology_note": "Van de Walle Ch. 10 names the four strategies. Indiana 4.CA.1 says 'strategies based on place value and properties of operations.' CCSS 4.NBT.B.5 adds 'rectangular arrays and/or area models.'"
+        "terminology_note": "Van de Walle Ch. 10 names the four strategies. Indiana 4.CA.1 says 'strategies based on place value and properties of operations.' CCSS 4.NBT.B.5 adds 'rectangular arrays and/or area models.'",
+        "title": "Multi-Digit Multiplication Strategies"
       },
       {
         "id": "topic_division_algorithm",
         "type": "topic",
         "label": "Division Algorithm and Strategies",
         "description": "Long division as notation for sharing/measurement thinking. Base-ten blocks make the algorithm concrete: distribute tens first, regroup, then distribute ones. Remainders add interpretive complexity.",
-        "terminology_note": "Van de Walle Ch. 13 treats the algorithm as the last step in a progression from concrete to abstract. Indiana 4.CA.2 says 'strategies based on place value.' CCSS 4.NBT.B.6 says 'equations, rectangular arrays, and/or area models.'"
+        "terminology_note": "Van de Walle Ch. 13 treats the algorithm as the last step in a progression from concrete to abstract. Indiana 4.CA.2 says 'strategies based on place value.' CCSS 4.NBT.B.6 says 'equations, rectangular arrays, and/or area models.'",
+        "title": "Division Algorithm and Strategies"
       },
       {
         "id": "topic_vertical_articulation",
         "type": "topic",
         "label": "Vertical Articulation K-2",
         "description": "How number sense, computation, and algebraic thinking standards build across K, 1st, and 2nd grade. Understanding the progression helps teachers set appropriate expectations and connect to prior knowledge.",
-        "terminology_note": "Not a standards term. Used in curriculum planning to describe how a strand develops across grade levels."
+        "terminology_note": "Not a standards term. Used in curriculum planning to describe how a strand develops across grade levels.",
+        "title": "Vertical Articulation K-2"
       },
       {
         "id": "topic_process_standards",
         "type": "topic",
         "label": "Mathematical Process Standards",
         "description": "Problem solving, reasoning and proof, communication, connections, representation. Indiana process standards parallel CCSS Standards for Mathematical Practice (SMP).",
-        "terminology_note": "Indiana uses 'Process Standards' (PS.1-PS.8). CCSS uses 'Standards for Mathematical Practice' (MP.1-MP.8). Van de Walle integrates process throughout. Five Practices framework operationalizes discourse-based process standards."
+        "terminology_note": "Indiana uses 'Process Standards' (PS.1-PS.8). CCSS uses 'Standards for Mathematical Practice' (MP.1-MP.8). Van de Walle integrates process throughout. Five Practices framework operationalizes discourse-based process standards.",
+        "title": "Mathematical Process Standards"
       },
       {
         "id": "topic_five_practices_intro",
         "type": "topic",
         "label": "Five Practices Framework Introduction",
         "description": "The Five Practices (anticipating, monitoring, selecting, sequencing, connecting) as a framework for orchestrating productive mathematical discourse. Shifts teacher role from questioner-of-one to orchestrator-of-many.",
-        "terminology_note": "Smith & Stein's framework. Unit 1 introduces the structure; Unit 2 deepens each practice via CDM (Chapin, O'Connor, Anderson)."
+        "terminology_note": "Smith & Stein's framework. Unit 1 introduces the structure; Unit 2 deepens each practice via CDM (Chapin, O'Connor, Anderson).",
+        "title": "Five Practices Framework Introduction"
       },
       {
         "id": "topic_launch_explore_summarize",
         "type": "topic",
         "label": "Launch-Explore-Summarize Lesson Structure",
-        "description": "Three-phase lesson design: Launch (introduce task, activate prior knowledge, do NOT provide solution method), Explore (students work individually/pairs/groups while teacher monitors), Summarize (whole-class discussion using Five Practices). IM embeds this as Warm Up \u2192 Activities \u2192 Synthesis \u2192 Cool Down.",
-        "terminology_note": "Van de Walle uses 'before/during/after.' IM uses 'Launch-Work-Synthesize.' CDM uses 'Launch-Explore-Summarize.' Same structure, different names."
+        "description": "Three-phase lesson design: Launch (introduce task, activate prior knowledge, do NOT provide solution method), Explore (students work individually/pairs/groups while teacher monitors), Summarize (whole-class discussion using Five Practices). IM embeds this as Warm Up → Activities → Synthesis → Cool Down.",
+        "terminology_note": "Van de Walle uses 'before/during/after.' IM uses 'Launch-Work-Synthesize.' CDM uses 'Launch-Explore-Summarize.' Same structure, different names.",
+        "title": "Launch-Explore-Summarize Lesson Structure"
       },
       {
         "id": "topic_learning_vs_performance_goals",
         "type": "topic",
         "label": "Learning Goals vs. Performance Goals",
         "description": "Learning goals specify what students should UNDERSTAND (conceptual). Performance goals specify what students should be able to DO (observable). A student can achieve a performance goal without the learning goal (e.g., executing an algorithm without understanding place value).",
-        "terminology_note": "Five Practices Ch. 2 emphasizes this distinction. IM 'lesson goals' are learning goals. Indiana standards blend both but lean procedural."
+        "terminology_note": "Five Practices Ch. 2 emphasizes this distinction. IM 'lesson goals' are learning goals. Indiana standards blend both but lean procedural.",
+        "title": "Learning Goals vs. Performance Goals"
       },
       {
         "id": "topic_talk_moves",
         "type": "topic",
         "label": "Talk Moves",
         "description": "Strategic questioning techniques for productive mathematical discourse. Four steps: (1) clarify/share own thoughts (wait time, turn & talk, revoicing, say more), (2) orient to others' thinking (who can repeat?), (3) deepen reasoning (press for reasoning, agree/disagree), (4) deepen and engage (who can add on?).",
-        "terminology_note": "From CDM (Chapin, O'Connor, Anderson). The Five Practices framework assumes these moves are in place. Van de Walle discusses similar ideas as 'classroom discourse.'"
+        "terminology_note": "From CDM (Chapin, O'Connor, Anderson). The Five Practices framework assumes these moves are in place. Van de Walle discusses similar ideas as 'classroom discourse.'",
+        "title": "Talk Moves"
       },
       {
         "id": "topic_assessing_advancing_questions",
         "type": "topic",
         "label": "Assessing vs. Advancing Questions",
         "description": "Assessing questions surface current student thinking without leading or correcting ('Tell me what you did,' 'How did you get that?'). Advancing questions push thinking forward toward the lesson goal ('What if the numbers were different?', 'Can you show me with a picture?'). Both types are prepared during anticipating.",
-        "terminology_note": "From Five Practices Ch. 3-4. CDM calls similar moves 'probing questions.' Van de Walle's 'during' phase uses the same distinction informally."
+        "terminology_note": "From Five Practices Ch. 3-4. CDM calls similar moves 'probing questions.' Van de Walle's 'during' phase uses the same distinction informally.",
+        "title": "Assessing vs. Advancing Questions"
       },
       {
         "id": "topic_think_aloud_interviews",
         "type": "topic",
         "label": "Think Aloud Interviews (TAI)",
         "description": "One-on-one formative assessment where the teacher listens to a student verbalize thinking while solving a problem. Teacher does NOT teach, correct, or lead. Reveals understanding vs. mere procedural performance.",
-        "terminology_note": "Course-specific assessment tool. Not a standards term. Activities sourced from Van de Walle or IM."
+        "terminology_note": "Course-specific assessment tool. Not a standards term. Activities sourced from Van de Walle or IM.",
+        "title": "Think Aloud Interviews (TAI)"
       },
       {
         "id": "topic_unit_fractions",
         "type": "topic",
         "label": "Unit Fractions and Fraction Concepts",
         "description": "A unit fraction 1/b is the quantity formed by one part when a whole is partitioned into b equal parts. All fractions a/b are built by iterating 1/b. The referent whole must be identified for any fraction to be meaningful. Partitioning (dividing into equal parts) and iterating (repeating a unit fraction) are the two foundational actions.",
-        "terminology_note": "Van de Walle Ch. 15 uses 'part-whole,' 'measurement,' 'division,' and 'operator' constructs. Indiana 3.NS.2 says 'iterations of unit fractions.' CCSS 3.NF.A.1 uses identical language."
+        "terminology_note": "Van de Walle Ch. 15 uses 'part-whole,' 'measurement,' 'division,' and 'operator' constructs. Indiana 3.NS.2 says 'iterations of unit fractions.' CCSS 3.NF.A.1 uses identical language.",
+        "title": "Unit Fractions and Fraction Concepts"
       },
       {
         "id": "topic_equivalent_fractions",
         "type": "topic",
         "label": "Equivalent Fractions",
         "description": "Two fractions are equivalent when they represent the same quantity. Different partitionings of the same whole yield different fraction names for the same amount. Visual models (area, length, set) show that the number and size of parts change but the quantity stays the same.",
-        "terminology_note": "Van de Walle Ch. 15 emphasizes visual models before the multiply-top-and-bottom rule. Indiana 3.NS.4/4.NS.3 say 'fraction models.' CCSS 4.NF.A.1 says 'visual fraction models.'"
+        "terminology_note": "Van de Walle Ch. 15 emphasizes visual models before the multiply-top-and-bottom rule. Indiana 3.NS.4/4.NS.3 say 'fraction models.' CCSS 4.NF.A.1 says 'visual fraction models.'",
+        "title": "Equivalent Fractions"
       },
       {
         "id": "topic_fraction_comparison",
         "type": "topic",
         "label": "Fraction Comparison Strategies",
-        "description": "Four strategies: same denominator (compare numerators), same numerator (compare denominators \u2014 larger denominator means smaller pieces), benchmarks (compare each fraction to 0, 1/2, or 1), closeness to benchmarks (e.g., both near 1 but which is closer?). Comparisons are valid only when fractions refer to the same whole.",
-        "terminology_note": "Van de Walle Ch. 15 details all four. Indiana 4.NS.4 names 'common denominators or numerators' and 'benchmark such as 0, 1/2, and 1.' CCSS 4.NF.A.2 uses identical language."
+        "description": "Four strategies: same denominator (compare numerators), same numerator (compare denominators — larger denominator means smaller pieces), benchmarks (compare each fraction to 0, 1/2, or 1), closeness to benchmarks (e.g., both near 1 but which is closer?). Comparisons are valid only when fractions refer to the same whole.",
+        "terminology_note": "Van de Walle Ch. 15 details all four. Indiana 4.NS.4 names 'common denominators or numerators' and 'benchmark such as 0, 1/2, and 1.' CCSS 4.NF.A.2 uses identical language.",
+        "title": "Fraction Comparison Strategies"
       },
       {
         "id": "topic_division_as_fractions",
         "type": "topic",
         "label": "Division as the Source of Fractions",
-        "description": "a \u00f7 b = a/b. Division with remainders connects to mixed numbers (e.g., 7 \u00f7 4 = 1 remainder 3 = 1 3/4). Fair-share cutting makes this concrete: 3 loaves shared among 5 people means each gets 3/5 of a loaf.",
-        "terminology_note": "Van de Walle Ch. 15 treats this as a fraction 'construct' (division construct). Indiana 5.NS.2 says 'division of whole numbers by whole numbers.' CCSS 5.NF.B.3 uses identical framing."
+        "description": "a ÷ b = a/b. Division with remainders connects to mixed numbers (e.g., 7 ÷ 4 = 1 remainder 3 = 1 3/4). Fair-share cutting makes this concrete: 3 loaves shared among 5 people means each gets 3/5 of a loaf.",
+        "terminology_note": "Van de Walle Ch. 15 treats this as a fraction 'construct' (division construct). Indiana 5.NS.2 says 'division of whole numbers by whole numbers.' CCSS 5.NF.B.3 uses identical framing.",
+        "title": "Division as the Source of Fractions"
       },
       {
         "id": "topic_fractions_decimals",
         "type": "topic",
         "label": "Fractions to Decimals Connection",
         "description": "Tenths and hundredths connect fractions to decimal notation via powers of 10. Base-ten blocks can represent fractional amounts (flat = 1, rod = 1/10, unit = 1/100). Mental equivalents: 1/2 = 0.5, 1/4 = 0.25, 3/4 = 0.75.",
-        "terminology_note": "Indiana 4.NS.5 says 'tenths and hundredths in decimal and fraction notations.' CCSS 4.NF.C.5 says 'denominator 10 as equivalent fraction with denominator 100.'"
+        "terminology_note": "Indiana 4.NS.5 says 'tenths and hundredths in decimal and fraction notations.' CCSS 4.NF.C.5 says 'denominator 10 as equivalent fraction with denominator 100.'",
+        "title": "Fractions to Decimals Connection"
       },
       {
         "id": "topic_fraction_multiplication",
         "type": "topic",
         "label": "Fraction Multiplication (Introductory Context)",
         "description": "Multiplication of fractions begins with 'fraction of a fraction' contexts (e.g., 1/2 of a 3/4 pizza = 3/8). Area models make the multiplicative structure visible. This extends whole-number multiplication to the fractional domain.",
-        "terminology_note": "Van de Walle Ch. 16. Indiana standards place fraction multiplication at grade 5. CCSS 5.NF.B.4."
+        "terminology_note": "Van de Walle Ch. 16. Indiana standards place fraction multiplication at grade 5. CCSS 5.NF.B.4.",
+        "title": "Fraction Multiplication (Introductory Context)"
       },
       {
         "id": "topic_classroom_discourse",
         "type": "topic",
         "label": "Classroom Discourse in Mathematics",
         "description": "The practice of structuring mathematical talk so that students generate knowledge through articulation, access others' thinking, develop mathematical language and vocabulary, build reasoning habits, and create a learning community where ideas are valued.",
-        "terminology_note": "CDM (Chapin, O'Connor, Anderson) is the primary source for Unit 2. Van de Walle integrates discourse throughout. Five Practices operationalizes discourse. IM's synthesis phase is a discourse structure."
+        "terminology_note": "CDM (Chapin, O'Connor, Anderson) is the primary source for Unit 2. Van de Walle integrates discourse throughout. Five Practices operationalizes discourse. IM's synthesis phase is a discourse structure.",
+        "title": "Classroom Discourse in Mathematics"
       },
       {
         "id": "topic_equity_participation",
         "type": "topic",
         "label": "Equity in Mathematical Participation",
         "description": "Deliberately expanding who gets positioned as a mathematical thinker. Considerations: who has recently presented, representation of diverse students, pre-alerting shy students, building confidence through partner work before whole-class sharing. Selection and sequencing decisions have equity implications.",
-        "terminology_note": "Emphasized in Five Practices Ch. 5. CDM discusses equitable participation. Not a standards term but central to the course pedagogy."
+        "terminology_note": "Emphasized in Five Practices Ch. 5. CDM discusses equitable participation. Not a standards term but central to the course pedagogy.",
+        "title": "Equity in Mathematical Participation"
       },
       {
         "id": "topic_word_problems",
         "type": "topic",
-        "label": "Word Problems & Problem Solving"
+        "label": "Word Problems & Problem Solving",
+        "title": "Word Problems & Problem Solving"
       },
       {
         "id": "topic_mult_operation_sense",
         "type": "topic",
-        "label": "Mult Operation Sense"
+        "label": "Mult Operation Sense",
+        "title": "Mult Operation Sense"
       },
       {
         "id": "topic_number_patterns",
         "type": "topic",
-        "label": "Number Patterns"
+        "label": "Number Patterns",
+        "title": "Number Patterns"
       },
       {
         "id": "topic_addition",
         "type": "topic",
-        "label": "Addition"
+        "label": "Addition",
+        "title": "Addition"
       },
       {
         "id": "topic_number_decomp",
         "type": "topic",
-        "label": "Number Decomposition"
+        "label": "Number Decomposition",
+        "title": "Number Decomposition"
       },
       {
         "id": "topic_fractions_intro",
         "type": "topic",
-        "label": "Introduction to Fractions"
+        "label": "Introduction to Fractions",
+        "title": "Introduction to Fractions"
       },
       {
         "id": "topic_factors_multiples",
         "type": "topic",
-        "label": "Factors and Multiples"
+        "label": "Factors and Multiples",
+        "title": "Factors and Multiples"
       },
       {
         "id": "topic_volume",
         "type": "topic",
-        "label": "Volume of 3D Shapes"
+        "label": "Volume of 3D Shapes",
+        "title": "Volume of 3D Shapes"
       },
       {
         "id": "topic_division",
         "type": "topic",
-        "label": "Division"
+        "label": "Division",
+        "title": "Division"
       },
       {
         "id": "topic_logical_reasoning",
         "type": "topic",
-        "label": "Logical Reasoning"
+        "label": "Logical Reasoning",
+        "title": "Logical Reasoning"
       },
       {
         "id": "topic_data_analysis",
         "type": "topic",
-        "label": "Data Analysis & Representation"
+        "label": "Data Analysis & Representation",
+        "title": "Data Analysis & Representation"
       },
       {
         "id": "topic_subtraction",
         "type": "topic",
-        "label": "Subtraction Strategies"
+        "label": "Subtraction Strategies",
+        "title": "Subtraction Strategies"
       },
       {
         "id": "topic_fractions",
         "type": "topic",
-        "label": "Fraction Concepts"
+        "label": "Fraction Concepts",
+        "title": "Fraction Concepts"
       },
       {
         "id": "topic_area_perimeter",
         "type": "topic",
-        "label": "Area and Perimeter"
+        "label": "Area and Perimeter",
+        "title": "Area and Perimeter"
+      },
+      {
+        "id": "topic_geometry",
+        "type": "topic",
+        "title": "Geometry and Shapes"
+      },
+      {
+        "id": "topic_measurement",
+        "type": "topic",
+        "title": "Measurement"
+      },
+      {
+        "id": "topic_place_value",
+        "type": "topic",
+        "title": "Place Value"
+      },
+      {
+        "id": "topic_time",
+        "type": "topic",
+        "title": "Time"
       }
     ],
     "indiana_standards": [
@@ -822,7 +881,8 @@
         "grade": "K",
         "description": "Count to at least 100 by ones and tens. Count by one from any given number.",
         "uuid": "55669d8d-d91a-4374-af94-c9e1e0fc65e5",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN K.NS.1: Count to at least 100 by ones and tens. Count by one from an..."
       },
       {
         "id": "IN_K.NS.2",
@@ -831,7 +891,8 @@
         "grade": "K",
         "description": "Write whole numbers from 0 to 20 and identify number words from 0 to 10.",
         "uuid": "1c6ae8e8-1ea4-420b-ad65-b515d9fd5cf3",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN K.NS.2: Write whole numbers from 0 to 20 and identify number words f..."
       },
       {
         "id": "IN_K.NS.3",
@@ -840,7 +901,8 @@
         "grade": "K",
         "description": "Say the number names in standard order when counting objects, pairing each object with one and only one number name.",
         "uuid": "2fc0b2d5-5df8-465e-a6c7-b2181224c04f",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN K.NS.3: Say the number names in standard order when counting objects..."
       },
       {
         "id": "IN_K.NS.4",
@@ -849,7 +911,8 @@
         "grade": "K",
         "description": "Identify sets of 1 to 10 objects in patterned arrangements and tell how many without counting (subitizing).",
         "uuid": "1fc1f2cb-bce8-4009-a3e3-8d138fc97bd2",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN K.NS.4: Identify sets of 1 to 10 objects in patterned arrangements a..."
       },
       {
         "id": "IN_K.NS.5",
@@ -858,7 +921,8 @@
         "grade": "K",
         "description": "Identify whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.",
         "uuid": "31ef1749-48f5-45a3-a87c-3a9e86a8e67e",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN K.NS.5: Identify whether the number of objects in one group is great..."
       },
       {
         "id": "IN_K.CA.1",
@@ -867,7 +931,8 @@
         "grade": "K",
         "description": "Solve real-world problems that involve addition and subtraction within 10 using modeling with objects or drawings.",
         "uuid": "bd4517ae-dee8-41b2-ba5b-f981cafad256",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN K.CA.1: Solve real-world problems that involve addition and subtract..."
       },
       {
         "id": "IN_K.CA.2",
@@ -876,7 +941,8 @@
         "grade": "K",
         "description": "Use objects or drawings to model the decomposition of numbers less than 10 into pairs in more than one way.",
         "uuid": "63c52295-a25b-48ef-891d-9efff588ff6a",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN K.CA.2: Use objects or drawings to model the decomposition of number..."
       },
       {
         "id": "IN_K.CA.3",
@@ -885,7 +951,8 @@
         "grade": "K",
         "description": "Find the number that makes 10 when added to the given number for any number from 1 to 9.",
         "uuid": "d4cac29f-ee61-4f4b-9e3a-0cbbe4cc3082",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN K.CA.3: Find the number that makes 10 when added to the given number..."
       },
       {
         "id": "IN_K.CA.4",
@@ -894,7 +961,8 @@
         "grade": "K",
         "description": "Create, extend, and give an appropriate rule for simple repeating and growing patterns with numbers and shapes.",
         "uuid": "a8242967-f521-47ea-aa2b-31583865232e",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN K.CA.4: Create, extend, and give an appropriate rule for simple repe..."
       },
       {
         "id": "IN_1.NS.1",
@@ -903,7 +971,8 @@
         "grade": "1",
         "description": "Count to at least 120 by ones, fives, and tens from any given number.",
         "uuid": "3041468d-e081-4bb1-9247-12b505f42b06",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN 1.NS.1: Count to at least 120 by ones, fives, and tens from any give..."
       },
       {
         "id": "IN_1.CA.1",
@@ -918,7 +987,8 @@
             "code": "1.OA.C.6",
             "description": "Add and subtract within 20, demonstrating fluency for addition and subtraction within 10. Use strategies such as counting on; making ten; decomposing a number leading to a ten; using the relationship between addition and subtraction; and creating equivalent but easier or known sums."
           }
-        ]
+        ],
+        "title": "IN 1.CA.1: Demonstrate fluency with addition facts and the correspondin..."
       },
       {
         "id": "IN_1.CA.2",
@@ -933,7 +1003,8 @@
             "code": "2.OA.A.1",
             "description": "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions."
           }
-        ]
+        ],
+        "title": "IN 1.CA.2: Solve real-world problems involving addition and subtraction..."
       },
       {
         "id": "IN_1.CA.3",
@@ -942,7 +1013,8 @@
         "grade": "1",
         "description": "Using number sense and place value strategies, add within 100, including adding a two-digit number and a one-digit number, and adding a two-digit number and a multiple of 10.",
         "uuid": "ace71292-5071-4638-9cfc-4484e6167fcf",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 1.CA.3: Using number sense and place value strategies, add within 10..."
       },
       {
         "id": "IN_2.NS.1",
@@ -951,7 +1023,8 @@
         "grade": "2",
         "description": "Count by ones, twos, fives, tens, and hundreds up to at least 1,000 from any given number.",
         "uuid": "d56ee7d7-cf53-4edb-b94c-8b71ee8e42dd",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN 2.NS.1: Count by ones, twos, fives, tens, and hundreds up to at leas..."
       },
       {
         "id": "IN_2.CA.1",
@@ -970,7 +1043,8 @@
             "code": "2.OA.C.4",
             "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and up to 5 columns; write an equation to express the total as a sum of equal addends."
           }
-        ]
+        ],
+        "title": "IN 2.CA.1: Solve real-world problems involving addition and subtraction..."
       },
       {
         "id": "IN_2.CA.2",
@@ -979,7 +1053,8 @@
         "grade": "2",
         "description": "Using number sense and place value strategies, add and subtract within 1,000, including composing and decomposing tens and hundreds.",
         "uuid": "79da05b4-4acf-4805-9ae9-a55c18747e55",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 2.CA.2: Using number sense and place value strategies, add and subtr..."
       },
       {
         "id": "IN_2.CA.3",
@@ -988,7 +1063,8 @@
         "grade": "2",
         "description": "Show that the order in which two numbers are added (commutative property) and how the numbers are grouped in addition (associative property) will not change the sum.",
         "uuid": "5792248e-2553-4c21-8a49-4e2abd0f6fd4",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 2.CA.3: Show that the order in which two numbers are added (commutat..."
       },
       {
         "id": "IN_3.NS.1",
@@ -997,7 +1073,8 @@
         "grade": "3",
         "description": "Read and write whole numbers up to 10,000. Use words, models, standard form, and expanded form.",
         "uuid": "8cae476c-50ec-4c95-b5bd-08238b6098f0",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN 3.NS.1: Read and write whole numbers up to 10,000. Use words, models..."
       },
       {
         "id": "IN_3.CA.1",
@@ -1006,7 +1083,8 @@
         "grade": "3",
         "description": "Fluently add and subtract multi-digit whole numbers using strategies and algorithms based on place value, properties of operations, and relationships between addition and subtraction.",
         "uuid": "a7503031-ba7b-452f-bace-7163a628f71f",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 3.CA.1: Fluently add and subtract multi-digit whole numbers using st..."
       },
       {
         "id": "IN_3.CA.2",
@@ -1015,7 +1093,8 @@
         "grade": "3",
         "description": "Solve real-world problems involving addition and subtraction of multi-digit whole numbers.",
         "uuid": "d65747e8-fcc2-44e5-9b0f-0ea3d566ef2c",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 3.CA.2: Solve real-world problems involving addition and subtraction..."
       },
       {
         "id": "IN_3.CA.3",
@@ -1028,9 +1107,10 @@
         "ccss_equivalents": [
           {
             "code": "3.OA.A.1",
-            "description": "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each."
+            "description": "Interpret products of whole numbers, e.g., interpret 5 × 7 as the total number of objects in 5 groups of 7 objects each."
           }
-        ]
+        ],
+        "title": "IN 3.CA.3: Model the concept of multiplication of whole numbers using e..."
       },
       {
         "id": "IN_3.CA.4",
@@ -1043,9 +1123,10 @@
         "ccss_equivalents": [
           {
             "code": "3.OA.A.2",
-            "description": "Interpret whole-number quotients of whole numbers, e.g., interpret 56 \u00f7 8 as the number of objects in each share when 56 objects are partitioned equally into 8 shares."
+            "description": "Interpret whole-number quotients of whole numbers, e.g., interpret 56 ÷ 8 as the number of objects in each share when 56 objects are partitioned equally into 8 shares."
           }
-        ]
+        ],
+        "title": "IN 3.CA.4: Model the concept of division of whole numbers with the foll..."
       },
       {
         "id": "IN_3.CA.5",
@@ -1060,7 +1141,8 @@
             "code": "3.OA.C.7",
             "description": "Fluently multiply and divide within 100. By the end of Grade 3, know from memory all products of two one-digit numbers."
           }
-        ]
+        ],
+        "title": "IN 3.CA.5: Multiply and divide within 100 using strategies such as the ..."
       },
       {
         "id": "IN_3.CA.6",
@@ -1075,7 +1157,8 @@
             "code": "3.OA.C.7",
             "description": "Fluently multiply and divide within 100. By the end of Grade 3, know from memory all products of two one-digit numbers."
           }
-        ]
+        ],
+        "title": "IN 3.CA.6: Demonstrate fluency with mastery of multiplication facts and..."
       },
       {
         "id": "IN_3.CA.7",
@@ -1090,7 +1173,8 @@
             "code": "3.OA.A.3",
             "description": "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities."
           }
-        ]
+        ],
+        "title": "IN 3.CA.7: Solve real-world problems involving whole number multiplicat..."
       },
       {
         "id": "IN_4.CA.1",
@@ -1105,7 +1189,8 @@
             "code": "4.NBT.B.5",
             "description": "Multiply a whole number of up to four digits by a one-digit whole number, and multiply two two-digit numbers, using strategies based on place value and the properties of operations."
           }
-        ]
+        ],
+        "title": "IN 4.CA.1: Multiply a whole number of up to four digits by a one-digit ..."
       },
       {
         "id": "IN_4.CA.2",
@@ -1120,7 +1205,8 @@
             "code": "4.NBT.B.6",
             "description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division."
           }
-        ]
+        ],
+        "title": "IN 4.CA.2: Find whole-number quotients and remainders with up to four-d..."
       },
       {
         "id": "IN_4.CA.3",
@@ -1135,7 +1221,8 @@
             "code": "3.OA.B.5",
             "description": "Apply properties of operations as strategies to multiply and divide."
           }
-        ]
+        ],
+        "title": "IN 4.CA.3: Show how the order in which two numbers are multiplied (comm..."
       },
       {
         "id": "IN_4.CA.4",
@@ -1144,7 +1231,8 @@
         "grade": "4",
         "description": "Investigate the mathematical relationship between factors and multiples for whole numbers from 1-100.",
         "uuid": "06108b14-e2dd-46b7-9f5f-ae6c81726f9a",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 4.CA.4: Investigate the mathematical relationship between factors an..."
       },
       {
         "id": "IN_5.CA.1",
@@ -1159,7 +1247,8 @@
             "code": "4.NBT.B.6",
             "description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division."
           }
-        ]
+        ],
+        "title": "IN 5.CA.1: Find whole-number quotients and remainders with up to four-d..."
       },
       {
         "id": "IN_5.CA.2",
@@ -1168,7 +1257,8 @@
         "grade": "5",
         "description": "Solve real-world problems involving multiplication and division of whole numbers. In division problems that involve a remainder, explain how the remainder affects the solution.",
         "uuid": "8a68a7e7-9a4d-4aa4-8119-50826bc36a93",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 5.CA.2: Solve real-world problems involving multiplication and divis..."
       },
       {
         "id": "IN_3.NS.2",
@@ -1183,7 +1273,8 @@
             "code": "3.NF.A.1",
             "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b."
           }
-        ]
+        ],
+        "title": "IN 3.NS.2: Model unit fractions as the quantity formed by 1 part when a..."
       },
       {
         "id": "IN_3.NS.3",
@@ -1192,7 +1283,8 @@
         "grade": "3",
         "description": "Model a non-unit fraction on a number line by marking equal lengths from 0, identifying each part as a unit fraction and locating the non-unit fraction as the endpoint.",
         "uuid": "bd6ed208-1f59-4fc2-9057-1b02a847ce14",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN 3.NS.3: Model a non-unit fraction on a number line by marking equal ..."
       },
       {
         "id": "IN_3.NS.4",
@@ -1207,7 +1299,8 @@
             "code": "3.NF.A.3",
             "description": "Explain equivalence of fractions in special cases, and compare fractions by reasoning about their size."
           }
-        ]
+        ],
+        "title": "IN 3.NS.4: Use fraction models to represent two simple equivalent fract..."
       },
       {
         "id": "IN_3.NS.5",
@@ -1222,7 +1315,8 @@
             "code": "3.NF.A.3",
             "description": "Explain equivalence of fractions in special cases, and compare fractions by reasoning about their size."
           }
-        ]
+        ],
+        "title": "IN 3.NS.5: Compare two fractions with the same numerator or the same de..."
       },
       {
         "id": "IN_4.NS.2",
@@ -1231,7 +1325,8 @@
         "grade": "4",
         "description": "Model mixed numbers and improper fractions using visual fraction models such as number lines and area models.",
         "uuid": "4ffd7602-0d9c-45ca-baac-b9955a289b72",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN 4.NS.2: Model mixed numbers and improper fractions using visual frac..."
       },
       {
         "id": "IN_4.NS.3",
@@ -1244,13 +1339,14 @@
         "ccss_equivalents": [
           {
             "code": "4.NF.A.1",
-            "description": "Explain why a fraction a/b is equivalent to a fraction (n\u00d7a)/(n\u00d7b) by using visual fraction models."
+            "description": "Explain why a fraction a/b is equivalent to a fraction (n×a)/(n×b) by using visual fraction models."
           },
           {
             "code": "4.NF.B.4.a",
             "description": "Understand a fraction a/b as a multiple of 1/b."
           }
-        ]
+        ],
+        "title": "IN 4.NS.3: Use fraction models to represent two equivalent fractions wi..."
       },
       {
         "id": "IN_4.NS.4",
@@ -1265,7 +1361,8 @@
             "code": "4.NF.A.2",
             "description": "Compare two fractions with different numerators and different denominators, e.g., by creating common denominators or numerators, or by comparing to a benchmark fraction such as 1/2."
           }
-        ]
+        ],
+        "title": "IN 4.NS.4: Compare two fractions with different numerators and differen..."
       },
       {
         "id": "IN_4.NS.5",
@@ -1280,7 +1377,8 @@
             "code": "4.NF.C.5",
             "description": "Express a fraction with denominator 10 as an equivalent fraction with denominator 100."
           }
-        ]
+        ],
+        "title": "IN 4.NS.5: Write tenths and hundredths in decimal and fraction notation..."
       },
       {
         "id": "IN_4.NS.6",
@@ -1289,7 +1387,8 @@
         "grade": "4",
         "description": "Compare two decimals to hundredths by reasoning about their size based on the same whole.",
         "uuid": "1c7765bd-3421-490b-8a2f-f8338671effb",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN 4.NS.6: Compare two decimals to hundredths by reasoning about their ..."
       },
       {
         "id": "IN_5.NS.1",
@@ -1298,7 +1397,8 @@
         "grade": "5",
         "description": "Use a number line to compare and order fractions, mixed numbers, and decimals to thousandths.",
         "uuid": "b0fd7837-23c5-4837-9562-9a2ab93f92c0",
-        "domain": "Number Sense"
+        "domain": "Number Sense",
+        "title": "IN 5.NS.1: Use a number line to compare and order fractions, mixed numb..."
       },
       {
         "id": "IN_5.NS.2",
@@ -1311,9 +1411,10 @@
         "ccss_equivalents": [
           {
             "code": "5.NF.B.3",
-            "description": "Interpret a fraction as division of the numerator by the denominator (a/b = a \u00f7 b)."
+            "description": "Interpret a fraction as division of the numerator by the denominator (a/b = a ÷ b)."
           }
-        ]
+        ],
+        "title": "IN 5.NS.2: Explain different interpretations of fractions, including as..."
       },
       {
         "id": "IN_5.CA.3",
@@ -1322,7 +1423,8 @@
         "grade": "5",
         "description": "Add and subtract fractions and mixed numbers with unlike denominators using strategies or the standard algorithm.",
         "uuid": "c4df0512-e7a8-4fa9-9ebb-fb543004ffe5",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 5.CA.3: Add and subtract fractions and mixed numbers with unlike den..."
       },
       {
         "id": "IN_5.CA.4",
@@ -1331,7 +1433,8 @@
         "grade": "5",
         "description": "Solve real-world problems involving addition and subtraction of fractions referring to the same whole, including cases of unlike denominators. Use benchmark fractions and number sense to estimate and assess reasonableness.",
         "uuid": "b2eeb61a-10df-44ff-9aec-42c8a15b68e6",
-        "domain": "Computation & Algebraic Thinking"
+        "domain": "Computation & Algebraic Thinking",
+        "title": "IN 5.CA.4: Solve real-world problems involving addition and subtraction..."
       },
       {
         "id": "IN_2.NS.2",
@@ -1346,7 +1449,8 @@
             "code": "2.OA.C.3",
             "description": "Determine whether a group of objects (up to 20) has an odd or even number of members."
           }
-        ]
+        ],
+        "title": "IN 2.NS.2: Determine whether a group of up to 20 objects has an odd or ..."
       },
       {
         "id": "IN_4.CA.5",
@@ -1359,9 +1463,10 @@
         "ccss_equivalents": [
           {
             "code": "4.OA.A.1",
-            "description": "Interpret a multiplication equation as a comparison, e.g., interpret 35 = 5 \u00d7 7 as a statement that 35 is 5 times as many as 7."
+            "description": "Interpret a multiplication equation as a comparison, e.g., interpret 35 = 5 × 7 as a statement that 35 is 5 times as many as 7."
           }
-        ]
+        ],
+        "title": "IN 4.CA.5: Solve real-world problems involving multiplication of whole ..."
       },
       {
         "id": "IN_5.CA.5",
@@ -1385,7 +1490,8 @@
             "code": "5.NF.B.6",
             "description": "Solve real world problems involving multiplication of fractions and mixed numbers."
           }
-        ]
+        ],
+        "title": "IN 5.CA.5: Use visual fraction models to multiply a fraction by a fract..."
       },
       {
         "id": "IN_5.CA.6",
@@ -1401,7 +1507,8 @@
             "code": "5.NF.B.7",
             "description": "Apply and extend previous understandings of division to divide unit fractions by whole numbers and whole numbers by unit fractions."
           }
-        ]
+        ],
+        "title": "IN 5.CA.6: Use visual fraction models and numbers to divide a fraction ..."
       }
     ],
     "learning_components": [
@@ -1410,98 +1517,112 @@
         "type": "learning_component",
         "description": "Interpret the product of two whole numbers as the number of groups times the size of each group, or vice versa",
         "uuid": "9a5c62b7-7c19-54c8-be81-af529ddc7890",
-        "parent_standard": "CCSS_3.OA.A.1"
+        "parent_standard": "CCSS_3.OA.A.1",
+        "title": "Interpret the product of two whole numbers as the number of groups tim..."
       },
       {
         "id": "lc_identify_mult_situation",
         "type": "learning_component",
         "description": "Identify a multiplication situation based on a given multiplication expression",
         "uuid": "9c0f3844-c6ae-5bd5-a059-045be3fae30c",
-        "parent_standard": "CCSS_3.OA.A.1"
+        "parent_standard": "CCSS_3.OA.A.1",
+        "title": "Identify a multiplication situation based on a given multiplication ex..."
       },
       {
         "id": "lc_model_mult_situation",
         "type": "learning_component",
         "description": "Model a multiplication situation, including by writing a multiplication expression",
         "uuid": "dc76aa42-8bd7-531e-ac1b-cf22b96aa8d1",
-        "parent_standard": "CCSS_3.OA.A.1"
+        "parent_standard": "CCSS_3.OA.A.1",
+        "title": "Model a multiplication situation, including by writing a multiplicatio..."
       },
       {
         "id": "lc_fluently_divide_100",
         "type": "learning_component",
         "description": "Fluently divide within 100, using strategies such as the relationship between multiplication and division or properties of operations",
         "uuid": "5a0a81bb-41df-5f2b-be89-f9be39d9f4e3",
-        "parent_standard": "CCSS_3.OA.C.7"
+        "parent_standard": "CCSS_3.OA.C.7",
+        "title": "Fluently divide within 100, using strategies such as the relationship ..."
       },
       {
         "id": "lc_fluently_multiply_100",
         "type": "learning_component",
         "description": "Fluently multiply within 100, using strategies such as the relationship between multiplication and division or properties of operations",
         "uuid": "dd8b4c11-c205-5c97-aa27-464fbcd85a9a",
-        "parent_standard": "CCSS_3.OA.C.7"
+        "parent_standard": "CCSS_3.OA.C.7",
+        "title": "Fluently multiply within 100, using strategies such as the relationshi..."
       },
       {
         "id": "lc_memory_products",
         "type": "learning_component",
         "description": "Know from memory all products of two one-digit numbers",
         "uuid": "ee3360f2-c08d-5933-96c1-8fd9692b63b7",
-        "parent_standard": "CCSS_3.OA.C.7"
+        "parent_standard": "CCSS_3.OA.C.7",
+        "title": "Know from memory all products of two one-digit numbers"
       },
       {
         "id": "lc_mult_4digit_by_1digit",
         "type": "learning_component",
         "description": "Multiply a four-digit number by a one-digit number using strategies based on place value or properties of operations",
         "uuid": "57a1b686-9ada-5a2c-ba77-19b2a336cf85",
-        "parent_standard": "CCSS_4.NBT.B.5"
+        "parent_standard": "CCSS_4.NBT.B.5",
+        "title": "Multiply a four-digit number by a one-digit number using strategies ba..."
       },
       {
         "id": "lc_mult_3digit_by_1digit",
         "type": "learning_component",
         "description": "Multiply a three-digit number by a one-digit number using strategies based on place value or properties of operations",
         "uuid": "17023c31-620e-5c4c-829c-8433e33f79b0",
-        "parent_standard": "CCSS_4.NBT.B.5"
+        "parent_standard": "CCSS_4.NBT.B.5",
+        "title": "Multiply a three-digit number by a one-digit number using strategies b..."
       },
       {
         "id": "lc_mult_2digit_by_2digit",
         "type": "learning_component",
         "description": "Multiply a two-digit number by a two-digit number using strategies based on place value or properties of operations",
         "uuid": "bb6ce866-f435-5fef-9a8f-4d485034d495",
-        "parent_standard": "CCSS_4.NBT.B.5"
+        "parent_standard": "CCSS_4.NBT.B.5",
+        "title": "Multiply a two-digit number by a two-digit number using strategies bas..."
       },
       {
         "id": "lc_model_mult_2x2",
         "type": "learning_component",
         "description": "Use models to explain the multiplication of two two-digit numbers",
         "uuid": "cb82dee4-88cb-5e46-9ec3-bc05b1d5a482",
-        "parent_standard": "CCSS_4.NBT.B.5"
+        "parent_standard": "CCSS_4.NBT.B.5",
+        "title": "Use models to explain the multiplication of two two-digit numbers"
       },
       {
         "id": "lc_div_2digit_no_remainder",
         "type": "learning_component",
         "description": "Find whole-number quotients (no remainders) of two-digit dividends and one-digit divisors",
         "uuid": "f6809045-c11a-5332-b358-462b2c8a4a11",
-        "parent_standard": "CCSS_4.NBT.B.6"
+        "parent_standard": "CCSS_4.NBT.B.6",
+        "title": "Find whole-number quotients (no remainders) of two-digit dividends and..."
       },
       {
         "id": "lc_div_2digit_remainder",
         "type": "learning_component",
         "description": "Find whole-number quotients (with remainders) two-digit dividends and one-digit divisors",
         "uuid": "f7db0623-427e-5587-acb7-51b2fc2f0019",
-        "parent_standard": "CCSS_4.NBT.B.6"
+        "parent_standard": "CCSS_4.NBT.B.6",
+        "title": "Find whole-number quotients (with remainders) two-digit dividends and ..."
       },
       {
         "id": "lc_div_3digit_no_remainder",
         "type": "learning_component",
         "description": "Find whole-number quotients (no remainders) of three-digit dividends and one-digit divisors",
         "uuid": "437e6968-6aae-5624-acac-0b10432b5690",
-        "parent_standard": "CCSS_4.NBT.B.6"
+        "parent_standard": "CCSS_4.NBT.B.6",
+        "title": "Find whole-number quotients (no remainders) of three-digit dividends a..."
       },
       {
         "id": "lc_div_model_2digit",
         "type": "learning_component",
         "description": "Use models to explain the division of whole numbers (with and without remainders) with two-digit dividends and one-digit divisors",
         "uuid": "d98ddefd-25c4-5988-82d6-102fb496b14e",
-        "parent_standard": "CCSS_4.NBT.B.6"
+        "parent_standard": "CCSS_4.NBT.B.6",
+        "title": "Use models to explain the division of whole numbers (with and without ..."
       }
     ],
     "vdw_sections": [
@@ -1528,7 +1649,8 @@
           "addition_problem_types",
           "unknown_position"
         ],
-        "description": "Detailed treatment of join, separate, part-part-whole, and compare problem types. Shows how varying the unknown position changes cognitive demand."
+        "description": "Detailed treatment of join, separate, part-part-whole, and compare problem types. Shows how varying the unknown position changes cognitive demand.",
+        "title": "VdW Ch9: Addition and Subtraction Problem Structures"
       },
       {
         "id": "vdw_ch9_mult_structures",
@@ -1539,7 +1661,8 @@
           "multiplicative_structures",
           "division_meanings"
         ],
-        "description": "Five multiplicative problem types and the partition/measurement distinction for division. Includes the convention that 4 \u00d7 8 means four sets of eight."
+        "description": "Five multiplicative problem types and the partition/measurement distinction for division. Includes the convention that 4 × 8 means four sets of eight.",
+        "title": "VdW Ch9: Multiplication and Division Problem Structures"
       },
       {
         "id": "vdw_ch10_basic_facts",
@@ -1551,7 +1674,7 @@
           "addition_subtraction_strategies",
           "multiplication_fact_strategies"
         ],
-        "description": "Three phases of fact development: counting strategies \u2192 reasoning strategies \u2192 mastery. Covers addition/subtraction fact strategies (making ten, doubles, near-doubles) and multiplication fact strategies (doubling, skip counting, derived facts)."
+        "description": "Three phases of fact development: counting strategies → reasoning strategies → mastery. Covers addition/subtraction fact strategies (making ten, doubles, near-doubles) and multiplication fact strategies (doubling, skip counting, derived facts)."
       },
       {
         "id": "vdw_ch10_add_strategies",
@@ -1564,7 +1687,8 @@
           "making_ten",
           "doubles"
         ],
-        "description": "Specific strategies for developing addition/subtraction fact fluency: counting on, making ten, decomposing to ten, doubles, near-doubles."
+        "description": "Specific strategies for developing addition/subtraction fact fluency: counting on, making ten, decomposing to ten, doubles, near-doubles.",
+        "title": "VdW Ch10: Addition and Subtraction Fact Strategies (approx. pp. 165-175)"
       },
       {
         "id": "vdw_ch10_mult_strategies",
@@ -1576,7 +1700,8 @@
           "guided_invention",
           "doubling_strategy"
         ],
-        "description": "Strategic sequence for multiplication facts: 2s, 5s, 10s first (skip counting); then derived facts using doubling, near-squares, and break-apart strategies for 6\u00d77, 7\u00d78, 8\u00d79."
+        "description": "Strategic sequence for multiplication facts: 2s, 5s, 10s first (skip counting); then derived facts using doubling, near-squares, and break-apart strategies for 6×7, 7×8, 8×9.",
+        "title": "VdW Ch10: Multiplication Fact Strategies (approx. pp. 175-200)"
       },
       {
         "id": "vdw_ch13_mult_div_computation",
@@ -1916,7 +2041,7 @@
         "file": "FP_Ch05_Selecting_Sequencing.pdf",
         "key_ideas": [
           "Selecting determines what mathematical ideas students get to grapple with",
-          "Sequencing builds a coherent mathematical storyline (concrete \u2192 abstract)",
+          "Sequencing builds a coherent mathematical storyline (concrete → abstract)",
           "Equity matters: who gets positioned as a mathematical thinker",
           "Errors and partial solutions can be sequenced purposefully",
           "Five challenges: relevance, expanding presenters, majority stuck, missing strategy, sequencing errors"
@@ -1959,7 +2084,8 @@
           "Anticipate how task features connect to goals"
         ],
         "chapter": "fp_ch2",
-        "subtype": "practice_description"
+        "subtype": "practice_description",
+        "title": "Practice 0: Setting Goals and Selecting Tasks"
       },
       {
         "id": "fp_practice_1",
@@ -1974,14 +2100,15 @@
           "Prepare assessing and advancing questions for each anticipated strategy"
         ],
         "chapter": "fp_ch3",
-        "subtype": "practice_description"
+        "subtype": "practice_description",
+        "title": "Practice 1: Anticipating"
       },
       {
         "id": "fp_practice_2",
         "type": "five_practice",
         "label": "Monitoring",
         "practice_number": 2,
-        "description": "During instruction: circulate while students work to observe and understand their mathematical thinking. Monitoring is not checking for right answers \u2014 it is building a real-time map of what strategies are present in the room and what mathematical ideas they surface.",
+        "description": "During instruction: circulate while students work to observe and understand their mathematical thinking. Monitoring is not checking for right answers — it is building a real-time map of what strategies are present in the room and what mathematical ideas they surface.",
         "teacher_moves": [
           "Circulate to every group",
           "Use assessing questions to surface student thinking",
@@ -1990,14 +2117,15 @@
           "Note which anticipated strategies are absent"
         ],
         "chapter": "fp_ch4",
-        "subtype": "practice_description"
+        "subtype": "practice_description",
+        "title": "Practice 2: Monitoring"
       },
       {
         "id": "fp_practice_3",
         "type": "five_practice",
         "label": "Selecting and Sequencing",
         "practice_number": 3,
-        "description": "During/after student work: choose which solutions to share in whole-class discussion and in what order. Selection determines what mathematical ideas the class has the opportunity to grapple with. Sequencing builds a coherent mathematical storyline \u2014 typically from concrete to abstract, from common to sophisticated, or from partial to complete.",
+        "description": "During/after student work: choose which solutions to share in whole-class discussion and in what order. Selection determines what mathematical ideas the class has the opportunity to grapple with. Sequencing builds a coherent mathematical storyline — typically from concrete to abstract, from common to sophisticated, or from partial to complete.",
         "teacher_moves": [
           "Select solutions that advance the mathematical goal",
           "Consider equity: who gets positioned as a mathematical thinker",
@@ -2006,14 +2134,15 @@
           "Pre-notify selected students"
         ],
         "chapter": "fp_ch5",
-        "subtype": "practice_description"
+        "subtype": "practice_description",
+        "title": "Practice 3: Selecting and Sequencing"
       },
       {
         "id": "fp_practice_4",
         "type": "five_practice",
         "label": "Connecting",
         "practice_number": 4,
-        "description": "During whole-class discussion: help students see relationships between different solution strategies and connect those strategies to the mathematical goal. Connecting is where the mathematical learning happens \u2014 it is not enough to share strategies; the teacher must orchestrate explicit comparison, contrast, and generalization across solutions.",
+        "description": "During whole-class discussion: help students see relationships between different solution strategies and connect those strategies to the mathematical goal. Connecting is where the mathematical learning happens — it is not enough to share strategies; the teacher must orchestrate explicit comparison, contrast, and generalization across solutions.",
         "teacher_moves": [
           "Ask students to compare strategies",
           "Highlight mathematical relationships between solutions",
@@ -2022,7 +2151,8 @@
           "Make explicit what might otherwise remain implicit"
         ],
         "chapter": "fp_ch6",
-        "subtype": "practice_description"
+        "subtype": "practice_description",
+        "title": "Practice 4: Connecting"
       }
     ],
     "process_standards": [
@@ -2033,7 +2163,8 @@
         "description": "Make sense of problems and persevere in solving them.",
         "uuid": "8c2d5755-c8ff-4a4e-b7d8-ba00fc7964b0",
         "jurisdiction": "Indiana",
-        "ccss_equivalent": "MP.1"
+        "ccss_equivalent": "MP.1",
+        "title": "IN PS.1: Make sense of problems and persevere in solving them."
       },
       {
         "id": "IN_PS.2",
@@ -2042,7 +2173,8 @@
         "description": "Reason abstractly and quantitatively.",
         "uuid": "563b8131-eb97-4fcc-9b65-b6509d6d4953",
         "jurisdiction": "Indiana",
-        "ccss_equivalent": "MP.2"
+        "ccss_equivalent": "MP.2",
+        "title": "IN PS.2: Reason abstractly and quantitatively."
       },
       {
         "id": "IN_PS.3",
@@ -2051,7 +2183,8 @@
         "description": "Construct viable arguments and critique the reasoning of others.",
         "uuid": "f0d9ba18-4380-421f-b5c2-507c6a6b2cd6",
         "jurisdiction": "Indiana",
-        "ccss_equivalent": "MP.3"
+        "ccss_equivalent": "MP.3",
+        "title": "IN PS.3: Construct viable arguments and critique the reasoning of oth..."
       },
       {
         "id": "IN_PS.4",
@@ -2060,7 +2193,8 @@
         "description": "Model with mathematics.",
         "uuid": "9610955a-ecbc-42dd-aa39-0812133f1c46",
         "jurisdiction": "Indiana",
-        "ccss_equivalent": "MP.4"
+        "ccss_equivalent": "MP.4",
+        "title": "IN PS.4: Model with mathematics."
       },
       {
         "id": "IN_PS.5",
@@ -2069,7 +2203,8 @@
         "description": "Use appropriate tools strategically.",
         "uuid": "5165b0ca-7b35-4898-8ab8-5177bf56f68f",
         "jurisdiction": "Indiana",
-        "ccss_equivalent": "MP.5"
+        "ccss_equivalent": "MP.5",
+        "title": "IN PS.5: Use appropriate tools strategically."
       },
       {
         "id": "IN_PS.6",
@@ -2078,7 +2213,8 @@
         "description": "Attend to precision.",
         "uuid": "2b2f3258-722f-4ded-baae-ffe83beb0d98",
         "jurisdiction": "Indiana",
-        "ccss_equivalent": "MP.6"
+        "ccss_equivalent": "MP.6",
+        "title": "IN PS.6: Attend to precision."
       },
       {
         "id": "IN_PS.7",
@@ -2087,7 +2223,8 @@
         "description": "Look for and make use of structure.",
         "uuid": "5d91e184-bdf7-4f25-8310-a980221c55b4",
         "jurisdiction": "Indiana",
-        "ccss_equivalent": "MP.7"
+        "ccss_equivalent": "MP.7",
+        "title": "IN PS.7: Look for and make use of structure."
       },
       {
         "id": "IN_PS.8",
@@ -2096,7 +2233,8 @@
         "description": "Look for and express regularity in repeated reasoning.",
         "uuid": "f8e5c4bc-ef0c-4fad-9d59-96be5e856cbc",
         "jurisdiction": "Indiana",
-        "ccss_equivalent": "MP.8"
+        "ccss_equivalent": "MP.8",
+        "title": "IN PS.8: Look for and express regularity in repeated reasoning."
       }
     ],
     "cdm_chapters": [
@@ -2215,7 +2353,7 @@
         "file": null,
         "key_ideas": [
           "Talk is critical: generates knowledge, gives access to others' thinking, develops vocabulary and reasoning",
-          "Four steps of talk moves: clarify/share \u2192 orient to others \u2192 deepen reasoning \u2192 engage",
+          "Four steps of talk moves: clarify/share → orient to others → deepen reasoning → engage",
           "Specific moves: wait time, turn & talk, revoicing, say more, who can repeat, press for reasoning, agree/disagree, who can add on"
         ]
       }
@@ -3512,7 +3650,8 @@
           "3",
           "5"
         ],
-        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder"
+        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder",
+        "title": "Lakeview"
       },
       {
         "id": "im_school_university",
@@ -3524,7 +3663,8 @@
           "5",
           "6"
         ],
-        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder"
+        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder",
+        "title": "University"
       },
       {
         "id": "im_school_brooklyn",
@@ -3538,7 +3678,8 @@
           "5",
           "6"
         ],
-        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder"
+        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder",
+        "title": "Brooklyn STEM / Bell Academy"
       },
       {
         "id": "im_school_rogers",
@@ -3549,7 +3690,8 @@
           "K",
           "2"
         ],
-        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder"
+        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder",
+        "title": "Rogers"
       },
       {
         "id": "im_school_binford",
@@ -3559,7 +3701,8 @@
         "grades_with_im": [
           "multiple"
         ],
-        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder"
+        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder",
+        "title": "Binford"
       },
       {
         "id": "im_school_unionville",
@@ -3569,7 +3712,8 @@
         "grades_with_im": [
           "multiple"
         ],
-        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder"
+        "source": "Canvas IMSCC export / SP24 Illustrative Mathematics folder",
+        "title": "Unionville / Eastern Greene"
       }
     ],
     "canvas_folders": [
@@ -3578,112 +3722,128 @@
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: Week 01 - Lesson Structure",
-        "unit": 1
+        "unit": 1,
+        "title": "In-Class Materials: Week 01 - Lesson Structure"
       },
       {
         "id": "folder_in_class_wk02",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: Week 02 - Goals, Tasks, Lesson Content",
-        "unit": 1
+        "unit": 1,
+        "title": "In-Class Materials: Week 02 - Goals, Tasks, Lesson Content"
       },
       {
         "id": "folder_in_class_wk03",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: Week 03 - Anticipating",
-        "unit": 1
+        "unit": 1,
+        "title": "In-Class Materials: Week 03 - Anticipating"
       },
       {
         "id": "folder_in_class_wk04",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: Week 04 - Lesson Content",
-        "unit": 1
+        "unit": 1,
+        "title": "In-Class Materials: Week 04 - Lesson Content"
       },
       {
         "id": "folder_in_class_wk05",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: Week 05 - Talk Moves",
-        "unit": 2
+        "unit": 2,
+        "title": "In-Class Materials: Week 05 - Talk Moves"
       },
       {
         "id": "folder_in_class_wk06",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: Week 06 - Monitoring",
-        "unit": 2
+        "unit": 2,
+        "title": "In-Class Materials: Week 06 - Monitoring"
       },
       {
         "id": "folder_in_class_wk07",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: Week 07 - Selecting, Sequencing, Connecting",
-        "unit": 2
+        "unit": 2,
+        "title": "In-Class Materials: Week 07 - Selecting, Sequencing, Connecting"
       },
       {
         "id": "folder_in_class_wk08",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: Week 08 - Connecting & Demo Lesson",
-        "unit": 2
+        "unit": 2,
+        "title": "In-Class Materials: Week 08 - Connecting & Demo Lesson"
       },
       {
         "id": "folder_5practices",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: 5 Practices",
-        "unit": 0
+        "unit": 0,
+        "title": "In-Class Materials: 5 Practices"
       },
       {
         "id": "folder_vdw_readings",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "In-Class Materials: VdW Readings",
-        "unit": 0
+        "unit": 0,
+        "title": "In-Class Materials: VdW Readings"
       },
       {
         "id": "folder_standards",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "Indiana Academic Standards",
-        "unit": 0
+        "unit": 0,
+        "title": "Indiana Academic Standards"
       },
       {
         "id": "folder_major_asgn",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "Major Assignments",
-        "unit": 0
+        "unit": 0,
+        "title": "Major Assignments"
       },
       {
         "id": "folder_syllabus",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "Syllabus",
-        "unit": 0
+        "unit": 0,
+        "title": "Syllabus"
       },
       {
         "id": "folder_im_sp24",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "Curriculum Units: SP24 Illustrative Mathematics",
-        "unit": 0
+        "unit": 0,
+        "title": "Curriculum Units: SP24 Illustrative Mathematics"
       },
       {
         "id": "folder_im_sp25",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "Curriculum Units: SP25",
-        "unit": 0
+        "unit": 0,
+        "title": "Curriculum Units: SP25"
       },
       {
         "id": "folder_im_sp26",
         "type": "canvas_resource",
         "subtype": "canvas_folder",
         "label": "Curriculum Units: SP26",
-        "unit": 0
+        "unit": 0,
+        "title": "Curriculum Units: SP26"
       }
     ],
     "canvas_videos": [
@@ -3713,6 +3873,1119 @@
         "url": "https://www.youtube.com/watch?v=rEU6wgzCwoo",
         "platform": "YouTube",
         "source_file": "wiki_content/e343-course-schedule-unit-2-updated.html"
+      }
+    ],
+    "im_lessons": [
+      {
+        "id": "im_lesson_1_2d_3d_shapes",
+        "type": "im_lesson",
+        "grade": "1",
+        "title": "1st Grade: 2-D and 3-D Shapes",
+        "description": "Illustrative Mathematics lesson on 2-D and 3-D Shapes for 1st Grade. Used at: Binford_Rogers_Unionville. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "Binford_Rogers_Unionville"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "1st_3D_2DShapes_TeacherPresent.pdf",
+          "1st_3D_2Dshapes_TeacherGuide.pdf",
+          "1st_3D_2Dshapes_student.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_1_addition_within_100",
+        "type": "im_lesson",
+        "grade": "1",
+        "title": "1st Grade: Addition within 100",
+        "description": "Illustrative Mathematics lesson on Addition within 100 for 1st Grade. Used at: 1st, Unionville and Eastern Greene, University (Hyunjeong). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24",
+          "SP 26",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "1st",
+          "Unionville and Eastern Greene",
+          "University (Hyunjeong)"
+        ],
+        "file_count": 9,
+        "sample_files": [
+          "1st_AdditionWithin20:100_student.pdf",
+          "1st_AdditionWithin20:100_teacherguide.pdf",
+          "1st_AdditionWithin20:100_teacherpresentation.pdf",
+          "1st_student_AddW100.pdf",
+          "1st_teacher_guide_AddW100.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_1_count_compare_add_w20",
+        "type": "im_lesson",
+        "grade": "1",
+        "title": "1st Grade: Counting, Comparing, and Adding within 20",
+        "description": "Illustrative Mathematics lesson on Counting, Comparing, and Adding within 20 for 1st Grade. Used at: 1st. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "1st"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "1st_CountCompareAddW20_student.pdf",
+          "1st_CountCompareAddW20_teacherpresent.pdf",
+          "1st_CountCompare_AddW20_teacherguide.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_1_nonstandard_measurement",
+        "type": "im_lesson",
+        "grade": "1",
+        "title": "1st Grade: Nonstandard Measurement",
+        "description": "Illustrative Mathematics lesson on Nonstandard Measurement for 1st Grade. Used at: Grandview, Grandview (Erin), Lakeview, McCormick's Creek (Tio). Available as: student, teacher_guide, teacher_preparation.",
+        "semesters": [
+          "SP 25",
+          "SP 26"
+        ],
+        "schools": [
+          "Grandview",
+          "Grandview (Erin)",
+          "Lakeview",
+          "McCormick's Creek (Tio)"
+        ],
+        "file_count": 12,
+        "sample_files": [
+          "1st_NonstandardMeasureUnits_Student.pdf",
+          "1st_NonstandardMeasure_TeacherGuide.pdf",
+          "1st_NonstandardMeasure_TeacherPrep.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_1_story_problems_add_sub",
+        "type": "im_lesson",
+        "grade": "1",
+        "title": "1st Grade: Story Problems (Addition & Subtraction)",
+        "description": "Illustrative Mathematics lesson on Story Problems (Addition & Subtraction) for 1st Grade. Used at: BrooklynSTEM_Unionville, Lakeview, University (Hyunjeong). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25",
+          "SP 26",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "BrooklynSTEM_Unionville",
+          "Lakeview",
+          "University (Hyunjeong)"
+        ],
+        "file_count": 9,
+        "sample_files": [
+          "1st_student_StoryProbW20AddSub.pdf",
+          "1st_teacher_guide_StoryProbW20AddSub.pdf",
+          "1st_teacher_present_StoryProbW20AddSub.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_1_story_problems_subtraction",
+        "type": "im_lesson",
+        "grade": "1",
+        "title": "1st Grade: Story Problems (Subtraction)",
+        "description": "Illustrative Mathematics lesson on Story Problems (Subtraction) for 1st Grade. Used at: Brooklyn STEM and Bell Academy. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Brooklyn STEM and Bell Academy"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "1st_student_StoryProbW20Subtract.pdf",
+          "1st_teacher_guide_StoryProbW20Subtract.pdf",
+          "1st_teacher_present_StoryProbW20Subtract.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_1_storyprobw20",
+        "type": "im_lesson",
+        "grade": "1",
+        "title": "1st Grade: Storyprobw20",
+        "description": "Illustrative Mathematics lesson on Storyprobw20 for 1st Grade. Used at: University. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "University"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "1st_student_StoryProbW20.pdf",
+          "1st_teacher_guide_StoryProbW20.pdf",
+          "1st_teacher_present_StoryProbW20.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_2_addition_place_value",
+        "type": "im_lesson",
+        "grade": "2",
+        "title": "2nd Grade: Addition with Place Value",
+        "description": "Illustrative Mathematics lesson on Addition with Place Value for 2nd Grade. Used at: 2nd. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "2nd"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "2nd_AddPlaceValue_student.pdf",
+          "2nd_AddPlaceValue_teacherguide.pdf",
+          "2nd_AddPlaceValue_teacherpresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_2_addition_within_1000",
+        "type": "im_lesson",
+        "grade": "2",
+        "title": "2nd Grade: Addition within 1000",
+        "description": "Illustrative Mathematics lesson on Addition within 1000 for 2nd Grade. Used at: Grandview (Erin), University (Hyunjeong). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "Grandview (Erin)",
+          "University (Hyunjeong)"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "2nd_student_AddW1000.pdf",
+          "2nd_teacherguide_AddW1000.pdf",
+          "2nd_teacherpresent_AddW1000.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_2_data_fractions",
+        "type": "im_lesson",
+        "grade": "2",
+        "title": "2nd Grade: Data and Fractions",
+        "description": "Illustrative Mathematics lesson on Data and Fractions for 2nd Grade. Used at: McCormick's Creek (Tio). Available as: student, teacher_presentation, unknown.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "McCormick's Creek (Tio)"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "2nd_student_data_fraction.pdf",
+          "2nd_teacher_data_fraction.pdf",
+          "2nd_teacherpresent_data_fraction.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_2_fractions_geometry_measurement",
+        "type": "im_lesson",
+        "grade": "2",
+        "title": "2nd Grade: Fractions, Geometry, and Measurement",
+        "description": "Illustrative Mathematics lesson on Fractions, Geometry, and Measurement for 2nd Grade. Used at: Lakeview. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Lakeview"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "2nd_student_Frac_GM.pdf",
+          "2nd_teacher_guide_Frac_GM.pdf",
+          "2nd_teacher_present_Frac_GM.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_2_place_value",
+        "type": "im_lesson",
+        "grade": "2",
+        "title": "2nd Grade: Place Value",
+        "description": "Illustrative Mathematics lesson on Place Value for 2nd Grade. Used at: Grandview. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "Grandview"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "2nd_PlaceValue_TeacherGuide.pdf",
+          "2nd_PlaceValue_TeacherPresent.pdf",
+          "2nd_PlaceValue_student.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_2_standard_measurement",
+        "type": "im_lesson",
+        "grade": "2",
+        "title": "2nd Grade: Standard Measurement",
+        "description": "Illustrative Mathematics lesson on Standard Measurement for 2nd Grade. Used at: Lakeview. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "Lakeview"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "2nd_StandardMeasure_Student.pdf",
+          "2nd_StandardMeasure_TeacherPresent.pdf",
+          "2nd_Standard_Measure_TeacherGuide.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_2_story_problems_within_100",
+        "type": "im_lesson",
+        "grade": "2",
+        "title": "2nd Grade: Story Problems within 100",
+        "description": "Illustrative Mathematics lesson on Story Problems within 100 for 2nd Grade. Used at: Rogers. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Rogers"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "2nd_student_StoryProbW100.pdf",
+          "2nd_teacher_guide_StoryProbW100.pdf",
+          "2nd_teacher_present_StoryProbW100.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_2_time",
+        "type": "im_lesson",
+        "grade": "2",
+        "title": "2nd Grade: Time",
+        "description": "Illustrative Mathematics lesson on Time for 2nd Grade. Used at: Unionville and Eastern Greene. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Unionville and Eastern Greene"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "2nd_student_Time.pdf",
+          "2nd_teacher_guide_Time.pdf",
+          "2nd_teacher_present_Time.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_area_perimeter",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Area and Perimeter",
+        "description": "Illustrative Mathematics lesson on Area and Perimeter for 3rd Grade. Used at: Binford, Binford_Rogers_Unionville, Lakeview. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Binford",
+          "Binford_Rogers_Unionville",
+          "Lakeview"
+        ],
+        "file_count": 9,
+        "sample_files": [
+          "3rd_AeraPerimeter_Student.pdf",
+          "3rd_AeraPerimeter_TeacherGuide.pdf",
+          "3rd_AreaPerimeter_TeacherPresent.pdf",
+          "3rd_student_AreaPerim.pdf",
+          "3rd_teacher_guide_AreaPerim.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_bar_graphs",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Bar Graphs",
+        "description": "Illustrative Mathematics lesson on Bar Graphs for 3rd Grade. Used at: Brooklyn STEM and Bell Academy, BrooklynSTEM_Unionville, Grandview, Unionville and Eastern Greene. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Brooklyn STEM and Bell Academy",
+          "BrooklynSTEM_Unionville",
+          "Grandview",
+          "Unionville and Eastern Greene"
+        ],
+        "file_count": 12,
+        "sample_files": [
+          "3rd_student_BarGraphs.pdf",
+          "3rd_teacher_guide_BarGraphs.pdf",
+          "3rd_teacher_present_BarGraph.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_equivalent_fractions",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Equivalent Fractions",
+        "description": "Illustrative Mathematics lesson on Equivalent Fractions for 3rd Grade. Used at: Lakeview, Unionville and Eastern Greene. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Lakeview",
+          "Unionville and Eastern Greene"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "3rd_student_EquivFrac.pdf",
+          "3rd_teacher_guide_EquivFrac.pdf",
+          "3rd_teacher_present_EquivFrac.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_fractions_measurement",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Fractions and Measurement",
+        "description": "Illustrative Mathematics lesson on Fractions and Measurement for 3rd Grade. Used at: 3rd. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "3rd"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "3rd_FractionMeasurement_teacherpresent.pdf",
+          "3rd_FractionsMeasurement_student.pdf",
+          "3rd_FractionsMeasurement_teacherguide.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_length_line_plots",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Length and Line Plots",
+        "description": "Illustrative Mathematics lesson on Length and Line Plots for 3rd Grade. Used at: Unionville and Eastern Greene. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Unionville and Eastern Greene"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "3rd_student_LengthLinePlot.pdf",
+          "3rd_teacher_guide_LengthLinePlot.pdf",
+          "3rd_teacher_present_LengthLinePlot.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_mult_div_within_12",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Multiplication and Division within 12",
+        "description": "Illustrative Mathematics lesson on Multiplication and Division within 12 for 3rd Grade. Used at: 3rd. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "3rd"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "3rd_MultDivWithin12_student.pdf",
+          "3rd_MultDivWithin12_teacherguide.pdf",
+          "3rd_MultDivWithin12_teacherpresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_multdiv",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Multdiv",
+        "description": "Illustrative Mathematics lesson on Multdiv for 3rd Grade. Used at: Shawswick (Erik). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "Shawswick (Erik)"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "3rd_student_MultDiv.pdf",
+          "3rd_teacherguide_MultDiv.pdf",
+          "3rd_teacherpresentMultDiv.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_quadrilaterals",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Quadrilaterals",
+        "description": "Illustrative Mathematics lesson on Quadrilaterals for 3rd Grade. Used at: University (Hyunjeong). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "University (Hyunjeong)"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "3rd_student_Quadrilaterals.pdf",
+          "3rd_teacherguide_Quadrilaterals.pdf",
+          "3rd_teacherpresent_Quadrilaterals.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_shape_attributes",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Shape Attributes",
+        "description": "Illustrative Mathematics lesson on Shape Attributes for 3rd Grade. Used at: Lakeview, University_Binford (Bernard). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25",
+          "SP 26"
+        ],
+        "schools": [
+          "Lakeview",
+          "University_Binford (Bernard)"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "3rd_ShapeAttributes_Student.pdf",
+          "3rd_ShapeAttributes_TeacherGuide.pdf",
+          "3rd_ShapeAttributes_TeacherPresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_unit8_inv2",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Unit 8 Investigation 2",
+        "description": "Illustrative Mathematics lesson on Unit 8 Investigation 2 for 3rd Grade. Used at: 3rd_Unit8_Inv2.pdf. Available as: unknown.",
+        "semesters": [
+          "FA22"
+        ],
+        "schools": [
+          "3rd_Unit8_Inv2.pdf"
+        ],
+        "file_count": 1,
+        "sample_files": [
+          "3rd_Unit8_Inv2.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_3_weight_volume",
+        "type": "im_lesson",
+        "grade": "3",
+        "title": "3rd Grade: Weight and Volume",
+        "description": "Illustrative Mathematics lesson on Weight and Volume for 3rd Grade. Used at: Binford_Rogers_Unionville. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "Binford_Rogers_Unionville"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "3rd_WeightVolume_Student.pdf",
+          "3rd_WeightVolume_TeacherGuide.pdf",
+          "3rd_WeightVolume_TeacherPresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_2d_shapes_geometry",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: 2-D Shapes and Geometry",
+        "description": "Illustrative Mathematics lesson on 2-D Shapes and Geometry for 4th Grade. Used at: University. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "University"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_2Dshape_Geom_teacherpresent.pdf",
+          "4th_2Dshape_teacherguide.pdf",
+          "4th_2Dshapes_Geom_student.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_area_perimeter",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Area and Perimeter",
+        "description": "Illustrative Mathematics lesson on Area and Perimeter for 4th Grade. Used at: Binford. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Binford"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_student_AreaPerimeter.pdf",
+          "4th_teacher_guide_AreaPerimeter.pdf",
+          "4th_teacher_presentation_AreaPerimeter.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_data_statistics",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Data and Statistics",
+        "description": "Illustrative Mathematics lesson on Data and Statistics for 4th Grade. Used at: University_Binford (Bernard). Available as: student, teacher_presentation, unknown.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "University_Binford (Bernard)"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_Teacher_Data.pdf",
+          "4th_student_Data.pdf",
+          "4th_teacherpresent_Data.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_decimal_operations",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Decimal Operations",
+        "description": "Illustrative Mathematics lesson on Decimal Operations for 4th Grade. Used at: BrooklynSTEM_Unionville. Available as: student, teacher_guide, teacher_preparation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "BrooklynSTEM_Unionville"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_Decimal_TeacherGuide.pdf",
+          "4th_Decimals_Student.pdf",
+          "4th_Decimals_TeacherPrep.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_fraction_add_sub",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Fraction Addition and Subtraction",
+        "description": "Illustrative Mathematics lesson on Fraction Addition and Subtraction for 4th Grade. Used at: University (Hyunjeong). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "University (Hyunjeong)"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_TeacherPresent_FracAddSub.pdf",
+          "4th_student_FracAddSub.pdf",
+          "4th_teacherguide_FracAddSub.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_fraction_comparison_addition",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Fraction Comparison and Addition",
+        "description": "Illustrative Mathematics lesson on Fraction Comparison and Addition for 4th Grade. Used at: 4th. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "4th"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_FracCompareAdd_student.pdf",
+          "4th_FracCompareAdd_teacherguide.pdf",
+          "4th_FracCompareAdd_teacherpresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_measurement_conversion",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Measurement Conversion",
+        "description": "Illustrative Mathematics lesson on Measurement Conversion for 4th Grade. Used at: Lakeview. Available as: student, teacher_guide, teacher_preparation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "Lakeview"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_MeasureConvert_TeacherGuide.pdf",
+          "4th_MeasureConvert_TeacherPrep.pdf",
+          "4th_MeasureConvert_student.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_multidigit_multiplication",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Multi-Digit Multiplication",
+        "description": "Illustrative Mathematics lesson on Multi-Digit Multiplication for 4th Grade. Used at: University. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "University"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_student_MultiDigitMult.pdf",
+          "4th_teacher_guide_MultiDigitMult.pdf",
+          "4th_teacher_present_MultiDigitMult.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_multiplicative_comparison",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Multiplicative Comparison",
+        "description": "Illustrative Mathematics lesson on Multiplicative Comparison for 4th Grade. Used at: 4th. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "4th"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "4th_MultCompare_student.pdf",
+          "4th_MultCompare_teacherguide.pdf",
+          "4th_MultCompare_teacherpresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_4_quadrilaterals",
+        "type": "im_lesson",
+        "grade": "4",
+        "title": "4th Grade: Quadrilaterals",
+        "description": "Illustrative Mathematics lesson on Quadrilaterals for 4th Grade. Used at: McCormick's Creek (Tio), Shawswick (Erik). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "McCormick's Creek (Tio)",
+          "Shawswick (Erik)"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "4th_2-DQuad_Student.pdf",
+          "4th_2-DQuad_TeacherPresent.pdf",
+          "4th_2-DQuadrilaterals_TeacherGuide.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_decimal_operations",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Decimal Operations",
+        "description": "Illustrative Mathematics lesson on Decimal Operations for 5th Grade. Used at: 5th, Lakeview. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "5th",
+          "Lakeview"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "5th_DecimalAddSubMult_student.pdf",
+          "5th_DecimalAddSubMult_teacherguide.pdf",
+          "5th_DecimalAddSubMult_teacherpresent.pdf",
+          "5th_student_DecimalAdd.pdf",
+          "5th_teacher_guide_DecimalAdd.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_fraction_div_mult",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Fraction Division and Multiplication",
+        "description": "Illustrative Mathematics lesson on Fraction Division and Multiplication for 5th Grade. Used at: Binford. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Binford"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "5th_student_FracDivMult.pdf",
+          "5th_teacher_guide_FracDivMult.pdf",
+          "5th_teacher_presentation_FracDivMult.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_fraction_division",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Fraction Division",
+        "description": "Illustrative Mathematics lesson on Fraction Division for 5th Grade. Used at: Binford, BrooklynSTEM_Unionville, Unionville and Eastern Greene, University. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Binford",
+          "BrooklynSTEM_Unionville",
+          "Unionville and Eastern Greene",
+          "University"
+        ],
+        "file_count": 12,
+        "sample_files": [
+          "5th_student_FractionDiv.pdf",
+          "5th_teacher_guide_FractionDiv.pdf",
+          "5th_teacher_present_FractionDiv.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_fraction_multiplication",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Fraction Multiplication",
+        "description": "Illustrative Mathematics lesson on Fraction Multiplication for 5th Grade. Used at: Binford_Rogers_Unionville. Available as: student, teacher_guide, teacher_preparation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "Binford_Rogers_Unionville"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "5th_FractionMultTeacherGuide.pdf",
+          "5th_FractionMult_Student.pdf",
+          "5th_FractionMult_TeacherPrepare.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_measurement_conversion",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Measurement Conversion",
+        "description": "Illustrative Mathematics lesson on Measurement Conversion for 5th Grade. Used at: Lakeview, University_Binford (Bernard). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25",
+          "SP 26",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Lakeview",
+          "University_Binford (Bernard)"
+        ],
+        "file_count": 9,
+        "sample_files": [
+          "5th_student_MeasureConvert.pdf",
+          "5th_teacher_guide_MeasureConvert.pdf",
+          "5th_teacher_present_MeasureConvert.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_mixed_number_operations",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Mixed Number Operations",
+        "description": "Illustrative Mathematics lesson on Mixed Number Operations for 5th Grade. Used at: 5th. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "5th"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "5th_MixedNumberAddSub_student.pdf",
+          "5th_MixedNumberAddSub_teacherguide.pdf",
+          "5th_MixedNumberAddSub_teacherpresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_volume",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Volume",
+        "description": "Illustrative Mathematics lesson on Volume for 5th Grade. Used at: 5th, Brooklyn STEM and Bell Academy. Available as: student, teacher_guide, teacher_preparation.",
+        "semesters": [
+          "FA24",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "5th",
+          "Brooklyn STEM and Bell Academy"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "5th_student_Volume.pdf",
+          "5th_teacher_guide_Volume.pdf",
+          "5th_teacher_preparation_Volume.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_volume_advanced",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Volume (Advanced)",
+        "description": "Illustrative Mathematics lesson on Volume (Advanced) for 5th Grade. Used at: University, University_Binford (Bernard). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25",
+          "SP 26"
+        ],
+        "schools": [
+          "University",
+          "University_Binford (Bernard)"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "5th_MoreVolume_Student.pdf",
+          "5th_MoreVolume_TeacherGuide.pdf",
+          "5th_MoreVolume_TeacherPresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_5_volume_prisms",
+        "type": "im_lesson",
+        "grade": "5",
+        "title": "5th Grade: Volume of Multiple Prisms",
+        "description": "Illustrative Mathematics lesson on Volume of Multiple Prisms for 5th Grade. Used at: 5th. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "5th"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "5th_VolumeMultiplePrisms_student.pdf",
+          "5th_VolumeMultiplePrisms_teacherguide.pdf",
+          "5th_VolumeMultiplePrisms_teacherpresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_6_box_plots",
+        "type": "im_lesson",
+        "grade": "6",
+        "title": "6th Grade: Box Plots",
+        "description": "Illustrative Mathematics lesson on Box Plots for 6th Grade. Used at: Brooklyn STEM and Bell Academy. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Brooklyn STEM and Bell Academy"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "6th_student_BoxPlot.pdf",
+          "6th_teacher_guide_BoxPlot.pdf",
+          "6th_teacher_present_BoxPlot.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_6_early_variability",
+        "type": "im_lesson",
+        "grade": "6",
+        "title": "6th Grade: Early Variability",
+        "description": "Illustrative Mathematics lesson on Early Variability for 6th Grade. Used at: University_Binford (Bernard). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "University_Binford (Bernard)"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "6th_Student_EarlyVariability.pdf",
+          "6th_teacher_guide_EarlyVariability.pdf",
+          "6th_teacherpresent_EarlyVariability.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_6_equations",
+        "type": "im_lesson",
+        "grade": "6",
+        "title": "6th Grade: Equations",
+        "description": "Illustrative Mathematics lesson on Equations for 6th Grade. Used at: University. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25"
+        ],
+        "schools": [
+          "University"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "6th_Equations_Student.pdf",
+          "6th_Equations_TeacherGuide.pdf",
+          "6th_Equations_TeacherPresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_6_introducing_ratios",
+        "type": "im_lesson",
+        "grade": "6",
+        "title": "6th Grade: Introducing Ratios",
+        "description": "Illustrative Mathematics lesson on Introducing Ratios for 6th Grade. Used at: 6th. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "6th"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "6th_IntroducingRatios_teacherguide.pdf",
+          "6th_IntroducingRatios_teacherpresent.pdf",
+          "6th_IntroductingRatios_student.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_6_mean_mad",
+        "type": "im_lesson",
+        "grade": "6",
+        "title": "6th Grade: Mean and MAD",
+        "description": "Illustrative Mathematics lesson on Mean and MAD for 6th Grade. Used at: University. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "University"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "6th_student_MeanMAD.pdf",
+          "6th_teacher_guide_MeanMAD.pdf",
+          "6th_teacher_present_MeanMAD.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_6_ratios_rates",
+        "type": "im_lesson",
+        "grade": "6",
+        "title": "6th Grade: Ratios and Rates",
+        "description": "Illustrative Mathematics lesson on Ratios and Rates for 6th Grade. Used at: University (Hyunjeong). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "University (Hyunjeong)"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "6th_student_ratiorates.pdf",
+          "6th_teacherguide_ratiosrates.pdf",
+          "6th_teacherpresentratiosrates.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_k_3d_shapes",
+        "type": "im_lesson",
+        "grade": "K",
+        "title": "Kindergarten: 3-D Shapes",
+        "description": "Illustrative Mathematics lesson on 3-D Shapes for Kindergarten. Used at: Brooklyn STEM and Bell Academy, K. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Brooklyn STEM and Bell Academy",
+          "K"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "K_3-DShapes_student.pdf",
+          "K_3-D_Shapes_teacherguide.pdf",
+          "K_3-D_Shapes_teacherpresent.pdf",
+          "K_student_3D_shapes.pdf",
+          "K_teacher_guide_3D_shapes.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_k_addition_within_10",
+        "type": "im_lesson",
+        "grade": "K",
+        "title": "Kindergarten: Addition within 10",
+        "description": "Illustrative Mathematics lesson on Addition within 10 for Kindergarten. Used at: Grandview, Rogers. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 25",
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Grandview",
+          "Rogers"
+        ],
+        "file_count": 6,
+        "sample_files": [
+          "K_student_AddW10.pdf",
+          "K_teacher_guide_AddW10.pdf",
+          "K_teacher_present_AddW10.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_k_counting_subitizing",
+        "type": "im_lesson",
+        "grade": "K",
+        "title": "Kindergarten: Counting Collections and Subitizing",
+        "description": "Illustrative Mathematics lesson on Counting Collections and Subitizing for Kindergarten. Used at: K. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "FA24"
+        ],
+        "schools": [
+          "K"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "K_CountingCollectionsSubitizing_students.pdf",
+          "K_CountingCollectionsSubitizing_teacherguide.pdf",
+          "K_CountingCollectionsSubitizing_teacherpresent.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_k_data_statistics",
+        "type": "im_lesson",
+        "grade": "K",
+        "title": "Kindergarten: Data and Statistics",
+        "description": "Illustrative Mathematics lesson on Data and Statistics for Kindergarten. Used at: Grandview (Erin). Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP 26"
+        ],
+        "schools": [
+          "Grandview (Erin)"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "K_Student_DataStats.pdf",
+          "K_TeacherGuide_DataStats.pdf",
+          "K_TeacherPresent_DataStats.pdf"
+        ]
+      },
+      {
+        "id": "im_lesson_k_measurement",
+        "type": "im_lesson",
+        "grade": "K",
+        "title": "Kindergarten: Measurement",
+        "description": "Illustrative Mathematics lesson on Measurement for Kindergarten. Used at: Lakeview. Available as: student, teacher_guide, teacher_presentation.",
+        "semesters": [
+          "SP24_Illustrative Mathematics"
+        ],
+        "schools": [
+          "Lakeview"
+        ],
+        "file_count": 3,
+        "sample_files": [
+          "K_student_Measure.pdf",
+          "K_teacher_guide_Measure.pdf",
+          "K_teacher_present_Measure.pdf"
+        ]
       }
     ]
   },
@@ -5841,6 +7114,261 @@
       "from": "lp_wk06d2",
       "to": "vdw_pedagogy_discourse",
       "type": "references"
+    },
+    {
+      "from": "im_lesson_1_addition_within_100",
+      "to": "topic_fact_fluency",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_1_addition_within_100",
+      "to": "topic_addition_problem_types",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_1_count_compare_add_w20",
+      "to": "topic_fact_fluency",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_1_story_problems_add_sub",
+      "to": "topic_addition_problem_types",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_1_story_problems_subtraction",
+      "to": "topic_addition_problem_types",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_2_addition_place_value",
+      "to": "topic_addition_problem_types",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_2_addition_within_1000",
+      "to": "topic_addition_problem_types",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_2_data_fractions",
+      "to": "topic_unit_fractions",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_2_fractions_geometry_measurement",
+      "to": "topic_unit_fractions",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_2_story_problems_within_100",
+      "to": "topic_addition_problem_types",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_equivalent_fractions",
+      "to": "topic_equivalent_fractions",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_fractions_measurement",
+      "to": "topic_unit_fractions",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_mult_div_within_12",
+      "to": "topic_division_meanings",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_decimal_operations",
+      "to": "topic_fractions_decimals",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_fraction_comparison_addition",
+      "to": "topic_equivalent_fractions",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_fraction_comparison_addition",
+      "to": "topic_fraction_comparison",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_multidigit_multiplication",
+      "to": "topic_multidigit_multiplication",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_multiplicative_comparison",
+      "to": "topic_multiplicative_structures",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_5_decimal_operations",
+      "to": "topic_fractions_decimals",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_5_fraction_div_mult",
+      "to": "topic_fraction_multiplication",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_5_fraction_div_mult",
+      "to": "topic_division_as_fractions",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_5_fraction_division",
+      "to": "topic_division_as_fractions",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_5_fraction_multiplication",
+      "to": "topic_fraction_multiplication",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_6_introducing_ratios",
+      "to": "topic_multiplicative_structures",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_6_ratios_rates",
+      "to": "topic_multiplicative_structures",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_k_addition_within_10",
+      "to": "topic_fact_fluency",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_k_counting_subitizing",
+      "to": "topic_fact_fluency",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_1_2d_3d_shapes",
+      "to": "topic_geometry",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_1_nonstandard_measurement",
+      "to": "topic_measurement",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_1_storyprobw20",
+      "to": "topic_addition_problem_types",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_2_place_value",
+      "to": "topic_place_value",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_2_standard_measurement",
+      "to": "topic_measurement",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_2_time",
+      "to": "topic_time",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_bar_graphs",
+      "to": "topic_data_analysis",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_length_line_plots",
+      "to": "topic_measurement",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_quadrilaterals",
+      "to": "topic_geometry",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_shape_attributes",
+      "to": "topic_geometry",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_unit8_inv2",
+      "to": "topic_geometry",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_3_weight_volume",
+      "to": "topic_measurement",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_2d_shapes_geometry",
+      "to": "topic_geometry",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_data_statistics",
+      "to": "topic_data_analysis",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_measurement_conversion",
+      "to": "topic_measurement",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_4_quadrilaterals",
+      "to": "topic_geometry",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_5_measurement_conversion",
+      "to": "topic_measurement",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_6_box_plots",
+      "to": "topic_data_analysis",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_6_early_variability",
+      "to": "topic_data_analysis",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_6_equations",
+      "to": "topic_data_analysis",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_6_mean_mad",
+      "to": "topic_data_analysis",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_k_3d_shapes",
+      "to": "topic_geometry",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_k_data_statistics",
+      "to": "topic_data_analysis",
+      "type": "covers_topic"
+    },
+    {
+      "from": "im_lesson_k_measurement",
+      "to": "topic_measurement",
+      "type": "covers_topic"
     }
   ],
   "terminology_crosswalk": {
@@ -5933,9 +7461,9 @@
       {
         "concept": "Three-phase lesson structure for problem-based instruction",
         "van_de_walle": "Before / During / After",
-        "five_practices": "Anticipate \u2192 Monitor \u2192 Select/Sequence/Connect",
-        "illustrative_math": "Launch \u2192 Work \u2192 Synthesize (within: Warm Up \u2192 Activities \u2192 Synthesis \u2192 Cool Down)",
-        "cdm": "Launch \u2192 Explore \u2192 Summarize"
+        "five_practices": "Anticipate → Monitor → Select/Sequence/Connect",
+        "illustrative_math": "Launch → Work → Synthesize (within: Warm Up → Activities → Synthesis → Cool Down)",
+        "cdm": "Launch → Explore → Summarize"
       },
       {
         "concept": "The quantity that a fraction refers to",
@@ -5999,7 +7527,7 @@
       },
       {
         "concept": "Progression from physical objects to drawings to symbols in student strategies",
-        "van_de_walle": "Concrete \u2192 Representational \u2192 Abstract (CRA)",
+        "van_de_walle": "Concrete → Representational → Abstract (CRA)",
         "five_practices": "Sequencing from less to more sophisticated strategies",
         "indiana": "PS.4: Model with mathematics (multiple representations)",
         "ccss": "MP.4: Model with mathematics",
@@ -6044,7 +7572,7 @@
       },
       {
         "concept": "Four progressive steps of productive classroom talk",
-        "cdm": "Steps 1-4: Clarify/Share \u2192 Orient to Others \u2192 Deepen Reasoning \u2192 Engage with Others' Reasoning",
+        "cdm": "Steps 1-4: Clarify/Share → Orient to Others → Deepen Reasoning → Engage with Others' Reasoning",
         "five_practices": "Embedded across Monitoring and Connecting",
         "van_de_walle": "During/After phase discourse",
         "illustrative_math": "Discussion supports in teacher guidance"
