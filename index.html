@@ -3,283 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E343 Course Alignment Project</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>E343: Teaching Mathematics in Elementary School</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
         html, body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            color: #1a202c;
-            background-color: #f8fafc;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #2d3142;
+            background: #f5f6fa;
             line-height: 1.6;
+            min-height: 100vh;
         }
 
-        /* Header with gradient */
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
-        }
-
-        .header h1 {
-            font-size: 2.75rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            letter-spacing: -0.5px;
-            line-height: 1.2;
-        }
-
-        .header p {
-            font-size: 1.15rem;
-            opacity: 0.95;
-            font-weight: 300;
-            max-width: 700px;
-            margin: 0 auto;
-            line-height: 1.5;
-        }
-
-        /* Main container */
-        .container {
-            max-width: 1000px;
+        .page {
+            max-width: 760px;
             margin: 0 auto;
             padding: 3rem 2rem;
         }
 
-        /* Description section */
-        .description {
-            background: white;
-            border-radius: 12px;
-            padding: 2.5rem;
-            margin-bottom: 3rem;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-            line-height: 1.8;
-        }
-
-        .description h2 {
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: #667eea;
-        }
-
-        .description p {
-            color: #475569;
-            margin-bottom: 1rem;
-            font-size: 1.05rem;
-        }
-
-        /* Stats grid */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-
-        .stat-card {
-            background: white;
-            border-radius: 12px;
-            padding: 1.75rem 1.5rem;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-            border-left: 4px solid #667eea;
-            text-align: center;
-            transition: all 0.3s ease;
-        }
-
-        .stat-card:hover {
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
-            transform: translateY(-2px);
-        }
-
-        .stat-value {
-            font-size: 2.25rem;
+        h1 {
+            font-size: 2rem;
             font-weight: 700;
-            color: #667eea;
+            color: #3f4a99;
             margin-bottom: 0.5rem;
         }
 
-        .stat-label {
-            font-size: 0.9rem;
-            color: #64748b;
-            font-weight: 500;
+        .subtitle {
+            font-size: 1.05rem;
+            color: #626a84;
+            margin-bottom: 2.5rem;
+            max-width: 550px;
         }
 
-        /* Resources section */
-        .resources {
-            margin-bottom: 3rem;
-        }
-
-        .resources h2 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            color: #1a202c;
-            padding-bottom: 0.75rem;
-            border-bottom: 3px solid #667eea;
-            display: inline-block;
-        }
-
-        .resource-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .resource-card {
+        .card {
             background: white;
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .resource-card:hover {
-            box-shadow: 0 8px 16px rgba(102, 126, 234, 0.12);
-            transform: translateY(-4px);
-        }
-
-        .resource-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #667eea;
-            margin-bottom: 0.75rem;
-        }
-
-        .resource-description {
-            color: #64748b;
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-        }
-
-        .resource-link {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 8px;
+            border: 1px solid #e2e6ef;
+            border-radius: 10px;
+            padding: 1.75rem 2rem;
+            margin-bottom: 1.25rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
             text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            align-self: flex-start;
+            display: block;
+            color: inherit;
         }
 
-        .resource-link:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        a.card:hover {
+            border-color: #5b6abf;
+            box-shadow: 0 4px 12px rgba(91,106,191,0.1);
         }
 
-        /* Footer */
+        .card h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #3f4a99;
+            margin-bottom: 0.4rem;
+        }
+
+        .card p {
+            font-size: 0.92rem;
+            color: #626a84;
+        }
+
+        .card .arrow {
+            float: right;
+            font-size: 1.2rem;
+            color: #5b6abf;
+            margin-top: -1.5rem;
+        }
+
+        .section-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #9ca3bf;
+            margin-bottom: 0.75rem;
+            margin-top: 2rem;
+        }
+
         .footer {
-            background: #1a202c;
-            color: white;
-            text-align: center;
-            padding: 2rem;
             margin-top: 3rem;
-            font-size: 0.9rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e2e6ef;
+            font-size: 0.82rem;
+            color: #9ca3bf;
         }
 
-        .footer p {
-            opacity: 0.85;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2rem;
-            }
-
-            .header p {
-                font-size: 1rem;
-            }
-
-            .container {
-                padding: 1.5rem;
-            }
-
-            .description {
-                padding: 1.5rem;
-            }
-
-            .resource-card {
-                padding: 1.5rem;
-            }
+        @media (max-width: 600px) {
+            .page { padding: 1.5rem 1rem; }
+            h1 { font-size: 1.5rem; }
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>E343: Mathematics Methods Course Alignment Project</h1>
-        <p>Mapping the alignment between Indiana Academic Standards, Van de Walle, Illustrative Mathematics, Five Practices, and E343 course materials into a unified, explorable network</p>
-    </div>
+    <div class="page">
+        <h1>E343: Teaching Mathematics</h1>
+        <p class="subtitle">Course resources for Elementary Mathematics Methods at Indiana University.</p>
 
-    <div class="container">
-        <div class="description">
-            <h2>About This Project</h2>
-            <p>This project documents the comprehensive alignment work connecting multiple foundational frameworks in mathematics education. By systematically mapping relationships between curriculum standards, research literature, instructional practices, and course materials, we create a transparent view of how theory informs practice in the E343 Mathematics Methods course at Indiana University.</p>
+        <a href="visualization.html" class="card">
+            <h2>Course Navigator</h2>
+            <span class="arrow">→</span>
+            <p>Search and explore the full course — find any topic, standard, lesson, or framework and see how everything connects. Good starting point if you're looking for something specific.</p>
+        </a>
+
+        <div class="section-label">Reference</div>
+
+        <a href="progress-report.html" class="card">
+            <h2>Course Architecture Overview</h2>
+            <span class="arrow">→</span>
+            <p>How the course is organized across four units, seven frameworks, and fifteen weeks — and how we're working to make it all more coherent.</p>
+        </a>
+
+        <a href="e343_alignment_graph.json" class="card">
+            <h2>Alignment Data (JSON)</h2>
+            <span class="arrow">→</span>
+            <p>The raw data behind the course navigator — every node, edge, and relationship in machine-readable format.</p>
+        </a>
+
+        <div class="footer">
+            <p>E343 Mathematics Methods · Indiana University School of Education</p>
         </div>
-
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-value">328</div>
-                <div class="stat-label">Nodes</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">452</div>
-                <div class="stat-label">Edges</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">7</div>
-                <div class="stat-label">Frameworks</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">4</div>
-                <div class="stat-label">Units</div>
-            </div>
-        </div>
-
-        <div class="resources">
-            <h2>Resources</h2>
-            <div class="resource-links">
-                <div class="resource-card">
-                    <div>
-                        <div class="resource-title">Alignment Network Visualization</div>
-                        <div class="resource-description">Explore the interconnected relationships between frameworks through an interactive network visualization. Discover connections, zoom into specific domains, and trace how concepts flow across standards and practices.</div>
-                    </div>
-                    <a href="visualization.html" class="resource-link">Explore the Network</a>
-                </div>
-
-                <div class="resource-card">
-                    <div>
-                        <div class="resource-title">Progress Report</div>
-                        <div class="resource-description">Review the current status and roadmap for the course alignment project. Learn about completed phases, ongoing work, and future directions for this research initiative.</div>
-                    </div>
-                    <a href="progress-report.html" class="resource-link">View Progress Report</a>
-                </div>
-
-                <div class="resource-card">
-                    <div>
-                        <div class="resource-title">Alignment Data</div>
-                        <div class="resource-description">Access the underlying network data in JSON format. Suitable for analysis, visualization tools, or further computational work on the alignment mapping.</div>
-                    </div>
-                    <a href="e343_alignment_graph.json" class="resource-link">Download Data</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <p>E343 Mathematics Methods | Indiana University | School of Education</p>
     </div>
 </body>
 </html>
