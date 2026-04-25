@@ -889,7 +889,8 @@
         "description": "Count to at least 100 by ones and tens. Count by one from any given number.",
         "uuid": "55669d8d-d91a-4374-af94-c9e1e0fc65e5",
         "domain": "Number Sense",
-        "title": "IN K.NS.1: Count to at least 100 by ones and tens. Count by one from an..."
+        "title": "IN K.NS.1: Count to at least 100 by ones and tens. Count by one from an...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/55669d8d-d91a-4374-af94-c9e1e0fc65e5"
       },
       {
         "id": "IN_K.NS.2",
@@ -899,7 +900,8 @@
         "description": "Write whole numbers from 0 to 20 and identify number words from 0 to 10.",
         "uuid": "1c6ae8e8-1ea4-420b-ad65-b515d9fd5cf3",
         "domain": "Number Sense",
-        "title": "IN K.NS.2: Write whole numbers from 0 to 20 and identify number words f..."
+        "title": "IN K.NS.2: Write whole numbers from 0 to 20 and identify number words f...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/1c6ae8e8-1ea4-420b-ad65-b515d9fd5cf3"
       },
       {
         "id": "IN_K.NS.3",
@@ -909,7 +911,8 @@
         "description": "Say the number names in standard order when counting objects, pairing each object with one and only one number name.",
         "uuid": "2fc0b2d5-5df8-465e-a6c7-b2181224c04f",
         "domain": "Number Sense",
-        "title": "IN K.NS.3: Say the number names in standard order when counting objects..."
+        "title": "IN K.NS.3: Say the number names in standard order when counting objects...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/2fc0b2d5-5df8-465e-a6c7-b2181224c04f"
       },
       {
         "id": "IN_K.NS.4",
@@ -919,7 +922,8 @@
         "description": "Identify sets of 1 to 10 objects in patterned arrangements and tell how many without counting (subitizing).",
         "uuid": "1fc1f2cb-bce8-4009-a3e3-8d138fc97bd2",
         "domain": "Number Sense",
-        "title": "IN K.NS.4: Identify sets of 1 to 10 objects in patterned arrangements a..."
+        "title": "IN K.NS.4: Identify sets of 1 to 10 objects in patterned arrangements a...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/1fc1f2cb-bce8-4009-a3e3-8d138fc97bd2"
       },
       {
         "id": "IN_K.NS.5",
@@ -929,7 +933,8 @@
         "description": "Identify whether the number of objects in one group is greater than, less than, or equal to the number of objects in another group.",
         "uuid": "31ef1749-48f5-45a3-a87c-3a9e86a8e67e",
         "domain": "Number Sense",
-        "title": "IN K.NS.5: Identify whether the number of objects in one group is great..."
+        "title": "IN K.NS.5: Identify whether the number of objects in one group is great...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/31ef1749-48f5-45a3-a87c-3a9e86a8e67e"
       },
       {
         "id": "IN_K.CA.1",
@@ -939,7 +944,8 @@
         "description": "Solve real-world problems that involve addition and subtraction within 10 using modeling with objects or drawings.",
         "uuid": "bd4517ae-dee8-41b2-ba5b-f981cafad256",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN K.CA.1: Solve real-world problems that involve addition and subtract..."
+        "title": "IN K.CA.1: Solve real-world problems that involve addition and subtract...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/bd4517ae-dee8-41b2-ba5b-f981cafad256"
       },
       {
         "id": "IN_K.CA.2",
@@ -949,7 +955,8 @@
         "description": "Use objects or drawings to model the decomposition of numbers less than 10 into pairs in more than one way.",
         "uuid": "63c52295-a25b-48ef-891d-9efff588ff6a",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN K.CA.2: Use objects or drawings to model the decomposition of number..."
+        "title": "IN K.CA.2: Use objects or drawings to model the decomposition of number...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/63c52295-a25b-48ef-891d-9efff588ff6a"
       },
       {
         "id": "IN_K.CA.3",
@@ -959,7 +966,8 @@
         "description": "Find the number that makes 10 when added to the given number for any number from 1 to 9.",
         "uuid": "d4cac29f-ee61-4f4b-9e3a-0cbbe4cc3082",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN K.CA.3: Find the number that makes 10 when added to the given number..."
+        "title": "IN K.CA.3: Find the number that makes 10 when added to the given number...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/d4cac29f-ee61-4f4b-9e3a-0cbbe4cc3082"
       },
       {
         "id": "IN_K.CA.4",
@@ -969,7 +977,8 @@
         "description": "Create, extend, and give an appropriate rule for simple repeating and growing patterns with numbers and shapes.",
         "uuid": "a8242967-f521-47ea-aa2b-31583865232e",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN K.CA.4: Create, extend, and give an appropriate rule for simple repe..."
+        "title": "IN K.CA.4: Create, extend, and give an appropriate rule for simple repe...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/a8242967-f521-47ea-aa2b-31583865232e"
       },
       {
         "id": "IN_1.NS.1",
@@ -979,7 +988,8 @@
         "description": "Count to at least 120 by ones, fives, and tens from any given number.",
         "uuid": "3041468d-e081-4bb1-9247-12b505f42b06",
         "domain": "Number Sense",
-        "title": "IN 1.NS.1: Count to at least 120 by ones, fives, and tens from any give..."
+        "title": "IN 1.NS.1: Count to at least 120 by ones, fives, and tens from any give...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/3041468d-e081-4bb1-9247-12b505f42b06"
       },
       {
         "id": "IN_1.CA.1",
@@ -995,7 +1005,8 @@
             "description": "Add and subtract within 20, demonstrating fluency for addition and subtraction within 10. Use strategies such as counting on; making ten; decomposing a number leading to a ten; using the relationship between addition and subtraction; and creating equivalent but easier or known sums."
           }
         ],
-        "title": "IN 1.CA.1: Demonstrate fluency with addition facts and the correspondin..."
+        "title": "IN 1.CA.1: Demonstrate fluency with addition facts and the correspondin...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/84fe358f-9525-4655-8af3-6b7fcb822a4f"
       },
       {
         "id": "IN_1.CA.2",
@@ -1011,7 +1022,8 @@
             "description": "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions."
           }
         ],
-        "title": "IN 1.CA.2: Solve real-world problems involving addition and subtraction..."
+        "title": "IN 1.CA.2: Solve real-world problems involving addition and subtraction...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/ebc275d9-c7f5-4792-8e9b-80ec4d61e4d9"
       },
       {
         "id": "IN_1.CA.3",
@@ -1021,7 +1033,8 @@
         "description": "Using number sense and place value strategies, add within 100, including adding a two-digit number and a one-digit number, and adding a two-digit number and a multiple of 10.",
         "uuid": "ace71292-5071-4638-9cfc-4484e6167fcf",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 1.CA.3: Using number sense and place value strategies, add within 10..."
+        "title": "IN 1.CA.3: Using number sense and place value strategies, add within 10...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/ace71292-5071-4638-9cfc-4484e6167fcf"
       },
       {
         "id": "IN_2.NS.1",
@@ -1031,7 +1044,8 @@
         "description": "Count by ones, twos, fives, tens, and hundreds up to at least 1,000 from any given number.",
         "uuid": "d56ee7d7-cf53-4edb-b94c-8b71ee8e42dd",
         "domain": "Number Sense",
-        "title": "IN 2.NS.1: Count by ones, twos, fives, tens, and hundreds up to at leas..."
+        "title": "IN 2.NS.1: Count by ones, twos, fives, tens, and hundreds up to at leas...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/d56ee7d7-cf53-4edb-b94c-8b71ee8e42dd"
       },
       {
         "id": "IN_2.CA.1",
@@ -1051,7 +1065,8 @@
             "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and up to 5 columns; write an equation to express the total as a sum of equal addends."
           }
         ],
-        "title": "IN 2.CA.1: Solve real-world problems involving addition and subtraction..."
+        "title": "IN 2.CA.1: Solve real-world problems involving addition and subtraction...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/449d97f7-73bc-4675-ace5-5634988bac8d"
       },
       {
         "id": "IN_2.CA.2",
@@ -1061,7 +1076,8 @@
         "description": "Using number sense and place value strategies, add and subtract within 1,000, including composing and decomposing tens and hundreds.",
         "uuid": "79da05b4-4acf-4805-9ae9-a55c18747e55",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 2.CA.2: Using number sense and place value strategies, add and subtr..."
+        "title": "IN 2.CA.2: Using number sense and place value strategies, add and subtr...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/79da05b4-4acf-4805-9ae9-a55c18747e55"
       },
       {
         "id": "IN_2.CA.3",
@@ -1071,7 +1087,8 @@
         "description": "Show that the order in which two numbers are added (commutative property) and how the numbers are grouped in addition (associative property) will not change the sum.",
         "uuid": "5792248e-2553-4c21-8a49-4e2abd0f6fd4",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 2.CA.3: Show that the order in which two numbers are added (commutat..."
+        "title": "IN 2.CA.3: Show that the order in which two numbers are added (commutat...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/5792248e-2553-4c21-8a49-4e2abd0f6fd4"
       },
       {
         "id": "IN_3.NS.1",
@@ -1081,7 +1098,8 @@
         "description": "Read and write whole numbers up to 10,000. Use words, models, standard form, and expanded form.",
         "uuid": "8cae476c-50ec-4c95-b5bd-08238b6098f0",
         "domain": "Number Sense",
-        "title": "IN 3.NS.1: Read and write whole numbers up to 10,000. Use words, models..."
+        "title": "IN 3.NS.1: Read and write whole numbers up to 10,000. Use words, models...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/8cae476c-50ec-4c95-b5bd-08238b6098f0"
       },
       {
         "id": "IN_3.CA.1",
@@ -1091,7 +1109,8 @@
         "description": "Fluently add and subtract multi-digit whole numbers using strategies and algorithms based on place value, properties of operations, and relationships between addition and subtraction.",
         "uuid": "a7503031-ba7b-452f-bace-7163a628f71f",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 3.CA.1: Fluently add and subtract multi-digit whole numbers using st..."
+        "title": "IN 3.CA.1: Fluently add and subtract multi-digit whole numbers using st...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/a7503031-ba7b-452f-bace-7163a628f71f"
       },
       {
         "id": "IN_3.CA.2",
@@ -1101,7 +1120,8 @@
         "description": "Solve real-world problems involving addition and subtraction of multi-digit whole numbers.",
         "uuid": "d65747e8-fcc2-44e5-9b0f-0ea3d566ef2c",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 3.CA.2: Solve real-world problems involving addition and subtraction..."
+        "title": "IN 3.CA.2: Solve real-world problems involving addition and subtraction...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/d65747e8-fcc2-44e5-9b0f-0ea3d566ef2c"
       },
       {
         "id": "IN_3.CA.3",
@@ -1117,7 +1137,8 @@
             "description": "Interpret products of whole numbers, e.g., interpret 5 \u00d7 7 as the total number of objects in 5 groups of 7 objects each."
           }
         ],
-        "title": "IN 3.CA.3: Model the concept of multiplication of whole numbers using e..."
+        "title": "IN 3.CA.3: Model the concept of multiplication of whole numbers using e...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/1d691633-1ac0-44f9-bd19-cb547e364692"
       },
       {
         "id": "IN_3.CA.4",
@@ -1133,7 +1154,8 @@
             "description": "Interpret whole-number quotients of whole numbers, e.g., interpret 56 \u00f7 8 as the number of objects in each share when 56 objects are partitioned equally into 8 shares."
           }
         ],
-        "title": "IN 3.CA.4: Model the concept of division of whole numbers with the foll..."
+        "title": "IN 3.CA.4: Model the concept of division of whole numbers with the foll...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/cd9a5bff-51e9-4035-9d0f-7f64a7ec2102"
       },
       {
         "id": "IN_3.CA.5",
@@ -1149,7 +1171,8 @@
             "description": "Fluently multiply and divide within 100. By the end of Grade 3, know from memory all products of two one-digit numbers."
           }
         ],
-        "title": "IN 3.CA.5: Multiply and divide within 100 using strategies such as the ..."
+        "title": "IN 3.CA.5: Multiply and divide within 100 using strategies such as the ...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/8167462e-529d-45c9-8109-cb0739b6f6d3"
       },
       {
         "id": "IN_3.CA.6",
@@ -1165,7 +1188,8 @@
             "description": "Fluently multiply and divide within 100. By the end of Grade 3, know from memory all products of two one-digit numbers."
           }
         ],
-        "title": "IN 3.CA.6: Demonstrate fluency with mastery of multiplication facts and..."
+        "title": "IN 3.CA.6: Demonstrate fluency with mastery of multiplication facts and...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/2a70df05-87f1-4ed6-9592-dab8e834ae1a"
       },
       {
         "id": "IN_3.CA.7",
@@ -1181,7 +1205,8 @@
             "description": "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities."
           }
         ],
-        "title": "IN 3.CA.7: Solve real-world problems involving whole number multiplicat..."
+        "title": "IN 3.CA.7: Solve real-world problems involving whole number multiplicat...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/4c75f663-ebd7-496f-9290-75659323b8c3"
       },
       {
         "id": "IN_4.CA.1",
@@ -1197,7 +1222,8 @@
             "description": "Multiply a whole number of up to four digits by a one-digit whole number, and multiply two two-digit numbers, using strategies based on place value and the properties of operations."
           }
         ],
-        "title": "IN 4.CA.1: Multiply a whole number of up to four digits by a one-digit ..."
+        "title": "IN 4.CA.1: Multiply a whole number of up to four digits by a one-digit ...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/01949b4f-c205-41e7-ba71-42151deccbfd"
       },
       {
         "id": "IN_4.CA.2",
@@ -1213,7 +1239,8 @@
             "description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division."
           }
         ],
-        "title": "IN 4.CA.2: Find whole-number quotients and remainders with up to four-d..."
+        "title": "IN 4.CA.2: Find whole-number quotients and remainders with up to four-d...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/4d88fc13-e8fc-4150-9971-1acfb9ec2fc2"
       },
       {
         "id": "IN_4.CA.3",
@@ -1229,7 +1256,8 @@
             "description": "Apply properties of operations as strategies to multiply and divide."
           }
         ],
-        "title": "IN 4.CA.3: Show how the order in which two numbers are multiplied (comm..."
+        "title": "IN 4.CA.3: Show how the order in which two numbers are multiplied (comm...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/c01e170a-2f1e-4942-8f60-940ff7df60b6"
       },
       {
         "id": "IN_4.CA.4",
@@ -1239,7 +1267,8 @@
         "description": "Investigate the mathematical relationship between factors and multiples for whole numbers from 1-100.",
         "uuid": "06108b14-e2dd-46b7-9f5f-ae6c81726f9a",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 4.CA.4: Investigate the mathematical relationship between factors an..."
+        "title": "IN 4.CA.4: Investigate the mathematical relationship between factors an...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/06108b14-e2dd-46b7-9f5f-ae6c81726f9a"
       },
       {
         "id": "IN_5.CA.1",
@@ -1255,7 +1284,8 @@
             "description": "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division."
           }
         ],
-        "title": "IN 5.CA.1: Find whole-number quotients and remainders with up to four-d..."
+        "title": "IN 5.CA.1: Find whole-number quotients and remainders with up to four-d...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/aaff025b-d9c8-4c40-8ed1-cafc51250e14"
       },
       {
         "id": "IN_5.CA.2",
@@ -1265,7 +1295,8 @@
         "description": "Solve real-world problems involving multiplication and division of whole numbers. In division problems that involve a remainder, explain how the remainder affects the solution.",
         "uuid": "8a68a7e7-9a4d-4aa4-8119-50826bc36a93",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 5.CA.2: Solve real-world problems involving multiplication and divis..."
+        "title": "IN 5.CA.2: Solve real-world problems involving multiplication and divis...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/8a68a7e7-9a4d-4aa4-8119-50826bc36a93"
       },
       {
         "id": "IN_3.NS.2",
@@ -1281,7 +1312,8 @@
             "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction a/b as the quantity formed by a parts of size 1/b."
           }
         ],
-        "title": "IN 3.NS.2: Model unit fractions as the quantity formed by 1 part when a..."
+        "title": "IN 3.NS.2: Model unit fractions as the quantity formed by 1 part when a...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/df93ca5d-69d9-436a-9dd3-c6999a4252be"
       },
       {
         "id": "IN_3.NS.3",
@@ -1291,7 +1323,8 @@
         "description": "Model a non-unit fraction on a number line by marking equal lengths from 0, identifying each part as a unit fraction and locating the non-unit fraction as the endpoint.",
         "uuid": "bd6ed208-1f59-4fc2-9057-1b02a847ce14",
         "domain": "Number Sense",
-        "title": "IN 3.NS.3: Model a non-unit fraction on a number line by marking equal ..."
+        "title": "IN 3.NS.3: Model a non-unit fraction on a number line by marking equal ...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/bd6ed208-1f59-4fc2-9057-1b02a847ce14"
       },
       {
         "id": "IN_3.NS.4",
@@ -1307,7 +1340,8 @@
             "description": "Explain equivalence of fractions in special cases, and compare fractions by reasoning about their size."
           }
         ],
-        "title": "IN 3.NS.4: Use fraction models to represent two simple equivalent fract..."
+        "title": "IN 3.NS.4: Use fraction models to represent two simple equivalent fract...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/519bd4fa-ae10-483f-bc41-8a7b1d2e9a4a"
       },
       {
         "id": "IN_3.NS.5",
@@ -1323,7 +1357,8 @@
             "description": "Explain equivalence of fractions in special cases, and compare fractions by reasoning about their size."
           }
         ],
-        "title": "IN 3.NS.5: Compare two fractions with the same numerator or the same de..."
+        "title": "IN 3.NS.5: Compare two fractions with the same numerator or the same de...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/55a503bf-b117-45e5-905b-8bf2753b7aad"
       },
       {
         "id": "IN_4.NS.2",
@@ -1333,7 +1368,8 @@
         "description": "Model mixed numbers and improper fractions using visual fraction models such as number lines and area models.",
         "uuid": "4ffd7602-0d9c-45ca-baac-b9955a289b72",
         "domain": "Number Sense",
-        "title": "IN 4.NS.2: Model mixed numbers and improper fractions using visual frac..."
+        "title": "IN 4.NS.2: Model mixed numbers and improper fractions using visual frac...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/4ffd7602-0d9c-45ca-baac-b9955a289b72"
       },
       {
         "id": "IN_4.NS.3",
@@ -1353,7 +1389,8 @@
             "description": "Understand a fraction a/b as a multiple of 1/b."
           }
         ],
-        "title": "IN 4.NS.3: Use fraction models to represent two equivalent fractions wi..."
+        "title": "IN 4.NS.3: Use fraction models to represent two equivalent fractions wi...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/f214ef3b-91b3-48eb-9e69-ec1fe5e6b787"
       },
       {
         "id": "IN_4.NS.4",
@@ -1369,7 +1406,8 @@
             "description": "Compare two fractions with different numerators and different denominators, e.g., by creating common denominators or numerators, or by comparing to a benchmark fraction such as 1/2."
           }
         ],
-        "title": "IN 4.NS.4: Compare two fractions with different numerators and differen..."
+        "title": "IN 4.NS.4: Compare two fractions with different numerators and differen...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/a054e739-eff6-4380-84e7-de1b802f775b"
       },
       {
         "id": "IN_4.NS.5",
@@ -1385,7 +1423,8 @@
             "description": "Express a fraction with denominator 10 as an equivalent fraction with denominator 100."
           }
         ],
-        "title": "IN 4.NS.5: Write tenths and hundredths in decimal and fraction notation..."
+        "title": "IN 4.NS.5: Write tenths and hundredths in decimal and fraction notation...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/3dea2380-c553-4910-9178-37b83b62e5b6"
       },
       {
         "id": "IN_4.NS.6",
@@ -1395,7 +1434,8 @@
         "description": "Compare two decimals to hundredths by reasoning about their size based on the same whole.",
         "uuid": "1c7765bd-3421-490b-8a2f-f8338671effb",
         "domain": "Number Sense",
-        "title": "IN 4.NS.6: Compare two decimals to hundredths by reasoning about their ..."
+        "title": "IN 4.NS.6: Compare two decimals to hundredths by reasoning about their ...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/1c7765bd-3421-490b-8a2f-f8338671effb"
       },
       {
         "id": "IN_5.NS.1",
@@ -1405,7 +1445,8 @@
         "description": "Use a number line to compare and order fractions, mixed numbers, and decimals to thousandths.",
         "uuid": "b0fd7837-23c5-4837-9562-9a2ab93f92c0",
         "domain": "Number Sense",
-        "title": "IN 5.NS.1: Use a number line to compare and order fractions, mixed numb..."
+        "title": "IN 5.NS.1: Use a number line to compare and order fractions, mixed numb...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/b0fd7837-23c5-4837-9562-9a2ab93f92c0"
       },
       {
         "id": "IN_5.NS.2",
@@ -1421,7 +1462,8 @@
             "description": "Interpret a fraction as division of the numerator by the denominator (a/b = a \u00f7 b)."
           }
         ],
-        "title": "IN 5.NS.2: Explain different interpretations of fractions, including as..."
+        "title": "IN 5.NS.2: Explain different interpretations of fractions, including as...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/cd20cd77-09a5-47f5-87cf-7b461b26fabd"
       },
       {
         "id": "IN_5.CA.3",
@@ -1431,7 +1473,8 @@
         "description": "Add and subtract fractions and mixed numbers with unlike denominators using strategies or the standard algorithm.",
         "uuid": "c4df0512-e7a8-4fa9-9ebb-fb543004ffe5",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 5.CA.3: Add and subtract fractions and mixed numbers with unlike den..."
+        "title": "IN 5.CA.3: Add and subtract fractions and mixed numbers with unlike den...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/c4df0512-e7a8-4fa9-9ebb-fb543004ffe5"
       },
       {
         "id": "IN_5.CA.4",
@@ -1441,7 +1484,8 @@
         "description": "Solve real-world problems involving addition and subtraction of fractions referring to the same whole, including cases of unlike denominators. Use benchmark fractions and number sense to estimate and assess reasonableness.",
         "uuid": "b2eeb61a-10df-44ff-9aec-42c8a15b68e6",
         "domain": "Computation & Algebraic Thinking",
-        "title": "IN 5.CA.4: Solve real-world problems involving addition and subtraction..."
+        "title": "IN 5.CA.4: Solve real-world problems involving addition and subtraction...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/b2eeb61a-10df-44ff-9aec-42c8a15b68e6"
       },
       {
         "id": "IN_2.NS.2",
@@ -1457,7 +1501,9 @@
             "description": "Determine whether a group of objects (up to 20) has an odd or even number of members."
           }
         ],
-        "title": "IN 2.NS.2: Determine whether a group of up to 20 objects has an odd or ..."
+        "title": "IN 2.NS.2: Determine whether a group of up to 20 objects has an odd or ...",
+        "url": "https://www.in.gov/doe/students/indiana-academic-standards/mathematics/",
+        "url_note": "UUID not available in CASE registry. Manual lookup needed on IDOE site."
       },
       {
         "id": "IN_4.CA.5",
@@ -1473,7 +1519,9 @@
             "description": "Interpret a multiplication equation as a comparison, e.g., interpret 35 = 5 \u00d7 7 as a statement that 35 is 5 times as many as 7."
           }
         ],
-        "title": "IN 4.CA.5: Solve real-world problems involving multiplication of whole ..."
+        "title": "IN 4.CA.5: Solve real-world problems involving multiplication of whole ...",
+        "url": "https://www.in.gov/doe/students/indiana-academic-standards/mathematics/",
+        "url_note": "UUID not available in CASE registry. Manual lookup needed on IDOE site."
       },
       {
         "id": "IN_5.CA.5",
@@ -1498,7 +1546,8 @@
             "description": "Solve real world problems involving multiplication of fractions and mixed numbers."
           }
         ],
-        "title": "IN 5.CA.5: Use visual fraction models to multiply a fraction by a fract..."
+        "title": "IN 5.CA.5: Use visual fraction models to multiply a fraction by a fract...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/8dd47169-9a11-4b4a-82b7-07e201b1b229"
       },
       {
         "id": "IN_5.CA.6",
@@ -1515,7 +1564,8 @@
             "description": "Apply and extend previous understandings of division to divide unit fractions by whole numbers and whole numbers by unit fractions."
           }
         ],
-        "title": "IN 5.CA.6: Use visual fraction models and numbers to divide a fraction ..."
+        "title": "IN 5.CA.6: Use visual fraction models and numbers to divide a fraction ...",
+        "url": "https://caseregistry.cpalms.org/ims/case/v1p0/CFItems/17981955-5ef2-4c42-b21c-326e84aa306e"
       }
     ],
     "learning_components": [
@@ -3900,7 +3950,9 @@
           "1st_3D_2DShapes_TeacherPresent.pdf",
           "1st_3D_2Dshapes_TeacherGuide.pdf",
           "1st_3D_2Dshapes_student.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=1",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_1_addition_within_100",
@@ -3925,7 +3977,9 @@
           "1st_AdditionWithin20:100_teacherpresentation.pdf",
           "1st_student_AddW100.pdf",
           "1st_teacher_guide_AddW100.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=1",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_1_count_compare_add_w20",
@@ -3944,7 +3998,9 @@
           "1st_CountCompareAddW20_student.pdf",
           "1st_CountCompareAddW20_teacherpresent.pdf",
           "1st_CountCompare_AddW20_teacherguide.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=1",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_1_nonstandard_measurement",
@@ -3967,7 +4023,9 @@
           "1st_NonstandardMeasureUnits_Student.pdf",
           "1st_NonstandardMeasure_TeacherGuide.pdf",
           "1st_NonstandardMeasure_TeacherPrep.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=1",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_1_story_problems_add_sub",
@@ -3990,7 +4048,9 @@
           "1st_student_StoryProbW20AddSub.pdf",
           "1st_teacher_guide_StoryProbW20AddSub.pdf",
           "1st_teacher_present_StoryProbW20AddSub.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=1",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_1_story_problems_subtraction",
@@ -4009,7 +4069,9 @@
           "1st_student_StoryProbW20Subtract.pdf",
           "1st_teacher_guide_StoryProbW20Subtract.pdf",
           "1st_teacher_present_StoryProbW20Subtract.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=1",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_1_storyprobw20",
@@ -4028,7 +4090,9 @@
           "1st_student_StoryProbW20.pdf",
           "1st_teacher_guide_StoryProbW20.pdf",
           "1st_teacher_present_StoryProbW20.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=1",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_2_addition_place_value",
@@ -4047,7 +4111,9 @@
           "2nd_AddPlaceValue_student.pdf",
           "2nd_AddPlaceValue_teacherguide.pdf",
           "2nd_AddPlaceValue_teacherpresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=2",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_2_addition_within_1000",
@@ -4067,7 +4133,9 @@
           "2nd_student_AddW1000.pdf",
           "2nd_teacherguide_AddW1000.pdf",
           "2nd_teacherpresent_AddW1000.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=2",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_2_data_fractions",
@@ -4086,7 +4154,9 @@
           "2nd_student_data_fraction.pdf",
           "2nd_teacher_data_fraction.pdf",
           "2nd_teacherpresent_data_fraction.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=2",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_2_fractions_geometry_measurement",
@@ -4105,7 +4175,9 @@
           "2nd_student_Frac_GM.pdf",
           "2nd_teacher_guide_Frac_GM.pdf",
           "2nd_teacher_present_Frac_GM.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=2",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_2_place_value",
@@ -4124,7 +4196,9 @@
           "2nd_PlaceValue_TeacherGuide.pdf",
           "2nd_PlaceValue_TeacherPresent.pdf",
           "2nd_PlaceValue_student.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=2",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_2_standard_measurement",
@@ -4143,7 +4217,9 @@
           "2nd_StandardMeasure_Student.pdf",
           "2nd_StandardMeasure_TeacherPresent.pdf",
           "2nd_Standard_Measure_TeacherGuide.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=2",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_2_story_problems_within_100",
@@ -4162,7 +4238,9 @@
           "2nd_student_StoryProbW100.pdf",
           "2nd_teacher_guide_StoryProbW100.pdf",
           "2nd_teacher_present_StoryProbW100.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=2",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_2_time",
@@ -4181,7 +4259,9 @@
           "2nd_student_Time.pdf",
           "2nd_teacher_guide_Time.pdf",
           "2nd_teacher_present_Time.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=2",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_area_perimeter",
@@ -4205,7 +4285,9 @@
           "3rd_AreaPerimeter_TeacherPresent.pdf",
           "3rd_student_AreaPerim.pdf",
           "3rd_teacher_guide_AreaPerim.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_bar_graphs",
@@ -4228,7 +4310,9 @@
           "3rd_student_BarGraphs.pdf",
           "3rd_teacher_guide_BarGraphs.pdf",
           "3rd_teacher_present_BarGraph.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_equivalent_fractions",
@@ -4248,7 +4332,9 @@
           "3rd_student_EquivFrac.pdf",
           "3rd_teacher_guide_EquivFrac.pdf",
           "3rd_teacher_present_EquivFrac.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_fractions_measurement",
@@ -4267,7 +4353,9 @@
           "3rd_FractionMeasurement_teacherpresent.pdf",
           "3rd_FractionsMeasurement_student.pdf",
           "3rd_FractionsMeasurement_teacherguide.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_length_line_plots",
@@ -4286,7 +4374,9 @@
           "3rd_student_LengthLinePlot.pdf",
           "3rd_teacher_guide_LengthLinePlot.pdf",
           "3rd_teacher_present_LengthLinePlot.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_mult_div_within_12",
@@ -4305,7 +4395,9 @@
           "3rd_MultDivWithin12_student.pdf",
           "3rd_MultDivWithin12_teacherguide.pdf",
           "3rd_MultDivWithin12_teacherpresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_multdiv",
@@ -4324,7 +4416,9 @@
           "3rd_student_MultDiv.pdf",
           "3rd_teacherguide_MultDiv.pdf",
           "3rd_teacherpresentMultDiv.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_quadrilaterals",
@@ -4343,7 +4437,9 @@
           "3rd_student_Quadrilaterals.pdf",
           "3rd_teacherguide_Quadrilaterals.pdf",
           "3rd_teacherpresent_Quadrilaterals.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_shape_attributes",
@@ -4364,7 +4460,9 @@
           "3rd_ShapeAttributes_Student.pdf",
           "3rd_ShapeAttributes_TeacherGuide.pdf",
           "3rd_ShapeAttributes_TeacherPresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_unit8_inv2",
@@ -4381,7 +4479,9 @@
         "file_count": 1,
         "sample_files": [
           "3rd_Unit8_Inv2.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_3_weight_volume",
@@ -4400,7 +4500,9 @@
           "3rd_WeightVolume_Student.pdf",
           "3rd_WeightVolume_TeacherGuide.pdf",
           "3rd_WeightVolume_TeacherPresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=3",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_2d_shapes_geometry",
@@ -4419,7 +4521,9 @@
           "4th_2Dshape_Geom_teacherpresent.pdf",
           "4th_2Dshape_teacherguide.pdf",
           "4th_2Dshapes_Geom_student.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_area_perimeter",
@@ -4438,7 +4542,9 @@
           "4th_student_AreaPerimeter.pdf",
           "4th_teacher_guide_AreaPerimeter.pdf",
           "4th_teacher_presentation_AreaPerimeter.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_data_statistics",
@@ -4457,7 +4563,9 @@
           "4th_Teacher_Data.pdf",
           "4th_student_Data.pdf",
           "4th_teacherpresent_Data.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_decimal_operations",
@@ -4476,7 +4584,9 @@
           "4th_Decimal_TeacherGuide.pdf",
           "4th_Decimals_Student.pdf",
           "4th_Decimals_TeacherPrep.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_fraction_add_sub",
@@ -4495,7 +4605,9 @@
           "4th_TeacherPresent_FracAddSub.pdf",
           "4th_student_FracAddSub.pdf",
           "4th_teacherguide_FracAddSub.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_fraction_comparison_addition",
@@ -4514,7 +4626,9 @@
           "4th_FracCompareAdd_student.pdf",
           "4th_FracCompareAdd_teacherguide.pdf",
           "4th_FracCompareAdd_teacherpresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_measurement_conversion",
@@ -4533,7 +4647,9 @@
           "4th_MeasureConvert_TeacherGuide.pdf",
           "4th_MeasureConvert_TeacherPrep.pdf",
           "4th_MeasureConvert_student.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_multidigit_multiplication",
@@ -4552,7 +4668,9 @@
           "4th_student_MultiDigitMult.pdf",
           "4th_teacher_guide_MultiDigitMult.pdf",
           "4th_teacher_present_MultiDigitMult.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_multiplicative_comparison",
@@ -4571,7 +4689,9 @@
           "4th_MultCompare_student.pdf",
           "4th_MultCompare_teacherguide.pdf",
           "4th_MultCompare_teacherpresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_4_quadrilaterals",
@@ -4591,7 +4711,9 @@
           "4th_2-DQuad_Student.pdf",
           "4th_2-DQuad_TeacherPresent.pdf",
           "4th_2-DQuadrilaterals_TeacherGuide.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=4",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_decimal_operations",
@@ -4614,7 +4736,9 @@
           "5th_DecimalAddSubMult_teacherpresent.pdf",
           "5th_student_DecimalAdd.pdf",
           "5th_teacher_guide_DecimalAdd.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_fraction_div_mult",
@@ -4633,7 +4757,9 @@
           "5th_student_FracDivMult.pdf",
           "5th_teacher_guide_FracDivMult.pdf",
           "5th_teacher_presentation_FracDivMult.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_fraction_division",
@@ -4656,7 +4782,9 @@
           "5th_student_FractionDiv.pdf",
           "5th_teacher_guide_FractionDiv.pdf",
           "5th_teacher_present_FractionDiv.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_fraction_multiplication",
@@ -4675,7 +4803,9 @@
           "5th_FractionMultTeacherGuide.pdf",
           "5th_FractionMult_Student.pdf",
           "5th_FractionMult_TeacherPrepare.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_measurement_conversion",
@@ -4697,7 +4827,9 @@
           "5th_student_MeasureConvert.pdf",
           "5th_teacher_guide_MeasureConvert.pdf",
           "5th_teacher_present_MeasureConvert.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_mixed_number_operations",
@@ -4716,7 +4848,9 @@
           "5th_MixedNumberAddSub_student.pdf",
           "5th_MixedNumberAddSub_teacherguide.pdf",
           "5th_MixedNumberAddSub_teacherpresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_volume",
@@ -4737,7 +4871,9 @@
           "5th_student_Volume.pdf",
           "5th_teacher_guide_Volume.pdf",
           "5th_teacher_preparation_Volume.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_volume_advanced",
@@ -4758,7 +4894,9 @@
           "5th_MoreVolume_Student.pdf",
           "5th_MoreVolume_TeacherGuide.pdf",
           "5th_MoreVolume_TeacherPresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_5_volume_prisms",
@@ -4777,7 +4915,9 @@
           "5th_VolumeMultiplePrisms_student.pdf",
           "5th_VolumeMultiplePrisms_teacherguide.pdf",
           "5th_VolumeMultiplePrisms_teacherpresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=5",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_6_box_plots",
@@ -4796,7 +4936,9 @@
           "6th_student_BoxPlot.pdf",
           "6th_teacher_guide_BoxPlot.pdf",
           "6th_teacher_present_BoxPlot.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=6",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_6_early_variability",
@@ -4815,7 +4957,9 @@
           "6th_Student_EarlyVariability.pdf",
           "6th_teacher_guide_EarlyVariability.pdf",
           "6th_teacherpresent_EarlyVariability.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=6",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_6_equations",
@@ -4834,7 +4978,9 @@
           "6th_Equations_Student.pdf",
           "6th_Equations_TeacherGuide.pdf",
           "6th_Equations_TeacherPresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=6",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_6_introducing_ratios",
@@ -4853,7 +4999,9 @@
           "6th_IntroducingRatios_teacherguide.pdf",
           "6th_IntroducingRatios_teacherpresent.pdf",
           "6th_IntroductingRatios_student.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=6",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_6_mean_mad",
@@ -4872,7 +5020,9 @@
           "6th_student_MeanMAD.pdf",
           "6th_teacher_guide_MeanMAD.pdf",
           "6th_teacher_present_MeanMAD.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=6",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_6_ratios_rates",
@@ -4891,7 +5041,9 @@
           "6th_student_ratiorates.pdf",
           "6th_teacherguide_ratiosrates.pdf",
           "6th_teacherpresentratiosrates.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=6",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_k_3d_shapes",
@@ -4914,7 +5066,9 @@
           "K_3-D_Shapes_teacherpresent.pdf",
           "K_student_3D_shapes.pdf",
           "K_teacher_guide_3D_shapes.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=K",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_k_addition_within_10",
@@ -4935,7 +5089,9 @@
           "K_student_AddW10.pdf",
           "K_teacher_guide_AddW10.pdf",
           "K_teacher_present_AddW10.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=K",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_k_counting_subitizing",
@@ -4954,7 +5110,9 @@
           "K_CountingCollectionsSubitizing_students.pdf",
           "K_CountingCollectionsSubitizing_teacherguide.pdf",
           "K_CountingCollectionsSubitizing_teacherpresent.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=K",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_k_data_statistics",
@@ -4973,7 +5131,9 @@
           "K_Student_DataStats.pdf",
           "K_TeacherGuide_DataStats.pdf",
           "K_TeacherPresent_DataStats.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=K",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       },
       {
         "id": "im_lesson_k_measurement",
@@ -4992,7 +5152,9 @@
           "K_student_Measure.pdf",
           "K_teacher_guide_Measure.pdf",
           "K_teacher_present_Measure.pdf"
-        ]
+        ],
+        "url": "https://accessim.org/k5?a=teacher&lang=en&grade=K",
+        "url_note": "Grade-level landing page. Specific lesson URL requires unit/lesson number mapping (deferred pending Indiana IM adoption)."
       }
     ]
   },
@@ -8546,6 +8708,48 @@
       "from": "asgn_gb584d1ecb88",
       "to": "topic_launch_explore_summarize",
       "type": "references"
+    },
+    {
+      "from": "canvas_vid_1",
+      "to": "asgn_g372487bff59",
+      "type": "supports",
+      "note": "Video describes Lesson Plan Draft assignment"
+    },
+    {
+      "from": "canvas_vid_2",
+      "to": "asgn_g4cd9b478b8b",
+      "type": "supports",
+      "note": "Video describes Lesson Plan Revised Version assignment"
+    },
+    {
+      "from": "canvas_vid_1",
+      "to": "canvas_vid_2",
+      "type": "equivalent_to",
+      "note": "Same Kaltura video (1_e4y9k6fp) referenced in both assignments"
+    },
+    {
+      "from": "canvas_vid_1",
+      "to": "topic_five_practices_intro",
+      "type": "demonstrates",
+      "note": "Video explains Five Practices lesson planning assignment"
+    },
+    {
+      "from": "canvas_vid_2",
+      "to": "topic_five_practices_intro",
+      "type": "demonstrates",
+      "note": "Video explains Five Practices lesson planning assignment"
+    },
+    {
+      "from": "canvas_vid_1",
+      "to": "topic_launch_explore_summarize",
+      "type": "demonstrates",
+      "note": "Video describes lesson structure for planning assignment"
+    },
+    {
+      "from": "canvas_vid_2",
+      "to": "topic_launch_explore_summarize",
+      "type": "demonstrates",
+      "note": "Video describes lesson structure for planning assignment"
     }
   ],
   "terminology_crosswalk": {

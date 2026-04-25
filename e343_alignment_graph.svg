@@ -1,0 +1,1038 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1800" viewBox="0 0 2400 1800">
+<rect width="2400" height="1800" fill="#ffffff"/>
+<g id="edges">
+<line x1="1355.3" y1="984.7" x2="1418.6" y2="765.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1135.7" y2="1055.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1546.5" y2="852.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1495.8" y2="840.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1461.7" y2="783.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1454.6" y2="890.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1589.1" y2="961.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1513.2" y2="1054.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1596.8" y2="1027.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1454.0" y2="930.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1498.5" y2="1100.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1638.6" y2="971.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1539.7" y2="953.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1498.0" y2="892.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1119.4" y2="1003.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1383.1" y1="987.1" x2="1321.3" y2="531.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1383.1" y1="987.1" x2="1513.2" y2="1054.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1383.1" y1="987.1" x2="1498.5" y2="1100.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1383.1" y1="987.1" x2="1539.7" y2="953.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1383.1" y1="987.1" x2="1583.7" y2="1097.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1383.1" y1="987.1" x2="1508.9" y2="995.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1383.1" y1="987.1" x2="1470.7" y2="1011.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1394.5" y2="614.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1344.4" y2="1219.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1454.0" y2="930.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1562.2" y2="912.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1468.3" y2="1213.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1454.6" y2="890.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1450.1" y2="1122.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1459.6" y2="1056.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1143.8" y2="710.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1126.7" y2="820.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1417.0" y2="866.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1324.1" y2="842.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1412.1" y2="1169.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1414.0" y2="949.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1390.0" y2="1053.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1462.0" y2="968.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1285.5" y1="1023.2" x2="1238.6" y2="747.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1285.5" y1="1023.2" x2="1362.6" y2="1114.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1285.5" y1="1023.2" x2="1491.7" y2="1150.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1285.5" y1="1023.2" x2="1346.5" y2="884.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1285.5" y1="1023.2" x2="1419.8" y2="1023.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1285.5" y1="1023.2" x2="1419.4" y2="1075.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1068.4" y2="769.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1502.1" y2="782.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1346.5" y2="884.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1314.7" y2="750.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1334.8" y2="792.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1419.8" y2="1023.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1373.6" y2="825.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1365.6" y2="1026.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1074.7" y2="834.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1126.7" y2="820.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1342.5" y2="708.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1490.1" y2="720.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="998.7" y2="923.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1334.8" y2="792.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1373.6" y2="825.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1282.6" y2="851.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1595.1" y2="822.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1640.4" y2="865.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1676.1" y2="948.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1491.7" y1="1150.6" x2="1651.5" y2="1196.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1491.7" y1="1150.6" x2="1616.6" y2="1258.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1491.7" y1="1150.6" x2="1564.5" y2="1312.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1502.1" y1="782.5" x2="1703.7" y2="818.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1502.1" y1="782.5" x2="1690.7" y2="761.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1502.1" y1="782.5" x2="1617.6" y2="664.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1502.1" y1="782.5" x2="1640.6" y2="721.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1490.1" y1="720.0" x2="1588.5" y2="561.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1490.1" y1="720.0" x2="1680.4" y2="639.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1490.1" y1="720.0" x2="1642.4" y2="590.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1490.1" y1="720.0" x2="1706.6" y2="696.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1550.3" y1="640.3" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1539.7" y1="953.4" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1417.0" y2="866.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1324.1" y2="842.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1346.5" y2="884.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1314.7" y2="750.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1213.1" y2="791.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1239.3" y2="698.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1427.1" y1="816.9" x2="1355.2" y2="654.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1583.7" y1="1097.8" x2="1513.2" y2="1054.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1583.7" y1="1097.8" x2="1498.5" y2="1100.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1583.7" y1="1097.8" x2="1539.7" y2="953.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1414.0" y1="949.5" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1414.0" y1="949.5" x2="1417.0" y2="866.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1414.0" y1="949.5" x2="1324.1" y2="842.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1450.1" y1="1122.7" x2="1454.0" y2="930.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1450.1" y1="1122.7" x2="1468.3" y2="1213.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1419.8" y1="1023.4" x2="1362.6" y2="1114.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1419.8" y1="1023.4" x2="1491.7" y2="1150.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="792.4" x2="1502.1" y2="782.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="792.4" x2="1342.5" y2="708.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="792.4" x2="1490.1" y2="720.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1508.9" y1="995.5" x2="1498.5" y2="1100.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1459.6" y1="1056.9" x2="1454.0" y2="930.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1459.6" y1="1056.9" x2="1519.0" y2="1253.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1470.7" y1="1011.0" x2="1539.7" y2="953.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1390.0" y1="1053.1" x2="1412.1" y2="1169.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1462.0" y1="968.0" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1462.0" y1="968.0" x2="1417.0" y2="866.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1502.7" y1="930.6" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1419.4" y1="1075.6" x2="1362.6" y2="1114.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1419.4" y1="1075.6" x2="1491.7" y2="1150.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1365.6" y1="1026.7" x2="1346.5" y2="884.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1373.6" y1="825.9" x2="1502.1" y2="782.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1373.6" y1="825.9" x2="1342.5" y2="708.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1282.6" y1="851.3" x2="1490.1" y2="720.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1282.6" y1="851.3" x2="998.7" y2="923.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1508.9" y1="995.5" x2="1583.7" y2="1097.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1390.0" y1="1053.1" x2="1414.0" y2="949.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1462.0" y1="968.0" x2="1414.0" y2="949.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1419.4" y1="1075.6" x2="1419.8" y2="1023.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1373.6" y1="825.9" x2="1334.8" y2="792.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1282.6" y1="851.3" x2="1334.8" y2="792.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1321.3" y1="531.8" x2="1394.5" y2="614.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1394.5" y1="614.1" x2="1238.6" y2="747.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1143.8" y1="710.3" x2="1238.6" y2="747.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1238.6" y1="747.8" x2="1068.4" y2="769.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1126.7" y1="820.3" x2="1074.7" y2="834.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1068.4" y1="769.3" x2="1074.7" y2="834.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1163.7" y1="1086.2" x2="1251.0" y2="1204.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1196.7" y2="1016.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1155.2" y1="1016.4" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1155.2" y1="1016.4" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1293.2" y2="1101.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1256.7" y2="1130.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1209.6" y2="957.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1251.0" y2="1204.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1355.3" y2="984.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1119.4" y1="1003.5" x2="1355.3" y2="984.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1383.1" y2="987.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1383.1" y2="987.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1383.1" y2="987.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1163.7" y1="1086.2" x2="1334.8" y2="1029.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1334.8" y2="1029.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1155.2" y1="1016.4" x2="1334.8" y2="1029.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1334.8" y2="1029.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1286.5" y2="959.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1163.7" y1="1086.2" x2="1286.5" y2="959.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1286.5" y2="959.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1163.7" y1="1086.2" x2="1285.5" y2="1023.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1285.5" y2="1023.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1155.2" y1="1016.4" x2="1285.5" y2="1023.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1264.8" y2="922.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1163.7" y1="1086.2" x2="1264.8" y2="922.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1155.2" y1="1016.4" x2="1264.8" y2="922.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1264.8" y2="922.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1205.9" y2="918.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1163.7" y1="1086.2" x2="1205.9" y2="918.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1205.9" y2="918.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1205.9" y2="918.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1307.4" y1="1339.6" x2="1223.4" y2="1099.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1015.5" y1="1091.7" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1201.6" y1="1360.0" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1048.3" y1="997.4" x2="1155.2" y2="1016.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1226.0" y1="1249.5" x2="1196.6" y2="1053.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1251.0" y2="1204.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1293.2" y2="1101.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1209.6" y2="957.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1199.0" y2="865.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1196.7" y2="1016.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1355.3" y1="984.7" x2="1256.7" y2="1130.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1383.1" y1="987.1" x2="1209.6" y2="957.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1293.2" y2="1101.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1334.8" y1="1029.0" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1209.6" y2="957.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1285.5" y1="1023.2" x2="1256.7" y2="1130.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1285.5" y1="1023.2" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1199.0" y2="865.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1199.0" y2="865.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1196.7" y2="1016.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1142.1" y1="1218.2" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1142.1" y1="1218.2" x2="1251.0" y2="1204.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1344.4" y1="1219.1" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1344.4" y1="1219.1" x2="1293.2" y2="1101.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="867.7" y1="1045.1" x2="988.7" y2="1137.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="855.6" y1="1152.4" x2="1072.0" y2="1255.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1301.4" y1="1270.3" x2="1389.3" y2="1299.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="965.6" y1="1195.7" x2="1102.1" y2="1305.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.4" y1="1141.6" x2="1135.7" y2="1269.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1119.4" y1="1003.5" x2="867.7" y2="1045.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1223.4" y1="1099.3" x2="1301.4" y2="1270.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1163.7" y1="1086.2" x2="965.6" y2="1195.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1307.4" y1="1339.6" x2="1301.4" y2="1270.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1015.5" y1="1091.7" x2="965.6" y2="1195.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.4" y1="1141.6" x2="1299.8" y2="1169.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1301.4" y1="1270.3" x2="1299.8" y2="1169.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="988.7" y1="1137.5" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1072.0" y1="1255.7" x2="1251.0" y2="1204.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1389.3" y1="1299.2" x2="1293.2" y2="1101.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1135.7" y1="1269.8" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1085.8" y1="1178.4" x2="1151.7" y2="1318.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1085.8" y1="1178.4" x2="1023.5" y2="1274.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1027.7" y1="1340.5" x2="1151.7" y2="1318.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.7" y1="1313.3" x2="1151.7" y2="1318.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="941.3" y1="1061.7" x2="889.2" y2="917.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1059.1" y1="1112.0" x2="1023.5" y2="1274.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1055.7" y2="1313.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1155.2" y1="1016.4" x2="941.3" y2="1061.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1059.1" y2="1112.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1201.6" y1="1360.0" x2="1055.7" y2="1313.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1048.3" y1="997.4" x2="941.3" y2="1061.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1226.0" y1="1249.5" x2="1059.1" y2="1112.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="974.6" y1="1237.6" x2="1085.8" y2="1178.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="974.6" y1="1237.6" x2="1027.7" y2="1340.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="974.6" y1="1237.6" x2="1055.7" y2="1313.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="974.6" y1="1237.6" x2="941.3" y2="1061.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="974.6" y1="1237.6" x2="1059.1" y2="1112.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1085.8" y1="1178.4" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1085.8" y1="1178.4" x2="1196.7" y2="1016.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1027.7" y1="1340.5" x2="1206.4" y2="1159.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.7" y1="1313.3" x2="1251.0" y2="1204.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="941.3" y1="1061.7" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1059.1" y1="1112.0" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1059.1" y1="1112.0" x2="1256.7" y2="1130.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1151.7" y1="1318.1" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1023.5" y1="1274.9" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1187.9" y1="681.8" x2="1074.7" y2="834.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1187.9" y1="681.8" x2="1108.4" y2="585.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1111.8" y1="744.3" x2="1108.4" y2="585.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1111.8" y1="744.3" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="963.2" y2="810.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="828.3" y2="807.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="963.2" y2="810.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="917.9" y2="853.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="917.9" y2="853.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="953.5" y2="564.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1087.8" y1="968.2" x2="963.2" y2="810.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1187.9" y1="681.8" x2="1342.5" y2="708.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1187.9" y1="681.8" x2="1239.3" y2="698.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1111.8" y1="744.3" x2="1239.3" y2="698.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1111.8" y1="744.3" x2="1007.9" y2="637.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1111.8" y1="744.3" x2="1176.8" y2="636.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1176.8" y2="636.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1223.3" y2="624.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1045.2" y2="730.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1136.7" y2="653.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1274.2" y2="629.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1213.1" y2="791.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1045.2" y2="730.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1099.3" y2="694.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1136.7" y2="653.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1239.3" y2="698.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1355.2" y2="654.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1187.9" y1="681.8" x2="1334.8" y2="792.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1111.8" y1="744.3" x2="1186.1" y2="748.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1186.1" y2="748.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1186.1" y2="748.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1186.1" y2="748.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1288.7" y2="687.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1111.8" y1="744.3" x2="1279.9" y2="803.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1273.1" y2="761.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1366.2" y2="760.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1240.1" y2="838.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1251.7" y2="884.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1240.1" y2="838.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1279.9" y2="803.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1163.7" y1="1086.2" x2="1091.6" y2="893.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1155.2" y1="1016.4" x2="1111.8" y2="744.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1155.2" y1="1016.4" x2="1146.8" y2="786.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1110.2" y2="779.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1196.6" y1="1053.6" x2="1087.8" y2="968.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1181.8" y1="1128.4" x2="1091.6" y2="893.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1111.8" y1="744.3" x2="1209.6" y2="957.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1199.0" y2="865.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1110.2" y1="779.7" x2="1147.7" y2="965.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1196.7" y2="1016.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1146.8" y1="786.7" x2="1293.2" y2="1101.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.1" y1="748.6" x2="1176.8" y2="636.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.1" y1="748.6" x2="1045.2" y2="730.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.1" y1="748.6" x2="1213.1" y2="791.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.1" y1="748.6" x2="1099.3" y2="694.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1288.7" y1="687.9" x2="1191.6" y2="561.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1288.7" y1="687.9" x2="1384.7" y2="548.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1273.1" y1="761.7" x2="1176.8" y2="636.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1273.1" y1="761.7" x2="1223.3" y2="624.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1273.1" y1="761.7" x2="1136.7" y2="653.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1251.7" y1="884.3" x2="1213.1" y2="791.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1240.1" y1="838.0" x2="1213.1" y2="791.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1240.1" y1="838.0" x2="1099.3" y2="694.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1366.2" y1="760.7" x2="1274.2" y2="629.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1366.2" y1="760.7" x2="1551.4" y2="708.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1279.9" y1="803.6" x2="1239.3" y2="698.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1273.1" y1="761.7" x2="1186.1" y2="748.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1240.1" y1="838.0" x2="1186.1" y2="748.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1279.9" y1="803.6" x2="1288.7" y2="687.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1126.7" y1="820.3" x2="1108.4" y2="585.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="912.6" y1="726.6" x2="963.2" y2="810.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="963.2" y1="810.6" x2="917.9" y2="853.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="912.6" y1="726.6" x2="953.5" y2="564.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="963.2" y1="810.6" x2="828.3" y2="807.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="900.1" y1="1486.5" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="731.5" y1="1449.1" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="867.8" y1="1208.0" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="929.6" y1="1534.1" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="992.2" y1="1544.3" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="734.5" y1="1261.9" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="911.6" y1="1592.9" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="831.3" y1="1498.3" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="692.4" y1="1369.4" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="857.6" y1="1550.8" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="778.2" y1="1290.8" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="823.0" y1="1216.0" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="848.1" y1="1611.8" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="648.1" y1="1409.5" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="789.2" y1="1600.6" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="696.5" y1="1287.4" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="785.1" y1="1535.2" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="762.4" y1="1054.3" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="731.4" y1="1579.4" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="731.0" y1="1511.2" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="673.4" y1="1538.3" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="672.6" y1="1475.3" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="487.4" y1="1625.2" x2="528.5" y2="1720.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="429.6" y1="1682.6" x2="528.5" y2="1720.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="325.4" y1="1155.9" x2="448.0" y2="1029.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="632.4" y1="925.6" x2="448.0" y2="1029.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="604.4" y1="1450.5" x2="761.0" y2="1346.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="590.3" y1="1387.2" x2="761.0" y2="1346.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="621.4" y1="1338.4" x2="761.0" y2="1346.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="794.2" y1="1157.7" x2="761.0" y2="1346.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="565.0" y1="1090.5" x2="662.3" y2="1076.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="544.9" y1="1136.5" x2="662.3" y2="1076.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="578.0" y1="1193.5" x2="662.3" y2="1076.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="843.9" y1="1275.2" x2="883.3" y2="1102.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="712.4" y1="1173.7" x2="883.3" y2="1102.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="416.5" y1="977.7" x2="545.7" y2="1031.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="410.1" y1="1099.5" x2="545.7" y2="1031.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="466.5" y1="927.3" x2="545.7" y2="1031.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="434.3" y1="1199.9" x2="545.7" y2="1031.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="449.7" y1="1148.3" x2="545.7" y2="1031.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="507.0" y1="1184.7" x2="545.7" y2="1031.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="856.2" y1="1366.4" x2="896.8" y2="1260.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="992.4" y1="1391.6" x2="896.8" y2="1260.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="766.3" y1="969.9" x2="896.8" y2="1260.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="901.6" y1="1409.9" x2="896.8" y2="1260.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1037.3" y1="1442.0" x2="896.8" y2="1260.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1027.7" y1="1340.5" x2="810.2" y2="1415.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.7" y1="1313.3" x2="761.0" y2="1346.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="941.3" y1="1061.7" x2="662.3" y2="1076.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1059.1" y1="1112.0" x2="883.3" y2="1102.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="867.8" y1="1208.0" x2="883.6" y2="969.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="992.2" y1="1544.3" x2="1102.7" y2="1611.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="734.5" y1="1261.9" x2="761.6" y2="1117.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="692.4" y1="1369.4" x2="587.8" y2="1288.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="778.2" y1="1290.8" x2="761.6" y2="1117.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="823.0" y1="1216.0" x2="883.6" y2="969.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="648.1" y1="1409.5" x2="511.2" y2="1368.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="696.5" y1="1287.4" x2="761.6" y2="1117.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="762.4" y1="1054.3" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="325.4" y1="1155.9" x2="236.2" y2="1100.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="632.4" y1="925.6" x2="859.8" y2="845.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="590.3" y1="1387.2" x2="511.2" y2="1368.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="621.4" y1="1338.4" x2="511.2" y2="1368.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="794.2" y1="1157.7" x2="883.6" y2="969.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="565.0" y1="1090.5" x2="462.3" y2="1088.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="544.9" y1="1136.5" x2="462.3" y2="1088.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="712.4" y1="1173.7" x2="761.6" y2="1117.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="416.5" y1="977.7" x2="328.0" y2="937.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="466.5" y1="927.3" x2="418.4" y2="857.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="766.3" y1="969.9" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="618.4" y1="634.6" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="629.9" y1="1196.8" x2="587.8" y2="1288.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="301.1" y1="1028.6" x2="236.2" y2="1100.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="506.7" y1="959.6" x2="583.7" y2="996.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="454.2" y1="1289.6" x2="511.2" y2="1368.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="232.3" y1="970.7" x2="328.0" y2="937.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="342.8" y1="1101.0" x2="462.3" y2="1088.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="462.8" y1="631.8" x2="516.5" y2="545.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="666.6" y1="796.7" x2="859.8" y2="845.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="449.3" y1="779.2" x2="418.4" y2="857.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="514.3" y1="731.2" x2="540.1" y2="642.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="650.8" y1="1019.9" x2="761.6" y2="1117.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1012.1" y1="977.2" x2="1205.9" y2="918.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1363.9" y1="1170.0" x2="1334.8" y2="1029.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1363.9" y1="1170.0" x2="1285.5" y2="1023.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1002.7" y1="706.3" x2="1110.2" y2="779.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1002.7" y1="706.3" x2="1146.8" y2="786.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1330.8" y1="1086.4" x2="1355.3" y2="984.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1330.8" y1="1086.4" x2="1383.1" y2="987.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="915.7" y1="794.9" x2="1091.6" y2="893.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="721.2" y1="1104.0" x2="867.7" y2="1045.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="721.2" y1="1104.0" x2="855.6" y2="1152.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="991.0" y1="1448.9" x2="1027.7" y2="1340.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="991.0" y1="1448.9" x2="1055.7" y2="1313.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="921.8" y1="1011.7" x2="941.3" y2="1061.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="921.8" y1="1011.7" x2="1059.1" y2="1112.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1249.9" y1="979.7" x2="1355.3" y2="984.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1249.9" y1="979.7" x2="1383.1" y2="987.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1256.0" y1="1063.2" x2="1334.8" y2="1029.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1256.0" y1="1063.2" x2="1286.5" y2="959.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1150.9" y1="922.4" x2="1285.5" y2="1023.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1150.9" y1="922.4" x2="1264.8" y2="922.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1068.8" y1="607.6" x2="1187.9" y2="681.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1068.8" y1="607.6" x2="1111.8" y2="744.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="983.3" y1="758.1" x2="1110.2" y2="779.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="983.3" y1="758.1" x2="1091.6" y2="893.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1030.6" y1="857.8" x2="1146.8" y2="786.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1030.6" y1="857.8" x2="1087.8" y2="968.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="726.8" y1="1037.7" x2="867.7" y2="1045.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="726.8" y1="1037.7" x2="855.6" y2="1152.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="944.4" y1="1365.9" x2="1027.7" y2="1340.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="944.4" y1="1365.9" x2="1055.7" y2="1313.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="958.1" y1="979.3" x2="941.3" y2="1061.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="958.1" y1="979.3" x2="1059.1" y2="1112.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="845.6" y1="442.0" x2="953.5" y2="564.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1085.8" y1="1178.4" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1027.7" y1="1340.5" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.7" y1="1313.3" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.4" y1="471.8" x2="1394.5" y2="614.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.4" y1="471.8" x2="1321.3" y2="531.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1438.3" y1="439.1" x2="1394.5" y2="614.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1336.3" y1="344.2" x2="1321.3" y2="531.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1325.0" y1="406.3" x2="1321.3" y2="531.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1260.1" y1="411.6" x2="1321.3" y2="531.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1262.5" y1="351.5" x2="1321.3" y2="531.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="817.8" y1="624.7" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="795.2" y1="684.5" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.6" y1="425.6" x2="1321.3" y2="531.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="867.5" y1="680.4" x2="963.2" y2="810.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="874.1" y1="584.1" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="960.5" y1="680.4" x2="1126.7" y2="820.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="664.9" y1="739.7" x2="828.3" y2="807.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="844.4" y1="750.5" x2="963.2" y2="810.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="844.4" y1="750.5" x2="917.9" y2="853.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="949.5" y1="620.6" x2="1068.4" y2="769.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1021.2" y1="553.4" x2="1143.8" y2="710.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="684.9" y1="688.9" x2="828.3" y2="807.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1002.9" y1="464.1" x2="953.5" y2="564.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1002.9" y1="464.1" x2="1108.4" y2="585.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1084.8" y1="417.5" x2="1108.4" y2="585.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="913.1" y1="431.4" x2="953.5" y2="564.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1070.4" y1="530.7" x2="1143.8" y2="710.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1106.7" y1="491.0" x2="1143.8" y2="710.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1479.7" y1="493.2" x2="1394.5" y2="614.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1505.0" y1="441.7" x2="1394.5" y2="614.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="842.2" y1="85.5" x2="781.2" y2="185.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1078.8" y1="109.5" x2="1036.1" y2="209.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1395.1" y1="376.2" x2="1321.3" y2="531.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="718.5" y1="750.6" x2="602.8" y2="820.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1129.2" y1="254.8" x2="1036.1" y2="209.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1276.6" y1="139.8" x2="1371.0" y2="170.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="622.7" y1="558.0" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1028.5" y1="305.9" x2="1036.1" y2="209.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="807.9" y1="287.2" x2="781.2" y2="185.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="683.9" y1="220.5" x2="781.2" y2="185.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="724.1" y1="286.7" x2="781.2" y2="185.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="947.6" y1="288.9" x2="1036.1" y2="209.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="689.0" y1="132.9" x2="781.2" y2="185.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="676.9" y1="510.4" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="931.8" y1="217.9" x2="1036.1" y2="209.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="760.0" y1="80.0" x2="781.2" y2="185.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="987.8" y1="121.6" x2="1036.1" y2="209.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="731.4" y1="523.3" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="786.7" y1="508.0" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="731.6" y1="585.7" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="798.1" y1="563.2" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="880.7" y1="151.1" x2="781.2" y2="185.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="671.7" y1="587.3" x2="730.7" y2="688.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1141.2" y1="171.1" x2="1036.1" y2="209.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1286.5" y1="959.8" x2="1286.5" y2="959.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1264.8" y1="922.5" x2="1264.8" y2="922.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1048.3" y2="997.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1155.2" y2="1016.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1196.6" y2="1053.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1205.9" y1="918.6" x2="1205.9" y2="918.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1091.6" y2="893.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1048.3" y2="997.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1091.6" y1="893.7" x2="1155.2" y2="1016.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1087.8" y1="968.2" x2="1223.4" y2="1099.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1087.8" y1="968.2" x2="1048.3" y2="997.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1087.8" y1="968.2" x2="1155.2" y2="1016.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1087.8" y1="968.2" x2="1196.6" y2="1053.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1087.8" y1="968.2" x2="1087.8" y2="968.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1087.8" y1="968.2" x2="1015.5" y2="1091.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1087.8" y1="968.2" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1149.4" y1="859.1" x2="859.8" y2="845.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1149.4" y1="859.1" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1149.4" y1="859.1" x2="1324.1" y2="842.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1309.1" y1="913.9" x2="1143.8" y2="710.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1309.1" y1="913.9" x2="1126.7" y2="820.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1309.1" y1="913.9" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1309.1" y1="913.9" x2="1417.0" y2="866.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1309.1" y1="913.9" x2="1362.6" y2="1114.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1309.1" y1="913.9" x2="1491.7" y2="1150.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1309.1" y1="913.9" x2="1324.1" y2="842.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1182.9" y1="810.9" x2="859.8" y2="845.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1182.9" y1="810.9" x2="1502.1" y2="782.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1182.9" y1="810.9" x2="1314.7" y2="750.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1011.3" y1="792.8" x2="883.6" y2="969.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1011.3" y1="792.8" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1011.3" y1="792.8" x2="1007.9" y2="637.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1011.3" y1="792.8" x2="1213.1" y2="791.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1011.3" y1="792.8" x2="1099.3" y2="694.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1049.7" y1="675.5" x2="883.6" y2="969.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1049.7" y1="675.5" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1049.7" y1="675.5" x2="1144.0" y2="517.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1049.7" y1="675.5" x2="1239.3" y2="698.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1049.7" y1="675.5" x2="1191.6" y2="561.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="816.7" y1="930.7" x2="761.6" y2="1117.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="816.7" y1="930.7" x2="998.7" y2="923.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="823.5" y1="1007.6" x2="761.6" y2="1117.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="823.5" y1="1007.6" x2="998.7" y2="923.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="836.8" y1="968.9" x2="761.6" y2="1117.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="836.8" y1="968.9" x2="998.7" y2="923.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="730.6" y1="804.8" x2="859.8" y2="845.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="770.6" y1="862.2" x2="883.6" y2="969.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="770.6" y1="862.2" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="770.6" y1="862.2" x2="917.9" y2="853.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="770.6" y1="862.2" x2="545.7" y2="1031.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="572.9" y1="922.6" x2="602.8" y2="820.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="572.9" y1="922.6" x2="662.3" y2="1076.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="694.8" y1="859.2" x2="859.8" y2="845.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="818.3" y1="1059.9" x2="828.3" y2="807.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="818.3" y1="1059.9" x2="896.8" y2="1260.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="988.0" y1="872.3" x2="1143.8" y2="710.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="988.0" y1="872.3" x2="1126.7" y2="820.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="988.0" y1="872.3" x2="1068.4" y2="769.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="988.0" y1="872.3" x2="883.3" y2="1102.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="757.6" y1="900.1" x2="883.6" y2="969.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="757.6" y1="900.1" x2="912.6" y2="726.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="757.6" y1="900.1" x2="917.9" y2="853.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="757.6" y1="900.1" x2="545.7" y2="1031.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="550.6" y1="1577.3" x2="626.8" y2="1656.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1060.6" y1="1213.5" x2="1135.7" y2="1269.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1060.6" y1="1213.5" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1060.6" y1="1213.5" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1133.0" y1="1366.5" x2="1135.7" y2="1269.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1133.0" y1="1366.5" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.4" y1="1153.7" x2="1135.7" y2="1269.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.4" y1="1153.7" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.4" y1="1153.7" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1215.7" y1="1292.6" x2="1135.7" y2="1269.8" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1215.7" y1="1292.6" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1215.7" y1="1292.6" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1024.5" y1="1192.2" x2="988.7" y2="1137.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1024.5" y1="1192.2" x2="1223.4" y2="1099.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1167.9" y1="1192.6" x2="1223.4" y2="1099.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1167.9" y1="1192.6" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1167.9" y1="1192.6" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1167.9" y1="1192.6" x2="1155.2" y2="1016.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1167.9" y1="1192.6" x2="1196.6" y2="1053.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.6" y1="1221.3" x2="1223.4" y2="1099.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.6" y1="1221.3" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.6" y1="1221.3" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.6" y1="1221.3" x2="1155.2" y2="1016.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.6" y1="1221.3" x2="1196.6" y2="1053.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.7" y1="1179.9" x2="1223.4" y2="1099.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.7" y1="1179.9" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.7" y1="1179.9" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.7" y1="1179.9" x2="1155.2" y2="1016.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.7" y1="1179.9" x2="1196.6" y2="1053.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1221.7" y1="1205.9" x2="1301.4" y2="1270.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="778.8" y1="1215.5" x2="965.6" y2="1195.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1040.5" y1="1050.8" x2="1131.4" y2="1141.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="982.2" y1="1061.8" x2="1085.8" y2="1178.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="529.2" y1="263.1" x2="565.8" y2="178.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1097.3" y1="1092.2" x2="1223.4" y2="1099.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1315.8" y1="491.8" x2="1422.6" y2="672.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1097.3" y1="1092.2" x2="1163.7" y2="1086.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1097.3" y1="1092.2" x2="1181.8" y2="1128.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1097.3" y1="1092.2" x2="1155.2" y2="1016.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1097.3" y1="1092.2" x2="1196.6" y2="1053.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1322.8" y1="957.4" x2="1299.8" y2="1169.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1322.8" y1="957.4" x2="1142.1" y2="1218.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1322.8" y1="957.4" x2="1498.0" y2="892.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1322.8" y1="957.4" x2="1557.8" y2="1060.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1322.8" y1="957.4" x2="1334.8" y2="792.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1322.8" y1="957.4" x2="1186.1" y2="748.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1322.8" y1="957.4" x2="1288.7" y2="687.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="942.9" y1="1131.4" x2="1012.1" y2="977.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="942.9" y1="1131.4" x2="1024.5" y2="1192.2" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="942.9" y1="1131.4" x2="1055.4" y2="1153.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="942.9" y1="1131.4" x2="1060.6" y2="1213.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="707.7" y1="962.9" x2="867.7" y2="1045.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1508.9" y2="995.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1459.6" y2="1056.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1470.7" y2="1011.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1390.0" y2="1053.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1462.0" y2="968.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1502.7" y2="930.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1419.4" y2="1075.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1273.1" y2="761.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1365.6" y2="1026.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1251.7" y2="884.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1240.1" y2="838.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1373.6" y2="825.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1366.2" y2="760.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1279.9" y2="803.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1358.2" y1="926.6" x2="1282.6" y2="851.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1508.9" y2="995.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1459.6" y2="1056.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1470.7" y2="1011.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1390.0" y2="1053.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1462.0" y2="968.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1502.7" y2="930.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1419.4" y2="1075.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1273.1" y2="761.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1365.6" y2="1026.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1251.7" y2="884.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1240.1" y2="838.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1373.6" y2="825.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1366.2" y2="760.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1279.9" y2="803.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1385.2" y1="924.9" x2="1282.6" y2="851.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1508.9" y2="995.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1459.6" y2="1056.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1470.7" y2="1011.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1390.0" y2="1053.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1462.0" y2="968.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1502.7" y2="930.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1419.4" y2="1075.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1273.1" y2="761.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1365.6" y2="1026.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1251.7" y2="884.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1240.1" y2="838.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1373.6" y2="825.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1366.2" y2="760.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1279.9" y2="803.6" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1391.1" y1="898.3" x2="1282.6" y2="851.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1422.6" y1="672.9" x2="1454.0" y2="930.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1751.5" y1="886.3" x2="1638.6" y2="971.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1751.5" y1="886.3" x2="1628.6" y2="793.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1776.2" y1="1017.6" x2="1638.6" y2="971.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1628.6" y1="793.4" x2="1539.7" y2="953.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1628.6" y1="793.4" x2="1502.1" y2="782.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1509.2" y1="671.1" x2="1628.6" y2="793.4" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1509.2" y1="671.1" x2="1342.5" y2="708.3" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1475.0" y1="626.3" x2="1427.1" y2="816.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1475.0" y1="626.3" x2="1490.1" y2="720.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1497.5" y1="547.1" x2="1355.2" y2="654.0" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1060.6" y1="1213.5" x2="1102.1" y2="1305.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1133.0" y1="1366.5" x2="1023.5" y2="1274.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.4" y1="1153.7" x2="1135.7" y2="1055.9" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1055.4" y1="1153.7" x2="965.6" y2="1195.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1215.7" y1="1292.6" x2="1102.1" y2="1305.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1167.9" y1="1192.6" x2="1072.0" y2="1255.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1167.9" y1="1192.6" x2="1151.7" y2="1318.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1167.9" y1="1192.6" x2="1102.1" y2="1305.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.6" y1="1221.3" x2="1072.0" y2="1255.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.6" y1="1221.3" x2="1151.7" y2="1318.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1186.6" y1="1221.3" x2="1102.1" y2="1305.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.7" y1="1179.9" x2="1072.0" y2="1255.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.7" y1="1179.9" x2="1151.7" y2="1318.1" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1131.7" y1="1179.9" x2="1102.1" y2="1305.5" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+<line x1="1024.5" y1="1192.2" x2="1072.0" y2="1255.7" stroke="#5a6070" stroke-opacity="0.45" stroke-width="0.6"/>
+</g>
+<g id="nodes">
+<circle cx="1355.3" cy="984.7" r="14.0" fill="#2e7d6f" opacity="0.9"><title>Week 9, Day 1 — Indiana Standards and Math Process Standards</title></circle>
+<circle cx="1383.1" cy="987.1" r="10.5" fill="#2e7d6f" opacity="0.9"><title>Week 9, Day 2 — Addition Problem Structures</title></circle>
+<circle cx="1334.8" cy="1029.0" r="12.0" fill="#2e7d6f" opacity="0.9"><title>Week 10, Day 1 — Fact Fluency and Number Talks</title></circle>
+<circle cx="1286.5" cy="959.8" r="12.5" fill="#2e7d6f" opacity="0.9"><title>Week 10, Day 2 — Multiplication and Division Operation Sense</title></circle>
+<circle cx="1285.5" cy="1023.2" r="10.5" fill="#2e7d6f" opacity="0.9"><title>Week 11, Day 1 — Multiplication Facts: Number Selection and Instructional Planning</title></circle>
+<circle cx="1264.8" cy="922.5" r="12.5" fill="#2e7d6f" opacity="0.9"><title>Week 11, Day 2 — Multiplication Strategies and Standard Algorithm</title></circle>
+<circle cx="1205.9" cy="918.6" r="14.0" fill="#2e7d6f" opacity="0.9"><title>Week 12, Days 1-2 — Division Strategies and Division Algorithm</title></circle>
+<circle cx="867.7" cy="1045.1" r="6.5" fill="#2e7d6f" opacity="0.9"><title>Week 1, Day 1 — Course Introduction &amp; Five Practices Framework</title></circle>
+<circle cx="855.6" cy="1152.4" r="5.5" fill="#2e7d6f" opacity="0.9"><title>Week 1, Day 2 — Launch-Explore-Summarize &amp; IM Lesson Structure</title></circle>
+<circle cx="1301.4" cy="1270.3" r="6.5" fill="#2e7d6f" opacity="0.9"><title>Week 2 — Learning Goals vs. Performance Goals</title></circle>
+<circle cx="965.6" cy="1195.7" r="6.5" fill="#2e7d6f" opacity="0.9"><title>Week 3 — Anticipating Student Thinking</title></circle>
+<circle cx="1131.4" cy="1141.6" r="5.5" fill="#2e7d6f" opacity="0.9"><title>Week 4 — Guided Reading Notes &amp; Think Aloud Interviews</title></circle>
+<circle cx="1085.8" cy="1178.4" r="7.5" fill="#2e7d6f" opacity="0.9"><title>Week 5 — Talk Moves: Steps 1 &amp; 2</title></circle>
+<circle cx="1027.7" cy="1340.5" r="7.5" fill="#2e7d6f" opacity="0.9"><title>Week 6, Day 1 — Talk Moves: Steps 3 &amp; 4 (Deepening Reasoning)</title></circle>
+<circle cx="1055.7" cy="1313.3" r="8.5" fill="#2e7d6f" opacity="0.9"><title>Week 6, Day 2 — Monitoring (Practice 3)</title></circle>
+<circle cx="941.3" cy="1061.7" r="8.0" fill="#2e7d6f" opacity="0.9"><title>Week 7, Day 1 — Selecting &amp; Sequencing (Practices 4 &amp; 5)</title></circle>
+<circle cx="1059.1" cy="1112.0" r="8.5" fill="#2e7d6f" opacity="0.9"><title>Week 7, Day 2 — Connecting Student Solutions</title></circle>
+<circle cx="565.8" cy="178.2" r="4.5" fill="#2e7d6f" opacity="0.9"><title>Week 8 — Demonstration Lesson &amp; Synthesis</title></circle>
+<circle cx="1187.9" cy="681.8" r="7.0" fill="#2e7d6f" opacity="0.9"><title>Week 13, Day 1 — Finishing Division &amp; Beginning Fractions</title></circle>
+<circle cx="1111.8" cy="744.3" r="9.0" fill="#2e7d6f" opacity="0.9"><title>Week 13, Day 2 — The Whole in Fractions &amp; Division as Fractions</title></circle>
+<circle cx="1110.2" cy="779.7" r="12.0" fill="#2e7d6f" opacity="0.9"><title>Week 14, Day 1 — Unit Fractions, Partitioning &amp; Iterating, Fractions to Decimals</title></circle>
+<circle cx="1091.6" cy="893.7" r="12.0" fill="#2e7d6f" opacity="0.9"><title>Week 14, Day 2 — Equivalent Fractions, Anticipating Solutions, &amp; Fraction Language</title></circle>
+<circle cx="1146.8" cy="786.7" r="11.0" fill="#2e7d6f" opacity="0.9"><title>Week 15, Day 1 — Fraction Bars, Comparison Strategies &amp; Fraction Multiplication Context</title></circle>
+<circle cx="1087.8" cy="968.2" r="9.5" fill="#2e7d6f" opacity="0.9"><title>Week 15, Day 2 — Course Wrap-Up &amp; Real-World Connections</title></circle>
+<circle cx="1321.3" cy="531.8" r="8.5" fill="#6b46c1" opacity="0.9"><title>Addition/Subtraction Problem Structures</title></circle>
+<circle cx="1394.5" cy="614.1" r="7.5" fill="#6b46c1" opacity="0.9"><title>Basic Fact Fluency</title></circle>
+<circle cx="1344.4" cy="1219.1" r="5.5" fill="#6b46c1" opacity="0.9"><title>Number Talks</title></circle>
+<circle cx="1143.8" cy="710.3" r="7.5" fill="#6b46c1" opacity="0.9"><title>Multiplicative Problem Structures</title></circle>
+<circle cx="1126.7" cy="820.3" r="7.5" fill="#6b46c1" opacity="0.9"><title>Two Meanings of Division</title></circle>
+<circle cx="1238.6" cy="747.8" r="6.0" fill="#6b46c1" opacity="0.9"><title>Multiplication Fact Strategies</title></circle>
+<circle cx="1068.4" cy="769.3" r="6.5" fill="#6b46c1" opacity="0.9"><title>Multi-Digit Multiplication Strategies</title></circle>
+<circle cx="1074.7" cy="834.0" r="6.0" fill="#6b46c1" opacity="0.9"><title>Division Algorithm and Strategies</title></circle>
+<circle cx="1418.6" cy="765.3" r="4.5" fill="#6b46c1" opacity="0.9"><title>Vertical Articulation K-2</title></circle>
+<circle cx="1135.7" cy="1055.9" r="5.0" fill="#6b46c1" opacity="0.9"><title>Mathematical Process Standards</title></circle>
+<circle cx="988.7" cy="1137.5" r="5.5" fill="#6b46c1" opacity="0.9"><title>Five Practices Framework Introduction</title></circle>
+<circle cx="1072.0" cy="1255.7" r="7.0" fill="#6b46c1" opacity="0.9"><title>Launch-Explore-Summarize Lesson Structure</title></circle>
+<circle cx="1389.3" cy="1299.2" r="5.0" fill="#6b46c1" opacity="0.9"><title>Learning Goals vs. Performance Goals</title></circle>
+<circle cx="1151.7" cy="1318.1" r="7.5" fill="#6b46c1" opacity="0.9"><title>Talk Moves</title></circle>
+<circle cx="1102.1" cy="1305.5" r="7.0" fill="#6b46c1" opacity="0.9"><title>Assessing vs. Advancing Questions</title></circle>
+<circle cx="1135.7" cy="1269.8" r="7.0" fill="#6b46c1" opacity="0.9"><title>Think Aloud Interviews (TAI)</title></circle>
+<circle cx="912.6" cy="726.6" r="9.5" fill="#6b46c1" opacity="0.9"><title>Unit Fractions and Fraction Concepts</title></circle>
+<circle cx="963.2" cy="810.6" r="8.0" fill="#6b46c1" opacity="0.9"><title>Equivalent Fractions</title></circle>
+<circle cx="917.9" cy="853.8" r="7.0" fill="#6b46c1" opacity="0.9"><title>Fraction Comparison Strategies</title></circle>
+<circle cx="1108.4" cy="585.7" r="6.5" fill="#6b46c1" opacity="0.9"><title>Division as the Source of Fractions</title></circle>
+<circle cx="828.3" cy="807.3" r="6.5" fill="#6b46c1" opacity="0.9"><title>Fractions to Decimals Connection</title></circle>
+<circle cx="953.5" cy="564.5" r="6.5" fill="#6b46c1" opacity="0.9"><title>Fraction Multiplication (Introductory Context)</title></circle>
+<circle cx="1023.5" cy="1274.9" r="6.0" fill="#6b46c1" opacity="0.9"><title>Classroom Discourse in Mathematics</title></circle>
+<circle cx="889.2" cy="917.6" r="4.5" fill="#6b46c1" opacity="0.9"><title>Equity in Mathematical Participation</title></circle>
+<circle cx="462.3" cy="1088.5" r="5.5" fill="#6b46c1" opacity="0.9"><title>Word Problems &amp; Problem Solving</title></circle>
+<circle cx="1102.7" cy="1611.2" r="4.5" fill="#6b46c1" opacity="0.9"><title>Mult Operation Sense</title></circle>
+<circle cx="236.2" cy="1100.4" r="5.0" fill="#6b46c1" opacity="0.9"><title>Number Patterns</title></circle>
+<circle cx="583.7" cy="996.1" r="4.5" fill="#6b46c1" opacity="0.9"><title>Addition</title></circle>
+<circle cx="587.8" cy="1288.7" r="5.0" fill="#6b46c1" opacity="0.9"><title>Number Decomposition</title></circle>
+<circle cx="328.0" cy="937.2" r="5.0" fill="#6b46c1" opacity="0.9"><title>Introduction to Fractions</title></circle>
+<circle cx="418.4" cy="857.8" r="5.0" fill="#6b46c1" opacity="0.9"><title>Factors and Multiples</title></circle>
+<circle cx="761.6" cy="1117.1" r="8.0" fill="#6b46c1" opacity="0.9"><title>Volume of 3D Shapes</title></circle>
+<circle cx="540.1" cy="642.8" r="4.5" fill="#6b46c1" opacity="0.9"><title>Division</title></circle>
+<circle cx="516.5" cy="545.8" r="4.5" fill="#6b46c1" opacity="0.9"><title>Logical Reasoning</title></circle>
+<circle cx="730.7" cy="688.6" r="9.0" fill="#6b46c1" opacity="0.9"><title>Data Analysis &amp; Representation</title></circle>
+<circle cx="511.2" cy="1368.3" r="6.0" fill="#6b46c1" opacity="0.9"><title>Subtraction Strategies</title></circle>
+<circle cx="883.6" cy="969.8" r="7.5" fill="#6b46c1" opacity="0.9"><title>Fraction Concepts</title></circle>
+<circle cx="859.8" cy="845.3" r="7.0" fill="#6b46c1" opacity="0.9"><title>Area and Perimeter</title></circle>
+<circle cx="781.2" cy="185.0" r="7.5" fill="#6b46c1" opacity="0.9"><title>Geometry and Shapes</title></circle>
+<circle cx="1036.1" cy="209.6" r="7.5" fill="#6b46c1" opacity="0.9"><title>Measurement</title></circle>
+<circle cx="602.8" cy="820.4" r="5.0" fill="#6b46c1" opacity="0.9"><title>Place Value</title></circle>
+<circle cx="1371.0" cy="170.8" r="4.5" fill="#6b46c1" opacity="0.9"><title>Time</title></circle>
+<circle cx="1546.5" cy="852.7" r="4.5" fill="#c05621" opacity="0.9"><title>IN K.NS.1: Count to at least 100 by ones and tens. Count by one from an...</title></circle>
+<circle cx="1495.8" cy="840.4" r="4.5" fill="#c05621" opacity="0.9"><title>IN K.NS.2: Write whole numbers from 0 to 20 and identify number words f...</title></circle>
+<circle cx="1461.7" cy="783.5" r="4.5" fill="#c05621" opacity="0.9"><title>IN K.NS.3: Say the number names in standard order when counting objects...</title></circle>
+<circle cx="1454.6" cy="890.8" r="5.0" fill="#c05621" opacity="0.9"><title>IN K.NS.4: Identify sets of 1 to 10 objects in patterned arrangements a...</title></circle>
+<circle cx="1589.1" cy="961.9" r="4.5" fill="#c05621" opacity="0.9"><title>IN K.NS.5: Identify whether the number of objects in one group is great...</title></circle>
+<circle cx="1513.2" cy="1054.0" r="5.5" fill="#c05621" opacity="0.9"><title>IN K.CA.1: Solve real-world problems that involve addition and subtract...</title></circle>
+<circle cx="1562.2" cy="912.3" r="4.5" fill="#c05621" opacity="0.9"><title>IN K.CA.2: Use objects or drawings to model the decomposition of number...</title></circle>
+<circle cx="1468.3" cy="1213.2" r="5.0" fill="#c05621" opacity="0.9"><title>IN K.CA.3: Find the number that makes 10 when added to the given number...</title></circle>
+<circle cx="1422.6" cy="672.9" r="5.0" fill="#c05621" opacity="0.9"><title>IN K.CA.4: Create, extend, and give an appropriate rule for simple repe...</title></circle>
+<circle cx="1596.8" cy="1027.9" r="4.5" fill="#c05621" opacity="0.9"><title>IN 1.NS.1: Count to at least 120 by ones, fives, and tens from any give...</title></circle>
+<circle cx="1454.0" cy="930.9" r="6.5" fill="#c05621" opacity="0.9"><title>IN 1.CA.1: Demonstrate fluency with addition facts and the correspondin...</title></circle>
+<circle cx="1498.5" cy="1100.3" r="6.0" fill="#c05621" opacity="0.9"><title>IN 1.CA.2: Solve real-world problems involving addition and subtraction...</title></circle>
+<circle cx="1519.0" cy="1253.3" r="4.5" fill="#c05621" opacity="0.9"><title>IN 1.CA.3: Using number sense and place value strategies, add within 10...</title></circle>
+<circle cx="1638.6" cy="971.9" r="5.5" fill="#c05621" opacity="0.9"><title>IN 2.NS.1: Count by ones, twos, fives, tens, and hundreds up to at leas...</title></circle>
+<circle cx="1539.7" cy="953.4" r="7.0" fill="#c05621" opacity="0.9"><title>IN 2.CA.1: Solve real-world problems involving addition and subtraction...</title></circle>
+<circle cx="1751.5" cy="886.3" r="5.0" fill="#c05621" opacity="0.9"><title>IN 2.CA.2: Using number sense and place value strategies, add and subtr...</title></circle>
+<circle cx="1412.1" cy="1169.1" r="5.0" fill="#c05621" opacity="0.9"><title>IN 2.CA.3: Show that the order in which two numbers are added (commutat...</title></circle>
+<circle cx="1776.2" cy="1017.6" r="4.5" fill="#c05621" opacity="0.9"><title>IN 3.NS.1: Read and write whole numbers up to 10,000. Use words, models...</title></circle>
+<circle cx="1628.6" cy="793.4" r="6.0" fill="#c05621" opacity="0.9"><title>IN 3.CA.1: Fluently add and subtract multi-digit whole numbers using st...</title></circle>
+<circle cx="1509.2" cy="671.1" r="5.0" fill="#c05621" opacity="0.9"><title>IN 3.CA.2: Solve real-world problems involving addition and subtraction...</title></circle>
+<circle cx="1427.1" cy="816.9" r="13.5" fill="#c05621" opacity="0.9"><title>IN 3.CA.3: Model the concept of multiplication of whole numbers using e...</title></circle>
+<circle cx="1417.0" cy="866.2" r="6.5" fill="#c05621" opacity="0.9"><title>IN 3.CA.4: Model the concept of division of whole numbers with the foll...</title></circle>
+<circle cx="1362.6" cy="1114.1" r="6.0" fill="#c05621" opacity="0.9"><title>IN 3.CA.5: Multiply and divide within 100 using strategies such as the ...</title></circle>
+<circle cx="1491.7" cy="1150.6" r="7.5" fill="#c05621" opacity="0.9"><title>IN 3.CA.6: Demonstrate fluency with mastery of multiplication facts and...</title></circle>
+<circle cx="1324.1" cy="842.0" r="6.5" fill="#c05621" opacity="0.9"><title>IN 3.CA.7: Solve real-world problems involving whole number multiplicat...</title></circle>
+<circle cx="1502.1" cy="782.5" r="8.5" fill="#c05621" opacity="0.9"><title>IN 4.CA.1: Multiply a whole number of up to four digits by a one-digit ...</title></circle>
+<circle cx="1342.5" cy="708.3" r="6.5" fill="#c05621" opacity="0.9"><title>IN 4.CA.2: Find whole-number quotients and remainders with up to four-d...</title></circle>
+<circle cx="1346.5" cy="884.5" r="6.0" fill="#c05621" opacity="0.9"><title>IN 4.CA.3: Show how the order in which two numbers are multiplied (comm...</title></circle>
+<circle cx="1475.0" cy="626.3" r="5.0" fill="#c05621" opacity="0.9"><title>IN 4.CA.4: Investigate the mathematical relationship between factors an...</title></circle>
+<circle cx="1490.1" cy="720.0" r="8.0" fill="#c05621" opacity="0.9"><title>IN 5.CA.1: Find whole-number quotients and remainders with up to four-d...</title></circle>
+<circle cx="998.7" cy="923.4" r="6.5" fill="#c05621" opacity="0.9"><title>IN 5.CA.2: Solve real-world problems involving multiplication and divis...</title></circle>
+<circle cx="1176.8" cy="636.0" r="6.0" fill="#c05621" opacity="0.9"><title>IN 3.NS.2: Model unit fractions as the quantity formed by 1 part when a...</title></circle>
+<circle cx="1223.3" cy="624.6" r="5.0" fill="#c05621" opacity="0.9"><title>IN 3.NS.3: Model a non-unit fraction on a number line by marking equal ...</title></circle>
+<circle cx="1045.2" cy="730.6" r="5.5" fill="#c05621" opacity="0.9"><title>IN 3.NS.4: Use fraction models to represent two simple equivalent fract...</title></circle>
+<circle cx="1136.7" cy="653.2" r="5.5" fill="#c05621" opacity="0.9"><title>IN 3.NS.5: Compare two fractions with the same numerator or the same de...</title></circle>
+<circle cx="1007.9" cy="637.4" r="5.0" fill="#c05621" opacity="0.9"><title>IN 4.NS.2: Model mixed numbers and improper fractions using visual frac...</title></circle>
+<circle cx="1213.1" cy="791.0" r="7.0" fill="#c05621" opacity="0.9"><title>IN 4.NS.3: Use fraction models to represent two equivalent fractions wi...</title></circle>
+<circle cx="1099.3" cy="694.3" r="6.0" fill="#c05621" opacity="0.9"><title>IN 4.NS.4: Compare two fractions with different numerators and differen...</title></circle>
+<circle cx="1274.2" cy="629.4" r="5.0" fill="#c05621" opacity="0.9"><title>IN 4.NS.5: Write tenths and hundredths in decimal and fraction notation...</title></circle>
+<circle cx="1551.4" cy="708.0" r="4.5" fill="#c05621" opacity="0.9"><title>IN 4.NS.6: Compare two decimals to hundredths by reasoning about their ...</title></circle>
+<circle cx="1144.0" cy="517.1" r="4.5" fill="#c05621" opacity="0.9"><title>IN 5.NS.1: Use a number line to compare and order fractions, mixed numb...</title></circle>
+<circle cx="1239.3" cy="698.8" r="7.0" fill="#c05621" opacity="0.9"><title>IN 5.NS.2: Explain different interpretations of fractions, including as...</title></circle>
+<circle cx="1191.6" cy="561.8" r="5.0" fill="#c05621" opacity="0.9"><title>IN 5.CA.3: Add and subtract fractions and mixed numbers with unlike den...</title></circle>
+<circle cx="1384.7" cy="548.0" r="4.5" fill="#c05621" opacity="0.9"><title>IN 5.CA.4: Solve real-world problems involving addition and subtraction...</title></circle>
+<circle cx="1550.3" cy="640.3" r="4.5" fill="#c05621" opacity="0.9"><title>IN 2.NS.2: Determine whether a group of up to 20 objects has an odd or ...</title></circle>
+<circle cx="1314.7" cy="750.0" r="5.5" fill="#c05621" opacity="0.9"><title>IN 4.CA.5: Solve real-world problems involving multiplication of whole ...</title></circle>
+<circle cx="1355.2" cy="654.0" r="5.5" fill="#c05621" opacity="0.9"><title>IN 5.CA.5: Use visual fraction models to multiply a fraction by a fract...</title></circle>
+<circle cx="1497.5" cy="547.1" r="4.5" fill="#c05621" opacity="0.9"><title>IN 5.CA.6: Use visual fraction models and numbers to divide a fraction ...</title></circle>
+<circle cx="1595.1" cy="822.4" r="4.5" fill="#e11d48" opacity="0.9"><title>Interpret the product of two whole numbers as the number of groups tim...</title></circle>
+<circle cx="1640.4" cy="865.8" r="4.5" fill="#e11d48" opacity="0.9"><title>Identify a multiplication situation based on a given multiplication ex...</title></circle>
+<circle cx="1676.1" cy="948.7" r="4.5" fill="#e11d48" opacity="0.9"><title>Model a multiplication situation, including by writing a multiplicatio...</title></circle>
+<circle cx="1616.6" cy="1258.6" r="4.5" fill="#e11d48" opacity="0.9"><title>Fluently divide within 100, using strategies such as the relationship ...</title></circle>
+<circle cx="1651.5" cy="1196.5" r="4.5" fill="#e11d48" opacity="0.9"><title>Fluently multiply within 100, using strategies such as the relationshi...</title></circle>
+<circle cx="1564.5" cy="1312.8" r="4.5" fill="#e11d48" opacity="0.9"><title>Know from memory all products of two one-digit numbers</title></circle>
+<circle cx="1703.7" cy="818.7" r="4.5" fill="#e11d48" opacity="0.9"><title>Multiply a four-digit number by a one-digit number using strategies ba...</title></circle>
+<circle cx="1690.7" cy="761.9" r="4.5" fill="#e11d48" opacity="0.9"><title>Multiply a three-digit number by a one-digit number using strategies b...</title></circle>
+<circle cx="1617.6" cy="664.9" r="4.5" fill="#e11d48" opacity="0.9"><title>Multiply a two-digit number by a two-digit number using strategies bas...</title></circle>
+<circle cx="1640.6" cy="721.0" r="4.5" fill="#e11d48" opacity="0.9"><title>Use models to explain the multiplication of two two-digit numbers</title></circle>
+<circle cx="1588.5" cy="561.5" r="4.5" fill="#e11d48" opacity="0.9"><title>Find whole-number quotients (no remainders) of two-digit dividends and...</title></circle>
+<circle cx="1680.4" cy="639.5" r="4.5" fill="#e11d48" opacity="0.9"><title>Find whole-number quotients (with remainders) two-digit dividends and ...</title></circle>
+<circle cx="1642.4" cy="590.7" r="4.5" fill="#e11d48" opacity="0.9"><title>Find whole-number quotients (no remainders) of three-digit dividends a...</title></circle>
+<circle cx="1706.6" cy="696.9" r="4.5" fill="#e11d48" opacity="0.9"><title>Use models to explain the division of whole numbers (with and without ...</title></circle>
+<circle cx="1498.0" cy="892.5" r="5.0" fill="#2563eb" opacity="0.9"><title>Developing Meanings for the Operations</title></circle>
+<circle cx="1583.7" cy="1097.8" r="6.5" fill="#2563eb" opacity="0.9"><title>VdW Ch9: Addition and Subtraction Problem Structures</title></circle>
+<circle cx="1414.0" cy="949.5" r="7.0" fill="#2563eb" opacity="0.9"><title>VdW Ch9: Multiplication and Division Problem Structures</title></circle>
+<circle cx="1557.8" cy="1060.4" r="4.5" fill="#2563eb" opacity="0.9"><title>Developing Basic Fact Fluency</title></circle>
+<circle cx="1450.1" cy="1122.7" r="5.5" fill="#2563eb" opacity="0.9"><title>VdW Ch10: Addition and Subtraction Fact Strategies (approx. pp. 165-175)</title></circle>
+<circle cx="1419.8" cy="1023.4" r="6.5" fill="#2563eb" opacity="0.9"><title>VdW Ch10: Multiplication Fact Strategies (approx. pp. 175-200)</title></circle>
+<circle cx="1334.8" cy="792.4" r="8.5" fill="#2563eb" opacity="0.9"><title>Strategies for Whole-Number Computation (Multiplication and Division)</title></circle>
+<circle cx="1142.1" cy="1218.2" r="9.5" fill="#2563eb" opacity="0.9"><title>Classroom Discourse and Teaching Through Problem Solving</title></circle>
+<circle cx="1186.1" cy="748.6" r="9.5" fill="#2563eb" opacity="0.9"><title>Developing Fraction Concepts</title></circle>
+<circle cx="1288.7" cy="687.9" r="6.5" fill="#2563eb" opacity="0.9"><title>Developing Strategies for Fraction Computation</title></circle>
+<circle cx="1299.8" cy="1169.7" r="5.5" fill="#2563eb" opacity="0.9"><title>Teaching Through Problem Solving: Goals, Tasks, and Assessment</title></circle>
+<circle cx="1508.9" cy="995.5" r="7.0" fill="#d63384" opacity="0.9"><title>Adding and Subtracting Story Problems</title></circle>
+<circle cx="1459.6" cy="1056.9" r="7.0" fill="#d63384" opacity="0.9"><title>Adding within 100</title></circle>
+<circle cx="1470.7" cy="1011.0" r="6.5" fill="#d63384" opacity="0.9"><title>Addition and Subtraction on the Number Line</title></circle>
+<circle cx="1390.0" cy="1053.1" r="7.0" fill="#d63384" opacity="0.9"><title>Equal Groups</title></circle>
+<circle cx="1462.0" cy="968.0" r="7.5" fill="#d63384" opacity="0.9"><title>Introducing Multiplication</title></circle>
+<circle cx="1502.7" cy="930.6" r="6.0" fill="#d63384" opacity="0.9"><title>Area and Multiplication</title></circle>
+<circle cx="1419.4" cy="1075.6" r="7.5" fill="#d63384" opacity="0.9"><title>Relating Multiplication to Division</title></circle>
+<circle cx="1365.6" cy="1026.7" r="6.5" fill="#d63384" opacity="0.9"><title>Multiplicative Comparison</title></circle>
+<circle cx="1373.6" cy="825.9" r="8.0" fill="#d63384" opacity="0.9"><title>Multiplying and Dividing Multi-Digit Numbers</title></circle>
+<circle cx="1282.6" cy="851.3" r="7.5" fill="#d63384" opacity="0.9"><title>From Multiplication to Division</title></circle>
+<circle cx="1273.1" cy="761.7" r="8.0" fill="#d63384" opacity="0.9"><title>Fractions as Numbers</title></circle>
+<circle cx="1251.7" cy="884.3" r="6.5" fill="#d63384" opacity="0.9"><title>Extending Operations to Fractions</title></circle>
+<circle cx="1240.1" cy="838.0" r="8.0" fill="#d63384" opacity="0.9"><title>Fraction Equivalence and Comparison</title></circle>
+<circle cx="1366.2" cy="760.7" r="7.0" fill="#d63384" opacity="0.9"><title>Decimals</title></circle>
+<circle cx="1279.9" cy="803.6" r="7.5" fill="#d63384" opacity="0.9"><title>Multiplying and Dividing Fractions</title></circle>
+<circle cx="1119.4" cy="1003.5" r="5.5" fill="#059669" opacity="0.9"><title>Introduction to the Five Practices</title></circle>
+<circle cx="1307.4" cy="1339.6" r="5.0" fill="#059669" opacity="0.9"><title>Setting Goals and Selecting Tasks</title></circle>
+<circle cx="1015.5" cy="1091.7" r="5.5" fill="#059669" opacity="0.9"><title>Anticipating Student Responses</title></circle>
+<circle cx="1201.6" cy="1360.0" r="5.0" fill="#059669" opacity="0.9"><title>Monitoring Student Work</title></circle>
+<circle cx="1048.3" cy="997.4" r="6.5" fill="#059669" opacity="0.9"><title>Selecting and Sequencing Student Solutions</title></circle>
+<circle cx="1226.0" cy="1249.5" r="5.0" fill="#059669" opacity="0.9"><title>Connecting</title></circle>
+<circle cx="1223.4" cy="1099.3" r="12.0" fill="#059669" opacity="0.9"><title>Practice 0: Setting Goals and Selecting Tasks</title></circle>
+<circle cx="1163.7" cy="1086.2" r="12.5" fill="#059669" opacity="0.9"><title>Practice 1: Anticipating</title></circle>
+<circle cx="1181.8" cy="1128.4" r="13.0" fill="#059669" opacity="0.9"><title>Practice 2: Monitoring</title></circle>
+<circle cx="1155.2" cy="1016.4" r="12.0" fill="#059669" opacity="0.9"><title>Practice 3: Selecting and Sequencing</title></circle>
+<circle cx="1196.6" cy="1053.6" r="14.0" fill="#059669" opacity="0.9"><title>Practice 4: Connecting</title></circle>
+<circle cx="1251.0" cy="1204.8" r="7.0" fill="#475569" opacity="0.9"><title>IN PS.1: Make sense of problems and persevere in solving them.</title></circle>
+<circle cx="1293.2" cy="1101.4" r="7.0" fill="#475569" opacity="0.9"><title>IN PS.2: Reason abstractly and quantitatively.</title></circle>
+<circle cx="1206.4" cy="1159.5" r="9.5" fill="#475569" opacity="0.9"><title>IN PS.3: Construct viable arguments and critique the reasoning of oth...</title></circle>
+<circle cx="1209.6" cy="957.6" r="6.5" fill="#475569" opacity="0.9"><title>IN PS.4: Model with mathematics.</title></circle>
+<circle cx="1199.0" cy="865.0" r="6.0" fill="#475569" opacity="0.9"><title>IN PS.5: Use appropriate tools strategically.</title></circle>
+<circle cx="1196.7" cy="1016.0" r="6.5" fill="#475569" opacity="0.9"><title>IN PS.6: Attend to precision.</title></circle>
+<circle cx="1147.7" cy="965.6" r="9.0" fill="#475569" opacity="0.9"><title>IN PS.7: Look for and make use of structure.</title></circle>
+<circle cx="1256.7" cy="1130.2" r="6.0" fill="#475569" opacity="0.9"><title>IN PS.8: Look for and express regularity in repeated reasoning.</title></circle>
+<circle cx="810.2" cy="1415.9" r="14.0" fill="#0891b2" opacity="0.9"><title>CDM Ch1: Academically Productive Talk: An Overview</title></circle>
+<circle cx="528.5" cy="1720.0" r="5.0" fill="#0891b2" opacity="0.9"><title>CDM Ch2: How Do We Begin? Classroom Norms for Productive Talk</title></circle>
+<circle cx="448.0" cy="1029.9" r="5.0" fill="#0891b2" opacity="0.9"><title>CDM Ch3: Talking About Mathematical Concepts</title></circle>
+<circle cx="761.0" cy="1346.1" r="6.5" fill="#0891b2" opacity="0.9"><title>CDM Ch4: Talking About Computational Procedures</title></circle>
+<circle cx="662.3" cy="1076.7" r="6.5" fill="#0891b2" opacity="0.9"><title>CDM Ch5: Talking About Solution Methods and Problem-Solving Strategies</title></circle>
+<circle cx="883.3" cy="1102.7" r="6.0" fill="#0891b2" opacity="0.9"><title>CDM Ch6: Talking About Mathematical Reasoning</title></circle>
+<circle cx="545.7" cy="1031.2" r="8.0" fill="#0891b2" opacity="0.9"><title>CDM Ch7: Talking About Mathematical Terminology, Symbols, and Definitions</title></circle>
+<circle cx="896.8" cy="1260.5" r="7.0" fill="#0891b2" opacity="0.9"><title>CDM Ch8: Planning Talk-Based Lessons</title></circle>
+<circle cx="626.8" cy="1656.8" r="4.5" fill="#0891b2" opacity="0.9"><title>CDM Ch9: Troubleshooting Common Math Talk Problems and Concerns</title></circle>
+<circle cx="974.6" cy="1237.6" r="6.5" fill="#059669" opacity="0.9"><title>Classroom Discussions in Mathematics (CDM)</title></circle>
+<circle cx="900.1" cy="1486.5" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Wait Time: Hands down; let him think</title></circle>
+<circle cx="731.5" cy="1449.1" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Turn-and-Talk: How many cans of grape juice?</title></circle>
+<circle cx="867.8" cy="1208.0" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Turn-and-Talk: How do we know those are greater than a whole?</title></circle>
+<circle cx="929.6" cy="1534.1" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Turn-and-Talk: Can everyone turn and repeat that idea?</title></circle>
+<circle cx="992.2" cy="1544.3" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Revoicing: So you're saying I can't buy one can...?</title></circle>
+<circle cx="734.5" cy="1261.9" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Revoicing: So you multiplied the length...?</title></circle>
+<circle cx="911.6" cy="1592.9" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Say More: Can you tell me what you did?</title></circle>
+<circle cx="831.3" cy="1498.3" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Say More: Tell me a little bit more</title></circle>
+<circle cx="692.4" cy="1369.4" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Who Can Repeat? He's not all done yet</title></circle>
+<circle cx="857.6" cy="1550.8" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Who Can Repeat? She was counting by fives</title></circle>
+<circle cx="778.2" cy="1290.8" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Who Can Repeat? Finding the volume of a rectangular prism</title></circle>
+<circle cx="823.0" cy="1216.0" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Who Can Repeat? How did you know that seven-eighths was greater than three-fourths?</title></circle>
+<circle cx="848.1" cy="1611.8" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Who Can Repeat? Which table is 'the root beer drinkers?'</title></circle>
+<circle cx="648.1" cy="1409.5" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Press for Reasoning: Are you sure? How do you know?</title></circle>
+<circle cx="789.2" cy="1600.6" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Press for Reasoning: Can you prove it?</title></circle>
+<circle cx="696.5" cy="1287.4" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Press for Reasoning: Why does that work?</title></circle>
+<circle cx="785.1" cy="1535.2" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Do You Agree or Disagree... and Why? Why do you agree with him?</title></circle>
+<circle cx="762.4" cy="1054.3" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Do You Agree or Disagree... and Why? Do almost all of the people do their homework before dinner?</title></circle>
+<circle cx="731.4" cy="1579.4" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Do You Agree or Disagree... and Why? Not to be rude but...</title></circle>
+<circle cx="731.0" cy="1511.2" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Who Can Add On? Would you like to add on to the beginning of her thinking?</title></circle>
+<circle cx="673.4" cy="1538.3" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Who Can Add On? Who can add on to that?</title></circle>
+<circle cx="672.6" cy="1475.3" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Who Can Add On? What is a rectangular prism?</title></circle>
+<circle cx="487.4" cy="1625.2" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Setting Up Classroom Talk Norms: Discussing Fair Turns and Repeating</title></circle>
+<circle cx="429.6" cy="1682.6" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Setting Up Classroom Talk Norms: How do we agree and disagree?</title></circle>
+<circle cx="325.4" cy="1155.9" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Number Patterns on the Hundreds Chart</title></circle>
+<circle cx="632.4" cy="925.6" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Examining Area and Perimeter</title></circle>
+<circle cx="604.4" cy="1450.5" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Adding Three Numbers</title></circle>
+<circle cx="590.3" cy="1387.2" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Subtracting on the Number Line</title></circle>
+<circle cx="621.4" cy="1338.4" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Comparing Subtraction Strategies</title></circle>
+<circle cx="794.2" cy="1157.7" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Fraction Number Line</title></circle>
+<circle cx="565.0" cy="1090.5" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Solving a Multistep Word Problem, Part 1</title></circle>
+<circle cx="544.9" cy="1136.5" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Solving a Multistep Word Problem, Part 2</title></circle>
+<circle cx="578.0" cy="1193.5" r="4.5" fill="#0ea5e9" opacity="0.9"><title>The Newspaper Club Problem</title></circle>
+<circle cx="843.9" cy="1275.2" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Finding Missing Digits</title></circle>
+<circle cx="712.4" cy="1173.7" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Developing Methods for Volume of Rectangular Prisms</title></circle>
+<circle cx="416.5" cy="977.7" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Making Sense of One-Half</title></circle>
+<circle cx="410.1" cy="1099.5" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Using the Words More and Less</title></circle>
+<circle cx="466.5" cy="927.3" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Connecting Factors and Multiples</title></circle>
+<circle cx="434.3" cy="1199.9" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Defining the Word Volume</title></circle>
+<circle cx="449.7" cy="1148.3" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Talking About Ratios</title></circle>
+<circle cx="507.0" cy="1184.7" r="4.5" fill="#0ea5e9" opacity="0.9"><title>How Many Groups? How Many Hearts?</title></circle>
+<circle cx="856.2" cy="1366.4" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Turn-and-Talk Modeling</title></circle>
+<circle cx="992.4" cy="1391.6" r="4.5" fill="#0ea5e9" opacity="0.9"><title>If I Call on You...</title></circle>
+<circle cx="766.3" cy="969.9" r="5.0" fill="#0ea5e9" opacity="0.9"><title>Analyzing Data from a Bar Graph, Part A</title></circle>
+<circle cx="901.6" cy="1409.9" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Analyzing Data from a Bar Graph, Part B</title></circle>
+<circle cx="1037.3" cy="1442.0" r="4.5" fill="#0ea5e9" opacity="0.9"><title>Analyzing Data from a Bar Graph, Part C</title></circle>
+<circle cx="618.4" cy="634.6" r="4.5" fill="#06b6d4" opacity="0.9"><title>Using More and Less to Describe the Data in a Graph</title></circle>
+<circle cx="629.9" cy="1196.8" r="4.5" fill="#06b6d4" opacity="0.9"><title>Decomposing the Number Seven</title></circle>
+<circle cx="301.1" cy="1028.6" r="4.5" fill="#06b6d4" opacity="0.9"><title>Number Patterns on the Hundreds Chart</title></circle>
+<circle cx="506.7" cy="959.6" r="4.5" fill="#06b6d4" opacity="0.9"><title>Adding Three Numbers</title></circle>
+<circle cx="454.2" cy="1289.6" r="4.5" fill="#06b6d4" opacity="0.9"><title>Teaching Subtraction Strategies</title></circle>
+<circle cx="232.3" cy="970.7" r="4.5" fill="#06b6d4" opacity="0.9"><title>Making Sense of One-Half</title></circle>
+<circle cx="342.8" cy="1101.0" r="4.5" fill="#06b6d4" opacity="0.9"><title>The Birthday Party Problem</title></circle>
+<circle cx="462.8" cy="631.8" r="4.5" fill="#06b6d4" opacity="0.9"><title>Four Strikes and You're Out</title></circle>
+<circle cx="666.6" cy="796.7" r="4.5" fill="#06b6d4" opacity="0.9"><title>Perimeters of Rectangles with a Fixed Area</title></circle>
+<circle cx="449.3" cy="779.2" r="4.5" fill="#06b6d4" opacity="0.9"><title>Reasoning About Factors and Multiples</title></circle>
+<circle cx="514.3" cy="731.2" r="4.5" fill="#06b6d4" opacity="0.9"><title>Teaching Division Strategies</title></circle>
+<circle cx="650.8" cy="1019.9" r="4.5" fill="#06b6d4" opacity="0.9"><title>Volume of Rectangular Prisms</title></circle>
+<circle cx="730.6" cy="804.8" r="4.5" fill="#06b6d4" opacity="0.9"><title>Area of a Parallelogram, A = bh</title></circle>
+<circle cx="770.6" cy="862.2" r="6.0" fill="#06b6d4" opacity="0.9"><title>Placing Fractions on a Number Line</title></circle>
+<circle cx="572.9" cy="922.6" r="5.0" fill="#06b6d4" opacity="0.9"><title>Working with Place Value</title></circle>
+<circle cx="694.8" cy="859.2" r="4.5" fill="#06b6d4" opacity="0.9"><title>Area of a Parallelogram, A = bh</title></circle>
+<circle cx="818.3" cy="1059.9" r="5.0" fill="#06b6d4" opacity="0.9"><title>Operations with Decimals</title></circle>
+<circle cx="988.0" cy="872.3" r="6.0" fill="#06b6d4" opacity="0.9"><title>Connecting Multiplication and Division Strategies and Concepts</title></circle>
+<circle cx="757.6" cy="900.1" r="6.0" fill="#06b6d4" opacity="0.9"><title>Developing Fraction Sense</title></circle>
+<circle cx="550.6" cy="1577.3" r="4.5" fill="#06b6d4" opacity="0.9"><title>Analyzing Data from a Bar Graph</title></circle>
+<circle cx="1060.6" cy="1213.5" r="6.5" fill="#b45309" opacity="0.9"><title>DRAFT Think-Aloud Interview Activities</title></circle>
+<circle cx="1133.0" cy="1366.5" r="5.5" fill="#b45309" opacity="0.9"><title>Think-Aloud Interview Transcripts</title></circle>
+<circle cx="1012.1" cy="977.2" r="5.0" fill="#b45309" opacity="0.9"><title>Lesson Plan REVISED VERSION</title></circle>
+<circle cx="1055.4" cy="1153.7" r="7.0" fill="#b45309" opacity="0.9"><title>Think-Aloud Interview Analysis</title></circle>
+<circle cx="1363.9" cy="1170.0" r="5.0" fill="#b45309" opacity="0.9"><title>Lesson Plan Draft</title></circle>
+<circle cx="1002.7" cy="706.3" r="5.0" fill="#b45309" opacity="0.9"><title>Lesson Analysis</title></circle>
+<circle cx="1215.7" cy="1292.6" r="6.0" fill="#b45309" opacity="0.9"><title>Think-Aloud Interview Activities - Revised Version</title></circle>
+<circle cx="1024.5" cy="1192.2" r="6.0" fill="#b45309" opacity="0.9"><title>Math Content Presentation</title></circle>
+<circle cx="1330.8" cy="1086.4" r="5.0" fill="#b45309" opacity="0.9"><title>Standards Lesson Goals and Anticipations</title></circle>
+<circle cx="1167.9" cy="1192.6" r="8.0" fill="#b45309" opacity="0.9"><title>Final Exam - 15</title></circle>
+<circle cx="1186.6" cy="1221.3" r="8.0" fill="#b45309" opacity="0.9"><title>Final Exam - 23</title></circle>
+<circle cx="1131.7" cy="1179.9" r="8.0" fill="#b45309" opacity="0.9"><title>Final Exam - 31</title></circle>
+<circle cx="915.7" cy="794.9" r="4.5" fill="#b45309" opacity="0.9"><title>Lesson Transcripts</title></circle>
+<circle cx="335.5" cy="823.7" r="4.0" fill="#7c3aed" opacity="0.9"><title>Honor Pledge</title></circle>
+<circle cx="721.2" cy="1104.0" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 1</title></circle>
+<circle cx="259.3" cy="879.3" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 2</title></circle>
+<circle cx="192.0" cy="1192.9" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 3</title></circle>
+<circle cx="137.5" cy="1020.8" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 4</title></circle>
+<circle cx="237.8" cy="1316.4" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 5</title></circle>
+<circle cx="991.0" cy="1448.9" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 6</title></circle>
+<circle cx="921.8" cy="1011.7" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 7</title></circle>
+<circle cx="98.9" cy="1141.7" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 8</title></circle>
+<circle cx="1249.9" cy="979.7" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 9</title></circle>
+<circle cx="1256.0" cy="1063.2" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 10</title></circle>
+<circle cx="1150.9" cy="922.4" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 11</title></circle>
+<circle cx="85.4" cy="924.5" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 12</title></circle>
+<circle cx="1068.8" cy="607.6" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 13</title></circle>
+<circle cx="983.3" cy="758.1" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 14</title></circle>
+<circle cx="1030.6" cy="857.8" r="5.0" fill="#7c3aed" opacity="0.9"><title>Quiz 15</title></circle>
+<circle cx="80.0" cy="787.6" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 16</title></circle>
+<circle cx="140.1" cy="650.8" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 17</title></circle>
+<circle cx="174.6" cy="524.0" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 18</title></circle>
+<circle cx="277.7" cy="422.1" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 19</title></circle>
+<circle cx="267.8" cy="563.6" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 20</title></circle>
+<circle cx="197.0" cy="747.7" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 21</title></circle>
+<circle cx="260.9" cy="667.2" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 22</title></circle>
+<circle cx="355.5" cy="495.4" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 23</title></circle>
+<circle cx="318.9" cy="738.1" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 24</title></circle>
+<circle cx="182.7" cy="844.4" r="4.0" fill="#7c3aed" opacity="0.9"><title>Quiz 25</title></circle>
+<circle cx="605.9" cy="376.1" r="4.0" fill="#64748b" opacity="0.9"><title>Lakeview</title></circle>
+<circle cx="431.9" cy="427.0" r="4.0" fill="#64748b" opacity="0.9"><title>University</title></circle>
+<circle cx="431.3" cy="546.1" r="4.0" fill="#64748b" opacity="0.9"><title>Brooklyn STEM / Bell Academy</title></circle>
+<circle cx="531.8" cy="450.5" r="4.0" fill="#64748b" opacity="0.9"><title>Rogers</title></circle>
+<circle cx="404.7" cy="707.3" r="4.0" fill="#64748b" opacity="0.9"><title>Binford</title></circle>
+<circle cx="357.0" cy="615.9" r="4.0" fill="#64748b" opacity="0.9"><title>Unionville / Eastern Greene</title></circle>
+<circle cx="726.8" cy="1037.7" r="5.0" fill="#64748b" opacity="0.9"><title>In-Class Materials: Week 01 - Lesson Structure</title></circle>
+<circle cx="1221.7" cy="1205.9" r="4.5" fill="#64748b" opacity="0.9"><title>In-Class Materials: Week 02 - Goals, Tasks, Lesson Content</title></circle>
+<circle cx="778.8" cy="1215.5" r="4.5" fill="#64748b" opacity="0.9"><title>In-Class Materials: Week 03 - Anticipating</title></circle>
+<circle cx="1040.5" cy="1050.8" r="4.5" fill="#64748b" opacity="0.9"><title>In-Class Materials: Week 04 - Lesson Content</title></circle>
+<circle cx="982.2" cy="1061.8" r="4.5" fill="#64748b" opacity="0.9"><title>In-Class Materials: Week 05 - Talk Moves</title></circle>
+<circle cx="944.4" cy="1365.9" r="5.0" fill="#64748b" opacity="0.9"><title>In-Class Materials: Week 06 - Monitoring</title></circle>
+<circle cx="958.1" cy="979.3" r="5.0" fill="#64748b" opacity="0.9"><title>In-Class Materials: Week 07 - Selecting, Sequencing, Connecting</title></circle>
+<circle cx="529.2" cy="263.1" r="4.5" fill="#64748b" opacity="0.9"><title>In-Class Materials: Week 08 - Connecting &amp; Demo Lesson</title></circle>
+<circle cx="1097.3" cy="1092.2" r="6.5" fill="#64748b" opacity="0.9"><title>In-Class Materials: 5 Practices</title></circle>
+<circle cx="1322.8" cy="957.4" r="7.5" fill="#64748b" opacity="0.9"><title>In-Class Materials: VdW Readings</title></circle>
+<circle cx="1315.8" cy="491.8" r="4.5" fill="#64748b" opacity="0.9"><title>Indiana Academic Standards</title></circle>
+<circle cx="942.9" cy="1131.4" r="6.0" fill="#64748b" opacity="0.9"><title>Major Assignments</title></circle>
+<circle cx="707.7" cy="962.9" r="4.5" fill="#64748b" opacity="0.9"><title>Syllabus</title></circle>
+<circle cx="1358.2" cy="926.6" r="11.5" fill="#64748b" opacity="0.9"><title>Curriculum Units: SP24 Illustrative Mathematics</title></circle>
+<circle cx="1385.2" cy="924.9" r="11.5" fill="#64748b" opacity="0.9"><title>Curriculum Units: SP25</title></circle>
+<circle cx="1391.1" cy="898.3" r="11.5" fill="#64748b" opacity="0.9"><title>Curriculum Units: SP26</title></circle>
+<circle cx="371.1" cy="331.9" r="4.0" fill="#64748b" opacity="0.9"><title>Video Description of Assignment</title></circle>
+<circle cx="492.3" cy="342.1" r="4.0" fill="#64748b" opacity="0.9"><title>Video Describing Assignment</title></circle>
+<circle cx="845.6" cy="442.0" r="4.5" fill="#64748b" opacity="0.9"><title>Video of Lesson on Fraction Multiplication</title></circle>
+<circle cx="842.2" cy="85.5" r="4.5" fill="#e8457a" opacity="0.9"><title>1st Grade: 2-D and 3-D Shapes</title></circle>
+<circle cx="1391.4" cy="471.8" r="5.0" fill="#e8457a" opacity="0.9"><title>1st Grade: Addition within 100</title></circle>
+<circle cx="1438.3" cy="439.1" r="4.5" fill="#e8457a" opacity="0.9"><title>1st Grade: Counting, Comparing, and Adding within 20</title></circle>
+<circle cx="1078.8" cy="109.5" r="4.5" fill="#e8457a" opacity="0.9"><title>1st Grade: Nonstandard Measurement</title></circle>
+<circle cx="1336.3" cy="344.2" r="4.5" fill="#e8457a" opacity="0.9"><title>1st Grade: Story Problems (Addition &amp; Subtraction)</title></circle>
+<circle cx="1325.0" cy="406.3" r="4.5" fill="#e8457a" opacity="0.9"><title>1st Grade: Story Problems (Subtraction)</title></circle>
+<circle cx="1395.1" cy="376.2" r="4.5" fill="#e8457a" opacity="0.9"><title>1st Grade: Storyprobw20</title></circle>
+<circle cx="1260.1" cy="411.6" r="4.5" fill="#e8457a" opacity="0.9"><title>2nd Grade: Addition with Place Value</title></circle>
+<circle cx="1262.5" cy="351.5" r="4.5" fill="#e8457a" opacity="0.9"><title>2nd Grade: Addition within 1000</title></circle>
+<circle cx="817.8" cy="624.7" r="4.5" fill="#e8457a" opacity="0.9"><title>2nd Grade: Data and Fractions</title></circle>
+<circle cx="795.2" cy="684.5" r="4.5" fill="#e8457a" opacity="0.9"><title>2nd Grade: Fractions, Geometry, and Measurement</title></circle>
+<circle cx="718.5" cy="750.6" r="4.5" fill="#e8457a" opacity="0.9"><title>2nd Grade: Place Value</title></circle>
+<circle cx="1129.2" cy="254.8" r="4.5" fill="#e8457a" opacity="0.9"><title>2nd Grade: Standard Measurement</title></circle>
+<circle cx="1205.6" cy="425.6" r="4.5" fill="#e8457a" opacity="0.9"><title>2nd Grade: Story Problems within 100</title></circle>
+<circle cx="1276.6" cy="139.8" r="4.5" fill="#e8457a" opacity="0.9"><title>2nd Grade: Time</title></circle>
+<circle cx="1149.4" cy="859.1" r="5.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Area and Perimeter</title></circle>
+<circle cx="622.7" cy="558.0" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Bar Graphs</title></circle>
+<circle cx="867.5" cy="680.4" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Equivalent Fractions</title></circle>
+<circle cx="874.1" cy="584.1" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Fractions and Measurement</title></circle>
+<circle cx="1028.5" cy="305.9" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Length and Line Plots</title></circle>
+<circle cx="960.5" cy="680.4" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Multiplication and Division within 12</title></circle>
+<circle cx="1309.1" cy="913.9" r="7.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Multdiv</title></circle>
+<circle cx="807.9" cy="287.2" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Quadrilaterals</title></circle>
+<circle cx="683.9" cy="220.5" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Shape Attributes</title></circle>
+<circle cx="724.1" cy="286.7" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Unit 8 Investigation 2</title></circle>
+<circle cx="947.6" cy="288.9" r="4.5" fill="#e8457a" opacity="0.9"><title>3rd Grade: Weight and Volume</title></circle>
+<circle cx="689.0" cy="132.9" r="4.5" fill="#e8457a" opacity="0.9"><title>4th Grade: 2-D Shapes and Geometry</title></circle>
+<circle cx="1182.9" cy="810.9" r="5.5" fill="#e8457a" opacity="0.9"><title>4th Grade: Area and Perimeter</title></circle>
+<circle cx="676.9" cy="510.4" r="4.5" fill="#e8457a" opacity="0.9"><title>4th Grade: Data and Statistics</title></circle>
+<circle cx="664.9" cy="739.7" r="4.5" fill="#e8457a" opacity="0.9"><title>4th Grade: Decimal Operations</title></circle>
+<circle cx="1011.3" cy="792.8" r="6.5" fill="#e8457a" opacity="0.9"><title>4th Grade: Fraction Addition and Subtraction</title></circle>
+<circle cx="844.4" cy="750.5" r="5.0" fill="#e8457a" opacity="0.9"><title>4th Grade: Fraction Comparison and Addition</title></circle>
+<circle cx="931.8" cy="217.9" r="4.5" fill="#e8457a" opacity="0.9"><title>4th Grade: Measurement Conversion</title></circle>
+<circle cx="949.5" cy="620.6" r="4.5" fill="#e8457a" opacity="0.9"><title>4th Grade: Multi-Digit Multiplication</title></circle>
+<circle cx="1021.2" cy="553.4" r="4.5" fill="#e8457a" opacity="0.9"><title>4th Grade: Multiplicative Comparison</title></circle>
+<circle cx="760.0" cy="80.0" r="4.5" fill="#e8457a" opacity="0.9"><title>4th Grade: Quadrilaterals</title></circle>
+<circle cx="684.9" cy="688.9" r="4.5" fill="#e8457a" opacity="0.9"><title>5th Grade: Decimal Operations</title></circle>
+<circle cx="1002.9" cy="464.1" r="5.0" fill="#e8457a" opacity="0.9"><title>5th Grade: Fraction Division and Multiplication</title></circle>
+<circle cx="1084.8" cy="417.5" r="4.5" fill="#e8457a" opacity="0.9"><title>5th Grade: Fraction Division</title></circle>
+<circle cx="913.1" cy="431.4" r="4.5" fill="#e8457a" opacity="0.9"><title>5th Grade: Fraction Multiplication</title></circle>
+<circle cx="987.8" cy="121.6" r="4.5" fill="#e8457a" opacity="0.9"><title>5th Grade: Measurement Conversion</title></circle>
+<circle cx="1049.7" cy="675.5" r="6.5" fill="#e8457a" opacity="0.9"><title>5th Grade: Mixed Number Operations</title></circle>
+<circle cx="816.7" cy="930.7" r="5.0" fill="#e8457a" opacity="0.9"><title>5th Grade: Volume</title></circle>
+<circle cx="823.5" cy="1007.6" r="5.0" fill="#e8457a" opacity="0.9"><title>5th Grade: Volume (Advanced)</title></circle>
+<circle cx="836.8" cy="968.9" r="5.0" fill="#e8457a" opacity="0.9"><title>5th Grade: Volume of Multiple Prisms</title></circle>
+<circle cx="731.4" cy="523.3" r="4.5" fill="#e8457a" opacity="0.9"><title>6th Grade: Box Plots</title></circle>
+<circle cx="786.7" cy="508.0" r="4.5" fill="#e8457a" opacity="0.9"><title>6th Grade: Early Variability</title></circle>
+<circle cx="731.6" cy="585.7" r="4.5" fill="#e8457a" opacity="0.9"><title>6th Grade: Equations</title></circle>
+<circle cx="1070.4" cy="530.7" r="4.5" fill="#e8457a" opacity="0.9"><title>6th Grade: Introducing Ratios</title></circle>
+<circle cx="798.1" cy="563.2" r="4.5" fill="#e8457a" opacity="0.9"><title>6th Grade: Mean and MAD</title></circle>
+<circle cx="1106.7" cy="491.0" r="4.5" fill="#e8457a" opacity="0.9"><title>6th Grade: Ratios and Rates</title></circle>
+<circle cx="880.7" cy="151.1" r="4.5" fill="#e8457a" opacity="0.9"><title>Kindergarten: 3-D Shapes</title></circle>
+<circle cx="1479.7" cy="493.2" r="4.5" fill="#e8457a" opacity="0.9"><title>Kindergarten: Addition within 10</title></circle>
+<circle cx="1505.0" cy="441.7" r="4.5" fill="#e8457a" opacity="0.9"><title>Kindergarten: Counting Collections and Subitizing</title></circle>
+<circle cx="671.7" cy="587.3" r="4.5" fill="#e8457a" opacity="0.9"><title>Kindergarten: Data and Statistics</title></circle>
+<circle cx="1141.2" cy="171.1" r="4.5" fill="#e8457a" opacity="0.9"><title>Kindergarten: Measurement</title></circle>
+</g>
+</svg>
